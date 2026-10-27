@@ -119,6 +119,7 @@ python tools/build_dict.py
 **更新上線**
 
 ```bash
+node tools/bump-version.mjs
 git add .
 git commit -m "說明這次改了什麼"
 git push
@@ -154,6 +155,7 @@ clone 下來就有完整的程式、資料和這份紀錄。
 |---|---|
 | 2026-10-27 | 討論需求與設計方向；完成單一 HTML 雛形（3 篇文章）；轉成 GitHub 專案結構；放入 bonnie-english repo 並完成第一個 commit；建立本紀錄檔與 CLAUDE.md |
 | 2026-10-27 | 字典擴充：新增 `tools/build_dict.py`（ECDICT＋OpenCC），產生 4,355 字字典與 forms.json；app 改用 forms.json 還原詞形；單字面板加劍橋字典連結；官方字表尚待取得 |
+| 2026-10-27 | 修正重新整理後「資料載入失敗」：原因是 GitHub Pages 讓瀏覽器暫存 app.js／style.css（約 10 分鐘），更新後會出現舊程式配新資料。index.html 改用 `?v=版本號` 載入，資料檔帶同一版本號；新增 `tools/bump-version.mjs`；錯誤訊息改為提示 Ctrl+F5 並顯示錯誤原因 |
 | 2026-10-27 | 第一批 30 篇文章：新增 `docs/WRITING-GUIDE.md` 寫作規格；articles.json 加 `topic`、`grade`、`grammar`、`names` 欄位；新區塊 `h`、`chat`、`email`，notice 欄位改為可省略；文章列表加級別與文體篩選；檢查工具支援指定檔案、`-q`、級別規格、題型與答案分布；縮寫與所有格自動還原；修正 shoes 被誤判為超綱 |
 | 2026-10-27 | 國中單字王題庫：PDF 表格轉 CSV；build_dict.py 合併詞性與分詞性中文（同中文不同詞性只列一次、教育部多出的意思放「（另：…）」）；片語依組成字決定字級；單字面板加「單字王」標籤 |
 | 2026-10-27 | 均一教育平台連結：新增 `data-src/junyi-groups.csv`（101 組，抽查第 13、86 組影片與練習網址正確）、build_dict.py 產生 `data/junyi.json` 並為字表內單字標組別；單字面板顯示「均一 2000 單 第 N 組」與影片、練習連結 |

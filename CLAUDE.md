@@ -17,6 +17,7 @@
 - 題目：4 個選項，`answer` 填 A～D，必附中文解析並引用原文句子
 - 新文章建議做「盲測」：把答案拿掉，請另一個人（或另一個 AI）只看文章作答，對照答案找出有歧義的題目
 - 詞形還原：先查 `data/forms.json`，再用 `IRR`、`RULES`；後兩者同時存在於 `js/app.js` 和 `tools/check-articles.mjs`，兩邊要一致
+- 推上 GitHub 前執行 `node tools/bump-version.mjs` 更新 index.html 的 `?v=` 版本號；app.js 讀取資料檔時會帶同一個版本號，避免瀏覽器快取造成新舊檔案混用
 - localStorage key 是 `kaoEng.v1`；改資料結構時要相容舊資料或換新 key
 - 每次完成一項工作，在 `docs/DEVLOG.md` 的「目前狀態」、「待辦事項」、「變更紀錄」更新
 

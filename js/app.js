@@ -253,7 +253,9 @@ document.addEventListener('keydown',ev=>{
 document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}});
 document.getElementById('tab-read').onclick=()=>go(state.view==='vocab'?'list':state.view==='list'?'list':state.view);
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
-async function loadJSON(p){const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
+// 版本號：index.html 用 app.js?v=版本 載入；資料檔也帶同一個版本號，確保程式和資料一定是同一版
+const VERSION=(document.currentScript&&new URL(document.currentScript.src).searchParams.get('v'))||'dev';
+async function loadJSON(p){const r=await fetch(p+'?v='+VERSION,VERSION==='dev'?{cache:'no-cache'}:{});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
 async function init(){
   try{
     const [dict,arts,forms,jy]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[])]);
@@ -263,7 +265,9 @@ async function init(){
     render();
   }catch(err){
     console.error(err);
-    app.innerHTML='<div class="empty">資料載入失敗。<br>如果是直接雙擊開啟 index.html，瀏覽器會擋住讀取 data 資料夾，請改用本機伺服器開啟（見 README）。</div>';
+    app.innerHTML=location.protocol==='file:'
+      ?'<div class="empty">資料載入失敗。<br>直接雙擊開啟 index.html 時，瀏覽器會擋住讀取 data 資料夾，請改用本機伺服器開啟（見 README）。</div>'
+      :`<div class="empty">資料載入失敗，可能是網站剛更新、瀏覽器還留著舊版檔案。<br>請按 <b>Ctrl+F5</b>（Mac：<b>Cmd+Shift+R</b>）強制重新整理。<div style="margin-top:10px;font-size:12px">${esc(String(err&&err.message||err))}</div></div>`;
   }
 }
 init();

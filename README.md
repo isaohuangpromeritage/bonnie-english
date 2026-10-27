@@ -36,7 +36,8 @@ bonnie-english/
 │   └── DEVLOG.md           開發紀錄
 ├── tools/
 │   ├── build_dict.py       產生 dict.json、forms.json
-│   └── check-articles.mjs  檢查文章用字與題目格式
+│   ├── check-articles.mjs  檢查文章用字與題目格式
+│   └── bump-version.mjs    更新網站版本號（推上 GitHub 前執行）
 └── .nojekyll               讓 GitHub Pages 直接提供檔案
 ```
 
@@ -57,6 +58,17 @@ git branch -M main
 git remote add origin https://github.com/<你的帳號>/bonnie-english.git
 git push -u origin main
 ```
+
+## 更新網站（每次推上 GitHub 前）
+
+```bash
+node tools/bump-version.mjs     # 更新 index.html 裡的版本號
+git add .
+git commit -m "說明這次改了什麼"
+git push
+```
+
+為什麼要更新版本號：GitHub Pages 會讓瀏覽器把 `app.js`、`style.css` 暫存約 10 分鐘。如果程式沒換版本號，瀏覽器可能用「舊程式＋新資料」，就會出現「資料載入失敗」。版本號一變，瀏覽器就會整套重新下載。
 
 ## 在自己電腦預覽
 
