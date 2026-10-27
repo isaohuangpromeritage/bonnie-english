@@ -7,34 +7,38 @@ import fs from 'node:fs';
 
 const dict = JSON.parse(fs.readFileSync('data/dict.json', 'utf8'));
 const articles = JSON.parse(fs.readFileSync('data/articles.json', 'utf8'));
+const F = fs.existsSync('data/forms.json') ? JSON.parse(fs.readFileSync('data/forms.json', 'utf8')) : {};
 const D = Object.fromEntries(Object.entries(dict).map(([k, v]) => [k.toLowerCase(), v]));
 
-// 與 js/app.js 相同的詞形還原規則（改一邊記得改另一邊）
+// 與 js/app.js 相同的詞形還原規則（改一邊記得改另一邊）；先查 data/forms.json，查不到才用下面的規則
 const IRR = {was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
 const RULES = [[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
 function lemma(raw) {
   const w = raw.toLowerCase().replace(/’/g, "'");
-  if (D[w]) return w; if (IRR[w]) return IRR[w];
+  if (D[w]) return w; if (F[w]) return F[w]; if (IRR[w]) return IRR[w];
   for (const [re, rep] of RULES) {
     if (!re.test(w)) continue;
     const c = w.replace(re, rep); if (c.length < 2) continue;
     if (D[c]) return c;
     if (/([b-df-hj-np-tv-z])\1$/.test(c) && D[c.slice(0, -1)]) return c.slice(0, -1);
   }
+  if (w.includes('-') && D[w.replace(/-/g, '')]) return w.replace(/-/g, '');
   return w;
 }
 const textOf = b => b.t === 'p' ? b.x : [b.title, b.sub, ...b.rows.flat(), ...b.items, b.foot].join(' ');
 
 let problems = 0;
 for (const a of articles) {
-  const words = a.blocks.map(textOf).join(' ').match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g) || [];
-  const missing = new Set(), off = new Set();
+  const words = a.blocks.map(textOf).join(' ').match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g) || [];
+  const missing = new Set(), off = new Set(), adv = new Set();
   for (const w of words) {
     const l = lemma(w);
-    if (!D[l]) missing.add(w); else if (D[l].level === 0) off.add(l);
+    if (!D[l]) missing.add(w); else if (D[l].level === 0) off.add(l); else if (D[l].level === 2) adv.add(l);
   }
   console.log(`\n[${a.id}] ${a.title}（${a.level} 級，${words.length} 字）`);
   if (missing.size) { problems++; console.log('  ✗ 字典查不到：', [...missing].join(', ')); }
+  if (adv.size) console.log(`  · 常用 2000 字（非基本字）${adv.size} 個：`, [...adv].join(', '));
+  if (a.level === 'A' && adv.size > 8) console.log('  ! A 級文章的非基本字偏多，考慮改用基本字或改標 B 級');
   if (off.size) console.log('  ! 超出 2000 字：', [...off].join(', '));
   a.questions.forEach((q, i) => {
     const errs = [];

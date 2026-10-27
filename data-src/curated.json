@@ -1,0 +1,15 @@
+{
+  "best": {"pos": "adj.", "zh": "最好的", "level": 1},
+  "don't": {"pos": "aux.", "zh": "do not 的縮寫", "level": 1},
+  "jason": {"pos": "name", "zh": "傑森（人名）", "level": null},
+  "junior": {"pos": "adj.", "zh": "較年幼的；junior high 國中", "level": 2},
+  "lin": {"pos": "name", "zh": "林（姓氏）", "level": null},
+  "lot": {"pos": "n.", "zh": "a lot of 很多", "level": 1},
+  "mon": {"pos": "abbr.", "zh": "星期一（Monday）", "level": 1},
+  "nap": {"pos": "n.", "zh": "小睡、午睡", "level": 0},
+  "sat": {"pos": "abbr.", "zh": "星期六（Saturday）", "level": 1},
+  "teen": {"pos": "n.", "zh": "青少年（13–19 歲）", "level": 2},
+  "thu": {"pos": "abbr.", "zh": "星期四（Thursday）", "level": 1},
+  "tue": {"pos": "abbr.", "zh": "星期二（Tuesday）", "level": 1},
+  "wed": {"pos": "abbr.", "zh": "星期三（Wednesday）", "level": 1}
+}

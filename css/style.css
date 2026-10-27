@@ -105,9 +105,17 @@ h1,h2,h3{text-wrap:balance;margin:0}
 .pos{color:var(--muted);font-family:var(--f-read);font-style:italic;margin-right:6px}
 .iconbtn{border:1px solid var(--line);background:var(--surface);border-radius:50%;width:40px;height:40px;display:grid;place-items:center;flex:none}
 .iconbtn svg{width:18px;height:18px}
+.jy{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;font-size:13.5px;padding:8px 10px;border-radius:10px;background:var(--bg)}
+.jy span{color:var(--muted);flex-basis:100%}
+.jy a{color:var(--accent);text-decoration:none;font-weight:500}
+.jy a:hover{text-decoration:underline}
+.more{color:var(--accent);font-size:13.5px;text-decoration:none;justify-self:start}
+.more:hover{text-decoration:underline}
 .sheet-actions{display:flex;gap:8px;margin-top:4px}
 .sheet-actions .btn{flex:1;justify-content:center}
 .lvtag{font-size:12px;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent)}
+.pos:empty{display:none}
+.lvtag.topic{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
 .lvtag.l0{background:var(--bad-soft);color:var(--off)}
 .lvtag.l1{background:var(--good-soft);color:var(--good)}
 

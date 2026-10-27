@@ -1,0 +1,157 @@
+# 會考英閱小站：開發紀錄
+
+> 這份文件記錄專案背景、做過的決定、目前狀態和待辦事項。
+> 換電腦、換帳號，或請 AI 助理接手時，先讀這份文件和根目錄的 `CLAUDE.md`。
+
+## 1. 專案目標
+
+做一個簡單的網頁 App，幫國中生準備**會考英文閱讀**：
+
+1. 讀一篇不太長的英文短文（約 120～250 字），用字以國中程度為主
+2. 讀的時候可以點單字查中文、聽發音
+3. 讀完做會考題型的選擇題，看中文解析
+4. 把不會的字加入生字本，用間隔重複複習
+
+## 2. 設計決定（以及原因）
+
+| 項目 | 決定 | 原因 |
+|---|---|---|
+| 單字範圍 | 教育部「國民中小學英語文常用 2000 字」：1200 基本字對應 A 級、2000 字對應 B 級 | 會考命題依據 |
+| 超綱字 | 盡量避免；用到時在文中標虛線，文章下方自動附中文註解 | 會考文章也會出現少量超綱字並加註 |
+| 文章長度 | 約 120～250 字 | 接近會考單篇長度 |
+| 文體 | 記敘文、說明文、書信、對話、圖表題（公告、廣告、時刻表）輪流 | 會考常見文體 |
+| 題型 | 主旨、細節、推論、字義猜測、指涉，圖表題加計算／判讀 | 會考閱讀五大題型 |
+| 解析 | 每題附中文解析，指出答案在文中哪一句 | 學生最需要知道答案的依據 |
+| 內容來源 | 自行撰寫（可用 AI 產生後人工檢查），不直接放歷屆試題原文 | 避免版權問題、品質可控 |
+| 技術 | 純前端（HTML + CSS + JS），不用框架、不用後端 | 最簡單，GitHub Pages 免費架設 |
+| 資料 | 文章與字典放 `data/*.json`，和程式分開 | 新增文章不用改程式 |
+| 字典來源 | ECDICT（MIT 授權）提供中文與詞形變化，用 OpenCC 轉台灣正體；人工校對字放 `data-src/curated.json` 優先 | 免費、可商用、量大；人工校對補品質 |
+| 字典範圍 | 2000 字表＋字表外約 2,700 個常用字（標超綱） | 學生點到常見字都查得到；約 380 KB，手機可接受 |
+| 查不到的字 | 單字面板附劍橋英漢字典連結 | 不會出現空白 |
+| 學習紀錄 | 存在使用者瀏覽器的 localStorage（key：`kaoEng.v1`） | 不需要帳號和伺服器；缺點是換裝置就沒了 |
+| 發音 | 瀏覽器內建 Web Speech API（en-US） | 免費、不需要音檔 |
+| 生字複習間隔 | 記得：1 → 3 → 7 → 14 → 30 天；忘記：隔天重來 | 簡化版間隔重複 |
+
+## 3. 目前狀態（2026-10-27）
+
+### 已完成
+
+- 雛形：最早做成單一 HTML，發布在 claude.ai 的 Artifact（只有建立者帳號能開，網址：https://claude.ai/artifact/WWAKzGg3g8PLFxHVQbXTnV）
+- 轉成 GitHub 專案結構，放進 repo `bonnie-english`
+- 本機 clone 位置：`C:\isao_github_workspace\bonnie-english`
+- 第一個 commit：「會考英閱小站 初版」
+- 3 篇範例文章：
+
+| id | 級別 | 文體 | 標題 | 題數 |
+|---|---|---|---|---|
+| `garden` | A | 記敘文 | Our School Garden | 4 |
+| `swim` | A | 圖表題 | Summer Swimming Classes | 4 |
+| `cats` | B | 說明文 | Why Do Cats Sleep So Much? | 5 |
+
+- 功能：點字查義（自動詞形還原，例如 carried → carry）、朗讀全文、超綱字標示與註解、作答與解析、最佳成績、生字本、單字卡複習、深色模式、手機版面
+- 檢查工具：`node tools/check-articles.mjs`，三篇都通過
+- 字典擴充（2026-10-27）：`tools/build_dict.py` 產生 `dict.json` 與 `forms.json`；單字面板加劍橋字典連結
+- 教育部官方字表（2026-10-27）：放入 `data-src/moe-2000.csv`（2,005 筆），字級、中文、主題以官方為準；重建後字典 4,464 字（基本 1,243、常用 797、超綱 2,422）、變化形 7,798 個
+- 國中單字王題庫（2026-10-27）：由兩份 PDF（字母版、主題版，114 年版）轉出 `data-src/wordking-2000.csv`（2,000 列、1,932 字），字典的詞性與分詞性中文改用這份，字級仍依教育部；主題版和字母版內容相同（字母版多 MRT、most 兩列），主題版沒有主題名稱，所以只採用字母版
+- 均一教育平台連結（2026-10-27）：字表內 2,040 字對應到均一「國英 2000 單」101 組，單字面板可連到該組教學影片與 Quizlet 練習（只存連結，不複製內容）
+- 三篇文章字級驗證：garden（A）非基本字 1 個、swim（A）3 個、cats（B）7 個＋超綱 1 個（nap），A／B 分級合理
+
+### 已知限制
+
+- **詞性**：單字王題庫涵蓋的 1,932 字有詞性；教育部字表中約 170 字不在題庫內（例如 class、good），這些字只有主題能推出的詞性
+- **中文有時重複**：教育部和單字王的說法不同時兩者並列（例如 again：再次（另：再一次）），可在 `curated.json` 精簡
+- **超綱字的中文未校對**：字表外的字用 ECDICT，解釋有時不理想（例如 kite 有「空頭支票」）
+- 詞形還原的 `IRR`／`RULES` 同時寫在 `js/app.js` 和 `tools/check-articles.mjs` 兩處，改一邊要記得改另一邊
+- 學習紀錄不會跨裝置同步
+- 在本機直接雙擊 `index.html` 讀不到 JSON，要用本機伺服器預覽
+
+## 4. 專案結構
+
+```
+bonnie-english/
+├── index.html               頁面骨架
+├── css/style.css            樣式（含深色模式）
+├── js/app.js                程式邏輯（查字、朗讀、作答、生字本）
+├── data/articles.json       文章與題目
+├── data/dict.json           字典（自動產生）
+├── data/forms.json          詞形變化 → 原形（自動產生）
+├── data-src/curated.json    人工校對單字（優先）
+├── data-src/moe-2000.csv    教育部 2000 字表（官方）
+├── data-src/wordking-2000.csv 國中單字王題庫（詞性、中文）
+├── data-src/junyi-groups.csv  均一 2000 單分組（連結用）
+├── data/junyi.json          均一分組（自動產生）
+├── data-src/moe-2000.example.csv  簡化格式範例
+├── tools/build_dict.py      產生字典
+├── tools/check-articles.mjs 檢查超綱字／缺字／題目格式
+├── docs/DEVLOG.md           本文件
+├── CLAUDE.md                給 AI 助理的專案說明
+├── README.md                使用與部署說明
+└── .nojekyll
+```
+
+資料格式細節見 `README.md`。
+
+## 5. 常用操作
+
+**本機預覽**
+
+```bash
+cd C:\isao_github_workspace\bonnie-english
+python -m http.server 8000
+# 開 http://localhost:8000
+```
+
+**新增文章**
+
+1. 在 `data/articles.json` 加一個物件
+2. 執行 `node tools/check-articles.mjs`
+3. 把查不到的字補進 `data-src/curated.json`，執行 `python tools/build_dict.py`
+4. 用本機伺服器預覽
+
+**重建字典**（需要 `pip install opencc-python-reimplemented`）
+
+```bash
+python tools/build_dict.py
+```
+
+**更新上線**
+
+```bash
+git add .
+git commit -m "說明這次改了什麼"
+git push
+```
+
+**GitHub Pages 設定**：Settings → Pages → Deploy from a branch → `main` / `(root)`
+網址：`https://<帳號>.github.io/bonnie-english/`
+
+**換電腦**
+
+```bash
+git clone https://github.com/<帳號>/bonnie-english.git
+```
+
+clone 下來就有完整的程式、資料和這份紀錄。
+
+## 6. 待辦事項（建議優先順序）
+
+1. [ ] 確認 GitHub Pages 已開啟、網址可正常使用（手機也測一次）
+2. [x] 字典擴充：ECDICT 轉檔程式、詞形變化表、劍橋字典連結
+3. [x] 取得教育部 2000 字表 → `data-src/moe-2000.csv` → 重建字典，校正字級
+4. [ ] 補常用多義字的解釋與詞性（寫進 `curated.json`）
+5. [ ] 利用字表的「主題」欄：生字本或文章依主題分類
+6. [ ] 增加文章（目標：A、B 級各 10 篇以上，各種文體都有）
+7. [ ] 全文中文翻譯切換
+8. [ ] PWA：manifest 加 service worker，可加到手機主畫面、離線使用
+9. [ ] 錯題本、閱讀時間統計
+10. [ ] （有需要時）班級帳號與學習紀錄同步，需要後端，例如 Spring Boot
+
+## 7. 變更紀錄
+
+| 日期 | 內容 |
+|---|---|
+| 2026-10-27 | 討論需求與設計方向；完成單一 HTML 雛形（3 篇文章）；轉成 GitHub 專案結構；放入 bonnie-english repo 並完成第一個 commit；建立本紀錄檔與 CLAUDE.md |
+| 2026-10-27 | 字典擴充：新增 `tools/build_dict.py`（ECDICT＋OpenCC），產生 4,355 字字典與 forms.json；app 改用 forms.json 還原詞形；單字面板加劍橋字典連結；官方字表尚待取得 |
+| 2026-10-27 | 國中單字王題庫：PDF 表格轉 CSV；build_dict.py 合併詞性與分詞性中文（同中文不同詞性只列一次、教育部多出的意思放「（另：…）」）；片語依組成字決定字級；單字面板加「單字王」標籤 |
+| 2026-10-27 | 均一教育平台連結：新增 `data-src/junyi-groups.csv`（101 組，抽查第 13、86 組影片與練習網址正確）、build_dict.py 產生 `data/junyi.json` 並為字表內單字標組別；單字面板顯示「均一 2000 單 第 N 組」與影片、練習連結 |
+| 2026-10-27 | 放入教育部官方 2000 字表：build_dict.py 支援官方格式（中文、級別、主題、括號內縮寫與變化形）；字表內單字的變化形不再被誤判為超綱；單字面板顯示主題；支援連字號單字（e-mail、T-shirt）；check-articles 顯示每篇非基本字數量 |

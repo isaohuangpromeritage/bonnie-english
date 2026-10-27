@@ -2,18 +2,19 @@ const ICON_SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 const ICON_STOP='<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
 
 /* 字典與文章從 data/*.json 載入（見 init） */
-let D={};
+let D={},F={},JY=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
 const IRR={was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
 const RULES=[[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
 function lemma(raw){
   const w=raw.toLowerCase().replace(/’/g,"'");
-  if(D[w])return w; if(IRR[w])return IRR[w];
+  if(D[w])return w; if(F[w])return F[w]; if(IRR[w])return IRR[w];
   for(const [re,rep] of RULES){
     if(!re.test(w))continue;
     const c=w.replace(re,rep); if(c.length<2)continue;
     if(D[c])return c;
     if(/([b-df-hj-np-tv-z])\1$/.test(c)&&D[c.slice(0,-1)])return c.slice(0,-1);
   }
+  if(w.includes('-')&&D[w.replace(/-/g,'')])return w.replace(/-/g,'');
   return w;
 }
 
@@ -31,7 +32,7 @@ const app=document.getElementById('app');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 function tok(text){
-  return text.split(/([A-Za-z]+(?:['’][A-Za-z]+)*)/).map((part,i)=>{
+  return text.split(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/).map((part,i)=>{
     if(i%2===0)return esc(part);
     const l=lemma(part),e=D[l],cls=['w'];
     if(e&&e.lv===0)cls.push('off');
@@ -42,10 +43,10 @@ function tok(text){
 function plainText(a){
   return a.blocks.map(b=>b.t==='p'?b.x:[b.title,b.sub,...b.rows.slice(1).map(r=>r.join(', ')),...b.items,b.foot].join('. ')).join(' ');
 }
-function wordCount(a){return (plainText(a).match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)||[]).length;}
-function offWords(a){const set=new Set();(plainText(a).match(/[A-Za-z]+(?:['’][A-Za-z]+)*/g)||[]).forEach(w=>{const l=lemma(w);if(D[l]&&D[l].lv===0)set.add(l);});return [...set];}
+function wordCount(a){return (plainText(a).match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g)||[]).length;}
+function offWords(a){const set=new Set();(plainText(a).match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g)||[]).forEach(w=>{const l=lemma(w);if(D[l]&&D[l].lv===0)set.add(l);});return [...set];}
 function dueList(){const now=Date.now();return Object.keys(store.vocab).filter(w=>store.vocab[w].due<=now);}
-function lvLabel(lv){return lv===1?'基本 1200 字':lv===2?'進階 2000 字':lv===0?'超出 2000 字':'專有名詞';}
+function lvLabel(lv){return lv===1?'基本 1200 字':lv===2?'常用 2000 字':lv===0?'超出 2000 字':'專有名詞';}
 
 /* 發音 */
 let voice=null;
@@ -168,10 +169,18 @@ function openSheet(l,r,el){
   sheetIn.innerHTML=`
    <div class="sheet-row"><div><div class="hw">${esc(l)}</div>${r.toLowerCase()!==l?`<div class="form">文中：${esc(r)}</div>`:''}</div>
      <div class="chips"><button class="iconbtn" data-say="${esc(r)}" aria-label="播放發音">${ICON_SPK}</button><button class="iconbtn" data-act="close" aria-label="關閉">✕</button></div></div>
-   ${e?`<div class="zhdef"><span class="pos">${e.p}</span>${e.z}</div><div><span class="lvtag l${e.lv==null?'n':e.lv}">${lvLabel(e.lv)}</span></div>`
+   ${e?`<div class="zhdef"><span class="pos">${e.p}</span>${e.z}</div><div><span class="lvtag l${e.lv==null?'n':e.lv}">${lvLabel(e.lv)}</span>${e.t?` <span class="lvtag topic">${esc(e.t)}</span>`:''}${e.wk?` <span class="lvtag topic">單字王</span>`:''}</div>`
       :`<div class="zhdef" style="color:var(--muted)">這個字還沒收進字典。</div>`}
+   ${junyiLinks(e)}
+   <a class="more" href="https://dictionary.cambridge.org/dictionary/english-chinese-traditional/${encodeURIComponent(l)}" target="_blank" rel="noopener">到劍橋英漢字典看更多解釋與例句 ↗</a>
    <div class="sheet-actions">${e&&e.lv!==null?`<button class="btn ${saved?'':'primary'}" data-act="toggle-save">${saved?'已在生字本（點此移除）':'加入生字本'}</button>`:''}</div>`;
   sheet.hidden=false;speak(r);
+}
+function junyiLinks(e){
+  const g=e&&e.jy&&JY.find(x=>x.g===e.jy); if(!g)return '';
+  return `<div class="jy"><span>均一 2000 單 第 ${g.g} 組（${esc(g.first)}–${esc(g.last)}）</span>
+    <a href="https://www.junyiacademy.org/video/${encodeURIComponent(g.v)}?parent-topic-id=eng-junior-2000vocab" target="_blank" rel="noopener">看教學影片 ↗</a>
+    <a href="https://www.junyiacademy.org/sequential-quiz/eng-junior2000g${g.g}?parent-topic-id=eng-junior-2000vocab" target="_blank" rel="noopener">做練習 ↗</a></div>`;
 }
 function closeSheet(){sheet.hidden=true;cur=null;document.querySelectorAll('.w.on').forEach(x=>x.classList.remove('on'));}
 function refreshMarks(){document.querySelectorAll('.w').forEach(x=>x.classList.toggle('saved',!!store.vocab[x.dataset.l]));}
@@ -216,8 +225,9 @@ document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');
 async function loadJSON(p){const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
 async function init(){
   try{
-    const [dict,arts]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json')]);
-    D={};for(const [w,e] of Object.entries(dict))D[w.toLowerCase()]={p:e.pos,z:e.zh,lv:e.level};
+    const [dict,arts,forms,jy]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[])]);
+    F=forms;JY=jy;
+    D={};for(const [w,e] of Object.entries(dict))D[w.toLowerCase()]={p:e.pos,z:e.zh,lv:e.level,t:e.topic||'',jy:e.jy,wk:!!e.wk};
     ARTICLES=arts.map(a=>({...a,questions:a.questions.map(q=>({type:q.type,q:q.question,opts:q.options,a:'ABCD'.indexOf(q.answer),ex:q.explanation}))}));
     render();
   }catch(err){
