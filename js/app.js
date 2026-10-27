@@ -37,7 +37,7 @@ try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.vocab)store=Ob
 function save(){try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}}
 
 const DAY=86400000, STEPS=[1,3,7,14,30];
-const state={view:'list',aid:null,answers:{},submitted:false,review:null,reading:false,fLevel:'',fGenre:''};
+const state={view:'list',aid:null,answers:{},submitted:false,review:null,reading:false,fLevel:'',fGenre:'',fTag:''};
 let NAMES=new Set();  // 目前文章的人名、地名（articles.json 的 names）
 const app=document.getElementById('app');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -85,7 +85,7 @@ function render(){
 }
 function levelChip(a){return `<span class="chip lv${a.level}">${a.level==='A'?'A 基礎':'B 進階'}</span>`;}
 
-function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre));}
+function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre)&&(!state.fTag||(a.tags||[]).includes(state.fTag)));}
 function renderList(){
   const n=dueList().length;
   app.innerHTML=`
@@ -94,11 +94,12 @@ function renderList(){
   <div class="filters">
     <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
     <select id="fGenre" aria-label="文體"><option value="">所有文體</option>${[...new Set(ARTICLES.map(a=>a.genre))].map(g=>`<option ${state.fGenre===g?'selected':''}>${g}</option>`).join('')}</select>
+    ${(()=>{const tags=[...new Set(ARTICLES.flatMap(a=>a.tags||[]))];return tags.length?`<select id="fTag" aria-label="專題"><option value="">所有專題</option>${tags.map(t=>`<option ${state.fTag===t?'selected':''}>${esc(t)}</option>`).join('')}</select>`:'';})()}
     <span class="count">${shown().length} 篇</span>
   </div>
   <div class="list">${shown().map(a=>{const s=store.scores[a.id];const wc=wordCount(a);return `
     <button class="card" data-open="${a.id}">
-      <div class="chips">${levelChip(a)}<span class="chip">${a.genre}</span>${a.topic?`<span class="chip">${esc(a.topic)}</span>`:''}</div>
+      <div class="chips">${levelChip(a)}<span class="chip">${a.genre}</span>${a.topic?`<span class="chip">${esc(a.topic)}</span>`:''}${(a.tags||[]).map(t=>`<span class="chip tag">${esc(t)}</span>`).join('')}</div>
       <h3>${esc(a.title)}</h3><div class="zh">${a.zh}</div>
       <div class="meta"><span>約 ${wc} 字・${a.questions.length} 題・約 ${Math.max(2,Math.round(wc/70))} 分鐘</span>
       <span class="score ${s!=null?'done':''}">${s!=null?`最佳 ${s} / ${a.questions.length}`:'尚未作答'}</span></div>
@@ -194,7 +195,9 @@ let cur=null;
 function openSheet(l,r,el,isName){
   document.querySelectorAll('.w.on').forEach(x=>x.classList.remove('on'));
   if(el)el.classList.add('on');
-  cur=l;const e=isName?{p:'',z:'人名或地名',lv:null}:D[l],saved=!!store.vocab[l];
+  let e=D[l];
+  if(isName){const d=D[lemma(r)];e={p:'',z:'專有名詞（人名、地名或作品名）'+(d?`；單字本身的意思：${d.z}`:''),lv:null};}
+  cur=l;const saved=!!store.vocab[l];
   sheetIn.innerHTML=`
    <div class="sheet-row"><div><div class="hw">${esc(l)}</div>${r.toLowerCase()!==l?`<div class="form">文中：${esc(r)}</div>`:''}</div>
      <div class="chips"><button class="iconbtn" data-say="${esc(r)}" aria-label="播放發音">${ICON_SPK}</button><button class="iconbtn" data-act="close" aria-label="關閉">✕</button></div></div>
@@ -250,7 +253,7 @@ document.addEventListener('keydown',ev=>{
   if(ev.key==='Escape'&&!sheet.hidden)closeSheet();
   if((ev.key==='Enter'||ev.key===' ')&&ev.target.classList&&ev.target.classList.contains('w')){ev.preventDefault();openSheet(ev.target.dataset.l,ev.target.dataset.r,ev.target);}
 });
-document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}});
+document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}if(ev.target.id==='fTag'){state.fTag=ev.target.value;renderList();}});
 document.getElementById('tab-read').onclick=()=>go(state.view==='vocab'?'list':state.view==='list'?'list':state.view);
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
 // 版本號：index.html 用 app.js?v=版本 載入；資料檔也帶同一個版本號，確保程式和資料一定是同一版

@@ -67,12 +67,14 @@ for (const a of articles) {
   if (!GENRES.includes(a.genre)) errs.push(`genre 要是 ${GENRES.join('／')}`);
   const spec = SPEC[a.level]; if (!spec) errs.push('level 要是 A 或 B');
   const names = new Set(a.names || []);
+  const keys = new Set((a.keywords || []).map(k => k.toLowerCase()));   // 主題關鍵字：可以超綱（會自動加註），不計入超綱上限，最多 3 個
+  if (keys.size > 3) errs.push('keywords 最多 3 個');
   const words = (a.blocks || []).flatMap(blockTexts).join(' ').match(WORD_RE) || [];
   const missing = new Set(), off = new Set(), adv = new Set();
   for (const w of words) {
     if (names.has(w) || /^[A-Z]$/.test(w)) continue;   // 人名地名、單一字母（Text A、Set B）不算
     const l = lemma(w);
-    if (!D[l]) missing.add(w); else if (D[l].level === 0) off.add(l); else if (D[l].level === 2) adv.add(l);
+    if (!D[l]) missing.add(w); else if (D[l].level === 0 && !keys.has(l)) off.add(l); else if (D[l].level === 2) adv.add(l);
   }
   if (missing.size) errs.push(`字典查不到（改用其他字，人名地名請列在 names）：${[...missing].join(', ')}`);
   if (spec) {

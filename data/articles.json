@@ -3317,5 +3317,1629 @@
         "explanation": "Mei 說全家單程車票「at most $1,600」，也就是最多只能花 $1,600，不能超過，所以選 C。"
       }
     ]
+  },
+  {
+    "id": "why-i-like-frieren",
+    "level": "A",
+    "genre": "書信",
+    "title": "My Favorite Anime: Frieren",
+    "zh": "我為什麼喜歡《葬送的芙莉蓮》",
+    "topic": "時間",
+    "grade": 8,
+    "grammar": "現在簡單式、過去簡單式、because／so",
+    "names": [
+      "Frieren",
+      "Himmel",
+      "Japanese",
+      "Tainan"
+    ],
+    "keywords": [
+      "anime",
+      "elf"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "My Favorite Anime: Frieren"
+      },
+      {
+        "t": "p",
+        "x": "This year, my favorite anime is a Japanese story called Frieren. Frieren is an elf, and she can use magic. She lives much longer than people do."
+      },
+      {
+        "t": "p",
+        "x": "Long ago, Frieren and her friends went on a long trip together, and they beat a strong and bad king. One of her friends was a hero named Himmel. For Frieren, the trip was only a very short time in her long life. Many years later, Himmel dies. Frieren feels sad because she never really knew him well. So she starts a new trip to learn more about people."
+      },
+      {
+        "t": "p",
+        "x": "This story makes me think about my grandpa and grandma. They live in Tainan, and I only visit them two times a year. Before, I often played games on my phone during my visits. Now I put my phone away. I listen to Grandpa's stories and help Grandma cook dinner."
+      },
+      {
+        "t": "p",
+        "x": "Our time with family and friends is not as long as we think, so don't wait. Who will you spend time with today?"
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the writing mainly about?",
+        "options": [
+          "How to draw pictures of an elf",
+          "Why the writer stopped playing games",
+          "What the writer learned about time from a story",
+          "A long trip the writer took with friends"
+        ],
+        "answer": "C",
+        "explanation": "作者先介紹 Frieren 的故事，再說「This story makes me think about my grandpa and grandma.」最後提醒「Our time with family and friends is not as long as we think」，重點是從故事中學到要珍惜和家人朋友相處的時間，所以選 C。B 只是其中一個細節。"
+      },
+      {
+        "type": "細節",
+        "question": "Why does Frieren start a new trip?",
+        "options": [
+          "She wants to learn more about people.",
+          "She wants to find Himmel's home.",
+          "She wants to fight the bad king again.",
+          "She wants to visit the writer's family."
+        ],
+        "answer": "A",
+        "explanation": "第二段寫「So she starts a new trip to learn more about people.」所以選 A。打敗國王是很久以前的旅程，不是新旅程的原因。"
+      },
+      {
+        "type": "細節",
+        "question": "What does the writer do now when he or she visits Grandpa and Grandma?",
+        "options": [
+          "Plays games on the phone",
+          "Watches the story with Grandpa",
+          "Tells Grandma about magic",
+          "Helps Grandma cook dinner"
+        ],
+        "answer": "D",
+        "explanation": "第三段寫「Now I put my phone away. I listen to Grandpa's stories and help Grandma cook dinner.」所以選 D。A 是作者以前（Before）做的事。"
+      },
+      {
+        "type": "推論",
+        "question": "Why was the trip only a short time for Frieren?",
+        "options": [
+          "Because the trip was only one day long",
+          "Because she lives much longer than people",
+          "Because she did not like her friends",
+          "Because she went home before the others"
+        ],
+        "answer": "B",
+        "explanation": "第一段寫「She lives much longer than people do.」第二段說「For Frieren, the trip was only a very short time in her long life.」她的生命很長，所以這段旅程對她來說很短，選 B。"
+      }
+    ]
+  },
+  {
+    "id": "volleyball-like-hinata",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "Short but Not Afraid",
+    "zh": "個子矮，但不再害怕",
+    "topic": "運動與嗜好",
+    "grade": 7,
+    "grammar": "過去簡單式、but／so",
+    "names": [
+      "Haikyu",
+      "Hinata",
+      "Japanese"
+    ],
+    "keywords": [
+      "anime"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "I am the shortest boy in my class. When I started junior high, I wanted to join the volleyball club, but I was afraid. \"Volleyball is only for tall people,\" I thought."
+      },
+      {
+        "t": "p",
+        "x": "Then my cousin showed me a Japanese anime called Haikyu. The main character, Hinata, is short, too, but he loves volleyball. He can jump very high, and he works hard with his team. The next day, I went to the volleyball club."
+      },
+      {
+        "t": "p",
+        "x": "Practice was not easy. We ran every morning at 07:00, and after school we practiced until 18:00. My legs hurt, and I often fell down. But my coach told me, \"It is OK to be short. Just be fast and jump high.\" So every night I practiced jumping at home."
+      },
+      {
+        "t": "p",
+        "x": "Three months later, we had a game with another school. Near the end, the ball came to me. I jumped high and hit it hard. We got the point! We lost the game, but my team cheered for me."
+      },
+      {
+        "t": "p",
+        "x": "I am still short, but now I am not afraid."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why was the writer afraid to join the volleyball club at first?",
+        "options": [
+          "He could not run fast.",
+          "He thought he was too short.",
+          "He did not have time after school.",
+          "His cousin did not like volleyball."
+        ],
+        "answer": "B",
+        "explanation": "第一段寫「I am the shortest boy in my class.」又寫他心想「Volleyball is only for tall people」，他覺得自己太矮，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "When did practice end after school?",
+        "options": [
+          "At 07:00",
+          "At 16:00",
+          "At 17:00",
+          "At 18:00"
+        ],
+        "answer": "D",
+        "explanation": "第三段寫「after school we practiced until 18:00」，所以選 D。07:00 是早上跑步的時間。"
+      },
+      {
+        "type": "推論",
+        "question": "How does the writer feel at the end of the story?",
+        "options": [
+          "Brave and happy",
+          "Sad because his team lost",
+          "Angry with his coach",
+          "Tired of volleyball"
+        ],
+        "answer": "A",
+        "explanation": "球隊雖然輸了，但「my team cheered for me」，最後一句說「now I am not afraid」，可知他變得勇敢又開心，所以選 A。B：文中沒有說他因為輸球難過。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"it\" in \"hit it hard\" mean?",
+        "options": [
+          "The game",
+          "The team",
+          "The ball",
+          "The point"
+        ],
+        "answer": "C",
+        "explanation": "前一句是「the ball came to me」，接著「I jumped high and hit it hard.」it 指的是球（the ball），所以選 C。"
+      }
+    ]
+  },
+  {
+    "id": "conan-movie-plan",
+    "level": "A",
+    "genre": "對話",
+    "title": "Movie Time!",
+    "zh": "一起看柯南電影",
+    "topic": "地點與場所",
+    "grade": 7,
+    "grammar": "未來式、How about／Let's 提議、數字與時間",
+    "names": [
+      "Detective",
+      "Conan",
+      "Jenny",
+      "Leo",
+      "Ivy",
+      "MRT"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Jenny",
+            "x": "Hi, everyone! The new Detective Conan movie is out. Let's see it this Saturday!"
+          },
+          {
+            "who": "Leo",
+            "x": "Yes! There are shows at 13:30, 16:00, and 19:10."
+          },
+          {
+            "who": "Ivy",
+            "x": "I have an English class until 15:00 on Saturday."
+          },
+          {
+            "who": "Me",
+            "x": "Then 13:30 is too early for Ivy. How about 16:00?",
+            "me": true
+          },
+          {
+            "who": "Leo",
+            "x": "Good. 19:10 is too late for me. The movie is about two hours long, and my mom wants me home before 21:00."
+          },
+          {
+            "who": "Jenny",
+            "x": "OK, let's go at 16:00. How much are the tickets?"
+          },
+          {
+            "who": "Me",
+            "x": "$320 for adults, but students only pay $260. Don't forget your student card!",
+            "me": true
+          },
+          {
+            "who": "Ivy",
+            "x": "Great. Where should we meet?"
+          },
+          {
+            "who": "Leo",
+            "x": "The movie theater is next to the MRT station. Let's meet at Exit 2 at 15:30."
+          },
+          {
+            "who": "Ivy",
+            "x": "My English class is near the station, so I can walk there in ten minutes."
+          },
+          {
+            "who": "Jenny",
+            "x": "Who will buy the tickets?"
+          },
+          {
+            "who": "Me",
+            "x": "I can buy them on the Internet tonight. Please give me the money on Saturday.",
+            "me": true
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What time will the friends see the movie?",
+        "options": [
+          "At 13:30",
+          "At 15:30",
+          "At 19:10",
+          "At 16:00"
+        ],
+        "answer": "D",
+        "explanation": "「我」提議「How about 16:00?」Jenny 回答「OK, let's go at 16:00.」所以選 D。15:30 是集合時間，13:30 和 19:10 分別對 Ivy 和 Leo 不方便。"
+      },
+      {
+        "type": "計算",
+        "question": "The four friends are all students. How much will they pay for the tickets in all?",
+        "options": [
+          "$960",
+          "$1,280",
+          "$1,040",
+          "$1,300"
+        ],
+        "answer": "C",
+        "explanation": "對話寫「students only pay $260」，四個人都是學生，260 × 4 = $1,040，所以選 C。$1,280 是用全票 $320 算的。"
+      },
+      {
+        "type": "推論",
+        "question": "Why doesn't Leo want to see the 19:10 show?",
+        "options": [
+          "He has an English class.",
+          "He cannot get home before 21:00.",
+          "The tickets are too expensive.",
+          "The theater is too far away."
+        ],
+        "answer": "B",
+        "explanation": "Leo 說「The movie is about two hours long, and my mom wants me home before 21:00.」19:10 開始的電影大約 21:10 才結束，他來不及在 21:00 前到家，所以選 B。A 是 Ivy 的情況。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"them\" in \"I can buy them on the Internet\" mean?",
+        "options": [
+          "The movie tickets",
+          "The student cards",
+          "The English classes",
+          "The friends"
+        ],
+        "answer": "A",
+        "explanation": "Jenny 問「Who will buy the tickets?」「我」回答「I can buy them on the Internet tonight.」them 指的是電影票，所以選 A。"
+      }
+    ]
+  },
+  {
+    "id": "anime-fair-poster",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Taipei Comic and Anime Fun Fair",
+    "zh": "台北動漫歡樂展",
+    "topic": "運動與嗜好",
+    "grade": 7,
+    "grammar": "數字與價格、祈使句",
+    "names": [
+      "Taipei"
+    ],
+    "keywords": [
+      "anime",
+      "cosplay"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Taipei Comic and Anime Fun Fair",
+        "sub": "Hall 1, July 3 to July 5",
+        "rows": [
+          [
+            "Day",
+            "Time",
+            "Adult",
+            "Student",
+            "Child (6–12)"
+          ],
+          [
+            "Friday",
+            "12:00–18:00",
+            "$200",
+            "$150",
+            "$100"
+          ],
+          [
+            "Saturday",
+            "10:00–20:00",
+            "$250",
+            "$200",
+            "$100"
+          ],
+          [
+            "Sunday",
+            "10:00–17:00",
+            "$250",
+            "$200",
+            "$100"
+          ]
+        ],
+        "items": [
+          "Children under 6 can come in for free.",
+          "Ticket for all three days: $500 (students: $400)",
+          "Cosplay is welcome! Please change your clothes in the dressing room, not in the bathroom.",
+          "Do not bring food or drinks into the hall. You can eat in the food area outside.",
+          "Ask first before you take photos of people in cosplay."
+        ],
+        "foot": "See you at the fair!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "計算",
+        "question": "Mr. Chen and his son, a 14-year-old student, go to the fair on Saturday. How much do they pay?",
+        "options": [
+          "$450",
+          "$400",
+          "$500",
+          "$350"
+        ],
+        "answer": "A",
+        "explanation": "表格中星期六成人票 $250、學生票 $200，250 + 200 = $450，所以選 A。$350 是用星期五的票價算的。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "On which day is the fair open for the longest time?",
+        "options": [
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "It is the same every day."
+        ],
+        "answer": "B",
+        "explanation": "星期五 12:00–18:00 共 6 小時，星期六 10:00–20:00 共 10 小時，星期日 10:00–17:00 共 7 小時，星期六最久，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "What should people do before they take photos of people in cosplay?",
+        "options": [
+          "Buy a ticket for all three days",
+          "Go to the dressing room",
+          "Eat in the food area",
+          "Ask the people first"
+        ],
+        "answer": "D",
+        "explanation": "海報寫「Ask first before you take photos of people in cosplay.」拍照前要先詢問對方，所以選 D。"
+      },
+      {
+        "type": "計算",
+        "question": "Amy is a student. She wants to go on all three days. How much money can she save with the ticket for all three days?",
+        "options": [
+          "$50",
+          "$100",
+          "$150",
+          "$200"
+        ],
+        "answer": "C",
+        "explanation": "分開買學生票：150 + 200 + 200 = $550。海報寫「Ticket for all three days: $500 (students: $400)」，學生買三日票只要 $400，550 − 400 = $150，所以選 C。"
+      }
+    ]
+  },
+  {
+    "id": "maomao-and-herbs",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Plants: Medicine or Danger?",
+    "zh": "植物：是藥還是危險？",
+    "topic": "健康",
+    "grade": 8,
+    "grammar": "現在簡單式、祈使句、but／so",
+    "names": [
+      "Apothecary",
+      "Diaries",
+      "Maomao"
+    ],
+    "keywords": [
+      "anime"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Have you seen the anime The Apothecary Diaries? Its main character, Maomao, is a young woman. The man who raised her taught her a lot about medicine and plants. She works in a palace and uses what she knows to help people and solve problems."
+      },
+      {
+        "t": "p",
+        "x": "In real life, many plants are good for us. Some people drink hot tea made from plants when they have a cold, and some medicines also come from plants and flowers."
+      },
+      {
+        "t": "p",
+        "x": "But some plants are dangerous. A few of them look like the vegetables we eat every day, but they can make people very sick. Even a small bite can hurt your stomach or your heart."
+      },
+      {
+        "t": "p",
+        "x": "Maomao studied plants for many years, but most of us did not. So remember these rules. Never eat or taste a plant you don't know. Don't pick plants in the mountains for food. If you feel sick after you eat something, see a doctor right away. And if you want to use plants as medicine, ask a doctor first."
+      },
+      {
+        "t": "p",
+        "x": "Anime can be fun to watch, but in real life, be careful and stay safe!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "作者目的",
+        "question": "What does the writer want us to learn?",
+        "options": [
+          "How to make tea from flowers",
+          "How to get a job in a palace",
+          "Not to eat plants we don't know",
+          "Why we should watch more anime"
+        ],
+        "answer": "C",
+        "explanation": "文章後半提醒「Never eat or taste a plant you don't know.」最後說「in real life, be careful and stay safe!」作者想讓讀者知道不要亂吃不認識的植物，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "Who taught Maomao about medicine and plants?",
+        "options": [
+          "The man who raised her",
+          "Her mother",
+          "A doctor",
+          "A teacher at school"
+        ],
+        "answer": "A",
+        "explanation": "第一段寫「The man who raised her taught her a lot about medicine and plants.」（在故事裡，教她的是扶養她長大的養父）所以選 A。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does \"dangerous\" mean in \"some plants are dangerous\"?",
+        "options": [
+          "Very cheap",
+          "Very good to eat",
+          "Easy to find",
+          "Able to hurt people"
+        ],
+        "answer": "D",
+        "explanation": "「But some plants are dangerous.」後面接著說「they can make people very sick. Even a small bite can hurt your stomach or your heart.」可知 dangerous 是「會傷害人的、危險的」，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "What should you do if you feel sick after you eat something?",
+        "options": [
+          "Drink some hot tea",
+          "See a doctor right away",
+          "Go to the mountains",
+          "Eat some vegetables"
+        ],
+        "answer": "B",
+        "explanation": "第四段寫「If you feel sick after you eat something, see a doctor right away.」所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "frieren-and-time",
+    "level": "B",
+    "genre": "說明文",
+    "title": "A Thousand Years and Ten Years",
+    "zh": "一千年與十年：《葬送的芙莉蓮》與時間",
+    "topic": "時間",
+    "grade": 9,
+    "grammar": "現在完成式、比較級、關係子句、although/if 子句、as if",
+    "names": [
+      "Frieren",
+      "Himmel",
+      "Fern",
+      "Stark",
+      "Demon",
+      "Japanese"
+    ],
+    "keywords": [
+      "anime",
+      "manga",
+      "elf"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Have you ever felt that a summer vacation went by too fast, but one math class seemed to last all day? Time can feel long or short. A Japanese manga that was later made into an anime, Frieren, asks us to think about time in a special way."
+      },
+      {
+        "t": "p",
+        "x": "Frieren is an elf who can use magic. Elves live much longer than humans, and Frieren has already lived for more than a thousand years. Long ago, she traveled with a hero named Himmel and his friends, and together they won against the Demon King. Their trip took about ten years. For Himmel and the others, those ten years were a big part of their lives. For Frieren, they were only a short time."
+      },
+      {
+        "t": "p",
+        "x": "Years later, Himmel dies. Only then does Frieren realize that she never really tried to know him well, and she feels sorry about it. So she starts a new trip to understand people better. This time, she travels with her student Fern and a young fighter named Stark."
+      },
+      {
+        "t": "p",
+        "x": "What can we learn from this story? Most of us will not live for a thousand years, but we often act as if we have all the time in the world. We say, \"I will call Grandma next week,\" or \"I can talk to my friend later.\" The story reminds us that the time we have with the people we care about is shorter than we think. If we wait too long, we may lose the chance."
+      },
+      {
+        "t": "p",
+        "x": "Although Frieren has missed many chances, she shows that it is never too late to begin. She is slowly learning to see the value of small moments, like a walk, a meal, or a talk with a friend. Maybe that is a lesson for all of us."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How elves use magic to live for a long time",
+          "How a story about an elf makes us think about time with people we love",
+          "Why a trip of ten years is too long for most people",
+          "How Himmel and his friends won against the Demon King"
+        ],
+        "answer": "B",
+        "explanation": "文章從芙莉蓮對時間的感受談起，第四、五段說明故事提醒我們：「the time we have with the people we care about is shorter than we think」，所以選 B。A、D 只是文中的小細節；C 文中沒有這樣說。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did the ten years feel short to Frieren?",
+        "options": [
+          "She was busy using magic every day.",
+          "She did not like Himmel and his friends.",
+          "She was much younger than Himmel.",
+          "She has lived for more than a thousand years."
+        ],
+        "answer": "D",
+        "explanation": "第二段：「Frieren has already lived for more than a thousand years.」對活了一千多年的她來說，十年「only a short time」，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why does Frieren start a new trip after Himmel dies?",
+        "options": [
+          "She wishes she had tried to know Himmel and other people better.",
+          "She wants to find a new hero to travel with.",
+          "She needs to win against the Demon King again.",
+          "She wants to teach Fern more magic in a new place."
+        ],
+        "answer": "A",
+        "explanation": "第三段：「she never really tried to know him well, and she feels sorry about it. So she starts a new trip to understand people better.」她後悔沒有好好認識 Himmel，所以出發去了解人，選 A。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does \"we act as if we have all the time in the world\" mean?",
+        "options": [
+          "We always arrive on time.",
+          "We travel around the world.",
+          "We think we can do things later, so we wait.",
+          "We spend too much time studying."
+        ],
+        "answer": "C",
+        "explanation": "後面舉例「I will call Grandma next week」「I can talk to my friend later」，都是覺得以後還有時間、先拖著不做，所以選 C。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer give the examples of calling Grandma and talking to a friend?",
+        "options": [
+          "To show that people often put off spending time with others",
+          "To tell people how to use the phone well",
+          "To show that Frieren has a grandma and many friends",
+          "To explain why the anime is popular"
+        ],
+        "answer": "A",
+        "explanation": "第四段用「I will call Grandma next week」等例子，說明我們常以為還有時間而把陪伴別人往後延，接著說「If we wait too long, we may lose the chance.」所以選 A。"
+      }
+    ]
+  },
+  {
+    "id": "haikyu-teamwork",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Volleyball, Haikyu, and Teamwork",
+    "zh": "從《排球少年》看團隊合作",
+    "topic": "運動與嗜好",
+    "grade": 8,
+    "grammar": "關係子句、被動語態、比較級、動名詞、when 子句",
+    "names": [
+      "Haikyu",
+      "Shoyo",
+      "Hinata",
+      "Tobio",
+      "Kageyama",
+      "Karasuno",
+      "Japanese"
+    ],
+    "keywords": [
+      "anime",
+      "manga"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "In volleyball, no player can win alone. Each player on the court has a different job. The Japanese anime called Haikyu, which is based on a popular manga, shows this very clearly."
+      },
+      {
+        "t": "p",
+        "x": "The ball must not touch the floor on your side. When the other team hits the ball over the net, one player first keeps it up in the air. Then another player sets the ball. This means passing it up high near the net. After that, a hitter jumps and hits the ball down hard to the other side. Many teams also have a special player who stays at the back. This player is very good at keeping the ball up after the other team's strong hits."
+      },
+      {
+        "t": "p",
+        "x": "In Haikyu, Shoyo Hinata is much shorter than most volleyball players, but he can jump very high. Tobio Kageyama is a talented player who is excellent at setting the ball. They both play for Karasuno High School. A hitter needs a good set, and even the best set is not helpful if no one is there to hit it. Together, the two boys are much stronger than either one alone."
+      },
+      {
+        "t": "p",
+        "x": "The story also teaches that every player is good at something different. A short player may not be the best at stopping tall players, but he may be quick. A quiet player may be good at watching the game carefully. A good team does not ask everyone to be the same. It finds where each person can help the most."
+      },
+      {
+        "t": "p",
+        "x": "This idea is not only true in sports. In a class project, one student may be good at drawing, another at speaking, and another at finding information. When we work together and use what each person does best, we can do more than we could do alone."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What does the player who sets the ball do?",
+        "options": [
+          "Stays at the back and stops hard hits",
+          "Hits the ball down hard to the other side",
+          "Passes the ball up high near the net",
+          "Watches the game and tells others what to do"
+        ],
+        "answer": "C",
+        "explanation": "第二段：「another player sets the ball. This means passing it up high near the net.」所以選 C。B 是 hitter 的工作，A 是待在後方的特別球員。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is true about Hinata?",
+        "options": [
+          "He is shorter than most players, but he can jump very high.",
+          "He is the best player at setting the ball.",
+          "He is a special player who stays at the back.",
+          "He plays for a different school from Kageyama."
+        ],
+        "answer": "A",
+        "explanation": "第三段：「Shoyo Hinata is much shorter than most volleyball players, but he can jump very high.」B 是 Kageyama；D 錯，兩人「both play for Karasuno High School」。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"It\" mean in \"It finds where each person can help the most\"?",
+        "options": [
+          "A short player",
+          "The game",
+          "A quiet player",
+          "A good team"
+        ],
+        "answer": "D",
+        "explanation": "前一句是「A good team does not ask everyone to be the same.」接著「It finds where each person can help the most.」It 指的是 a good team，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Which sentence would the writer most likely agree with?",
+        "options": [
+          "The tallest players are always the most important.",
+          "Every player on a team should do the same job.",
+          "A team works best when each person does what he or she is good at.",
+          "A good hitter can win a game without other players."
+        ],
+        "answer": "C",
+        "explanation": "第四段說好的隊伍「finds where each person can help the most」，最後一段也說「use what each person does best」，所以選 C。B、D 與文中說法相反；A 文中說矮的球員也有長處。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer talk about a class project at the end of the reading?",
+        "options": [
+          "To tell students to join a volleyball team",
+          "To explain how to draw well for a project",
+          "To show that Hinata is good at school projects",
+          "To show that working together is also useful outside sports"
+        ],
+        "answer": "D",
+        "explanation": "最後一段開頭：「This idea is not only true in sports.」再用班上分組報告舉例，說明團隊合作在運動以外也適用，所以選 D。"
+      }
+    ]
+  },
+  {
+    "id": "eighty-six-fairness",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Learning Their Names",
+    "zh": "記住他們的名字：動畫《86－不存在的戰區－》",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "被動語態、關係子句、as if、when 子句、動名詞",
+    "names": [
+      "San",
+      "Magnolia",
+      "Lena",
+      "Shin",
+      "Japanese"
+    ],
+    "keywords": [
+      "anime"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Some anime are just for fun, but others make us think about serious questions. The Japanese anime 86, which was first written as a book, is one of them."
+      },
+      {
+        "t": "p",
+        "x": "The story takes place in a country called San Magnolia. In this country, one group of people is treated as if they were not human, only because their families come from a different background. They are called \"the 86,\" and they are sent to fight against machines in a war. At the same time, the other people live safely in their cities and act as if they cannot see what is happening."
+      },
+      {
+        "t": "p",
+        "x": "Lena is a young officer who gives orders to one group of the 86 from far away through a special machine that lets them talk. Shin is the leader of that group. Many other officers do not care about the 86, but Lena is different. She treats them with respect, talks to them politely, and wants to learn their names. To her, they are not numbers or tools. They are real people with their own feelings and dreams."
+      },
+      {
+        "t": "p",
+        "x": "Why are names so important? When we call someone by name, we show that we see him or her as a person. When we forget or ignore a person's name, it becomes easier to treat that person badly."
+      },
+      {
+        "t": "p",
+        "x": "Most of us will never be in a war, but this lesson is still useful at school. Is there a classmate who is often left out because he or she looks, talks, or thinks differently? Do we laugh with others, or do we look away? The story of 86 reminds us that being fair starts with something small: seeing every person as a person and learning his or her name."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the main idea of the reading?",
+        "options": [
+          "Machines are dangerous in a war.",
+          "Officers should use machines more often.",
+          "Japanese anime are often based on books.",
+          "We should treat every person as a real person."
+        ],
+        "answer": "D",
+        "explanation": "文章介紹動畫中被不公平對待的「the 86」，以及 Lena 尊重他們、學他們的名字，最後說「being fair starts with something small: seeing every person as a person」，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "How does Lena give orders to her group?",
+        "options": [
+          "She writes letters to them.",
+          "She talks to them through a machine from far away.",
+          "She fights next to them.",
+          "She sends Shin to tell them."
+        ],
+        "answer": "B",
+        "explanation": "第三段：「Lena is a young officer who gives orders to one group of the 86 from far away through a special machine that lets them talk.」所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "What makes Lena different from many other officers?",
+        "options": [
+          "She is the leader of the 86.",
+          "She lives far away from the cities.",
+          "She treats the 86 with respect and wants to learn their names.",
+          "She helps the 86 build machines."
+        ],
+        "answer": "C",
+        "explanation": "第三段：「Many other officers do not care about the 86, but Lena is different. She treats them with respect ... and wants to learn their names.」A 是 Shin 的身分。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does \"left out\" mean in \"a classmate who is often left out\"?",
+        "options": [
+          "Not asked to join others",
+          "Asked to go outside",
+          "Chosen to be the leader",
+          "Late for school"
+        ],
+        "answer": "A",
+        "explanation": "後面說這位同學因為外表、說話或想法不同，大家會「laugh」或「look away」，可知 left out 是「被排擠、沒被找進團體」，所以選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "What does the writer say may happen when we ignore someone's name?",
+        "options": [
+          "We will make more friends.",
+          "It becomes easier to treat that person badly.",
+          "The person will learn our name first.",
+          "We will start to see the person more clearly."
+        ],
+        "answer": "B",
+        "explanation": "第四段：「When we forget or ignore a person's name, it becomes easier to treat that person badly.」所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "little-detective",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The Missing Picture",
+    "zh": "消失的海報",
+    "topic": "學校",
+    "grade": 8,
+    "grammar": "過去完成式、被動語態、if 子句、不定詞、關係子句",
+    "names": [
+      "Ting",
+      "Andy",
+      "Jerry",
+      "Lin",
+      "Conan",
+      "Japanese",
+      "Andy's",
+      "Ting's"
+    ],
+    "keywords": [
+      "detective",
+      "anime"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Ting loves the Japanese anime Detective Conan. In the story, a high school detective is turned into a child, but he still solves cases by noticing small things that other people miss. Ting often tells her friends, \"Look first, and then talk.\""
+      },
+      {
+        "t": "p",
+        "x": "One Monday morning, Ting's class found that their big picture for the school art show was gone from the back wall. They had worked on it for two weeks. \"It must be Andy,\" said Jerry. \"He said our picture was ugly last week, and he was the last student to leave on Friday.\" Andy's face turned red. \"I didn't take it!\" he shouted. Soon everyone was looking at him."
+      },
+      {
+        "t": "p",
+        "x": "Ting walked to the back wall. The four pieces of tape were still there, and under each piece was a small corner of paper. The corners were cut in straight, clean lines. \"If someone was angry, he would just pull the picture down,\" she thought. \"But this person was careful.\" Then she looked at the class calendar next to the door. Under Monday, someone had written, \"Art show: send pictures to the art room.\""
+      },
+      {
+        "t": "p",
+        "x": "\"I think our picture is safe,\" Ting said. \"Someone took it down carefully so it could be sent to the art show.\" Just then, their teacher, Ms. Lin, walked in. \"Good morning! I took our picture to the art room on Friday after school,\" she said. \"I'm sorry I forgot to tell you.\""
+      },
+      {
+        "t": "p",
+        "x": "Jerry turned to Andy and said sorry. That day, Ting learned that being a detective is not about finding someone to blame. It is about looking at the facts carefully before deciding who did something."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did Jerry think Andy took the picture?",
+        "options": [
+          "Andy said it was ugly and was the last student to leave on Friday.",
+          "Andy was seen in the art room on Friday.",
+          "Andy's face turned red when he saw the wall.",
+          "Andy did not help make the picture."
+        ],
+        "answer": "A",
+        "explanation": "第二段 Jerry 說：「He said our picture was ugly last week, and he was the last student to leave on Friday.」C 是 Jerry 說完之後 Andy 才臉紅，不是懷疑的原因。"
+      },
+      {
+        "type": "推論",
+        "question": "What did the small corners of paper under the tape tell Ting?",
+        "options": [
+          "The picture was taken by an angry student.",
+          "The tape was too old to hold the picture.",
+          "Someone had pulled the picture down quickly.",
+          "Someone had cut the picture down carefully."
+        ],
+        "answer": "D",
+        "explanation": "第三段：「The corners were cut in straight, clean lines.」Ting 想：「But this person was careful.」所以選 D。A、C 正好相反。"
+      },
+      {
+        "type": "細節",
+        "question": "Where was the class picture?",
+        "options": [
+          "In Andy's bag",
+          "Under the teacher's desk",
+          "In the art room",
+          "Next to the class calendar"
+        ],
+        "answer": "C",
+        "explanation": "第四段 Ms. Lin 說：「I took our picture to the art room on Friday after school.」所以選 C。"
+      },
+      {
+        "type": "主旨",
+        "question": "What lesson did Ting learn?",
+        "options": [
+          "A good detective should watch a lot of anime.",
+          "We should look at the facts before deciding who did something.",
+          "Teachers should always tell students everything.",
+          "It is better to put pictures in the art room."
+        ],
+        "answer": "B",
+        "explanation": "最後一段：「It is about looking at the facts carefully before deciding who did something.」所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "anime-learn-english",
+    "level": "B",
+    "genre": "多文本",
+    "title": "Can Anime Help You Learn English?",
+    "zh": "看動漫能學英文嗎？",
+    "topic": "國家與地區",
+    "grade": 9,
+    "grammar": "現在完成式、比較級與最高級、if 子句、被動語態",
+    "names": [
+      "Eric",
+      "Nina",
+      "Eric's",
+      "Nina's",
+      "Japan",
+      "Japanese"
+    ],
+    "keywords": [
+      "anime"
+    ],
+    "tags": [
+      "動漫"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Text A: Eric's Opinion"
+      },
+      {
+        "t": "p",
+        "x": "I have learned a lot of English from watching anime. Last year, I started to watch my favorite shows with English voices and English words at the bottom of the screen. At first, I had to stop the video many times to check new words. Now I can understand most of the story without stopping. Because the stories are exciting, I never feel bored, so I watch almost every day. I have also learned how people really talk, not just how textbooks talk. I think watching anime is one of the easiest ways to learn a language."
+      },
+      {
+        "t": "h",
+        "x": "Text B: Nina's Opinion"
+      },
+      {
+        "t": "p",
+        "x": "I love anime too, but I am not sure it helps much with English. Most anime are made in Japan, so if you watch them with Japanese voices, you hear Japanese, not English. Some of my friends say they are learning English, but they only read the English words on the screen quickly and never say anything out loud. Also, people in anime sometimes talk in strange ways that people in real life don't use. In my opinion, anime can be a fun extra, but it can't take the place of reading, writing, and speaking practice."
+      },
+      {
+        "t": "notice",
+        "title": "Class 9-2: Anime and English",
+        "rows": [
+          [
+            "Question",
+            "Yes",
+            "No"
+          ],
+          [
+            "Do you watch anime at least once a week?",
+            "27",
+            "5"
+          ],
+          [
+            "Do you watch anime with English words on the screen?",
+            "14",
+            "18"
+          ],
+          [
+            "Do you watch anime with English voices?",
+            "6",
+            "26"
+          ],
+          [
+            "Do you think anime has helped your English?",
+            "19",
+            "13"
+          ]
+        ],
+        "foot": "32 students answered."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "How has Eric's English changed?",
+        "options": [
+          "He can now speak Japanese as well as English.",
+          "He has stopped reading textbooks.",
+          "He can understand most of the story without stopping the video.",
+          "He watches anime only on weekends now."
+        ],
+        "answer": "C",
+        "explanation": "Text A：「Now I can understand most of the story without stopping.」所以選 C。D 錯，他說「I watch almost every day」。"
+      },
+      {
+        "type": "整合",
+        "question": "What do BOTH Eric and Nina talk about?",
+        "options": [
+          "Watching anime with English words on the screen",
+          "Learning how people really talk",
+          "Speaking practice in English class",
+          "The strange ways people talk in anime"
+        ],
+        "answer": "A",
+        "explanation": "Eric 說他看「English words at the bottom of the screen」；Nina 說朋友「only read the English words on the screen quickly」。兩人都提到螢幕上的英文字幕，所以選 A。B 只有 Eric 提到；C、D 只有 Nina 提到。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "How many students watch anime with English voices?",
+        "options": [
+          "14",
+          "26",
+          "19",
+          "6"
+        ],
+        "answer": "D",
+        "explanation": "表格第三題「Do you watch anime with English voices?」回答 Yes 的有 6 人。14 是看英文字幕的人數，26 是回答 No 的人數。"
+      },
+      {
+        "type": "整合",
+        "question": "Which result from the class would Nina most likely use to support her opinion?",
+        "options": [
+          "27 students watch anime at least once a week.",
+          "Only 6 students watch anime with English voices.",
+          "19 students think anime has helped their English.",
+          "14 students watch anime with English words on the screen."
+        ],
+        "answer": "B",
+        "explanation": "Nina 認為很多人看動漫聽的是日語而不是英語：「if you watch them with Japanese voices, you hear Japanese, not English.」表中只有 6 人用英語配音看動漫，最能支持她的看法。C 反而支持 Eric。"
+      },
+      {
+        "type": "計算",
+        "question": "How many more students watch anime at least once a week than watch it with English words on the screen?",
+        "options": [
+          "9",
+          "13",
+          "5",
+          "18"
+        ],
+        "answer": "B",
+        "explanation": "每週至少看一次的有 27 人，看英文字幕的有 14 人，27－14＝13，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "puma-shen-profile",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Who Is Puma Shen?",
+    "zh": "認識沈伯洋",
+    "topic": "人物",
+    "grade": 8,
+    "grammar": "過去簡單式、現在進行式（表示近期計畫）",
+    "names": [
+      "Shen",
+      "Pao-yang",
+      "Puma",
+      "Taipei",
+      "Taiwan",
+      "America",
+      "National",
+      "University",
+      "Chiang",
+      "Wan-an"
+    ],
+    "keywords": [
+      "mayor",
+      "lawmaker",
+      "anime"
+    ],
+    "tags": [
+      "選舉"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Shen Pao-yang, who is also called Puma Shen, was born in Taipei in 1982. As a student, he led a club that studied the history of the place where he grew up. Later, he studied law at National Taiwan University."
+      },
+      {
+        "t": "p",
+        "x": "Right after college, he passed the test to become a lawyer. To save money for more study in America, he taught law classes and used the name \"Puma.\" In 2017, he finished his studies in America and came back to Taiwan to teach at National Taipei University. He studies crime and false news."
+      },
+      {
+        "t": "p",
+        "x": "In 2024, he became a lawmaker. In his free time, he enjoys basketball and table tennis, and he loves anime."
+      },
+      {
+        "t": "p",
+        "x": "This year, he wants to be the mayor of Taipei. He is one of six people who are running for the job, and the mayor now, Chiang Wan-an, is also running again. People in Taipei will vote on November 28."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to become a lawyer",
+          "The life and work of Puma Shen",
+          "Why people like anime",
+          "How to study in America"
+        ],
+        "answer": "B",
+        "explanation": "文章依時間介紹沈伯洋的求學、工作、興趣和今年參選台北市長，是一篇人物介紹，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did he teach law classes after college?",
+        "options": [
+          "To save money for more study in America",
+          "To find a job in Taipei",
+          "To learn more about anime",
+          "To become the mayor"
+        ],
+        "answer": "A",
+        "explanation": "第二段：「To save money for more study in America, he taught law classes…」他教課是為了存錢出國讀書，所以選 A。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does \"running for the job\" mean in the last paragraph?",
+        "options": [
+          "Leaving the job",
+          "Working very fast at the job",
+          "Trying to be chosen for the job",
+          "Doing exercise before work"
+        ],
+        "answer": "C",
+        "explanation": "最後一段說他想當台北市長（wants to be the mayor），後面接著說共有六個人 running for the job，可推知是「參選、爭取這個職位」，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is TRUE about the Taipei election?",
+        "options": [
+          "Only two people want to be the mayor.",
+          "The current mayor is not running again.",
+          "People will vote in 2024.",
+          "Six people are running to be the mayor."
+        ],
+        "answer": "D",
+        "explanation": "最後一段：「He is one of six people who are running for the job.」所以選 D。現任市長也再次參選，投票日是 11 月 28 日。"
+      }
+    ]
+  },
+  {
+    "id": "stop-false-news",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Stop and Check Before You Share",
+    "zh": "轉傳前先查證",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "關係子句、被動語態、as if、條件句",
+    "names": [
+      "Puma",
+      "Shen",
+      "Taiwan's"
+    ],
+    "keywords": [
+      "election",
+      "lawmaker",
+      "fake"
+    ],
+    "tags": [
+      "選舉"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Before an election, many messages and videos are shared on phones and computers. Some of them are true, but some are not. False news can make people angry or afraid, and it may even change the way they vote."
+      },
+      {
+        "t": "p",
+        "x": "Puma Shen, a lawmaker who studied crime and false news when he was a university teacher, has said that the most dangerous false information does not just tell you what to think. It slowly leads you to reach the answer by yourself, so you believe the idea is your own."
+      },
+      {
+        "t": "p",
+        "x": "Today, some videos are even made by computers. They can show a famous person saying things that he or she never said. Taiwan's election office now tells people to be careful about these fake videos."
+      },
+      {
+        "t": "p",
+        "x": "How can students protect themselves? First, check who wrote the message and where it came from. Second, look at the date, because old news is often shared again as if it were new. Third, look for the same story in other news reports. If a message tells you to share it quickly, stop and think first. Finally, remember that people who do not agree with you are not always lying. Checking the facts before sharing anything is something everyone can do."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to make videos with computers",
+          "Why Puma Shen became a lawmaker",
+          "How to check messages before you believe or share them",
+          "Why old news is always false"
+        ],
+        "answer": "C",
+        "explanation": "文章從選舉前的假訊息談起，最後一段列出查證的方法，重點是「轉傳前先查證」，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "According to Puma Shen, the most dangerous false information ____.",
+        "options": [
+          "leads people to think an idea is their own",
+          "makes people laugh",
+          "is only about elections",
+          "is always made by computers"
+        ],
+        "answer": "A",
+        "explanation": "第二段：「it slowly leads you to reach the answer by yourself, so you believe the idea is your own.」所以選 A。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"They\" mean in \"They can show a famous person saying things…\"?",
+        "options": [
+          "Students",
+          "News websites",
+          "Election offices",
+          "Some videos made by computers"
+        ],
+        "answer": "D",
+        "explanation": "前一句是「some videos are even made by computers」，They 指這些用電腦做出來的影片，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why should we look at the date of a message?",
+        "options": [
+          "Because new news is always true",
+          "Because an old story may be shared again as if it were new",
+          "Because the election office wants us to",
+          "Because famous people write the date"
+        ],
+        "answer": "B",
+        "explanation": "第四段：「look at the date, because old news is often shared again as if it were new.」所以選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "A message says, \"Share this with everyone now!\" What would the writer most likely tell you to do?",
+        "options": [
+          "Share it with all your friends right away",
+          "Send it to the election office",
+          "Stop and check it first",
+          "Write a new message about it"
+        ],
+        "answer": "C",
+        "explanation": "第四段：「If a message tells you to share it quickly, stop and think first.」所以選 C。"
+      }
+    ]
+  },
+  {
+    "id": "voting-day-notice",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Voting Day Notice",
+    "zh": "投票日須知",
+    "topic": "時間",
+    "grade": 8,
+    "grammar": "祈使句、can／cannot",
+    "names": [
+      "ID"
+    ],
+    "keywords": [
+      "election",
+      "referendum",
+      "seal"
+    ],
+    "tags": [
+      "選舉"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Voting Day: Saturday, November 28",
+        "sub": "Local Election and National Referendum",
+        "rows": [
+          [
+            "",
+            "Local Election",
+            "Referendum"
+          ],
+          [
+            "Who can vote",
+            "People 20 and older",
+            "People 18 and older"
+          ],
+          [
+            "Time",
+            "08:00–16:00",
+            "08:00–16:00"
+          ],
+          [
+            "What to bring",
+            "ID card",
+            "ID card"
+          ]
+        ],
+        "items": [
+          "You can use a seal, or you can sign your name.",
+          "You do not need the voting notice to vote, but it tells you where to go.",
+          "Do not take photos of your ballot.",
+          "Do not show other people how you voted.",
+          "Do not take the ballot out of the voting place."
+        ],
+        "foot": "Your voting notice shows where your voting place is."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Mark is 19 years old. What can he vote in?",
+        "options": [
+          "Only the local election",
+          "Only the referendum",
+          "Both the local election and the referendum",
+          "Neither of them"
+        ],
+        "answer": "B",
+        "explanation": "表格中地方選舉要 20 歲以上（People 20 and older），公投 18 歲以上（People 18 and older）。Mark 19 歲只能投公投，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "When does voting end?",
+        "options": [
+          "At 08:00",
+          "At 12:00",
+          "At 18:00",
+          "At 16:00"
+        ],
+        "answer": "D",
+        "explanation": "表格中 Time 是「08:00–16:00」，投票到 16:00 結束，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is NOT allowed?",
+        "options": [
+          "Taking a photo of your ballot",
+          "Signing your name",
+          "Going to vote without the voting notice",
+          "Bringing your ID card"
+        ],
+        "answer": "A",
+        "explanation": "須知寫「Do not take photos of your ballot.」不能拍選票。其他三項都是可以的，所以選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "Amy, 45, forgot her seal at home. What can she do?",
+        "options": [
+          "Go home and come back the next day",
+          "Sign her name",
+          "Ask her son to vote for her",
+          "Show her voting notice only"
+        ],
+        "answer": "B",
+        "explanation": "須知寫「You can use a seal, or you can sign your name.」沒帶印章可以簽名，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "family-vote-chat",
+    "level": "A",
+    "genre": "對話",
+    "title": "Going to Vote Together",
+    "zh": "全家一起去投票",
+    "topic": "家庭",
+    "grade": 7,
+    "grammar": "can／cannot、表示年齡、祈使句",
+    "names": [
+      "Ken",
+      "ID"
+    ],
+    "keywords": [
+      "election",
+      "referendum",
+      "mayor"
+    ],
+    "tags": [
+      "選舉"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Dad",
+            "x": "Don't forget! We are going to vote on Saturday morning."
+          },
+          {
+            "who": "Me",
+            "x": "Can I vote too? I am fourteen.",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "Not yet. You need to be twenty to vote in the local election."
+          },
+          {
+            "who": "Ken",
+            "x": "I am nineteen. Can I vote?"
+          },
+          {
+            "who": "Dad",
+            "x": "You can vote in the referendum, because you only need to be eighteen. But you cannot vote for the mayor yet."
+          },
+          {
+            "who": "Grandma",
+            "x": "Where do we go this time?"
+          },
+          {
+            "who": "Mom",
+            "x": "The same place as last time, the school near the park. It opens at eight."
+          },
+          {
+            "who": "Ken",
+            "x": "What should I bring?"
+          },
+          {
+            "who": "Dad",
+            "x": "Your ID card. You can bring a seal, or you can just sign your name."
+          },
+          {
+            "who": "Me",
+            "x": "Can I take a photo of you when you vote?",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "No photos inside! But you can come with us and wait outside. After that, let's have breakfast together."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why can't the writer vote?",
+        "options": [
+          "The writer is too young.",
+          "The writer has no ID card.",
+          "The writer will be at school.",
+          "The writer forgot the seal."
+        ],
+        "answer": "A",
+        "explanation": "作者說自己 14 歲，媽媽回答「You need to be twenty to vote in the local election.」年紀還不夠，所以選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "What can Ken do on Saturday?",
+        "options": [
+          "Vote for the mayor",
+          "Vote in the referendum only",
+          "Vote in everything",
+          "Nothing, because he is too young"
+        ],
+        "answer": "B",
+        "explanation": "Ken 19 歲。爸爸說「You can vote in the referendum… But you cannot vote for the mayor yet.」所以選 B。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"It\" mean in Mom's line \"It opens at eight\"?",
+        "options": [
+          "The park",
+          "The breakfast shop",
+          "The voting place at the school",
+          "The ID card"
+        ],
+        "answer": "C",
+        "explanation": "媽媽前一句說投票地點是「the elementary school near the park」，It 指這個學校裡的投票所，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "What will the writer do while the family votes?",
+        "options": [
+          "Take photos inside",
+          "Vote in the referendum",
+          "Stay at home",
+          "Wait outside"
+        ],
+        "answer": "D",
+        "explanation": "媽媽說「No photos inside! But you can come with us and wait outside.」所以選 D。"
+      }
+    ]
+  },
+  {
+    "id": "local-election-guide",
+    "level": "B",
+    "genre": "說明文",
+    "title": "What Do We Choose in a Local Election?",
+    "zh": "地方選舉選什麼？",
+    "topic": "地點與場所",
+    "grade": 9,
+    "grammar": "被動語態、關係子句、although、can／may",
+    "names": [
+      "Taiwan",
+      "Taipei",
+      "Kaohsiung"
+    ],
+    "keywords": [
+      "election",
+      "mayor",
+      "council"
+    ],
+    "tags": [
+      "選舉"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "On November 28, 2026, people all over Taiwan will vote in local elections. Many people call it the \"nine in one\" election, because nine kinds of local jobs are chosen across Taiwan on the same day. Each place votes for only some of them. In a big city like Taipei or Kaohsiung, for example, people choose a mayor, city council members, and the leader of their neighborhood."
+      },
+      {
+        "t": "p",
+        "x": "What do these people do? The mayor is in charge of the city government. He or she decides how to spend money on things like roads, parks, buses, and schools. Council members check how the money is used and make local rules. The neighborhood leader helps people with small problems near their homes, such as a broken street light."
+      },
+      {
+        "t": "p",
+        "x": "Local elections are held every four years. Although students cannot vote until they are twenty, the results will change their daily lives. For example, a new mayor may build more bike paths or change the bus lines to school."
+      },
+      {
+        "t": "p",
+        "x": "So how can young people take part? Before voting day, a small book is sent to every home. It tells what each person who is running for a job plans to do. Students can read it, compare the plans, and talk about them with their families. In this way, they will be ready to make good choices when it is their turn to vote."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Who will win the election in Taipei",
+          "What people choose in local elections and why it matters",
+          "How to become a mayor",
+          "Why students should vote at sixteen"
+        ],
+        "answer": "B",
+        "explanation": "文章說明地方選舉選哪些職位、這些人做什麼，以及選舉結果和學生生活的關係，所以選 B。文章沒有談誰會當選。"
+      },
+      {
+        "type": "細節",
+        "question": "Why is it called the \"nine in one\" election?",
+        "options": [
+          "Because there are nine cities in Taiwan",
+          "Because people vote nine times a year",
+          "Because nine kinds of local jobs are chosen on the same day",
+          "Because it starts at nine o'clock"
+        ],
+        "answer": "C",
+        "explanation": "第一段：「nine kinds of local jobs are chosen across Taiwan on the same day」所以選 C。各地只會投其中幾種。"
+      },
+      {
+        "type": "細節",
+        "question": "Who checks how the city's money is used?",
+        "options": [
+          "Council members",
+          "The neighborhood leader",
+          "Students",
+          "The bus drivers"
+        ],
+        "answer": "A",
+        "explanation": "第二段：「Council members check how the money is used and make local rules.」所以選 A。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does \"in charge of\" mean in \"The mayor is in charge of the city government\"?",
+        "options": [
+          "Paying money to",
+          "Running away from",
+          "Working for free at",
+          "Leading and managing"
+        ],
+        "answer": "D",
+        "explanation": "後一句說市長決定錢要怎麼花在道路、公園、公車和學校上，可推知 in charge of 是「負責、主管」，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Ivy is fifteen. According to the reading, what can she do before voting day?",
+        "options": [
+          "Vote for her neighborhood leader",
+          "Read the small book and compare the plans",
+          "Become a council member",
+          "Change the bus routes to school"
+        ],
+        "answer": "B",
+        "explanation": "最後一段說學生可以「read it, compare the plans, and talk about them with their families」，Ivy 還不能投票，但可以先讀選舉公報、比較政見，所以選 B。"
+      }
+    ]
   }
 ]
