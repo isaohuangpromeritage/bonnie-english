@@ -269,7 +269,7 @@ document.addEventListener('keydown',ev=>{
   if((ev.key==='Enter'||ev.key===' ')&&ev.target.classList&&ev.target.classList.contains('w')){ev.preventDefault();openSheet(ev.target.dataset.l,ev.target.dataset.r,ev.target);}
 });
 document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}if(ev.target.id==='fTag'){state.fTag=ev.target.value;renderList();}});
-document.getElementById('tab-read').onclick=()=>go(state.view==='vocab'?'list':state.view==='list'?'list':state.view);
+document.getElementById('tab-read').onclick=()=>{state.review=null;go('list');};
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
 document.getElementById('tab-exams').onclick=()=>go('exams');
 // 版本號：index.html 用 app.js?v=版本 載入；資料檔也帶同一個版本號，確保程式和資料一定是同一版

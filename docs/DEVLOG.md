@@ -160,6 +160,7 @@ clone 下來就有完整的程式、資料和這份紀錄。
 |---|---|
 | 2026-10-27 | 討論需求與設計方向；完成單一 HTML 雛形（3 篇文章）；轉成 GitHub 專案結構；放入 bonnie-english repo 並完成第一個 commit；建立本紀錄檔與 CLAUDE.md |
 | 2026-10-27 | 字典擴充：新增 `tools/build_dict.py`（ECDICT＋OpenCC），產生 4,355 字字典與 forms.json；app 改用 forms.json 還原詞形；單字面板加劍橋字典連結；官方字表尚待取得 |
+| 2026-10-27 | 修正：在「歷屆試題」分頁點「文章」沒有反應（原本只處理從生字本切回的情況），改為點「文章」一律回到文章列表 |
 | 2026-10-27 | 會考專區：新增 `data/exams.json` 與「歷屆試題」分頁（第三個分頁），可一鍵篩選「會考模擬」文章；新增 10 篇會考模擬原創文章；curated 新增 fri |
 | 2026-10-27 | 寓言專題 6 篇；curated 新增 tortoise、hare、grasshopper、crow、pitcher、beak |
 | 2026-10-27 | 選舉專題 5 篇；curated 新增 mayor、election、candidate、ballot、referendum、lawmaker、seal、council、voter、fake、id |
