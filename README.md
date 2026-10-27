@@ -25,7 +25,8 @@ bonnie-english/
 │   ├── dict.json           字典（由 tools/build_dict.py 產生，不要手動改）
 │   ├── forms.json          詞形變化 → 原形（同上，自動產生）
 │   ├── junyi.json          均一 2000 單分組（同上，自動產生）
-│   └── exams.json          會考歷屆試題官方連結（手動維護，每年會考後新增一筆）
+│   ├── exams.json          會考歷屆試題官方連結（手動維護，每年會考後新增一筆）
+│   └── singles.json        單題練習（字彙、文法四選一）
 ├── data-src/
 │   ├── curated.json        人工校對的單字 ← 要修正中文解釋改這裡
 │   ├── moe-2000.csv        教育部 2000 字表（官方）
@@ -38,6 +39,8 @@ bonnie-english/
 ├── tools/
 │   ├── build_dict.py       產生 dict.json、forms.json
 │   ├── check-articles.mjs  檢查文章用字與題目格式
+│   ├── check-singles.mjs   檢查單題練習
+│   ├── lemma.mjs           共用的查字與詞形還原
 │   └── bump-version.mjs    更新網站版本號（推上 GitHub 前執行）
 └── .nojekyll               讓 GitHub Pages 直接提供檔案
 ```
@@ -100,6 +103,16 @@ node tools/check-articles.mjs -q               # 只顯示有問題的文章
 ```
 
 檢查項目：字典查不到的字、各級別的字數與題數、非基本字和超綱字數量、題目格式與題型、全部題目的答案分布。
+
+## 單題練習
+
+`data/singles.json` 是仿會考第一部分的單題（一句話挖空、四選一），分「文法」「字彙」兩類，每題有考點、級別與中文解析。格式見 `docs/WRITING-GUIDE.md` 第 6 節。
+
+```bash
+node tools/check-singles.mjs        # 檢查格式、用字、答案分布、各考點題數
+```
+
+App 的「單題」分頁可依類別、級別、考點出題，每回 10 題；答錯的題目會進入「錯題重練」。作答紀錄存在瀏覽器（localStorage 的 `kaoEng.v1` 裡的 `singles`）。
 
 ## 字典
 

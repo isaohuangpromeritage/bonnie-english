@@ -16,7 +16,7 @@ const D = Object.fromEntries(Object.entries(dict).map(([k, v]) => [k.toLowerCase
 
 // 與 js/app.js 相同的詞形還原規則（改一邊記得改另一邊）；先查 data/forms.json，查不到才用下面的規則
 const IRR = {was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
-const RULES = [[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
+const RULES = [[/ily$/,'y'],[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
 // 縮寫與所有格（與 js/app.js 相同）
 const CONTR = {"can't": 'can', "cannot": 'can', "won't": 'will', "shan't": 'shall', "let's": 'let', "ain't": 'be'};
 function contract(w) {
@@ -72,7 +72,7 @@ for (const a of articles) {
   const words = (a.blocks || []).flatMap(blockTexts).join(' ').match(WORD_RE) || [];
   const missing = new Set(), off = new Set(), adv = new Set();
   for (const w of words) {
-    if (names.has(w) || /^[A-Z]$/.test(w)) continue;   // 人名地名、單一字母（Text A、Set B）不算
+    if (names.has(w) || names.has(w.replace(/['’]s?$/, '')) || /^[A-Z]$/.test(w)) continue;   // 人名地名、單一字母（Text A、Set B）不算
     const l = lemma(w);
     if (!D[l]) missing.add(w); else if (D[l].level === 0 && !keys.has(l)) off.add(l); else if (D[l].level === 2) adv.add(l);
   }

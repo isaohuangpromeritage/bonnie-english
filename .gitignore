@@ -1,2 +1,5 @@
 tools/.cache/
 __pycache__/
+
+# 會考題本等參考用 PDF（著作權屬原作者，不上傳）
+/*.pdf

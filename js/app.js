@@ -2,9 +2,9 @@ const ICON_SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 const ICON_STOP='<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
 
 /* 字典與文章從 data/*.json 載入（見 init） */
-let D={},F={},JY=[],EXAMS=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
+let D={},F={},JY=[],EXAMS=[],SINGLES=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
 const IRR={was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
-const RULES=[[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
+const RULES=[[/ily$/,'y'],[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
 // 縮寫與所有格：can't → can、didn't → do、I'm → I、Tom's → tom、let's → let
 const CONTR={"can't":'can',"cannot":'can',"won't":'will',"shan't":'shall',"let's":'let',"ain't":'be'};
 function contract(w){
@@ -32,8 +32,9 @@ let ARTICLES=[];
 
 /* 儲存 */
 const KEY='kaoEng.v1';
-let store={vocab:{},scores:{}};
+let store={vocab:{},scores:{},singles:{}};
 try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.vocab)store=Object.assign(store,s);}catch(e){}
+function ensureStore(){if(!store.singles)store.singles={};}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}}
 
 const DAY=86400000, STEPS=[1,3,7,14,30];
@@ -46,7 +47,7 @@ function tok(text){
   return text.split(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/).map((part,i)=>{
     if(i%2===0)return esc(part);
     if(/^[A-Z]$/.test(part)&&part!=='I')return esc(part);
-    if(NAMES.has(part))return `<span class="w name" data-l="${esc(part)}" data-r="${esc(part)}" data-name="1" tabindex="0">${esc(part)}</span>`;
+    if(NAMES.has(part)||NAMES.has(part.replace(/['’]s?$/,'')))return `<span class="w name" data-l="${esc(part)}" data-r="${esc(part)}" data-name="1" tabindex="0">${esc(part)}</span>`;
     const l=lemma(part),e=D[l],cls=['w'];
     if(e&&e.lv===0)cls.push('off');
     if(store.vocab[l])cls.push('saved');
@@ -78,11 +79,12 @@ function stopSpeak(){try{speechSynthesis.cancel();}catch(e){}state.reading=false
 /* 畫面 */
 function go(view,aid){stopSpeak();closeSheet();state.view=view;if(aid!==undefined)state.aid=aid;render();window.scrollTo(0,0);}
 function render(){
-  document.getElementById('tab-read').setAttribute('aria-pressed',!['vocab','exams'].includes(state.view));
+  document.getElementById('tab-read').setAttribute('aria-pressed',!['vocab','exams','singles'].includes(state.view));
+  document.getElementById('tab-singles').setAttribute('aria-pressed',state.view==='singles');
   document.getElementById('tab-exams').setAttribute('aria-pressed',state.view==='exams');
   document.getElementById('tab-vocab').setAttribute('aria-pressed',state.view==='vocab');
   const n=dueList().length,b=document.getElementById('dueBadge');b.textContent=n;b.hidden=!n;
-  ({list:renderList,read:renderRead,quiz:renderQuiz,vocab:renderVocab,exams:renderExams})[state.view]();
+  ({list:renderList,read:renderRead,quiz:renderQuiz,vocab:renderVocab,exams:renderExams,singles:renderSingles})[state.view]();
 }
 function levelChip(a){return `<span class="chip lv${a.level}">${a.level==='A'?'A 基礎':'B 進階'}</span>`;}
 
@@ -99,6 +101,66 @@ function renderExams(){
     <div class="exam-row"><b>${e.year} 年</b>
       <div class="exam-links">${L(e.reading,'閱讀題本')}${L(e.listening,'聽力題本')}${L(e.answers,'參考答案')}${L(e.analysis,'試題分析')}${L(e.page,'該年完整資料')}</div></div>`).join('')}</div>
   <p class="intro" style="margin-top:12px;font-size:13px">資料來源：<a href="https://cap.rcpet.edu.tw/examination.html" target="_blank" rel="noopener">國中教育會考－歷屆試題</a>。少數年份的題本連結名稱不同，請從「該年完整資料」進入。</p>`;
+}
+/* 單題練習：一次 10 題，先出沒做過的題目；答錯的題目可以重練 */
+const SN=10;
+function sPool(){return SINGLES.filter(q=>(!state.sCat||q.cat===state.sCat)&&(!state.sLevel||q.level===state.sLevel)&&(!state.sPoint||q.point===state.sPoint));}
+function sWrong(){return SINGLES.filter(q=>store.singles[q.id]&&store.singles[q.id].last===0);}
+function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function startSingles(wrongOnly){
+  const pool=wrongOnly?sWrong():sPool();
+  const unseen=shuffle(pool.filter(q=>!store.singles[q.id])),seen=shuffle(pool.filter(q=>store.singles[q.id]));
+  const list=[...unseen,...seen].slice(0,SN);
+  if(!list.length)return;
+  state.sq={list,i:0,picked:null,right:0,wrongs:[],wrongOnly};renderSingles();window.scrollTo(0,0);
+}
+function pickSingle(k){
+  const sq=state.sq,q=sq.list[sq.i];if(sq.picked!==null)return;
+  sq.picked=k;const ok='ABCD'[k]===q.answer;
+  const r=store.singles[q.id]||{n:0,ok:0};r.n++;if(ok)r.ok++;r.last=ok?1:0;store.singles[q.id]=r;save();
+  if(ok)sq.right++;else sq.wrongs.push(q);
+  renderSingles();
+}
+function sText(q){NAMES=new Set(q.names||[]);return q.question.split('\n').map(line=>`<div>${tok(line).replace(/_{4,}/g,'<span class="blank">　　　</span>')}</div>`).join('');}
+function renderSingles(){
+  const sq=state.sq;
+  if(!sq){
+    const done=SINGLES.filter(q=>store.singles[q.id]).length,tot=Object.values(store.singles).reduce((a,r)=>[a[0]+r.n,a[1]+r.ok],[0,0]);
+    const points=[...new Set(SINGLES.filter(q=>!state.sCat||q.cat===state.sCat).map(q=>q.point))];
+    const pool=sPool(),wr=sWrong().length;
+    app.innerHTML=`
+    <div class="sec-title"><h2>單題練習</h2></div>
+    <p class="intro">仿會考第一部分：一句話挖一個空格，選出最適合的答案。每回 ${SN} 題，優先出你還沒做過的題目。</p>
+    <div class="stats"><div><b>${done}</b><span>／${SINGLES.length} 題做過</span></div><div><b>${tot[0]?Math.round(100*tot[1]/tot[0]):0}%</b><span>答對率</span></div><div><b>${wr}</b><span>題待重練</span></div></div>
+    <div class="filters">
+      <div class="seg">${[['','全部'],['文法','文法'],['字彙','字彙']].map(([v,t])=>`<button data-scat="${v}" aria-pressed="${(state.sCat||'')===v}">${t}</button>`).join('')}</div>
+      <div class="seg">${[['','不限'],['A','A'],['B','B']].map(([v,t])=>`<button data-slevel="${v}" aria-pressed="${(state.sLevel||'')===v}">${t}</button>`).join('')}</div>
+      <select id="sPoint" aria-label="考點"><option value="">所有考點</option>${points.map(p=>`<option ${state.sPoint===p?'selected':''}>${esc(p)}</option>`).join('')}</select>
+      <span class="count">${pool.length} 題</span>
+    </div>
+    <div class="s-actions"><button class="btn primary wide" data-act="s-start" ${pool.length?'':'disabled'}>開始練習 ${Math.min(SN,pool.length)} 題</button>
+    ${wr?`<button class="btn wide" data-act="s-wrong">錯題重練（${wr} 題）</button>`:''}</div>`;
+    return;
+  }
+  if(sq.i>=sq.list.length){
+    app.innerHTML=`
+    <div class="result"><div><div class="big">${sq.right} / ${sq.list.length}</div><div style="color:var(--muted);margin-top:4px">${sq.right===sq.list.length?'全對！':sq.wrongs.length?`答錯的 ${sq.wrongs.length} 題已收進錯題重練。`:''}</div></div>
+      <div class="chips"><button class="btn" data-act="s-home">回單題首頁</button><button class="btn primary" data-act="s-start">再來 ${SN} 題</button></div></div>
+    ${sq.wrongs.map(q=>`<div class="qcard"><div class="qtop"><span class="chip">${q.cat}・${esc(q.point)}</span></div><div class="qtext">${sText(q)}</div>
+      <div class="ex ok"><b>正確答案 ${q.answer}. ${esc(q.options['ABCD'.indexOf(q.answer)])}</b>${esc(q.explanation)}</div></div>`).join('')}`;
+    return;
+  }
+  const q=sq.list[sq.i],k=sq.picked,ai='ABCD'.indexOf(q.answer);
+  app.innerHTML=`
+  <div class="qtop" style="margin-bottom:10px"><button class="back" data-act="s-home" style="margin:0">← 結束練習</button><span class="qnum">${sq.i+1} / ${sq.list.length}</span></div>
+  <div class="qcard">
+    <div class="qtop"><span class="chip">${q.cat}・${esc(q.point)}</span><span class="chip lv${q.level}">${q.level==='A'?'A 基礎':'B 進階'}</span></div>
+    <div class="qtext single">${sText(q)}</div>
+    <div class="opts">${q.options.map((o,j)=>{let c='opt';if(k!==null){if(j===ai)c+=' right';else if(j===k)c+=' wrong';}
+      return `<button class="${c}" data-spick="${j}" ${k!==null?'disabled':''}><span class="k">${'ABCD'[j]}</span><span>${esc(o)}</span></button>`;}).join('')}</div>
+    ${k!==null?`<div class="ex ${k===ai?'ok':'no'}"><b>${k===ai?'答對了':'正確答案是 '+q.answer}</b>${esc(q.explanation)}</div>`:''}
+  </div>
+  ${k!==null?`<button class="btn primary wide" data-act="s-next">${sq.i+1<sq.list.length?'下一題':'看結果'}</button>`:''}`;
 }
 function renderList(){
   const n=dueList().length;
@@ -233,10 +295,13 @@ function refreshMarks(){document.querySelectorAll('.w').forEach(x=>x.classList.t
 
 /* 事件 */
 document.addEventListener('click',ev=>{
-  const t=ev.target.closest('[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],[data-flevel],.w');
+  const t=ev.target.closest('[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],[data-flevel],[data-scat],[data-slevel],[data-spick],.w');
   if(!t){if(!sheet.hidden&&!ev.target.closest('#sheet'))closeSheet();return;}
   if(t.classList.contains('w')){openSheet(t.dataset.l,t.dataset.r,t,!!t.dataset.name);return;}
   if(t.dataset.flevel!==undefined){state.fLevel=t.dataset.flevel;renderList();return;}
+  if(t.dataset.scat!==undefined){state.sCat=t.dataset.scat;state.sPoint='';renderSingles();return;}
+  if(t.dataset.slevel!==undefined){state.sLevel=t.dataset.slevel;renderSingles();return;}
+  if(t.dataset.spick!==undefined){pickSingle(+t.dataset.spick);return;}
   if(t.dataset.open){state.answers={};state.submitted=false;go('read',t.dataset.open);return;}
   if(t.dataset.say){speak(t.dataset.say);return;}
   if(t.dataset.q!==undefined){state.answers[+t.dataset.q]=+t.dataset.o;renderQuiz();return;}
@@ -250,6 +315,10 @@ document.addEventListener('click',ev=>{
   const act=t.dataset.act;
   if(act==='home')go('list');
   else if(act==='go-vocab')go('vocab');
+  else if(act==='s-start'){startSingles(false);}
+  else if(act==='s-wrong'){startSingles(true);}
+  else if(act==='s-next'){state.sq.i++;state.sq.picked=null;renderSingles();window.scrollTo(0,0);}
+  else if(act==='s-home'){state.sq=null;renderSingles();window.scrollTo(0,0);}
   else if(act==='go-sim'){state.fTag='會考模擬';state.fLevel='';state.fGenre='';go('list');}
   else if(act==='read')go('read');
   else if(act==='quiz'){state.submitted=false;go('quiz');}
@@ -268,17 +337,18 @@ document.addEventListener('keydown',ev=>{
   if(ev.key==='Escape'&&!sheet.hidden)closeSheet();
   if((ev.key==='Enter'||ev.key===' ')&&ev.target.classList&&ev.target.classList.contains('w')){ev.preventDefault();openSheet(ev.target.dataset.l,ev.target.dataset.r,ev.target);}
 });
-document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}if(ev.target.id==='fTag'){state.fTag=ev.target.value;renderList();}});
+document.addEventListener('change',ev=>{if(ev.target.id==='sPoint'){state.sPoint=ev.target.value;renderSingles();}if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}if(ev.target.id==='fTag'){state.fTag=ev.target.value;renderList();}});
 document.getElementById('tab-read').onclick=()=>{state.review=null;go('list');};
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
 document.getElementById('tab-exams').onclick=()=>go('exams');
+document.getElementById('tab-singles').onclick=()=>{state.sq=null;go('singles');};
 // 版本號：index.html 用 app.js?v=版本 載入；資料檔也帶同一個版本號，確保程式和資料一定是同一版
 const VERSION=(document.currentScript&&new URL(document.currentScript.src).searchParams.get('v'))||'dev';
 async function loadJSON(p){const r=await fetch(p+'?v='+VERSION,VERSION==='dev'?{cache:'no-cache'}:{});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
 async function init(){
   try{
-    const [dict,arts,forms,jy,exams]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[]),loadJSON('data/exams.json').catch(()=>[])]);
-    F=forms;JY=jy;EXAMS=exams;
+    const [dict,arts,forms,jy,exams,singles]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[]),loadJSON('data/exams.json').catch(()=>[]),loadJSON('data/singles.json').catch(()=>[])]);
+    F=forms;JY=jy;EXAMS=exams;SINGLES=singles;ensureStore();
     D={};for(const [w,e] of Object.entries(dict))D[w.toLowerCase()]={p:e.pos,z:e.zh,lv:e.level,t:e.topic||'',jy:e.jy,wk:!!e.wk};
     ARTICLES=arts.map(a=>({...a,questions:a.questions.map(q=>({type:q.type,q:q.question,opts:q.options,a:'ABCD'.indexOf(q.answer),ex:q.explanation}))}));
     render();

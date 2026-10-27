@@ -165,6 +165,13 @@ h1,h2,h3{text-wrap:balance;margin:0}
 .due{font-size:12px;color:var(--muted);white-space:nowrap}
 .due.now{color:var(--off);font-weight:500}
 .x{border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:4px 6px}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.stats div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid}
+.stats b{font-size:22px;font-variant-numeric:tabular-nums}
+.stats span{color:var(--muted);font-size:12.5px}
+.s-actions{display:grid;gap:8px}
+.qtext.single{font-size:18px;line-height:1.7;display:grid;gap:4px}
+.blank{display:inline-block;min-width:3.5em;border-bottom:2px solid var(--ink);margin:0 2px}
 .exam-row{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:start;padding:11px 14px;border-top:1px solid var(--line)}
 .exam-row:first-child{border-top:0}
 .exam-row b{font-variant-numeric:tabular-nums}
