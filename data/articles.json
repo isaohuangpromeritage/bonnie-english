@@ -5,6 +5,13 @@
     "genre": "記敘文",
     "title": "Our School Garden",
     "zh": "我們的學校菜園",
+    "topic": "學校",
+    "grade": 7,
+    "grammar": "過去簡單式",
+    "names": [
+      "Jason",
+      "Lin"
+    ],
     "blocks": [
       {
         "t": "p",
@@ -80,6 +87,9 @@
     "genre": "圖表題",
     "title": "Summer Swimming Classes",
     "zh": "暑期游泳課公告",
+    "topic": "運動與嗜好",
+    "grade": 7,
+    "grammar": "祈使句",
     "blocks": [
       {
         "t": "notice",
@@ -181,6 +191,9 @@
     "genre": "說明文",
     "title": "Why Do Cats Sleep So Much?",
     "zh": "貓為什麼這麼愛睡？",
+    "topic": "動物與昆蟲",
+    "grade": 8,
+    "grammar": "現在簡單式、頻率副詞",
     "blocks": [
       {
         "t": "p",
@@ -263,6 +276,3045 @@
         ],
         "answer": "B",
         "explanation": "最後一句說貓只是在做 “what cats have done for thousands of years”，表示多睡是貓的天性，不是懶。"
+      }
+    ]
+  },
+  {
+    "id": "night-market-menu",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "The Wu Family Snack Stand",
+    "zh": "吳家夜市小吃攤",
+    "topic": "食物與飲料",
+    "grade": 7,
+    "grammar": "數字與價格、祈使句",
+    "names": [
+      "Wu"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "The Wu Family Snack Stand",
+        "sub": "Night Market, Open 17:00–23:00",
+        "rows": [
+          [
+            "Food and Drinks",
+            "Price"
+          ],
+          [
+            "Fried chicken",
+            "$70"
+          ],
+          [
+            "Sweet potato balls",
+            "$40"
+          ],
+          [
+            "Hot dog",
+            "$35"
+          ],
+          [
+            "Milk tea",
+            "$30"
+          ],
+          [
+            "Lemon tea",
+            "$25"
+          ]
+        ],
+        "items": [
+          "Set 1: fried chicken + milk tea = $90",
+          "Set 2: hot dog + sweet potato balls + lemon tea = $85",
+          "Students: show your student card and get $5 off each set.",
+          "Bring your own cup and get $5 off any drink.",
+          "We are closed on Mondays."
+        ],
+        "foot": "Thank you! Come again!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "計算",
+        "question": "Amy is a student. She buys Set 1 and shows her student card. How much does she pay?",
+        "options": [
+          "$80",
+          "$85",
+          "$90",
+          "$95"
+        ],
+        "answer": "B",
+        "explanation": "公告寫「Set 1: fried chicken + milk tea = $90」，又寫「Students: show your student card and get $5 off each set.」所以 90 − 5 = $85，選 B。"
+      },
+      {
+        "type": "計算",
+        "question": "Tom buys one hot dog and one lemon tea. He brings his own cup. How much does he pay?",
+        "options": [
+          "$45",
+          "$50",
+          "$55",
+          "$60"
+        ],
+        "answer": "C",
+        "explanation": "熱狗 $35、檸檬茶 $25，共 $60。公告寫「Bring your own cup and get $5 off any drink.」飲料折 $5，所以 60 − 5 = $55，選 C。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "On which day can people NOT buy food at this stand?",
+        "options": [
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "D",
+        "explanation": "公告最後一條寫「We are closed on Mondays.」星期一沒有營業，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is TRUE?",
+        "options": [
+          "You get $5 off a drink if you bring a cup.",
+          "Set 2 comes with fried chicken and lemon tea.",
+          "The stand is open until 22:00 every night.",
+          "Milk tea is the cheapest drink at the stand."
+        ],
+        "answer": "A",
+        "explanation": "公告寫「Bring your own cup and get $5 off any drink.」所以 A 正確。B：Set 2 是熱狗、地瓜球和檸檬茶，沒有炸雞；C：營業到 23:00；D：檸檬茶 $25 比奶茶 $30 便宜。"
+      }
+    ]
+  },
+  {
+    "id": "mrt-to-the-zoo",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Our Class Trip to the Zoo",
+    "zh": "班級動物園校外教學",
+    "topic": "交通",
+    "grade": 7,
+    "grammar": "未來式、祈使句、時間的讀法",
+    "names": [
+      "Chen"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Class 7-3 Trip to the Zoo",
+        "sub": "Friday, May 15",
+        "rows": [
+          [
+            "Bus",
+            "Leaves Park Road Station",
+            "Gets to the Zoo"
+          ],
+          [
+            "Bus 21",
+            "08:40",
+            "09:20"
+          ],
+          [
+            "Bus 35",
+            "08:55",
+            "09:15"
+          ],
+          [
+            "Bus 21",
+            "09:10",
+            "09:50"
+          ],
+          [
+            "Bus 35",
+            "09:25",
+            "09:45"
+          ]
+        ],
+        "items": [
+          "Meet at the school gate at 08:00. Don't be late!",
+          "We will take the MRT from Green Hill Station to Park Road Station. We will get there at 08:45.",
+          "Then we will take a bus to the zoo. We must get to the zoo before 09:30.",
+          "Students ride the bus for free with a student card.",
+          "Bring your lunch and water. Please do not feed the animals."
+        ],
+        "foot": "If you have any questions, ask Mr. Chen."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Which bus should the class take?",
+        "options": [
+          "Bus 21 at 08:40",
+          "Bus 21 at 09:10",
+          "Bus 35 at 09:25",
+          "Bus 35 at 08:55"
+        ],
+        "answer": "D",
+        "explanation": "公告寫「We will get there at 08:45.」又寫「We must get to the zoo before 09:30.」08:40 的車已經開走；09:10 的 21 號 09:50 才到、09:25 的 35 號 09:45 才到，都太晚。只有 08:55 的 35 號 09:15 到，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Where will the students meet in the morning?",
+        "options": [
+          "At the school gate",
+          "At Green Hill Station",
+          "At Park Road Station",
+          "At the zoo gate"
+        ],
+        "answer": "A",
+        "explanation": "第一條寫「Meet at the school gate at 08:00.」所以選 A。B、C 是搭捷運的站名，D 是目的地。"
+      },
+      {
+        "type": "細節",
+        "question": "Why should students bring their student cards?",
+        "options": [
+          "To buy lunch at the zoo",
+          "To take the MRT",
+          "To ride the bus for free",
+          "To feed the animals"
+        ],
+        "answer": "C",
+        "explanation": "公告寫「Students ride the bus for free with a student card.」帶學生證搭公車免費，所以選 C。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “for free” mean in the notice?",
+        "options": [
+          "With a friend",
+          "Without paying money",
+          "Very quickly",
+          "Only on Friday"
+        ],
+        "answer": "B",
+        "explanation": "「Students ride the bus for free with a student card.」有學生證就能搭車，可以猜出 for free 是「免費、不用付錢」，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "may-school-calendar",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "School Calendar for May",
+    "zh": "五月份學校行事曆",
+    "topic": "學校",
+    "grade": 7,
+    "grammar": "日期與星期、祈使句",
+    "names": [],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Blue Sky Junior High School",
+        "sub": "School Calendar for May",
+        "rows": [
+          [
+            "Date",
+            "Day",
+            "Event"
+          ],
+          [
+            "May 2",
+            "Friday",
+            "English Singing Show"
+          ],
+          [
+            "May 9",
+            "Friday",
+            "Sports Day"
+          ],
+          [
+            "May 12",
+            "Monday",
+            "No school (a day off after Sports Day)"
+          ],
+          [
+            "May 20–21",
+            "Tuesday–Wednesday",
+            "Exams"
+          ],
+          [
+            "May 30",
+            "Friday",
+            "Dragon Boat Festival (no school)"
+          ]
+        ],
+        "items": [
+          "On May 2, each class will sing one English song.",
+          "On Sports Day, come to school at 07:30 and wear your sports clothes.",
+          "Parents are welcome to watch Sports Day.",
+          "From May 13 to May 19, the library will stay open until 18:00. Study hard for the exams!"
+        ],
+        "foot": "Have a happy and healthy May!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "When is Sports Day?",
+        "options": [
+          "On Friday, May 9",
+          "On Monday, May 12",
+          "On Friday, May 2",
+          "On Tuesday, May 20"
+        ],
+        "answer": "A",
+        "explanation": "表格寫「May 9 / Friday / Sports Day」，所以運動會在 5 月 9 日星期五，選 A。B 是運動會後的補假，C 是英文歌唱表演，D 是考試。"
+      },
+      {
+        "type": "計算",
+        "question": "For how many days will the library stay open until 18:00?",
+        "options": [
+          "5 days",
+          "6 days",
+          "9 days",
+          "7 days"
+        ],
+        "answer": "D",
+        "explanation": "公告寫「From May 13 to May 19, the library will stay open until 18:00.」從 13 日到 19 日，共 13、14、15、16、17、18、19 七天，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Why is there no school on May 12?",
+        "options": [
+          "Because students have exams",
+          "Because students had Sports Day before it",
+          "Because it is Dragon Boat Festival",
+          "Because the library is closed"
+        ],
+        "answer": "B",
+        "explanation": "表格寫「No school (a day off after Sports Day)」，5 月 12 日是運動會之後的補假，所以選 B。端午節是 5 月 30 日。"
+      },
+      {
+        "type": "細節",
+        "question": "What will each class do on May 2?",
+        "options": [
+          "Run in a race",
+          "Take an exam",
+          "Sing an English song",
+          "Study in the library"
+        ],
+        "answer": "C",
+        "explanation": "公告寫「On May 2, each class will sing one English song.」所以選 C。"
+      }
+    ]
+  },
+  {
+    "id": "lost-and-found",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Lost and Found",
+    "zh": "失物招領",
+    "topic": "衣物與配件",
+    "grade": 7,
+    "grammar": "過去式、祈使句",
+    "names": [],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Lost and Found",
+        "sub": "School Office, First Floor",
+        "rows": [
+          [
+            "Item",
+            "Color",
+            "Where We Found It",
+            "When"
+          ],
+          [
+            "Watch",
+            "Black",
+            "Gym",
+            "May 3"
+          ],
+          [
+            "Jacket",
+            "Blue",
+            "Playground",
+            "May 5"
+          ],
+          [
+            "Umbrella",
+            "Red",
+            "Library",
+            "May 5"
+          ],
+          [
+            "Cap",
+            "White",
+            "Playground",
+            "May 8"
+          ],
+          [
+            "Pencil box",
+            "Green",
+            "Room 203",
+            "May 9"
+          ]
+        ],
+        "items": [
+          "Come to the office from 12:10 to 13:00, Monday to Friday.",
+          "Tell us the color of your item and where you lost it.",
+          "Bring your student card.",
+          "We keep items for 30 days. After that, we give them to people in need."
+        ],
+        "foot": "Write your name on your things, so they can find their way home!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Ken lost something in the library on May 5. What is it?",
+        "options": [
+          "A black watch",
+          "A blue jacket",
+          "A red umbrella",
+          "A white cap"
+        ],
+        "answer": "C",
+        "explanation": "表格寫「Umbrella / Red / Library / May 5」，5 月 5 日在圖書館找到的是紅色雨傘，所以選 C。藍色外套雖然也是 5 月 5 日，但是在操場找到的。"
+      },
+      {
+        "type": "細節",
+        "question": "When can students go to the office to get their things?",
+        "options": [
+          "At 12:30 on Tuesday",
+          "At 08:00 on Monday",
+          "At 14:00 on Friday",
+          "At 12:30 on Saturday"
+        ],
+        "answer": "A",
+        "explanation": "公告寫「Come to the office from 12:10 to 13:00, Monday to Friday.」只有星期二 12:30 符合，所以選 A。D 雖然時間對，但星期六不在週一到週五之內。"
+      },
+      {
+        "type": "推論",
+        "question": "Nobody comes for the blue jacket by June 20. What will probably happen to it?",
+        "options": [
+          "It will stay in the office.",
+          "It will go back to the playground.",
+          "The school will sell it.",
+          "The school will give it to people in need."
+        ],
+        "answer": "D",
+        "explanation": "外套是 5 月 5 日找到的，公告寫「We keep items for 30 days. After that, we give them to people in need.」到 6 月 20 日已超過 30 天，所以會送給需要的人，選 D。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "Which two things were found in the same place?",
+        "options": [
+          "The watch and the cap",
+          "The jacket and the cap",
+          "The umbrella and the pencil box",
+          "The watch and the jacket"
+        ],
+        "answer": "B",
+        "explanation": "表格中外套（Jacket）和帽子（Cap）都寫「Playground」，都是在操場找到的，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "five-day-weather",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Weather for the Next Five Days",
+    "zh": "未來五天天氣預報",
+    "topic": "天氣與自然",
+    "grade": 7,
+    "grammar": "未來式、祈使句",
+    "names": [
+      "Taipei"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Taipei Weather This Week",
+        "sub": "The Next Five Days",
+        "rows": [
+          [
+            "Day",
+            "Weather",
+            "Temperature",
+            "Chance of Rain"
+          ],
+          [
+            "Monday",
+            "Sunny",
+            "28°–33°",
+            "10%"
+          ],
+          [
+            "Tuesday",
+            "Cloudy",
+            "27°–32°",
+            "30%"
+          ],
+          [
+            "Wednesday",
+            "Windy and rainy",
+            "25°–29°",
+            "80%"
+          ],
+          [
+            "Thursday",
+            "Typhoon, heavy rain",
+            "24°–27°",
+            "100%"
+          ],
+          [
+            "Friday",
+            "Cloudy",
+            "26°–31°",
+            "40%"
+          ]
+        ],
+        "items": [
+          "Important: A strong typhoon is coming. It will be closest to Taipei on Thursday.",
+          "Stay home on Thursday if you can. Close your windows and keep some water and food at home.",
+          "Schools may close on Thursday. Watch the news on Wednesday night.",
+          "Take an umbrella with you from Tuesday to Friday."
+        ],
+        "foot": "Stay safe, everyone!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Which day will be the hottest?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Friday",
+          "Monday"
+        ],
+        "answer": "D",
+        "explanation": "表格中星期一（Monday）的溫度是「28°–33°」，33 度是五天中最高的，所以選 D。"
+      },
+      {
+        "type": "計算",
+        "question": "How many days will have a 50% or higher chance of rain?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": "B",
+        "explanation": "降雨機率 50% 以上的只有星期三「80%」和星期四「100%」，共兩天，所以選 B。星期五是 40%，不到 50%。"
+      },
+      {
+        "type": "推論",
+        "question": "Why may schools close on Thursday?",
+        "options": [
+          "Because a typhoon is coming",
+          "Because it will be too hot",
+          "Because it is a holiday",
+          "Because there will be no water"
+        ],
+        "answer": "A",
+        "explanation": "公告寫「A strong typhoon is coming. It will be closest to Taipei on Thursday.」接著寫「Schools may close on Thursday.」可推知是因為颱風，所以選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "What does the notice tell people to do?",
+        "options": [
+          "Go to the beach on Thursday",
+          "Open the windows on Wednesday",
+          "Watch the news on Wednesday night",
+          "Leave the umbrella at home on Tuesday"
+        ],
+        "answer": "C",
+        "explanation": "公告寫「Watch the news on Wednesday night.」所以選 C。公告要大家關窗（Close your windows），星期二到星期五都要帶傘。"
+      }
+    ]
+  },
+  {
+    "id": "umbrella-friend",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "One Umbrella, Two Friends",
+    "zh": "一把傘，兩個朋友",
+    "topic": "天氣與自然",
+    "grade": 7,
+    "grammar": "過去簡單式",
+    "names": [
+      "Yuting"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "It was a rainy Monday afternoon. When school was over, I saw a girl standing at the school gate. Her name was Yuting, and she was new in our class. She did not have an umbrella, and she looked very sad."
+      },
+      {
+        "t": "p",
+        "x": "I had a big blue umbrella, so I walked over to her and said, \"We can share it. Where do you live?\" She lived near the park, only five minutes from my home. We walked together under my umbrella and talked about music, books, and our favorite food."
+      },
+      {
+        "t": "p",
+        "x": "The next week, I had a bad cold and stayed home for two days. On Wednesday evening, someone knocked on our door. It was Yuting! She brought me her notes from every class and a bowl of hot soup from her mom. \"You helped me in the rain,\" she said with a smile. \"Now it is my turn.\""
+      },
+      {
+        "t": "p",
+        "x": "Now Yuting and I are best friends. Every time it rains, we still walk home together under one umbrella."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "How sharing an umbrella started a friendship",
+          "How to stay healthy on rainy days",
+          "Why Yuting moved to a new school",
+          "What the writer likes to eat"
+        ],
+        "answer": "A",
+        "explanation": "故事從雨天和 Yuting 共撐一把傘開始，後來 Yuting 回報作者，最後「Now Yuting and I are best friends.」重點是一把傘帶來的友誼，所以選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did the writer stay home for two days?",
+        "options": [
+          "Because of the heavy rain",
+          "To help Yuting",
+          "Because of a bad cold",
+          "To look for an umbrella"
+        ],
+        "answer": "C",
+        "explanation": "第三段寫「The next week, I had a bad cold and stayed home for two days.」作者是因為感冒才待在家，所以選 C。"
+      },
+      {
+        "type": "推論",
+        "question": "What does Yuting mean when she says, “Now it is my turn”?",
+        "options": [
+          "She wants to use the umbrella now.",
+          "She wants to help the writer this time.",
+          "She wants to go home first.",
+          "She wants to play a game."
+        ],
+        "answer": "B",
+        "explanation": "Yuting 先說「You helped me in the rain」，再說「Now it is my turn.」意思是之前作者幫她，現在換她來幫作者，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "What did Yuting bring to the writer's home?",
+        "options": [
+          "A blue umbrella and some books",
+          "Some music and some food",
+          "Some flowers and a card",
+          "Her class notes and some soup"
+        ],
+        "answer": "D",
+        "explanation": "第三段寫「She brought me her notes from every class and a bowl of hot soup from her mom.」所以選 D。"
+      }
+    ]
+  },
+  {
+    "id": "cooking-with-grandma",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "Cooking with Grandma",
+    "zh": "和奶奶一起做菜",
+    "topic": "家庭",
+    "grade": 7,
+    "grammar": "過去簡單式、表示順序的副詞（first、then、next）",
+    "names": [],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last Sunday, I visited my grandma. She said, \"Today, I am going to teach you how to cook tomato eggs.\" This is my favorite dish, so I was very excited."
+      },
+      {
+        "t": "p",
+        "x": "First, Grandma showed me how to cut the tomatoes into small pieces. Then I broke three eggs into a bowl and mixed them. She told me to cook the eggs first and take them out of the pan. Next, I cooked the tomatoes with a little sugar and salt. At last, I put the eggs back in and cooked everything for one more minute."
+      },
+      {
+        "t": "p",
+        "x": "When we tasted it, I made a face. There was too much salt in it! I used a big spoon of salt, not a small one. I felt sad, but Grandma just laughed. She added more tomatoes and a little water, and the dish tasted much better."
+      },
+      {
+        "t": "p",
+        "x": "\"Everyone makes mistakes in the kitchen,\" she said. \"The important thing is to taste your food and fix it.\" Now I always taste my food before I eat it with my family. I learned more than cooking from Grandma that day."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What did the writer do right after breaking the eggs?",
+        "options": [
+          "Cut the tomatoes",
+          "Mixed the eggs in a bowl",
+          "Added sugar and salt",
+          "Took the eggs out of the pan"
+        ],
+        "answer": "B",
+        "explanation": "第二段寫「Then I broke three eggs into a bowl and mixed them.」打蛋之後接著就是攪拌，所以選 B。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “made a face” mean in the story?",
+        "options": [
+          "Drew a picture of a face",
+          "Washed the face",
+          "Laughed in a happy way",
+          "Showed that the food did not taste good"
+        ],
+        "answer": "D",
+        "explanation": "「When we tasted it, I made a face. There was too much salt in it!」菜太鹹，作者嚐了之後的反應是「做鬼臉、皺眉」，表示不好吃，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Why was there too much salt in the dish at first?",
+        "options": [
+          "Grandma added too much water.",
+          "The tomatoes were not fresh.",
+          "The writer used a big spoon of salt.",
+          "The writer forgot the sugar."
+        ],
+        "answer": "C",
+        "explanation": "第三段寫「I used a big spoon of salt, not a small one.」作者用了大湯匙放鹽，所以太鹹，選 C。加水是奶奶補救的方法。"
+      },
+      {
+        "type": "推論",
+        "question": "What did the writer learn from Grandma?",
+        "options": [
+          "It is OK to make mistakes, but you should fix them.",
+          "Tomato eggs are the easiest dish to cook in the kitchen.",
+          "You should always cook with your grandma on Sundays.",
+          "Salt is bad for people, so you should not use it."
+        ],
+        "answer": "A",
+        "explanation": "奶奶說「Everyone makes mistakes in the kitchen. The important thing is to taste your food and fix it.」作者也說「I learned more than cooking from Grandma that day.」可知學到的是犯錯沒關係、要想辦法修正，所以選 A。"
+      }
+    ]
+  },
+  {
+    "id": "first-day-new-school",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "My First Day at a New School",
+    "zh": "轉學第一天",
+    "topic": "學校",
+    "grade": 7,
+    "grammar": "過去簡單式、未來式",
+    "names": [
+      "Tainan",
+      "Taichung",
+      "Leo",
+      "Wang",
+      "Andy"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last month, my family moved from Tainan to Taichung, so I had to go to a new school. On my first day, I stood in front of Class 7-2, and my hands were cold. I did not know anyone."
+      },
+      {
+        "t": "p",
+        "x": "\"This is Leo,\" said our teacher, Mr. Wang. \"Please make him feel at home.\" I said hello in a very small voice and sat in the last seat."
+      },
+      {
+        "t": "p",
+        "x": "At lunch time, I sat by myself. I did not know where to get my lunch box. Then a tall boy came over. \"Hi, I am Andy. Come with me,\" he said. He showed me where to get lunch, and he told me about the school basketball team."
+      },
+      {
+        "t": "p",
+        "x": "After school, Andy took me around the school. He showed me the library, the gym, and the best place to buy cold drinks. He also asked me to play basketball with him on Friday."
+      },
+      {
+        "t": "p",
+        "x": "That night, I told my mom, \"I was afraid this morning, but now I think I will like this school.\" I am going to bring my basketball on Friday."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did Leo go to a new school?",
+        "options": [
+          "He did not like his old school.",
+          "He wanted to join a basketball team.",
+          "His family moved to a new city.",
+          "His teacher told him to."
+        ],
+        "answer": "C",
+        "explanation": "第一段寫「Last month, my family moved from Tainan to Taichung, so I had to go to a new school.」因為搬家所以轉學，選 C。"
+      },
+      {
+        "type": "推論",
+        "question": "How did Leo feel on the morning of his first day?",
+        "options": [
+          "Afraid",
+          "Happy",
+          "Angry",
+          "Tired"
+        ],
+        "answer": "A",
+        "explanation": "文中寫他「my hands were cold」、「I did not know anyone」、說話「in a very small voice」，晚上也說「I was afraid this morning」，可知他早上很害怕、緊張，所以選 A。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “Please make him feel at home,” who does “him” mean?",
+        "options": [
+          "Mr. Wang",
+          "Andy",
+          "Leo's dad",
+          "Leo"
+        ],
+        "answer": "D",
+        "explanation": "老師先介紹「This is Leo」，接著說「Please make him feel at home.」請大家讓他有在家的感覺，him 指的是 Leo，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "What will Leo do on Friday?",
+        "options": [
+          "Visit the library with Andy",
+          "Play basketball with Andy",
+          "Buy cold drinks for the class",
+          "Go back to Tainan"
+        ],
+        "answer": "B",
+        "explanation": "第四段寫「He also asked me to play basketball with him on Friday.」最後一句也說「I am going to bring my basketball on Friday.」所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "bubble-tea-story",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Bubble Tea: A Drink from Taiwan",
+    "zh": "珍珠奶茶：來自台灣的飲料",
+    "topic": "食物與飲料",
+    "grade": 8,
+    "grammar": "現在簡單式、表示順序的副詞",
+    "names": [
+      "Taiwan",
+      "Tokyo",
+      "London"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Bubble tea is a sweet drink from Taiwan. It is usually made with black tea, milk, and sugar. The most special part is the small black balls at the bottom of the cup. People drink them with a big straw."
+      },
+      {
+        "t": "p",
+        "x": "How do people make bubble tea? First, shop workers cook the balls in hot water for about thirty minutes. Then they put the balls in sugar water to make them sweet. Next, they shake the tea, milk, and ice together. At last, they add the balls to the drink."
+      },
+      {
+        "t": "p",
+        "x": "Bubble tea started in Taiwan more than thirty years ago. Today, you can find bubble tea shops in many cities around the world, from Tokyo to London. Why do so many people love it? First, it is fun to drink. Second, people can choose the size of the cup and how much sugar and ice they want. Third, many people like to take pictures of their drinks and share them on the Internet."
+      },
+      {
+        "t": "p",
+        "x": "So the next time you have a cup of bubble tea, remember that people all over the world enjoy this little drink from Taiwan, too."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to open a bubble tea shop in London",
+          "Why drinking tea every day is good for you",
+          "Where people can buy the best tea in Taiwan",
+          "What bubble tea is and why people love it"
+        ],
+        "answer": "D",
+        "explanation": "第一、二段說明珍珠奶茶是什麼、怎麼做，第三段問「Why do so many people love it?」並說明原因，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "How long do shop workers cook the balls in hot water?",
+        "options": [
+          "About ten minutes",
+          "About thirty minutes",
+          "About one hour",
+          "About three hours"
+        ],
+        "answer": "B",
+        "explanation": "第二段寫「First, shop workers cook the balls in hot water for about thirty minutes.」所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "According to the reading, which is NOT a reason why bubble tea is popular?",
+        "options": [
+          "It is cheaper than other drinks.",
+          "It is fun to drink.",
+          "People can choose how much sugar and ice they want.",
+          "People like to take pictures of it."
+        ],
+        "answer": "A",
+        "explanation": "第三段列出三個原因：「it is fun to drink」、可以選大小和甜度冰塊、喜歡拍照分享到網路上。文中沒有提到價格比較便宜，所以選 A。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does “them” in “People drink them with a big straw” mean?",
+        "options": [
+          "The cups",
+          "The tea and milk",
+          "The small black balls",
+          "The people"
+        ],
+        "answer": "C",
+        "explanation": "前一句說「the small black balls at the bottom of the cup」，接著說用粗吸管把它們喝起來，them 指的是杯底的黑色小球（珍珠），所以選 C。"
+      }
+    ]
+  },
+  {
+    "id": "pen-pal-email",
+    "level": "A",
+    "genre": "書信",
+    "title": "An E-mail from Kenji",
+    "zh": "Kenji 的來信",
+    "topic": "國家與地區",
+    "grade": 8,
+    "grammar": "現在簡單式、過去簡單式、疑問句",
+    "names": [
+      "Kenji",
+      "Mei",
+      "Japan",
+      "Taiwan"
+    ],
+    "blocks": [
+      {
+        "t": "email",
+        "from": "Kenji",
+        "to": "Mei",
+        "subject": "Summer festival in my town",
+        "body": [
+          "Hi Mei,",
+          "How are you? Thank you for your last e-mail and the photos of the Lantern Festival. They were beautiful!",
+          "School in Japan is busy now. My school day starts at 08:30 and ends at 15:30. After class, all the students clean the classrooms together. Then I go to my club. I am in the music club, and I play the drums.",
+          "Last Saturday, my town had a summer festival. Many people wore special summer clothes, and there were lots of food stands on the street. At night, there was a big drum show by the river. My little sister ate two bowls of strawberry ice!",
+          "Do students in Taiwan clean their classrooms, too? What club are you in? And what is your favorite festival in Taiwan? Please tell me in your next e-mail.",
+          "Your friend,\nKenji"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What time does Kenji's school day end?",
+        "options": [
+          "15:30",
+          "08:30",
+          "16:30",
+          "17:00"
+        ],
+        "answer": "A",
+        "explanation": "信中寫「My school day starts at 08:30 and ends at 15:30.」放學時間是 15:30，所以選 A。08:30 是上學時間。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does “They” in “They were beautiful!” mean?",
+        "options": [
+          "Kenji's classmates",
+          "The summer clothes",
+          "Mei's photos of the Lantern Festival",
+          "The drum show by the river"
+        ],
+        "answer": "C",
+        "explanation": "前一句是「Thank you for your last e-mail and the photos of the Lantern Festival.」接著說「They were beautiful!」They 指的是 Mei 寄來的元宵節照片，所以選 C。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does Kenji write this e-mail?",
+        "options": [
+          "To ask Mei to come to Japan",
+          "To tell Mei about his life and ask about hers",
+          "To say sorry to Mei",
+          "To ask Mei to join his music club"
+        ],
+        "answer": "B",
+        "explanation": "Kenji 先介紹自己的學校生活和夏日祭典，最後問 Mei「Do students in Taiwan clean their classrooms, too? What club are you in?」等問題，目的是分享自己的生活並詢問對方，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "What did Kenji's little sister do at the festival?",
+        "options": [
+          "She played the drums.",
+          "She wore her school clothes.",
+          "She cleaned the classroom.",
+          "She ate two bowls of strawberry ice."
+        ],
+        "answer": "D",
+        "explanation": "信中寫「My little sister ate two bowls of strawberry ice!」所以選 D。打鼓的是 Kenji 自己。"
+      }
+    ]
+  },
+  {
+    "id": "not-on-the-team",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "Not on the List",
+    "zh": "榜上無名",
+    "topic": "運動與嗜好",
+    "grade": 7,
+    "grammar": "過去簡單式、未來式",
+    "names": [
+      "Kevin",
+      "Wu"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Kevin loved basketball. Last month, he wanted to join the school team, so he practiced every day after school. On the big day, Coach Wu watched forty students play. Only twelve of them could join the team."
+      },
+      {
+        "t": "p",
+        "x": "The next morning, Kevin looked at the list on the wall. His name was not on it. He felt very sad and did not want to talk to anyone at lunch. But that evening, he went to the park and practiced again. \"I am not good enough yet,\" he said to himself, \"but I can get better.\""
+      },
+      {
+        "t": "p",
+        "x": "One week later, Coach Wu saw Kevin at the park. \"You don't give up, do you?\" he asked with a smile. \"Our team needs someone to keep the score and take care of the balls. Do you want to help us?\""
+      },
+      {
+        "t": "p",
+        "x": "Kevin said yes. Now he goes to every practice. He helps the players, and after practice, they often play with him. Next year, Kevin will try again."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "A boy who keeps trying after a sad day",
+          "A coach who teaches students to play games",
+          "A team that wins a big basketball game",
+          "A boy who stops playing basketball"
+        ],
+        "answer": "A",
+        "explanation": "Kevin 沒被選上球隊，但他說 “I am not good enough yet, but I can get better.”，繼續練習，最後以另一種方式加入球隊，故事重點是他不放棄。B、C 文中沒提到；D 與內容相反。"
+      },
+      {
+        "type": "細節",
+        "question": "How many students could join the school team?",
+        "options": [
+          "Forty",
+          "Seven",
+          "Twelve",
+          "One"
+        ],
+        "answer": "C",
+        "explanation": "第一段：“Coach Wu watched forty students play. Only twelve of them could join the team.” 四十人是來參加選拔的人數，能進球隊的只有十二人。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “give up” mean in “You don't give up, do you?”",
+        "options": [
+          "To give something to a friend",
+          "To stop trying",
+          "To get up early",
+          "To play better than others"
+        ],
+        "answer": "B",
+        "explanation": "教練看到 Kevin 沒被選上還在公園練球，才說 “You don't give up, do you?”，可猜出 give up 是「放棄、停止嘗試」。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Coach Wu most likely ask Kevin to help the team?",
+        "options": [
+          "Kevin was the best player in the school.",
+          "Kevin asked the coach for help.",
+          "Kevin's name was on the list.",
+          "Kevin kept practicing after he was not chosen."
+        ],
+        "answer": "D",
+        "explanation": "教練在公園看到 Kevin 還在練習，說 “You don't give up, do you?” 之後就請他來幫忙，可見是 Kevin 不放棄的態度打動了教練。A、C 與文意不符；B 文中沒提到。"
+      }
+    ]
+  },
+  {
+    "id": "teachers-birthday",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "A Birthday Surprise",
+    "zh": "生日驚喜",
+    "topic": "人物",
+    "grade": 8,
+    "grammar": "過去簡單式、when 子句",
+    "names": [
+      "Chen",
+      "Amy",
+      "Tom",
+      "Wang"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Mr. Chen, our English teacher, is always kind to us. When we learned that his birthday was on Friday, our class decided to give him a surprise."
+      },
+      {
+        "t": "p",
+        "x": "On Friday morning, Amy brought a big chocolate cake to school. Tom made a card, and everyone wrote something nice on it. Our plan was simple: when Mr. Chen walked into the classroom, we would turn off the lights and sing \"Happy Birthday.\""
+      },
+      {
+        "t": "p",
+        "x": "We waited quietly in the dark. Then the door opened, and we started to sing. But it was not Mr. Chen. It was Ms. Wang, the school principal! She looked very surprised, and we all stopped singing. Our faces turned red."
+      },
+      {
+        "t": "p",
+        "x": "Then Ms. Wang laughed. \"Mr. Chen is right behind me,\" she said quietly. \"Try again, and I will sing with you.\" A minute later, Mr. Chen walked in, and the whole class sang to him with the principal. Mr. Chen was so happy that he almost cried. \"This is the best birthday ever,\" he said."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Who brought the cake to school?",
+        "options": [
+          "Tom",
+          "Amy",
+          "Ms. Wang",
+          "Mr. Chen"
+        ],
+        "answer": "B",
+        "explanation": "第二段：“Amy brought a big chocolate cake to school.” Tom 做的是卡片。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the third paragraph, who does “She” in “She looked very surprised” mean?",
+        "options": [
+          "Amy",
+          "A girl in the class",
+          "Mr. Chen's mother",
+          "Ms. Wang"
+        ],
+        "answer": "D",
+        "explanation": "前一句是 “It was Ms. Wang, the school principal!”，走進教室、看到大家唱歌而嚇一跳的是 Ms. Wang。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the students' faces turn red?",
+        "options": [
+          "They sang to the wrong person.",
+          "The classroom was too hot.",
+          "They ate too much cake.",
+          "Mr. Chen was angry with them."
+        ],
+        "answer": "A",
+        "explanation": "大家開始唱生日歌，進來的卻是校長 “But it was not Mr. Chen.”，唱錯人所以覺得不好意思，臉都紅了。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the best title for the story?",
+        "options": [
+          "How to Make a Birthday Card",
+          "Our Principal's Birthday",
+          "A Surprise That Almost Went Wrong",
+          "Why Mr. Chen Was Late"
+        ],
+        "answer": "C",
+        "explanation": "同學準備驚喜卻先唱給校長聽，差點搞砸，最後校長幫忙、老師很感動，C 最能代表全文。B：生日的是 Mr. Chen 不是校長；D：文中沒說老師遲到。"
+      }
+    ]
+  },
+  {
+    "id": "smart-pocket-money",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Smart Ways to Save Pocket Money",
+    "zh": "聰明存零用錢",
+    "topic": "金錢",
+    "grade": 8,
+    "grammar": "祈使句、序數詞 first/second/third",
+    "names": [
+      "Jenny"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Do you get pocket money every week? Many students spend all of it in just a few days. Here are some simple ways to save money."
+      },
+      {
+        "t": "p",
+        "x": "First, make a plan. Before you spend any money, write down the things you really need, like bus tickets and lunch. Then think about the things you only want, like snacks and drinks."
+      },
+      {
+        "t": "p",
+        "x": "Second, save first and spend later. When you get your money, put some of it in a box or a bank right away. Don't wait until the end of the week, because there may be nothing left."
+      },
+      {
+        "t": "p",
+        "x": "Third, wait one day before you buy something. If you still want it the next day, then buy it. You may find that you don't really want it."
+      },
+      {
+        "t": "p",
+        "x": "Here is an example. Jenny gets $500 every week. She saves $150 and spends the rest. After ten weeks, she has $1,500. Now she can buy the new bike light that she wants."
+      },
+      {
+        "t": "p",
+        "x": "Saving money is not easy, but small steps can make a big difference."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why students need pocket money",
+          "How Jenny bought a new bike",
+          "Simple ways for students to save money",
+          "What students like to eat and drink"
+        ],
+        "answer": "C",
+        "explanation": "第一段最後說 “Here are some simple ways to save money.”，接著用 First、Second、Third 介紹存錢方法。B：Jenny 要買的是車燈，而且只是例子。"
+      },
+      {
+        "type": "計算",
+        "question": "How much money does Jenny spend every week?",
+        "options": [
+          "$150",
+          "$350",
+          "$500",
+          "$1,500"
+        ],
+        "answer": "B",
+        "explanation": "“Jenny gets $500 every week. She saves $150 and spends the rest.” 每週花掉的是 500 − 150 = $350。$1,500 是十週存下的錢。"
+      },
+      {
+        "type": "細節",
+        "question": "What should you do when you get your pocket money?",
+        "options": [
+          "Spend it all on snacks.",
+          "Wait until the end of the week.",
+          "Give it to your parents.",
+          "Put some of it away at once."
+        ],
+        "answer": "D",
+        "explanation": "第三段：“When you get your money, put some of it in a box or a bank right away. Don't wait until the end of the week.”"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “the rest” mean in “She saves $150 and spends the rest”?",
+        "options": [
+          "The money that is left",
+          "A short time to sleep",
+          "The money in the bank",
+          "All the money she has"
+        ],
+        "answer": "A",
+        "explanation": "Jenny 有 $500，先存 $150，再把「剩下的」花掉，所以 the rest 指剩下的錢。B 是 rest「休息」的另一個意思，不合句意。"
+      }
+    ]
+  },
+  {
+    "id": "colors-and-feelings",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Colors and Feelings",
+    "zh": "顏色與心情",
+    "topic": "顏色",
+    "grade": 8,
+    "grammar": "現在簡單式、make + 人 + 形容詞",
+    "names": [
+      "Lucy"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Colors are all around us, and they can change the way we feel."
+      },
+      {
+        "t": "p",
+        "x": "Red is a strong color. It can make people feel excited or even hungry. That is why many restaurants use red in their signs and advertisements."
+      },
+      {
+        "t": "p",
+        "x": "Blue is a quiet color. It often makes people feel calm. Many people paint their bedrooms blue because it helps them sleep well."
+      },
+      {
+        "t": "p",
+        "x": "Yellow is bright and happy, like the sun. A yellow kitchen or a yellow T-shirt can make you feel warm and happy. But too much yellow may make some people feel nervous."
+      },
+      {
+        "t": "p",
+        "x": "Green is the color of trees and grass. It makes people think of nature, so many hospitals and schools use green to help people feel safe."
+      },
+      {
+        "t": "p",
+        "x": "The next time you choose your clothes or paint your room, think about the colors. They may say more than you think!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Which color can make people feel hungry?",
+        "options": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "Red"
+        ],
+        "answer": "D",
+        "explanation": "第二段：“Red ... can make people feel excited or even hungry.” 所以很多餐廳的招牌用紅色。"
+      },
+      {
+        "type": "推論",
+        "question": "Lucy wants her bedroom to be a calm place to sleep. Which color is best for her room?",
+        "options": [
+          "Blue",
+          "Red",
+          "Yellow",
+          "Black"
+        ],
+        "answer": "A",
+        "explanation": "第三段：藍色 “often makes people feel calm. Many people paint their bedrooms blue because it helps them sleep well.” 紅色讓人興奮，太多黃色可能讓人緊張。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the main idea of the reading?",
+        "options": [
+          "Red is the most popular color.",
+          "Hospitals should use green.",
+          "Colors can change how people feel.",
+          "Yellow is not a good color."
+        ],
+        "answer": "C",
+        "explanation": "第一段 “Colors ... can change the way we feel.” 是全文主旨，後面各段介紹不同顏色帶來的感覺。A、B、D 都只是部分內容或文中沒說的。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the last paragraph, what does “They” in “They may say more than you think” mean?",
+        "options": [
+          "Your clothes",
+          "The colors",
+          "People",
+          "Your rooms"
+        ],
+        "answer": "B",
+        "explanation": "前一句是 “think about the colors”，接著說 “They may say more than you think”，They 指的是顏色，意思是顏色傳達的訊息比你想的多。"
+      }
+    ]
+  },
+  {
+    "id": "dragon-boat-festival",
+    "level": "A",
+    "genre": "說明文",
+    "title": "The Dragon Boat Festival",
+    "zh": "端午節",
+    "topic": "節日",
+    "grade": 8,
+    "grammar": "現在簡單式、過去簡單式",
+    "names": [
+      "Dragon",
+      "Boat",
+      "Festival",
+      "Qu",
+      "Yuan",
+      "Taiwan",
+      "Chinese"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "The date of the Dragon Boat Festival follows the old Chinese calendar, so it changes every year. It usually comes in May or June. It is one of the most important holidays in Taiwan."
+      },
+      {
+        "t": "p",
+        "x": "The festival is about a man called Qu Yuan. Long ago, he was a good officer who loved his country very much. But the king did not listen to him. Qu Yuan was so sad that he jumped into a river and died. People loved him, so they went out in boats to look for him. They also threw rice into the river so that the fish would not eat his body."
+      },
+      {
+        "t": "p",
+        "x": "Today, people in Taiwan remember him in many ways. Families eat rice dumplings. These are made of rice, meat, and eggs inside large leaves. Teams race long boats with dragon heads on rivers. The people in each boat move together to the sound of a drum."
+      },
+      {
+        "t": "p",
+        "x": "Some families also hang plants on their doors to keep bad things away. And some people try to stand an egg up at noon. They believe it will make them lucky."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "When does the Dragon Boat Festival usually come?",
+        "options": [
+          "In January or February",
+          "In May or June",
+          "In September",
+          "In the winter"
+        ],
+        "answer": "B",
+        "explanation": "第一段：“It usually comes in May or June.” 端午節依照農曆，日期每年不同，通常在五月或六月。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did people throw rice into the river?",
+        "options": [
+          "To feed the dragons in the river",
+          "To make the king happy",
+          "To keep bad things away",
+          "So the fish would not eat Qu Yuan's body"
+        ],
+        "answer": "D",
+        "explanation": "第二段：“They also threw rice into the river so that the fish would not eat his body.” C 是掛植物在門上的原因。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “race” mean in “Teams race long boats with dragon heads”?",
+        "options": [
+          "To try to be faster than others",
+          "To make something with your hands",
+          "To sell something at a market",
+          "To clean something with water"
+        ],
+        "answer": "A",
+        "explanation": "很多隊伍划著龍舟、跟著鼓聲一起前進，就是在「比賽速度」，所以 race 是「比快、競賽」。"
+      },
+      {
+        "type": "推論",
+        "question": "Which of the following is NOT talked about in the reading?",
+        "options": [
+          "Eating rice dumplings",
+          "Hanging plants on doors",
+          "Giving red envelopes",
+          "Standing an egg up at noon"
+        ],
+        "answer": "C",
+        "explanation": "文中提到吃粽子（rice dumplings）、划龍舟、在門上掛植物、中午立蛋，沒有提到發紅包（red envelopes）。"
+      }
+    ]
+  },
+  {
+    "id": "weekend-group-chat",
+    "level": "A",
+    "genre": "對話",
+    "title": "Where Should We Go?",
+    "zh": "週末去哪裡？",
+    "topic": "地點與場所",
+    "grade": 7,
+    "grammar": "未來式、How about／we can 提議",
+    "names": [
+      "Amy",
+      "Ben",
+      "Kelly"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Amy",
+            "x": "Hi, everyone! We have no class this Saturday. Where should we go?"
+          },
+          {
+            "who": "Ben",
+            "x": "How about the zoo? I want to see the baby panda."
+          },
+          {
+            "who": "Kelly",
+            "x": "The zoo is fun, but it is far. It takes an hour by train, and the ticket is $60."
+          },
+          {
+            "who": "Me",
+            "x": "What about the science museum? It is only $30 for students.",
+            "me": true
+          },
+          {
+            "who": "Ben",
+            "x": "Sorry, the museum is closed this Saturday. My brother told me."
+          },
+          {
+            "who": "Amy",
+            "x": "Then we can go to the beach! It is free, and the bus only takes 40 minutes."
+          },
+          {
+            "who": "Kelly",
+            "x": "Good idea, but the weather report says it will rain all day on Saturday."
+          },
+          {
+            "who": "Me",
+            "x": "Then why don't we go on Sunday? It will be sunny.",
+            "me": true
+          },
+          {
+            "who": "Ben",
+            "x": "OK! But I have a piano lesson at 15:00 on Sunday."
+          },
+          {
+            "who": "Amy",
+            "x": "No problem. We can meet at the bus stop at 08:30 and come back at 13:00."
+          },
+          {
+            "who": "Kelly",
+            "x": "Great! Don't forget your hats and water."
+          },
+          {
+            "who": "Me",
+            "x": "See you on Sunday!",
+            "me": true
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Where will the friends go?",
+        "options": [
+          "To the zoo",
+          "To the science museum",
+          "To the beach",
+          "To a piano lesson"
+        ],
+        "answer": "C",
+        "explanation": "Amy 提議 “we can go to the beach!”，因為週六會下雨，大家改成週日去，最後約在公車站集合。動物園太遠、博物館週六沒開。"
+      },
+      {
+        "type": "推論",
+        "question": "Why don't the friends go to the science museum?",
+        "options": [
+          "It is not open on Saturday.",
+          "It is too far away.",
+          "The tickets cost too much.",
+          "It will rain all day."
+        ],
+        "answer": "A",
+        "explanation": "Ben 說 “the museum is closed this Saturday.” B、C 是 Kelly 對動物園的說法；D 是天氣，跟博物館無關。"
+      },
+      {
+        "type": "細節",
+        "question": "When will the friends meet?",
+        "options": [
+          "On Saturday at 08:30",
+          "On Sunday at 13:00",
+          "On Sunday at 15:00",
+          "On Sunday at 08:30"
+        ],
+        "answer": "D",
+        "explanation": "Amy 說 “We can meet at the bus stop at 08:30”，而且大家改成週日去。13:00 是回來的時間，15:00 是 Ben 的鋼琴課。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does “It” in Amy's line “It is free” mean?",
+        "options": [
+          "The bus",
+          "The beach",
+          "The weather",
+          "The zoo ticket"
+        ],
+        "answer": "B",
+        "explanation": "Amy 說 “we can go to the beach! It is free”，It 指海邊（the beach），不用花錢。公車還要坐 40 分鐘，並沒有說免費。"
+      }
+    ]
+  },
+  {
+    "id": "library-rules",
+    "level": "B",
+    "genre": "圖表題",
+    "title": "Library Notice",
+    "zh": "圖書館公告",
+    "topic": "學校",
+    "grade": 8,
+    "grammar": "被動語態、if 子句、情態助動詞 can／must",
+    "names": [
+      "Sunshine",
+      "Tom",
+      "Lisa"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Sunshine Junior High School Library",
+        "sub": "Opening Hours and Library Rules",
+        "rows": [
+          [
+            "Day",
+            "Opening Hours"
+          ],
+          [
+            "Monday, Tuesday, Thursday",
+            "07:30–17:30"
+          ],
+          [
+            "Wednesday",
+            "07:30–12:00"
+          ],
+          [
+            "Friday",
+            "07:30–16:30"
+          ],
+          [
+            "Saturday and Sunday",
+            "Closed"
+          ]
+        ],
+        "items": [
+          "Students in Grade 7 and Grade 8 can borrow up to 3 books at a time. Students in Grade 9 can borrow up to 5 books because they need more books to get ready for the exam.",
+          "Books can be kept for 14 days. If you need a book for a longer time, ask at the front desk. You can keep it for 7 more days, but only once.",
+          "Magazines and dictionaries must stay in the library. They may not be taken home.",
+          "If a book is returned late, you must pay $5 a day for each book.",
+          "If you lose a book, you will have to buy a new one for the library.",
+          "Please keep quiet. Food and drinks are not allowed, but you may bring water."
+        ],
+        "foot": "Thank you for helping us keep the library a great place to read!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "On which day does the library close the latest?",
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "A",
+        "explanation": "表格：週一、二、四開到 17:30，週三只到 12:00，週五到 16:30，週末不開，所以最晚關門的是 Monday。"
+      },
+      {
+        "type": "計算",
+        "question": "Tom returned 2 books 4 days late. How much did he have to pay?",
+        "options": [
+          "$10",
+          "$20",
+          "$80",
+          "$40"
+        ],
+        "answer": "D",
+        "explanation": "“you must pay $5 a day for each book.” 2 本書 × 4 天 × $5 = $40。$20 是只算一本書的錢。"
+      },
+      {
+        "type": "細節",
+        "question": "Lisa is in Grade 9. How many books can she borrow at a time?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "14"
+        ],
+        "answer": "B",
+        "explanation": "“Students in Grade 9 can borrow up to 5 books.” 3 本是七、八年級的上限；7 和 14 是天數。"
+      },
+      {
+        "type": "推論",
+        "question": "Which of the following is TRUE about the library?",
+        "options": [
+          "Students can take dictionaries home for a week.",
+          "Students can keep a book for 28 days in all.",
+          "Students can drink water in the library.",
+          "Students can study there on Wednesday afternoon."
+        ],
+        "answer": "C",
+        "explanation": "公告寫 “Food and drinks are not allowed, but you may bring water.” 所以可以喝水。A：字典不能帶回家；B：最多 14 + 7 = 21 天；D：週三只開到 12:00。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why was this notice written?",
+        "options": [
+          "To tell students how to use the library",
+          "To ask students to buy new books",
+          "To tell students about the exam",
+          "To ask students to work in the library"
+        ],
+        "answer": "A",
+        "explanation": "公告列出開放時間、借書本數、借期、逾期罰款和館內規定，目的是告訴學生如何使用圖書館。"
+      }
+    ]
+  },
+  {
+    "id": "summer-camp-ad",
+    "level": "B",
+    "genre": "圖表題",
+    "title": "Summer Camps for Kids and Teens",
+    "zh": "暑期營隊廣告",
+    "topic": "運動與嗜好",
+    "grade": 8,
+    "grammar": "比較級、if 子句、被動語態",
+    "names": [
+      "Green",
+      "Hill",
+      "Mia",
+      "Eric",
+      "Amy"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Green Hill Summer Camps",
+        "sub": "Have fun, make friends, and learn something new this summer!",
+        "rows": [
+          [
+            "Camp",
+            "Ages",
+            "Dates",
+            "Price"
+          ],
+          [
+            "Basketball Camp",
+            "10–13",
+            "July 5–9",
+            "$3,000"
+          ],
+          [
+            "Science Camp",
+            "12–15",
+            "July 12–16",
+            "$3,500"
+          ],
+          [
+            "Art and Music Camp",
+            "8–12",
+            "July 19–23",
+            "$2,800"
+          ],
+          [
+            "Mountain Hiking Camp",
+            "13–16",
+            "July 26–30",
+            "$4,200"
+          ]
+        ],
+        "items": [
+          "All camps are held from Monday to Friday, 09:00–16:00. Lunch is free.",
+          "Early Bird: Sign up before May 31 and pay $200 less for each camp.",
+          "Two Camps: If you join two camps, you get $500 off the cheaper one.",
+          "Both discounts can be used together.",
+          "Bring a water bottle and a hat every day."
+        ],
+        "foot": "Sign up at our front desk or call 2555-0815."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Mia is 14. She is only free in the last two weeks of July. Which camp can she join?",
+        "options": [
+          "Basketball Camp",
+          "Mountain Hiking Camp",
+          "Art and Music Camp",
+          "Science Camp"
+        ],
+        "answer": "B",
+        "explanation": "七月最後兩週的營隊是 Art and Music Camp（7/19–23）和 Mountain Hiking Camp（7/26–30）。藝術音樂營只收 8–12 歲，14 歲的 Mia 只能參加 13–16 歲的登山營。"
+      },
+      {
+        "type": "計算",
+        "question": "Eric is 12. On June 10, he signs up for Basketball Camp and Science Camp. How much does he pay?",
+        "options": [
+          "$6,500",
+          "$5,600",
+          "$6,000",
+          "$6,100"
+        ],
+        "answer": "C",
+        "explanation": "6 月 10 日報名，已過 5 月 31 日，沒有早鳥優惠。參加兩個營隊，較便宜的籃球營折 $500：3,000 + 3,500 − 500 = $6,000。"
+      },
+      {
+        "type": "計算",
+        "question": "Amy is 9. She signs up for Art and Music Camp on May 20. How much does she pay?",
+        "options": [
+          "$2,600",
+          "$2,300",
+          "$2,800",
+          "$3,000"
+        ],
+        "answer": "A",
+        "explanation": "9 歲只能參加 Art and Music Camp，原價 $2,800。5 月 31 日前報名可少付 $200：2,800 − 200 = $2,600。只參加一個營隊，沒有兩營折扣。"
+      },
+      {
+        "type": "細節",
+        "question": "What should students at the camps bring every day?",
+        "options": [
+          "Their lunch",
+          "A ball and a hat",
+          "Some money for lunch",
+          "A water bottle and a hat"
+        ],
+        "answer": "D",
+        "explanation": "廣告最後一點：“Bring a water bottle and a hat every day.” 午餐是免費的（Lunch is free），不用自己帶或付錢。"
+      },
+      {
+        "type": "推論",
+        "question": "Who can NOT join any of the camps?",
+        "options": [
+          "A girl who is 9",
+          "A girl who is 7",
+          "A boy who is 15",
+          "A boy who is 11"
+        ],
+        "answer": "B",
+        "explanation": "營隊年齡最小是 Art and Music Camp 的 8 歲，所以 7 歲的女孩都不能參加。9 歲、11 歲可參加藝術音樂營；15 歲可參加科學營或登山營。"
+      }
+    ]
+  },
+  {
+    "id": "clinic-flu-notice",
+    "level": "B",
+    "genre": "圖表題",
+    "title": "Flu Shots at the Health Center",
+    "zh": "衛生所流感疫苗公告",
+    "topic": "健康",
+    "grade": 9,
+    "grammar": "被動語態、if 子句、現在完成式",
+    "names": [
+      "Sunny",
+      "Hill",
+      "Lin"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Sunny Hill Health Center",
+        "sub": "Opening Hours and Flu Shot Information",
+        "rows": [
+          [
+            "",
+            "Morning",
+            "Afternoon",
+            "Evening"
+          ],
+          [
+            "Monday–Friday",
+            "08:30–12:00",
+            "14:30–17:30",
+            "18:30–21:00"
+          ],
+          [
+            "Saturday",
+            "08:30–12:00",
+            "14:30–17:30",
+            "Closed"
+          ],
+          [
+            "Sunday",
+            "Closed",
+            "Closed",
+            "Closed"
+          ]
+        ],
+        "items": [
+          "The flu shot is given from October 15 to November 30, in the morning and afternoon only. It is not given in the evening.",
+          "Children under 13 and people who are 65 or older can get a flu shot for free. Other people pay $350.",
+          "Please bring your health card. Children must come with a parent.",
+          "If you have a fever on that day, do not get a shot. Come back when you feel better.",
+          "After the shot, your arm may be sore for a day or two. This is common and nothing to worry about.",
+          "To stay healthy this winter, wash your hands often, wear a mask when you are sick, and get enough sleep."
+        ],
+        "foot": "Many people have already signed up, so please call 2777-1234 before you come."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Mr. Lin works from 08:00 to 18:00 on weekdays. When can he get a flu shot?",
+        "options": [
+          "On Monday at 19:00",
+          "On Friday at 20:00",
+          "On Sunday at 10:00",
+          "On Saturday at 15:00"
+        ],
+        "answer": "D",
+        "explanation": "流感疫苗 “in the morning and afternoon only”，晚上不打，所以 A、B 不行；週日不開。週六下午 14:30–17:30 有開，15:00 可以去。"
+      },
+      {
+        "type": "計算",
+        "question": "Grandma is 70, her grandson is 8, and his mother is 40. They all get flu shots. How much do they pay in all?",
+        "options": [
+          "$0",
+          "$700",
+          "$350",
+          "$1,050"
+        ],
+        "answer": "C",
+        "explanation": "“Children under 13 and people who are 65 or older can get a flu shot for free. Other people pay $350.” 70 歲的奶奶和 8 歲的孫子免費，只有 40 歲的媽媽要付 $350。"
+      },
+      {
+        "type": "細節",
+        "question": "What should people bring when they get a flu shot?",
+        "options": [
+          "Their health card",
+          "A mask",
+          "Some medicine",
+          "A letter from school"
+        ],
+        "answer": "A",
+        "explanation": "公告：“Please bring your health card.” 口罩是生病時要戴的保健建議，不是打疫苗要帶的東西。"
+      },
+      {
+        "type": "推論",
+        "question": "Who should NOT get a flu shot today?",
+        "options": [
+          "A boy who has come with his father",
+          "A woman who has a fever today",
+          "A man who is 66 years old",
+          "A girl who has her health card"
+        ],
+        "answer": "B",
+        "explanation": "“If you have a fever on that day, do not get a shot. Come back when you feel better.” 今天發燒的人不該打。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “sore” mean in “your arm may be sore for a day or two”?",
+        "options": [
+          "Strong",
+          "Clean",
+          "Hurting a little",
+          "Too cold"
+        ],
+        "answer": "C",
+        "explanation": "打針之後手臂一兩天會這樣，而且公告說 “nothing to worry about”，可猜出 sore 是「痠痛」。"
+      }
+    ]
+  },
+  {
+    "id": "recycling-guide",
+    "level": "B",
+    "genre": "圖表題",
+    "title": "Our Recycling Guide",
+    "zh": "社區資源回收指南",
+    "topic": "房屋與居家",
+    "grade": 8,
+    "grammar": "被動語態、祈使句、so that",
+    "names": [
+      "Rainbow",
+      "Chen",
+      "Kevin"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Rainbow Building Recycling Guide",
+        "sub": "Let us keep our home clean and green!",
+        "rows": [
+          [
+            "Day",
+            "What to Recycle"
+          ],
+          [
+            "Monday",
+            "Paper and boxes"
+          ],
+          [
+            "Tuesday",
+            "Plastic bottles and cans"
+          ],
+          [
+            "Wednesday",
+            "No recycling"
+          ],
+          [
+            "Thursday",
+            "Glass bottles"
+          ],
+          [
+            "Friday",
+            "Paper and boxes"
+          ],
+          [
+            "Saturday",
+            "Plastic bottles, cans, and old clothes"
+          ],
+          [
+            "Sunday",
+            "No recycling"
+          ]
+        ],
+        "items": [
+          "The recycling truck comes at 19:30 and stays for only 15 minutes. Please bring your things to the front gate on time.",
+          "Wash bottles and cans before you recycle them, and take off the caps.",
+          "Fold paper boxes so that they take up less space.",
+          "Old clothes must be clean and put in a bag.",
+          "Old phones and batteries are not taken by the truck. Put them in the red box next to the building office.",
+          "Anyone who leaves trash in the recycling area will have to pay $1,200."
+        ],
+        "foot": "Thank you for helping to make our building a better place to live."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Mrs. Chen has some empty glass bottles. On which day can she recycle them?",
+        "options": [
+          "Tuesday",
+          "Thursday",
+          "Saturday",
+          "Monday"
+        ],
+        "answer": "B",
+        "explanation": "表格：Thursday 回收 “Glass bottles”。週二、週六收的是塑膠瓶和鐵鋁罐，不是玻璃瓶。"
+      },
+      {
+        "type": "細節",
+        "question": "Where should people put their old phones?",
+        "options": [
+          "In the red box next to the office",
+          "In a bag at the front gate",
+          "On the recycling truck",
+          "In the recycling area"
+        ],
+        "answer": "A",
+        "explanation": "“Old phones and batteries are not taken by the truck. Put them in the red box next to the building office.”"
+      },
+      {
+        "type": "推論",
+        "question": "On Tuesday, Kevin brings some cans to the front gate at 19:50. What will most likely happen?",
+        "options": [
+          "He can give the cans to the truck.",
+          "He has to pay $1,200.",
+          "The truck has already left.",
+          "He has to wait until Wednesday."
+        ],
+        "answer": "C",
+        "explanation": "回收車 19:30 來、只停 15 分鐘，也就是 19:45 就走了，19:50 才到一定趕不上。D：週三沒有回收，下一次收罐子是週六。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "How many days a week can people recycle paper?",
+        "options": [
+          "One",
+          "Three",
+          "Five",
+          "Two"
+        ],
+        "answer": "D",
+        "explanation": "表格中回收 “Paper and boxes” 的是 Monday 和 Friday，一週兩天。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “fold” mean in “Fold paper boxes so that they take up less space”?",
+        "options": [
+          "To wash something with water",
+          "To throw something away",
+          "To put something in a bag",
+          "To make something smaller"
+        ],
+        "answer": "D",
+        "explanation": "做這個動作是為了讓紙箱 “take up less space”（佔比較少空間），可猜出 fold 是「摺疊、壓平」。"
+      }
+    ]
+  },
+  {
+    "id": "lion-and-mouse",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The Lion and the Mouse",
+    "zh": "獅子與老鼠",
+    "topic": "動物與昆蟲",
+    "grade": 8,
+    "grammar": "過去式、關係子句、被動語態、if 條件句",
+    "names": [],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Once upon a time, a big lion was sleeping under a tree in the forest. A little mouse, who was looking for food, ran across the face of the sleeping lion by mistake. The lion woke up angry and caught the mouse with his big foot."
+      },
+      {
+        "t": "p",
+        "x": "\"Please let me go,\" cried the mouse. \"If you do, I will help you one day.\" The lion laughed. \"How can a tiny animal like you ever help the king of the forest?\" But he thought the mouse was funny, so he lifted his foot and let it go."
+      },
+      {
+        "t": "p",
+        "x": "A few days later, the lion was caught in a net that some hunters had left on the ground. The more he moved, the harder it was to get out. He cried out so loudly that the whole forest could hear him."
+      },
+      {
+        "t": "p",
+        "x": "The little mouse heard the sound and knew it was the lion. It ran to him at once and began to bite the ropes of the net with its sharp teeth. After a long time, one rope broke, and then another. Soon the lion was free."
+      },
+      {
+        "t": "p",
+        "x": "\"You laughed at me,\" said the mouse, \"but now you see that even a small friend can be a great help.\" The lion thanked the mouse, and from that day on, they were good friends."
+      },
+      {
+        "t": "p",
+        "x": "The lesson of this story is clear: we should be kind to everyone, because nobody is too small to help others. Never decide how important someone is by their size."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the lesson of the story?",
+        "options": [
+          "Even small ones can help others.",
+          "Strong animals should be the kings of the forest.",
+          "We should never sleep under a tree in the forest.",
+          "Hunters are very dangerous to all animals."
+        ],
+        "answer": "A",
+        "explanation": "最後一段直接說出寓意：「we should be kind to everyone, because nobody is too small to help others.」小老鼠也能救獅子，所以選 A。B、C、D 都不是故事要說的道理。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did the lion catch the mouse?",
+        "options": [
+          "He wanted to eat the little mouse for lunch.",
+          "The mouse took his food.",
+          "The mouse ran across his face and woke him up.",
+          "The mouse laughed at him while he was sleeping."
+        ],
+        "answer": "C",
+        "explanation": "第一段：「A little mouse … ran across the face of the sleeping lion by mistake. The lion woke up angry and caught the mouse」老鼠跑過獅子的臉把牠吵醒，所以選 C。文中沒有說獅子想吃牠；嘲笑別人的是獅子，不是老鼠。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the second paragraph, what does “it” in “he lifted his foot and let it go” mean?",
+        "options": [
+          "The forest",
+          "The net",
+          "His foot",
+          "The mouse"
+        ],
+        "answer": "D",
+        "explanation": "前面提到獅子覺得老鼠很好笑（he thought the mouse was funny），所以抬起腳「放牠走」，it 指的是老鼠。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the lion laugh when the mouse said, “I will help you one day”?",
+        "options": [
+          "He thought the mouse was telling a funny story about the forest.",
+          "He did not believe a tiny animal could help him.",
+          "He was happy because he was free from the net.",
+          "He wanted to play a game with the mouse."
+        ],
+        "answer": "B",
+        "explanation": "獅子笑著說：「How can a tiny animal like you ever help the king of the forest?」可知牠不相信這麼小的動物能幫上忙，所以選 B。這時獅子還沒被網子困住，C 時間不對。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “free” mean in “Soon the lion was free”?",
+        "options": [
+          "No longer caught",
+          "Not costing any money",
+          "Very hungry",
+          "Not busy"
+        ],
+        "answer": "A",
+        "explanation": "前一句說老鼠把網子的繩子一條條咬斷（one rope broke, and then another），所以獅子「脫困、不再被困住」。free 雖然也有「免費」、「有空」的意思，但在這裡不合文意。"
+      }
+    ]
+  },
+  {
+    "id": "typhoon-day-off",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "A Different Typhoon Day Off",
+    "zh": "不一樣的颱風假",
+    "topic": "天氣與自然",
+    "grade": 8,
+    "grammar": "過去式、關係子句、現在完成式、最高級",
+    "names": [
+      "Taiwan",
+      "Taipei",
+      "Chen",
+      "Mom"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last September, a strong typhoon was coming to Taiwan. That evening, the news said that schools and offices in our city would be closed the next day. I jumped up and shouted, \"Typhoon day off!\" I planned to sleep late, play video games, and eat noodles all day."
+      },
+      {
+        "t": "p",
+        "x": "The next morning, the wind was so strong that the trees outside were shaking. Heavy rain hit the windows. Then, at around 10:00, the lights went out. Without power, my games did not work, and I soon felt bored."
+      },
+      {
+        "t": "p",
+        "x": "My mother looked out the window and said, \"I am worried about Mrs. Chen.\" Mrs. Chen is an old woman who lives alone on the first floor of our building. Her children work in Taipei, and she does not walk well. Mom asked me to go with her to check on Mrs. Chen."
+      },
+      {
+        "t": "p",
+        "x": "When we knocked on her door, Mrs. Chen was sitting in the dark. Some water had come in under her door. We helped her clean the floor and brought her some candles, bread, and water. Later, Mom cooked hot soup, and I carried a bowl downstairs to her."
+      },
+      {
+        "t": "p",
+        "x": "Mrs. Chen held my hand and said, \"You are a good boy. Thank you for remembering me.\" Her words made me feel warmer than the soup. I have had many typhoon days off, but this one was the most special. I learned that a day off is not only a time to rest. It can also be a time to care for others."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "Why typhoons are dangerous in Taiwan",
+          "How to cook hot soup when there is no power at home",
+          "How a typhoon day off became special for the writer",
+          "Why Mrs. Chen's children live in Taipei"
+        ],
+        "answer": "C",
+        "explanation": "故事從作者本來只想在家玩，寫到去幫陳奶奶，最後說「this one was the most special」，重點是這個颱風假為什麼特別，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "What did the writer first plan to do on the day off?",
+        "options": [
+          "Sleep late and play video games",
+          "Visit Mrs. Chen with his mother",
+          "Help his mother clean the house",
+          "Take a trip to Taipei"
+        ],
+        "answer": "A",
+        "explanation": "第一段：「I planned to sleep late, play video games, and eat noodles all day.」去看陳奶奶是停電後媽媽提議的，不是原本的計畫。"
+      },
+      {
+        "type": "推論",
+        "question": "Why was Mom worried about Mrs. Chen?",
+        "options": [
+          "She often forgets to close her windows.",
+          "Her children were coming to visit her.",
+          "Her house is far away from the city.",
+          "She lives alone and does not walk well."
+        ],
+        "answer": "D",
+        "explanation": "第三段：「Mrs. Chen is an old woman who lives alone … and she does not walk well.」颱風天一個行動不便的老人獨自在家，所以媽媽擔心她。她的孩子在台北工作，並沒有要來看她。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “check on” mean in the third paragraph?",
+        "options": [
+          "To pay money for something",
+          "To go and see if someone is OK",
+          "To write someone's name on a list",
+          "To tell someone to leave"
+        ],
+        "answer": "B",
+        "explanation": "媽媽擔心陳奶奶，所以帶作者去「check on」她，接著他們去敲門、幫忙清理。可知意思是「去看看某人是否安好」。"
+      },
+      {
+        "type": "細節",
+        "question": "What did the writer carry downstairs after Mom cooked?",
+        "options": [
+          "Some bread and water",
+          "Some video games",
+          "A bowl of hot soup",
+          "A box of noodles"
+        ],
+        "answer": "C",
+        "explanation": "第四段：「Later, Mom cooked hot soup, and I carried a bowl downstairs to her.」麵包和水是一開始就帶去的，不是煮完之後拿下去的。"
+      }
+    ]
+  },
+  {
+    "id": "grandpas-old-photo",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "Grandpa's Old Photo",
+    "zh": "爺爺的老照片",
+    "topic": "家庭",
+    "grade": 9,
+    "grammar": "過去進行式、比較級、現在完成式、because/since",
+    "names": [
+      "Grandpa",
+      "Chiayi"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last Sunday, while I was helping Grandpa clean his room, I found a box under his bed. Inside it was an old photo in black and white. In the photo, about forty children were standing in front of a small old building. Most of them had nothing on their feet."
+      },
+      {
+        "t": "p",
+        "x": "\"That is my school,\" Grandpa said with a smile. \"The boy in the second row is me. I was ten years old then.\" I could hardly believe it. The thin boy in the photo looked nothing like the grandpa I know."
+      },
+      {
+        "t": "p",
+        "x": "Grandpa told me that his family lived in a small village in Chiayi. Every morning he walked for an hour to get to school. Since his family was poor, he had only one pair of shoes, so he wore them only on special days. On other days, he walked to school without shoes."
+      },
+      {
+        "t": "p",
+        "x": "His classroom had no fans, and there were not enough books. Two students had to share one book. After school, Grandpa helped his parents on the farm until it got dark. \"We were tired, but we were happy,\" he said. \"We played games with stones, and we did not need anything else.\""
+      },
+      {
+        "t": "p",
+        "x": "Compared with the school in the photo, mine is much more comfortable. We have cool classrooms, computers, and a big library. However, I sometimes complain about homework. After hearing his story, I have decided to stop complaining and enjoy what I have. I asked Grandpa if I could keep a copy of the photo, and now it sits on my desk."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "How to clean an old room",
+          "What the writer learned from Grandpa's old photo",
+          "Why Grandpa moved away from Chiayi",
+          "How children played games with stones long ago"
+        ],
+        "answer": "B",
+        "explanation": "全文從找到照片、聽爺爺說以前上學的故事，到最後「I have decided to stop complaining and enjoy what I have」，重點是作者從老照片學到的事，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is TRUE about Grandpa's school days?",
+        "options": [
+          "His school was very close to his house.",
+          "He wore shoes to school every day.",
+          "His classroom had many computers.",
+          "Two students had to share one book."
+        ],
+        "answer": "D",
+        "explanation": "第四段：「Two students had to share one book.」其他選項：他每天要走一小時才到學校；平常不穿鞋；有電腦的是作者的學校。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Grandpa wear his shoes only on special days?",
+        "options": [
+          "He had only one pair and wanted to keep them nice.",
+          "His teacher did not let students wear shoes.",
+          "The shoes were too small for his feet.",
+          "He liked how the warm ground felt under his feet."
+        ],
+        "answer": "A",
+        "explanation": "第三段：「Since his family was poor, he had only one pair of shoes, so he wore them only on special days.」家裡窮、只有一雙鞋，所以捨不得天天穿，選 A。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the last paragraph, what does “mine” in “mine is much more comfortable” mean?",
+        "options": [
+          "Grandpa's school",
+          "The writer's bedroom",
+          "The writer's school",
+          "The writer's photo"
+        ],
+        "answer": "C",
+        "explanation": "「Compared with the school in the photo, mine is much more comfortable.」拿來和照片裡爺爺的學校比較的是作者自己的學校，mine = my school。"
+      },
+      {
+        "type": "細節",
+        "question": "How did the writer change after hearing Grandpa's story?",
+        "options": [
+          "The writer wanted to move to a village.",
+          "The writer decided to enjoy what the writer already has.",
+          "The writer stopped doing homework.",
+          "The writer put the old photo back in the box."
+        ],
+        "answer": "B",
+        "explanation": "最後一段：「After hearing his story, I have decided to stop complaining and enjoy what I have.」照片的複本現在放在書桌上，並沒有收回盒子裡。"
+      }
+    ]
+  },
+  {
+    "id": "beach-cleanup",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "Our Beach Cleanup Day",
+    "zh": "我們的淨灘日",
+    "topic": "地點與場所",
+    "grade": 9,
+    "grammar": "過去完成式、關係子句、被動語態、現在完成式、if 條件句",
+    "names": [
+      "Taitung",
+      "Huang"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last month, our class took part in a beach cleaning day in Taitung. I thought it would be an easy and fun trip. When we got off the bus, the beach looked beautiful from far away. But when we walked closer, we saw that the sand was covered with trash."
+      },
+      {
+        "t": "p",
+        "x": "Our teacher, Mr. Huang, gave each of us a pair of gloves and a big bag. \"Pick up everything that does not belong here,\" he said. We worked in groups for three hours under the hot sun."
+      },
+      {
+        "t": "p",
+        "x": "We found many things that people had left behind or thrown into the sea. There were plastic bottles, straws, food boxes, and fishing nets. My group even found an old shoe. Altogether, our class collected more than fifty bags of trash. A worker told us that most of it was plastic, which can stay in the ocean for hundreds of years."
+      },
+      {
+        "t": "p",
+        "x": "The thing that surprised me most was a small sea turtle that was caught in a piece of fishing net. Mr. Huang and the worker carefully cut the net and let the turtle go back into the water. We all cheered, but I also felt sad. Who knows how many other animals are hurt by our trash?"
+      },
+      {
+        "t": "p",
+        "x": "Since that day, I have changed some of my habits. I bring my own water bottle and never use plastic straws now. When I buy drinks, I say no to plastic bags. These are small changes, but if everyone does a little, our beaches will be cleaner."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "Why Taitung is a good place to swim in summer",
+          "How to catch sea turtles",
+          "What Mr. Huang teaches in class",
+          "How a beach cleaning day changed the writer"
+        ],
+        "answer": "D",
+        "explanation": "文章寫淨灘的經過、看到被漁網纏住的海龜，最後一段說「Since that day, I have changed some of my habits.」重點是這次淨灘如何改變作者，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Before the trip, what did the writer think it would be like?",
+        "options": [
+          "Long and boring",
+          "Easy and fun",
+          "Hot and hard",
+          "Sad and dangerous"
+        ],
+        "answer": "B",
+        "explanation": "第一段：「I thought it would be an easy and fun trip.」在大太陽下工作三小時、看到海龜而難過，都是到了海灘之後的事。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “Altogether” mean in the third paragraph?",
+        "options": [
+          "Very quickly",
+          "One by one, very slowly",
+          "When all are added together",
+          "Without any help"
+        ],
+        "answer": "C",
+        "explanation": "「Altogether, our class collected more than fifty bags of trash.」前面列出各組撿到的東西，這句說全班「總共」撿了五十多袋，所以是「全部加起來」。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the writer feel sad after the turtle was saved?",
+        "options": [
+          "Many other animals may also be hurt by trash.",
+          "The turtle swam away too fast.",
+          "The worker cut the net in the wrong way and hurt it.",
+          "The class had to go home early."
+        ],
+        "answer": "A",
+        "explanation": "第四段最後一句：「Who knows how many other animals are hurt by our trash?」作者想到還有許多動物可能被垃圾傷害，所以難過。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is one of the writer's new habits?",
+        "options": [
+          "Cleaning the beach every week",
+          "Buying drinks in plastic cups",
+          "Going to the beach in Taitung every month",
+          "Bringing a water bottle from home"
+        ],
+        "answer": "D",
+        "explanation": "最後一段：「I bring my own water bottle and never use plastic straws now.」文中沒有說每週淨灘或每月去台東；作者是拒用塑膠袋，不會用塑膠杯買飲料。"
+      }
+    ]
+  },
+  {
+    "id": "teens-need-sleep",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Why Teens Need Enough Sleep",
+    "zh": "青少年為什麼需要充足睡眠",
+    "topic": "健康",
+    "grade": 9,
+    "grammar": "比較級、被動語態、when/if 子句、不定詞與動名詞",
+    "names": [
+      "Taiwan"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Many students in Taiwan go to bed late. They study until midnight, finish homework after their extra classes, or play on their phones in bed. The next morning, they can hardly get out of bed, and some even fall asleep in class. Does this sound like you?"
+      },
+      {
+        "t": "p",
+        "x": "Doctors say that teenagers need more sleep than adults, usually about eight to ten hours a night. This is because their bodies and brains are still growing. While we are sleeping, the body rests and gets stronger, and the brain stores what we have learned during the day. In other words, sleep helps us remember things better."
+      },
+      {
+        "t": "p",
+        "x": "When teens do not get enough sleep, many problems can appear. They may find it hard to pay attention in class, and their grades may drop. They are also more likely to get sick, feel angry, or have accidents. Some people even eat more junk food when they are tired."
+      },
+      {
+        "t": "p",
+        "x": "So how can you sleep better? First, try to go to bed and get up at the same time every day, even on weekends. Second, put your phone away at least one hour before bed, because the light from the screen can make it hard to fall asleep. Third, do not drink coffee or tea in the evening. Finally, if you have a lot of homework, plan your time well so that you do not have to stay up late."
+      },
+      {
+        "t": "p",
+        "x": "Sleep is not a waste of time. It is one of the best things you can do for your health and your grades."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why teens need enough sleep and how to sleep better",
+          "Why students should study late before tests",
+          "How doctors help people who do not sleep well",
+          "What kinds of food are good for teenagers"
+        ],
+        "answer": "A",
+        "explanation": "第二、三段說明青少年為什麼需要睡眠、睡不夠會怎樣，第四段給睡得更好的方法，所以選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "Why do teenagers need more sleep than adults?",
+        "options": [
+          "They have much more homework than adults.",
+          "They play on their phones too much.",
+          "Their bodies and brains are still growing.",
+          "They eat more junk food than adults."
+        ],
+        "answer": "C",
+        "explanation": "第二段：「This is because their bodies and brains are still growing.」A、B、D 都不是文中說的原因。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “stay up” mean in the fourth paragraph?",
+        "options": [
+          "To get up early",
+          "To not go to bed",
+          "To stand up in class",
+          "To climb to a high place"
+        ],
+        "answer": "B",
+        "explanation": "「plan your time well so that you do not have to stay up late」整段都在講早點睡，好好安排時間就不必「熬夜、很晚不睡」，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is NOT a tip in the reading?",
+        "options": [
+          "Go to bed at the same time every day.",
+          "Put your phone away before bed.",
+          "Plan your homework time well.",
+          "Drink a cup of tea after dinner."
+        ],
+        "answer": "D",
+        "explanation": "第四段說：「do not drink coffee or tea in the evening」晚上不要喝茶或咖啡，所以 D 不是文中的建議。A、B、C 都是第四段提到的方法。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer ask “Does this sound like you?” in the first paragraph?",
+        "options": [
+          "To make students think about their own sleep",
+          "To tell a funny story about a student",
+          "To show that the writer often sleeps late",
+          "To ask students to write a letter to the writer"
+        ],
+        "answer": "A",
+        "explanation": "第一段描述很多學生晚睡、早上爬不起來，再問讀者「這像不像你？」，目的是讓讀者想想自己的睡眠習慣，引出後面的說明。"
+      }
+    ]
+  },
+  {
+    "id": "bees-matter",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Why Bees Matter",
+    "zh": "蜜蜂為什麼重要",
+    "topic": "動物與昆蟲",
+    "grade": 9,
+    "grammar": "現在完成進行式、被動語態、關係子句、比較級、if 條件句",
+    "names": [],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "When you think of bees, you may think of honey, or you may feel a little afraid. But bees do much more than make honey. In fact, without bees, many of the fruits and vegetables that we eat every day would be hard to find."
+      },
+      {
+        "t": "p",
+        "x": "Bees fly from flower to flower to collect food. As they move, they carry a yellow powder from one flower to another. This helps plants make seeds and fruit. Apples, watermelons, and many other foods depend on this work. Farmers who grow these foods need bees as much as they need rain and sun."
+      },
+      {
+        "t": "p",
+        "x": "Sadly, the number of bees has been falling in many parts of the world. There are several reasons. First, many farms and forests have been turned into roads and buildings, so bees have fewer places to live and find food. Second, some poisons that farmers use to kill insects can also hurt bees. Third, changes in the weather make it harder for flowers to open at the right time."
+      },
+      {
+        "t": "p",
+        "x": "The good news is that everyone can help. You can plant flowers at home or in your school garden. You can buy honey from farmers near you who keep bees in safe ways. Most of all, if you see a bee, do not try to kill it. Just walk away slowly. Bees are small, but our world really needs them."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to make honey at home",
+          "Why bees are important and how to protect them",
+          "Why people are afraid of bees",
+          "How to plant flowers in your school garden"
+        ],
+        "answer": "B",
+        "explanation": "第二段說明蜜蜂幫植物結果，第三段說明蜜蜂為何減少，第四段說人人可以怎麼幫忙，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "How do bees help plants?",
+        "options": [
+          "They eat the small insects on the plants.",
+          "They give water to flowers.",
+          "They keep the plants warm.",
+          "They carry a yellow powder from flower to flower."
+        ],
+        "answer": "D",
+        "explanation": "第二段：「they carry a yellow powder from one flower to another. This helps plants make seeds and fruit.」"
+      },
+      {
+        "type": "細節",
+        "question": "Which is NOT a reason why there are fewer bees?",
+        "options": [
+          "There are fewer places for bees to live.",
+          "Some poisons used by farmers hurt bees.",
+          "People eat too much honey.",
+          "Changes in the weather affect flowers."
+        ],
+        "answer": "C",
+        "explanation": "第三段列出三個原因：棲地變成道路建築、農藥傷害蜜蜂、天氣改變影響花開。文中沒有提到人們吃太多蜂蜜，所以選 C。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the last sentence, what does “them” in “our world really needs them” mean?",
+        "options": [
+          "Bees",
+          "Flowers",
+          "Farmers",
+          "Ways"
+        ],
+        "answer": "A",
+        "explanation": "「Bees are small, but our world really needs them.」同一句前半講的是蜜蜂，them 指的就是 bees。"
+      },
+      {
+        "type": "推論",
+        "question": "What would most likely happen if there were no bees?",
+        "options": [
+          "People would have more honey to eat.",
+          "Some fruits would be harder to find.",
+          "There would be more flowers in gardens.",
+          "Farmers would not need any rain."
+        ],
+        "answer": "B",
+        "explanation": "第一段：「without bees, many of the fruits and vegetables that we eat every day would be hard to find.」沒有蜜蜂，很多水果會變少，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "plastic-in-the-ocean",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Plastic in the Ocean",
+    "zh": "海洋中的塑膠",
+    "topic": "地理",
+    "grade": 9,
+    "grammar": "被動語態、關係子句、現在簡單式、祈使句",
+    "names": [
+      "Earth"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "The ocean covers most of the Earth, and it is home to millions of animals. However, every year, a large amount of plastic ends up in the sea. How does it get there, and why is it a problem?"
+      },
+      {
+        "t": "p",
+        "x": "Plastic gets into the ocean in many ways. Some is left on beaches by visitors. Some is thrown on the streets, and then rain washes it into rivers, which carry it to the sea. Even plastic in trash cans can be blown away by strong winds. Once it is in the water, it can travel thousands of kilometers."
+      },
+      {
+        "t": "p",
+        "x": "Plastic is dangerous to sea animals. Sea turtles often eat plastic bags because the bags look like their favorite food. Sea birds may feed small pieces of plastic to their babies. Fish and other animals can get caught in old fishing nets and die. Plastic does not go away quickly. It slowly breaks into tiny pieces, which are eaten by small fish. Later, those fish may be eaten by bigger fish, and even by people."
+      },
+      {
+        "t": "p",
+        "x": "Students can help, too. Bring your own cup and bottle, and do not buy drinks in plastic cups or bottles. Say no to straws and plastic bags. Never leave trash on the beach, and join a beach cleaning day if you can. When you see plastic on the street, pick it up and put it in the right trash can. Small actions like these can keep plastic out of the ocean."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why people should eat more fish from the sea",
+          "Where sea turtles like to live",
+          "How plastic gets into the sea and hurts animals",
+          "How bottles are made from plastic"
+        ],
+        "answer": "C",
+        "explanation": "第一段提出問題「How does it get there, and why is it a problem?」，第二段回答塑膠怎麼進入海洋，第三段說明對海洋動物的傷害，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "How can plastic on the street get into the sea?",
+        "options": [
+          "It is carried by rain and rivers.",
+          "Visitors throw it from their boats.",
+          "Sea birds carry it there.",
+          "Fish take it into the water."
+        ],
+        "answer": "A",
+        "explanation": "第二段：「Some is thrown on the streets, and then rain washes it into rivers, which carry it to the sea.」"
+      },
+      {
+        "type": "推論",
+        "question": "Why do sea turtles eat plastic bags?",
+        "options": [
+          "They are very hungry in winter.",
+          "Plastic tastes good to them.",
+          "Their babies give the bags to them.",
+          "The bags look like their food."
+        ],
+        "answer": "D",
+        "explanation": "第三段：「Sea turtles often eat plastic bags because the bags look like their favorite food.」把塑膠袋誤認成食物。餵小孩吃塑膠的是海鳥，不是海龜。"
+      },
+      {
+        "type": "推論",
+        "question": "How might plastic end up inside people?",
+        "options": [
+          "People drink water from the ocean every day.",
+          "People eat fish that have eaten tiny pieces of plastic.",
+          "People often swim in the sea with plastic bags in their hands.",
+          "People use plastic cups to drink tea."
+        ],
+        "answer": "B",
+        "explanation": "第三段：塑膠碎片「are eaten by small fish. Later, those fish may be eaten by bigger fish, and even by people.」人吃了吃過塑膠的魚，塑膠就跑進人體，所以選 B。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer write the last paragraph?",
+        "options": [
+          "To explain where sea turtles live",
+          "To tell a story about a beach trip",
+          "To give students ways to help",
+          "To show how plastic is made"
+        ],
+        "answer": "C",
+        "explanation": "最後一段一開始就說「Students can help, too.」，接著列出自備杯子、不用吸管等做法，目的是告訴學生可以怎麼幫忙。"
+      }
+    ]
+  },
+  {
+    "id": "robots-and-jobs",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Robots and Jobs",
+    "zh": "機器人與工作",
+    "topic": "職業",
+    "grade": 9,
+    "grammar": "比較級與最高級、關係子句、not only … but also、if 條件句",
+    "names": [],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Robots and computers are becoming smarter every year. In some factories, robots build cars all day and night without getting tired. In some restaurants, you can order food on a screen, and a machine may even bring it to your table. Many people are asking, \"Will robots take away our jobs in the future?\""
+      },
+      {
+        "t": "p",
+        "x": "It is true that machines are good at some kinds of work. They are best at jobs that repeat the same steps again and again, such as checking products, moving boxes, or doing simple math. They are faster than people at these jobs, and they seldom make mistakes."
+      },
+      {
+        "t": "p",
+        "x": "However, there are many jobs that still need people. A nurse not only gives medicine but also makes worried sick people feel better. A teacher can tell when a student is sad and needs help. Artists and writers come up with new ideas that no one has thought of before. Jobs like these need a kind heart, new ideas, and good speaking skills, which machines are not good at."
+      },
+      {
+        "t": "p",
+        "x": "So what should students learn today? First, learn to work well with others, because most jobs need people to work together. Second, keep asking questions and try to solve problems in new ways. Third, do not be afraid of computers. Learn how to use them as helpful tools. If you have these skills, robots will be your friends, not your enemies."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "What machines can do and what skills people need",
+          "How to build a robot in a car factory",
+          "Why nurses are more important than teachers",
+          "How to order food on a screen in a restaurant"
+        ],
+        "answer": "A",
+        "explanation": "第二段說機器擅長的工作，第三段說仍需要人的工作，第四段說學生該學的能力，所以選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "According to the reading, which job are machines good at?",
+        "options": [
+          "Helping sad students",
+          "Thinking of new ideas",
+          "Taking care of sick people",
+          "Moving boxes"
+        ],
+        "answer": "D",
+        "explanation": "第二段：機器最擅長重複的工作，「such as checking products, moving boxes, or doing simple math」。A、B、C 都是第三段說仍需要人做的事。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “repeat” mean in the second paragraph?",
+        "options": [
+          "To stop doing something",
+          "To do something again",
+          "To forget something",
+          "To change something"
+        ],
+        "answer": "B",
+        "explanation": "「jobs that repeat the same steps again and again」後面的 again and again 提示了意思：一再「重複」做同樣的步驟。"
+      },
+      {
+        "type": "推論",
+        "question": "Why will nurses probably still be needed in the future?",
+        "options": [
+          "Robots are not able to carry medicine.",
+          "Nurses can work faster than machines.",
+          "Nurses can make worried sick people feel better.",
+          "Hospitals do not have enough money to buy robots."
+        ],
+        "answer": "C",
+        "explanation": "第三段：「A nurse not only gives medicine but also makes worried sick people feel better.」這種關心人的能力機器做不到。文中說機器比人快，所以 B 錯。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is NOT a skill that the writer tells students to learn?",
+        "options": [
+          "Working well with others",
+          "Solving problems in new ways",
+          "Using computers as tools",
+          "Doing the same steps all day"
+        ],
+        "answer": "D",
+        "explanation": "第四段建議的三項是：與人合作、用新方法解決問題、把電腦當工具。一直重複同樣的步驟是機器擅長的事，不是作者要學生學的能力。"
+      }
+    ]
+  },
+  {
+    "id": "phones-at-school",
+    "level": "B",
+    "genre": "多文本",
+    "title": "Phones at School?",
+    "zh": "學校該不該開放手機？",
+    "topic": "學校",
+    "grade": 9,
+    "grammar": "被動語態、現在完成式、unless/if 子句、關係子句",
+    "names": [
+      "Kevin",
+      "Amy",
+      "Kevin's",
+      "Amy's",
+      "B"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Text A: Kevin's Opinion"
+      },
+      {
+        "t": "p",
+        "x": "I think students should be allowed to bring phones to school. First, phones help keep us safe. When my bus is late or I feel sick, I can call my parents right away. Second, phones can be great learning tools. We can look up new words, find information for projects, and take photos of notes on the board. Of course, there should be rules. Phones should stay in our bags during class unless the teacher says we can use them."
+      },
+      {
+        "t": "h",
+        "x": "Text B: Amy's Opinion"
+      },
+      {
+        "t": "p",
+        "x": "I don't agree that phones should be allowed at school. Many students are not able to stop checking their messages, even in class. Phones also keep us from talking to each other. At lunch, I often see classmates sitting together but looking only at their screens. If parents need to reach us, they can call the school office. In my opinion, school should be a place where we focus on learning and friends."
+      },
+      {
+        "t": "notice",
+        "title": "Class 9-3 Phone Survey",
+        "rows": [
+          [
+            "Question",
+            "Yes",
+            "No"
+          ],
+          [
+            "Do you bring a phone to school?",
+            "26",
+            "4"
+          ],
+          [
+            "Have you used your phone in class without asking?",
+            "12",
+            "18"
+          ],
+          [
+            "Do you want phones at school?",
+            "21",
+            "9"
+          ]
+        ],
+        "foot": "30 students answered."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What does Kevin say about phones during class?",
+        "options": [
+          "Students can use them at any time.",
+          "They should stay in bags unless the teacher allows it.",
+          "Teachers should keep all phones in the school office.",
+          "Students should only use them to call parents."
+        ],
+        "answer": "B",
+        "explanation": "Text A 最後一句：「Phones should stay in our bags during class unless the teacher says we can use them.」"
+      },
+      {
+        "type": "整合",
+        "question": "What do BOTH Kevin and Amy talk about?",
+        "options": [
+          "Using phones to look up new words",
+          "Playing games on phones with classmates at lunch",
+          "How students and parents can call each other",
+          "Taking photos of notes on the board"
+        ],
+        "answer": "C",
+        "explanation": "Kevin 說「I can call my parents right away」；Amy 說「If parents need to reach us, they can call the school office.」兩人都提到學生和家長的聯絡。A、D 只有 Kevin 提到；B 兩人都沒說。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "How many students in the survey do NOT bring a phone to school?",
+        "options": [
+          "4",
+          "9",
+          "12",
+          "26"
+        ],
+        "answer": "A",
+        "explanation": "調查表第一題「Do you bring a phone to school?」回答 No 的有 4 人。9 是不想開放手機的人數，12 是上課偷用手機的人數。"
+      },
+      {
+        "type": "整合",
+        "question": "Which survey result would Amy most likely use to support her opinion?",
+        "options": [
+          "26 students bring phones to school.",
+          "21 students want phones at school.",
+          "18 students have never used phones in class without asking.",
+          "12 students have used phones in class without asking."
+        ],
+        "answer": "D",
+        "explanation": "Amy 反對的理由之一是「Many students are not able to stop checking their messages, even in class.」調查中有 12 人上課沒問過老師就用手機，最能支持她的看法。B 想要手機的人多，反而對 Kevin 有利。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “reach” mean in “If parents need to reach us”?",
+        "options": [
+          "To call or talk to someone",
+          "To walk to a place",
+          "To hit something with your hand",
+          "To give money to someone"
+        ],
+        "answer": "A",
+        "explanation": "「If parents need to reach us, they can call the school office.」後半句說可以打電話到學校辦公室，可知 reach 在這裡是「聯絡到」某人。"
+      }
+    ]
+  },
+  {
+    "id": "family-trip-plan",
+    "level": "B",
+    "genre": "多文本",
+    "title": "Which Train Should We Take?",
+    "zh": "我們該搭哪班火車？",
+    "topic": "交通",
+    "grade": 9,
+    "grammar": "不定詞、because/so 子句、數字與價格、比較級",
+    "names": [
+      "Mei",
+      "Leo",
+      "Hualien",
+      "Taipei",
+      "Mom",
+      "Dad",
+      "Mei's",
+      "B"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Text A: Mei's Message"
+      },
+      {
+        "t": "p",
+        "x": "Our family is planning a day trip to Hualien next Saturday. There are four of us: Dad, Mom, my little brother Leo, and me. We will leave from Taipei Station in the morning. Dad says we should not leave before 07:00, because it is hard for Leo to get up that early. We also want to get to Hualien before 11:00, so we can have lunch at a popular noodle shop near the station. We can spend at most $1,600 on train tickets for the whole family, one way. Leo is eight, so he pays half price. I am fourteen, so I pay the full price. Mom often feels sick on buses, so we will take the train. Which train should we take?"
+      },
+      {
+        "t": "h",
+        "x": "Text B: Taipei to Hualien Trains (Saturday)"
+      },
+      {
+        "t": "notice",
+        "title": "Taipei to Hualien",
+        "sub": "Saturday Trains",
+        "rows": [
+          [
+            "Train",
+            "Leaves",
+            "Arrives",
+            "Travel Time",
+            "Adult Ticket"
+          ],
+          [
+            "Express 101",
+            "06:30",
+            "08:40",
+            "2 hours 10 minutes",
+            "$480"
+          ],
+          [
+            "Local 205",
+            "07:10",
+            "11:25",
+            "4 hours 15 minutes",
+            "$280"
+          ],
+          [
+            "Express 117",
+            "07:40",
+            "09:50",
+            "2 hours 10 minutes",
+            "$480"
+          ],
+          [
+            "Fast 223",
+            "08:20",
+            "10:50",
+            "2 hours 30 minutes",
+            "$360"
+          ],
+          [
+            "Express 131",
+            "09:30",
+            "11:40",
+            "2 hours 10 minutes",
+            "$480"
+          ]
+        ],
+        "items": [
+          "Children under 12 pay half price.",
+          "Buy your tickets at least one day before you travel."
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why will Mei's family take the train?",
+        "options": [
+          "The train is cheaper than the bus.",
+          "Mom often feels sick on buses.",
+          "Leo has never taken a train before.",
+          "There are no buses on Saturday."
+        ],
+        "answer": "B",
+        "explanation": "Text A：「Mom often feels sick on buses, so we will take the train.」文中沒有比較火車和公車的價錢。"
+      },
+      {
+        "type": "整合",
+        "question": "Which train should Mei's family take?",
+        "options": [
+          "Express 117",
+          "Local 205",
+          "Fast 223",
+          "Express 101"
+        ],
+        "answer": "C",
+        "explanation": "條件有三：07:00 以後出發、11:00 前到、四人車票不超過 $1,600。Express 101 06:30 出發太早；Local 205 11:25 才到；Express 117 時間可以，但 3×480＋240＝$1,680 超過預算；Fast 223 08:20 出發、10:50 到，3×360＋180＝$1,260，全部符合。"
+      },
+      {
+        "type": "計算",
+        "question": "How much will the four tickets on Fast 223 cost?",
+        "options": [
+          "$1,440",
+          "$1,080",
+          "$1,600",
+          "$1,260"
+        ],
+        "answer": "D",
+        "explanation": "大人票 $360，爸爸、媽媽、Mei 三張是 3×360＝$1,080；Leo 八歲，未滿 12 歲半價 $180。合計 1,080＋180＝$1,260。"
+      },
+      {
+        "type": "計算",
+        "question": "If the family took Express 117, how much more than $1,600 would they pay?",
+        "options": [
+          "$80",
+          "$40",
+          "$240",
+          "$120"
+        ],
+        "answer": "A",
+        "explanation": "Express 117 大人票 $480，三張是 $1,440，Leo 半價 $240，合計 $1,680。1,680－1,600＝$80。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “at most” mean in “We can spend at most $1,600”?",
+        "options": [
+          "At least, maybe more",
+          "Only on the first day",
+          "Not more than",
+          "For each person"
+        ],
+        "answer": "C",
+        "explanation": "Mei 說全家單程車票「at most $1,600」，也就是最多只能花 $1,600，不能超過，所以選 C。"
       }
     ]
   }

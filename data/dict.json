@@ -3572,7 +3572,7 @@
   "shiver": {"pos": "v./n.", "zh": "顫抖、哆嗦、被打碎；n. 戰慄、碎塊", "level": 0},
   "shock": {"pos": "n./v./adj.", "zh": "震動、衝突、震驚；v. 使震動、使休克、使受電擊；adj. 蓬亂濃密的", "level": 0},
   "shoe": {"pos": "", "zh": "鞋子", "level": 1, "topic": "衣物與配件", "jy": 79},
-  "shoes": {"pos": "n.", "zh": "鞋子", "level": 0, "wk": 1},
+  "shoes": {"pos": "n.", "zh": "鞋子", "level": 1, "wk": 1, "jy": 79},
   "shoot": {"pos": "v.", "zh": "射擊（另：拍攝）", "level": 2, "topic": "其他動詞", "wk": 1, "jy": 79},
   "shop": {"pos": "n.", "zh": "商店", "level": 1, "topic": "地點與場所", "wk": 1, "jy": 79},
   "shopkeeper": {"pos": "n.", "zh": "店主", "level": 1, "topic": "職業", "wk": 1, "jy": 79},

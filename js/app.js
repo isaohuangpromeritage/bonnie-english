@@ -5,9 +5,19 @@ const ICON_STOP='<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" 
 let D={},F={},JY=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
 const IRR={was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
 const RULES=[[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
+// 縮寫與所有格：can't → can、didn't → do、I'm → I、Tom's → tom、let's → let
+const CONTR={"can't":'can',"cannot":'can',"won't":'will',"shan't":'shall',"let's":'let',"ain't":'be'};
+function contract(w){
+  if(CONTR[w])return CONTR[w];
+  let m=w.match(/^(.+?)n't$/); if(m)return IRR[m[1]]||m[1];
+  m=w.match(/^(.+?)'(s|m|re|ll|ve|d)$/); if(m)return m[1];
+  m=w.match(/^(.+?s)'$/); if(m)return m[1];
+  return w;
+}
 function lemma(raw){
-  const w=raw.toLowerCase().replace(/’/g,"'");
-  if(D[w])return w; if(F[w])return F[w]; if(IRR[w])return IRR[w];
+  let w=raw.toLowerCase().replace(/’/g,"'");
+  if(D[w])return w;
+  w=contract(w); if(F[w])return F[w]; if(IRR[w])return IRR[w];
   for(const [re,rep] of RULES){
     if(!re.test(w))continue;
     const c=w.replace(re,rep); if(c.length<2)continue;
@@ -27,22 +37,30 @@ try{const s=JSON.parse(localStorage.getItem(KEY)||'null');if(s&&s.vocab)store=Ob
 function save(){try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}}
 
 const DAY=86400000, STEPS=[1,3,7,14,30];
-const state={view:'list',aid:null,answers:{},submitted:false,review:null,reading:false};
+const state={view:'list',aid:null,answers:{},submitted:false,review:null,reading:false,fLevel:'',fGenre:''};
+let NAMES=new Set();  // 目前文章的人名、地名（articles.json 的 names）
 const app=document.getElementById('app');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 function tok(text){
   return text.split(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/).map((part,i)=>{
     if(i%2===0)return esc(part);
+    if(/^[A-Z]$/.test(part)&&part!=='I')return esc(part);
+    if(NAMES.has(part))return `<span class="w name" data-l="${esc(part)}" data-r="${esc(part)}" data-name="1" tabindex="0">${esc(part)}</span>`;
     const l=lemma(part),e=D[l],cls=['w'];
     if(e&&e.lv===0)cls.push('off');
     if(store.vocab[l])cls.push('saved');
     return `<span class="${cls.join(' ')}" data-l="${esc(l)}" data-r="${esc(part)}" tabindex="0">${esc(part)}</span>`;
   }).join('');
 }
-function plainText(a){
-  return a.blocks.map(b=>b.t==='p'?b.x:[b.title,b.sub,...b.rows.slice(1).map(r=>r.join(', ')),...b.items,b.foot].join('. ')).join(' ');
+/* 文章區塊：p 段落、h 小標題、notice 公告／圖表、chat 對話訊息、email 電子郵件 */
+function blockTexts(b){
+  if(b.t==='p'||b.t==='h')return [b.x];
+  if(b.t==='chat')return b.lines.map(l=>l.x);
+  if(b.t==='email')return [b.subject||'',...(b.body||[])];
+  return [b.title,b.sub,...(b.rows||[]).slice(1).map(r=>r.join(', ')),...(b.items||[]),b.foot].filter(Boolean);
 }
+function plainText(a){return a.blocks.flatMap(blockTexts).join(' ');}
 function wordCount(a){return (plainText(a).match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g)||[]).length;}
 function offWords(a){const set=new Set();(plainText(a).match(/[A-Za-z]+(?:['’-][A-Za-z]+)*/g)||[]).forEach(w=>{const l=lemma(w);if(D[l]&&D[l].lv===0)set.add(l);});return [...set];}
 function dueList(){const now=Date.now();return Object.keys(store.vocab).filter(w=>store.vocab[w].due<=now);}
@@ -67,14 +85,20 @@ function render(){
 }
 function levelChip(a){return `<span class="chip lv${a.level}">${a.level==='A'?'A 基礎':'B 進階'}</span>`;}
 
+function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre));}
 function renderList(){
   const n=dueList().length;
   app.innerHTML=`
   ${n?`<div class="due-banner"><span>今天有 <b>${n}</b> 個生字該複習了</span><button class="btn primary" data-act="go-vocab">去複習</button></div>`:''}
   <p class="intro">挑一篇讀讀看。讀的時候點任何單字就能看中文、聽發音，讀完再做題目。</p>
-  <div class="list">${ARTICLES.map(a=>{const s=store.scores[a.id];const wc=wordCount(a);return `
+  <div class="filters">
+    <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
+    <select id="fGenre" aria-label="文體"><option value="">所有文體</option>${[...new Set(ARTICLES.map(a=>a.genre))].map(g=>`<option ${state.fGenre===g?'selected':''}>${g}</option>`).join('')}</select>
+    <span class="count">${shown().length} 篇</span>
+  </div>
+  <div class="list">${shown().map(a=>{const s=store.scores[a.id];const wc=wordCount(a);return `
     <button class="card" data-open="${a.id}">
-      <div class="chips">${levelChip(a)}<span class="chip">${a.genre}</span></div>
+      <div class="chips">${levelChip(a)}<span class="chip">${a.genre}</span>${a.topic?`<span class="chip">${esc(a.topic)}</span>`:''}</div>
       <h3>${esc(a.title)}</h3><div class="zh">${a.zh}</div>
       <div class="meta"><span>約 ${wc} 字・${a.questions.length} 題・約 ${Math.max(2,Math.round(wc/70))} 分鐘</span>
       <span class="score ${s!=null?'done':''}">${s!=null?`最佳 ${s} / ${a.questions.length}`:'尚未作答'}</span></div>
@@ -82,12 +106,17 @@ function renderList(){
 }
 
 function renderBlocks(a){
+  NAMES=new Set(a.names||[]);
   return a.blocks.map(b=>{
     if(b.t==='p')return `<p>${tok(b.x)}</p>`;
-    return `<div class="notice"><h4>${tok(b.title)}</h4><div class="sub">${tok(b.sub)}</div>
-      <div class="tscroll"><table><thead><tr>${b.rows[0].map(c=>`<th>${tok(c)}</th>`).join('')}</tr></thead>
-      <tbody>${b.rows.slice(1).map(r=>`<tr>${r.map(c=>`<td>${tok(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
-      <ul>${b.items.map(i=>`<li>${tok(i)}</li>`).join('')}</ul><div>${tok(b.foot)}</div></div>`;
+    if(b.t==='h')return `<h4 class="bh">${tok(b.x)}</h4>`;
+    if(b.t==='chat')return `<div class="chat">${b.lines.map(l=>`<div class="msg${l.me?' me':''}"><b>${esc(l.who)}</b><span>${tok(l.x)}</span></div>`).join('')}</div>`;
+    if(b.t==='email')return `<div class="email"><div class="ehead"><div><i>From</i>${esc(b.from||'')}</div><div><i>To</i>${esc(b.to||'')}</div><div><i>Subject</i>${tok(b.subject||'')}</div></div>
+      ${(b.body||[]).map(x=>`<p>${tok(x)}</p>`).join('')}</div>`;
+    return `<div class="notice">${b.title?`<h4>${tok(b.title)}</h4>`:''}${b.sub?`<div class="sub">${tok(b.sub)}</div>`:''}
+      ${b.rows?`<div class="tscroll"><table><thead><tr>${b.rows[0].map(c=>`<th>${tok(c)}</th>`).join('')}</tr></thead>
+      <tbody>${b.rows.slice(1).map(r=>`<tr>${r.map(c=>`<td>${tok(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
+      ${b.items?`<ul>${b.items.map(i=>`<li>${tok(i)}</li>`).join('')}</ul>`:''}${b.foot?`<div>${tok(b.foot)}</div>`:''}</div>`;
   }).join('');
 }
 function renderRead(){
@@ -162,10 +191,10 @@ function renderReview(){
 /* 單字面板 */
 const sheet=document.getElementById('sheet'),sheetIn=document.getElementById('sheetIn');
 let cur=null;
-function openSheet(l,r,el){
+function openSheet(l,r,el,isName){
   document.querySelectorAll('.w.on').forEach(x=>x.classList.remove('on'));
   if(el)el.classList.add('on');
-  cur=l;const e=D[l],saved=!!store.vocab[l];
+  cur=l;const e=isName?{p:'',z:'人名或地名',lv:null}:D[l],saved=!!store.vocab[l];
   sheetIn.innerHTML=`
    <div class="sheet-row"><div><div class="hw">${esc(l)}</div>${r.toLowerCase()!==l?`<div class="form">文中：${esc(r)}</div>`:''}</div>
      <div class="chips"><button class="iconbtn" data-say="${esc(r)}" aria-label="播放發音">${ICON_SPK}</button><button class="iconbtn" data-act="close" aria-label="關閉">✕</button></div></div>
@@ -187,9 +216,10 @@ function refreshMarks(){document.querySelectorAll('.w').forEach(x=>x.classList.t
 
 /* 事件 */
 document.addEventListener('click',ev=>{
-  const t=ev.target.closest('[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],.w');
+  const t=ev.target.closest('[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],[data-flevel],.w');
   if(!t){if(!sheet.hidden&&!ev.target.closest('#sheet'))closeSheet();return;}
-  if(t.classList.contains('w')){openSheet(t.dataset.l,t.dataset.r,t);return;}
+  if(t.classList.contains('w')){openSheet(t.dataset.l,t.dataset.r,t,!!t.dataset.name);return;}
+  if(t.dataset.flevel!==undefined){state.fLevel=t.dataset.flevel;renderList();return;}
   if(t.dataset.open){state.answers={};state.submitted=false;go('read',t.dataset.open);return;}
   if(t.dataset.say){speak(t.dataset.say);return;}
   if(t.dataset.q!==undefined){state.answers[+t.dataset.q]=+t.dataset.o;renderQuiz();return;}
@@ -220,6 +250,7 @@ document.addEventListener('keydown',ev=>{
   if(ev.key==='Escape'&&!sheet.hidden)closeSheet();
   if((ev.key==='Enter'||ev.key===' ')&&ev.target.classList&&ev.target.classList.contains('w')){ev.preventDefault();openSheet(ev.target.dataset.l,ev.target.dataset.r,ev.target);}
 });
+document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}});
 document.getElementById('tab-read').onclick=()=>go(state.view==='vocab'?'list':state.view==='list'?'list':state.view);
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
 async function loadJSON(p){const r=await fetch(p,{cache:'no-cache'});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}

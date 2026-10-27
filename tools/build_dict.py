@@ -200,7 +200,15 @@ def main():
     common = sorted((w for w, r in ec.items() if re.fullmatch(r"[a-z]+", w) and rank(r) <= LOOKUP_TOP
                      and ("gk" in (r["tag"] or "").split() or "cet4" in (r["tag"] or "").split())), key=lambda w: rank(ec[w]))
     wk = read_wordking(WORDKING) if WORDKING.exists() else {}
-    for w in wk:                                   # 單字王有、教育部字表沒有的字：變化形用原形字級，其餘標超綱
+    base_of = {}                                   # 字表內單字的變化形 → 原形（shoes → shoe）
+    for w0 in list(levels):
+        for item in ((ec.get(w0) or {}).get("exchange") or "").split("/"):
+            if ":" in item and item[0] in "pdi3rts":
+                base_of.setdefault(item.split(":", 1)[1].strip().lower(), w0)
+    for w in wk:
+        if w not in levels and w in base_of:
+            levels[w] = levels[base_of[w]]
+            continue                                   # 單字王有、教育部字表沒有的字：變化形用原形字級，其餘標超綱
         if w not in levels:
             parts = re.split(r"[ -]", w)
             if len(parts) > 1 and all(levels.get(x) for x in parts):   # 片語：每個字都在字表內，取最高字級

@@ -31,6 +31,9 @@ bonnie-english/
 │   ├── wordking-2000.csv   國中單字王 2000 單字題庫表（114 年版）：詞性與中文
 │   ├── junyi-groups.csv    均一「國英 2000 單」101 組的首尾字與影片 ID
 │   └── moe-2000.example.csv 簡化格式範例
+├── docs/
+│   ├── WRITING-GUIDE.md    文章寫作規格
+│   └── DEVLOG.md           開發紀錄
 ├── tools/
 │   ├── build_dict.py       產生 dict.json、forms.json
 │   └── check-articles.mjs  檢查文章用字與題目格式
@@ -68,43 +71,22 @@ python -m http.server 8000
 
 ## 新增一篇文章
 
-在 `data/articles.json` 的陣列裡加一個物件：
+寫作規格、JSON 格式和題目原則都在 **`docs/WRITING-GUIDE.md`**。重點：
 
-```json
-{
-  "id": "my-article",
-  "level": "A",
-  "genre": "記敘文",
-  "title": "English Title",
-  "zh": "中文標題",
-  "blocks": [
-    { "t": "p", "x": "第一段英文……" },
-    { "t": "p", "x": "第二段英文……" }
-  ],
-  "questions": [
-    {
-      "type": "主旨",
-      "question": "What is the reading mainly about?",
-      "options": ["選項 A", "選項 B", "選項 C", "選項 D"],
-      "answer": "B",
-      "explanation": "中文解析，說明答案在文中哪一句。"
-    }
-  ]
-}
-```
+- 每篇文章要有 `id`、`level`（A／B）、`genre`（記敘文、說明文、圖表題、書信、對話、多文本）、`topic`（教育部字表主題）、`grade`、`grammar`
+- 區塊類型：`p` 段落、`h` 小標題、`notice` 公告與圖表、`chat` 聊天訊息、`email` 電子郵件
+- 人名、地名放在 `names`，就不會被當成生字
+- 縮寫（can't、I'm）和所有格（Tom's）會自動還原，可以直接使用
 
-- `id`：英文小寫、不重複（用來記錄成績）
-- `level`：`A`（基礎）或 `B`（進階）
-- `blocks`：段落用 `{"t":"p","x":"…"}`；公告／圖表題用 `"t":"notice"`，格式參考 `swim` 那篇（`title`、`sub`、`rows` 表格、`items` 條列、`foot` 結尾）
-- `answer`：`A`～`D`
-
-加完後執行檢查：
+寫完執行檢查：
 
 ```bash
-node tools/check-articles.mjs
+node tools/check-articles.mjs                  # 檢查 data/articles.json
+node tools/check-articles.mjs drafts/new.json  # 檢查草稿檔
+node tools/check-articles.mjs -q               # 只顯示有問題的文章
 ```
 
-它會列出字典查不到的字（要補進 `data-src/curated.json` 再重建字典）、超出 2000 字的字，以及題目格式錯誤。
+檢查項目：字典查不到的字、各級別的字數與題數、非基本字和超綱字數量、題目格式與題型、全部題目的答案分布。
 
 ## 字典
 
