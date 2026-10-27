@@ -1,0 +1,269 @@
+[
+  {
+    "id": "garden",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "Our School Garden",
+    "zh": "我們的學校菜園",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Last spring, our class started a small garden behind the school library. At first, nobody was interested. The ground was hard and dry, and there were many rocks in it. Our teacher, Ms. Lin, said, \"A garden is like a friend. You have to spend time with it.\""
+      },
+      {
+        "t": "p",
+        "x": "Every morning before class, a few of us carried water to the garden. We planted tomatoes, carrots, and some flowers. Jason, the quietest boy in our class, worked harder than anyone. He even brought a book about plants from home."
+      },
+      {
+        "t": "p",
+        "x": "After two months, the first tomatoes turned red. We were so excited that we took pictures of them. Ms. Lin used them to make a salad, and everyone in the class got a taste. Some students who never ate vegetables asked for more."
+      },
+      {
+        "t": "p",
+        "x": "Now the garden is the most popular place at our school. Other classes want to join us, too. Jason says he wants to be a farmer in the future. As for me, I learned that good things take time."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "How a class garden changed the students",
+          "How to make a tomato salad",
+          "Why Jason wants to be a farmer",
+          "Why the school library is popular"
+        ],
+        "answer": "A",
+        "explanation": "全文從「一開始沒人有興趣」寫到「每天照顧、收成番茄」，最後菜園成為全校最受歡迎的地方，重點是菜園帶給同學的改變。B、C、D 都只是文中的小細節。"
+      },
+      {
+        "type": "細節",
+        "question": "What did some students do every morning before class?",
+        "options": [
+          "They read books in the library.",
+          "They carried water to the garden.",
+          "They made salads for the teacher.",
+          "They took pictures of flowers."
+        ],
+        "answer": "B",
+        "explanation": "第二段第一句：“Every morning before class, a few of us carried water to the garden.”"
+      },
+      {
+        "type": "推論",
+        "question": "What can we learn about Jason?",
+        "options": [
+          "He did not like working in the garden.",
+          "He talked the most in class.",
+          "He really cared about the garden.",
+          "He was Ms. Lin's son."
+        ],
+        "answer": "C",
+        "explanation": "文中說 Jason “worked harder than anyone” 還 “even brought a book about plants from home”，可推知他很用心照顧菜園。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the third paragraph, what does “them” in “Ms. Lin used them to make a salad” mean?",
+        "options": [
+          "The pictures",
+          "The students",
+          "The flowers",
+          "The tomatoes"
+        ],
+        "answer": "D",
+        "explanation": "前一句提到 “the first tomatoes turned red”，能拿來做沙拉的是番茄，所以 them = the tomatoes。"
+      }
+    ]
+  },
+  {
+    "id": "swim",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Summer Swimming Classes",
+    "zh": "暑期游泳課公告",
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Sunny Town Swimming Club",
+        "sub": "Summer Classes for Kids and Teens",
+        "rows": [
+          [
+            "Class",
+            "Age",
+            "Days",
+            "Time",
+            "Price"
+          ],
+          [
+            "Beginner",
+            "7–10",
+            "Mon & Wed",
+            "09:00–10:00",
+            "$1,200"
+          ],
+          [
+            "Junior",
+            "11–14",
+            "Tue & Thu",
+            "14:00–15:30",
+            "$1,500"
+          ],
+          [
+            "Teen Team",
+            "13–16",
+            "Sat",
+            "08:00–10:00",
+            "$1,800"
+          ]
+        ],
+        "items": [
+          "Classes start on July 7 and end on August 15.",
+          "Bring your own towel and swimming cap.",
+          "Sign up before June 30 and get $200 off.",
+          "Brothers and sisters in the same class get 10% off."
+        ],
+        "foot": "Call 2345-6789 or visit our front desk."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Ben is 15 years old. He is only free on weekends. Which class can he take?",
+        "options": [
+          "Beginner",
+          "Junior",
+          "Teen Team",
+          "He cannot take any class."
+        ],
+        "answer": "C",
+        "explanation": "Ben 15 歲：Junior 只收 11–14 歲，而且在週二、週四。Teen Team 收 13–16 歲、在週六（Sat），所以選 Teen Team。"
+      },
+      {
+        "type": "計算",
+        "question": "Lily is 12. She signs up for a class on June 20. How much does she need to pay?",
+        "options": [
+          "$1,000",
+          "$1,300",
+          "$1,500",
+          "$1,700"
+        ],
+        "answer": "B",
+        "explanation": "12 歲上 Junior 班，原價 $1,500。6 月 30 日前報名折 $200，所以是 1,500 − 200 = $1,300。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is TRUE?",
+        "options": [
+          "All the classes are on weekends.",
+          "The classes end in July.",
+          "Students need to bring their own swimming caps.",
+          "The Beginner class is the longest class."
+        ],
+        "answer": "C",
+        "explanation": "公告寫 “Bring your own towel and swimming cap.” 其他選項：只有 Teen Team 在週末；課程到 8 月 15 日；Beginner 一堂只有 1 小時，不是最長。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “sign up” mean in the notice?",
+        "options": [
+          "To join something by giving your name",
+          "To stop doing something",
+          "To write a letter to a friend",
+          "To pay money later"
+        ],
+        "answer": "A",
+        "explanation": "“Sign up before June 30 and get $200 off.” 提早做這件事就有折扣，可以猜出是「報名」，也就是留下名字參加。"
+      }
+    ]
+  },
+  {
+    "id": "cats",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Why Do Cats Sleep So Much?",
+    "zh": "貓為什麼這麼愛睡？",
+    "blocks": [
+      {
+        "t": "p",
+        "x": "If you have a cat, you may notice that it sleeps most of the day. In fact, cats usually sleep twelve to sixteen hours a day. Some even sleep up to twenty hours. Why do they need so much rest?"
+      },
+      {
+        "t": "p",
+        "x": "The answer goes back to how cats lived in the wild. Wild cats are hunters. To catch food, they must run fast and jump high in a very short time. This uses a lot of energy, so they need to save energy by resting between hunts."
+      },
+      {
+        "t": "p",
+        "x": "Cats are also most active at dawn and in the evening. That is when many small animals come out, so it is the best time to hunt. During the bright hours of the day, cats often find a warm, quiet corner and take long naps."
+      },
+      {
+        "t": "p",
+        "x": "However, a sleeping cat is not always deeply asleep. Most of the time, cats are in a light sleep. Their ears may still move when they hear a sound, and they can wake up in a second if there is danger."
+      },
+      {
+        "t": "p",
+        "x": "So the next time your cat sleeps all afternoon, don't call it lazy. It is just doing what cats have done for thousands of years."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to take care of a cat",
+          "Why cats sleep a lot",
+          "What wild cats like to eat",
+          "How to wake up a sleeping cat"
+        ],
+        "answer": "B",
+        "explanation": "第一段最後一句提出問題 “Why do they need so much rest?”，接下來每一段都在回答這個問題。"
+      },
+      {
+        "type": "細節",
+        "question": "When are cats most active?",
+        "options": [
+          "At noon",
+          "In the afternoon",
+          "At dawn and in the evening",
+          "In the middle of the night"
+        ],
+        "answer": "C",
+        "explanation": "第三段：“Cats are also most active at dawn and in the evening.”"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “nap” mean in the third paragraph?",
+        "options": [
+          "A short sleep",
+          "A small animal",
+          "A warm place",
+          "A fast run"
+        ],
+        "answer": "A",
+        "explanation": "貓在白天找個溫暖安靜的角落 “take long naps”，前後文都在講睡覺，可猜出 nap 是「小睡」。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the third paragraph, what does “That” in “That is when many small animals come out” mean?",
+        "options": [
+          "Dawn and the evening",
+          "The bright hours of the day",
+          "Sixteen hours",
+          "A warm, quiet corner"
+        ],
+        "answer": "A",
+        "explanation": "前一句說貓在 “at dawn and in the evening” 最活躍，接著說「那正是小動物出來的時候」，That 指的就是黎明和傍晚。"
+      },
+      {
+        "type": "推論",
+        "question": "Why does the writer say “don't call it lazy”?",
+        "options": [
+          "Because cats only sleep at night",
+          "Because sleeping a lot is natural for cats",
+          "Because cats never sleep deeply",
+          "Because lazy cats are popular"
+        ],
+        "answer": "B",
+        "explanation": "最後一句說貓只是在做 “what cats have done for thousands of years”，表示多睡是貓的天性，不是懶。"
+      }
+    ]
+  }
+]
