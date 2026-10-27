@@ -2375,6 +2375,9 @@
         "answer": "A",
         "explanation": "前一句說老鼠把網子的繩子一條條咬斷（one rope broke, and then another），所以獅子「脫困、不再被困住」。free 雖然也有「免費」、「有空」的意思，但在這裡不合文意。"
       }
+    ],
+    "tags": [
+      "寓言"
     ]
   },
   {
@@ -4939,6 +4942,1723 @@
         ],
         "answer": "B",
         "explanation": "最後一段說學生可以「read it, compare the plans, and talk about them with their families」，Ivy 還不能投票，但可以先讀選舉公報、比較政見，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "tortoise-and-hare",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "The Tortoise and the Hare",
+    "zh": "龜兔賽跑",
+    "topic": "動物與昆蟲",
+    "grade": 7,
+    "grammar": "過去簡單式、引號對話",
+    "names": [],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Once upon a time, there was a hare who could run very fast. He liked to laugh at a slow tortoise. \"You walk so slowly!\" he said. \"I'm the fastest animal in the forest.\""
+      },
+      {
+        "t": "p",
+        "x": "The tortoise was tired of his words. \"Let's have a race,\" she said quietly. All the animals came to watch."
+      },
+      {
+        "t": "p",
+        "x": "When the race started, the hare ran far ahead. Soon he couldn't even see the tortoise. \"She's so slow,\" he thought. \"I can take a short rest under this tree.\" So he lay down and closed his eyes."
+      },
+      {
+        "t": "p",
+        "x": "The tortoise didn't stop. Step by step, she walked past the sleeping hare. When the hare woke up, the sun was going down. He ran as fast as he could, but it was too late. The tortoise was already at the finish line, and all the animals were cheering for her."
+      },
+      {
+        "t": "p",
+        "x": "The lesson is simple: don't be too proud. Slow and careful work can win in the end."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did the hare lose the race?",
+        "options": [
+          "He hurt his foot in the forest.",
+          "He went the wrong way.",
+          "He stopped to eat some food.",
+          "He slept under a tree for too long."
+        ],
+        "answer": "D",
+        "explanation": "第三段兔子說「I can take a short rest under this tree.」第四段「When the hare woke up, the sun was going down... it was too late.」牠睡太久才輸，所以選 D。文中沒有提到受傷、走錯路或吃東西。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “tired of” mean in “The tortoise was tired of his words”?",
+        "options": [
+          "Wanting to sleep after",
+          "Bored or annoyed; not wanting any more",
+          "Very interested in",
+          "Afraid of"
+        ],
+        "answer": "B",
+        "explanation": "兔子一直取笑烏龜「You walk so slowly!」，所以烏龜聽膩了、不想再忍受，於是提出比賽。tired of 在這裡是「厭煩」，不是「想睡覺」，所以選 B。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the third paragraph, who does “She” in “She's so slow” mean?",
+        "options": [
+          "The tortoise",
+          "The hare",
+          "One of the animals",
+          "The tree"
+        ],
+        "answer": "A",
+        "explanation": "前一句「Soon he couldn't even see the tortoise.」兔子接著想「She's so slow」，she 指的是走得很慢的烏龜，所以選 A。兔子在文中用 he 表示。"
+      },
+      {
+        "type": "主旨",
+        "question": "What does the story want to teach us?",
+        "options": [
+          "Hares are faster than tortoises.",
+          "We should always sleep well before a race.",
+          "Don't be too proud; slow and careful work can win.",
+          "It's fun to watch a race with friends."
+        ],
+        "answer": "C",
+        "explanation": "最後一段直接說出寓意：「don't be too proud. Slow and careful work can win in the end.」所以選 C。A 雖然是事實，但不是故事的教訓。"
+      }
+    ],
+    "keywords": [
+      "tortoise",
+      "hare"
+    ]
+  },
+  {
+    "id": "boy-who-cried-wolf",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "The Boy Who Cried Wolf",
+    "zh": "放羊的孩子",
+    "topic": "動物與昆蟲",
+    "grade": 7,
+    "grammar": "過去簡單式、引號對話",
+    "names": [],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "A young boy took care of the sheep on a hill near his village. Every day was the same, and he was bored. One morning, he had an idea. He ran down the hill and shouted, \"Wolf! Wolf! A wolf is eating the sheep!\""
+      },
+      {
+        "t": "p",
+        "x": "The people in the village dropped their work and ran up the hill to help. But there was no wolf. The boy laughed and laughed. \"It was only a joke!\" he said. The people were angry, and they went back home."
+      },
+      {
+        "t": "p",
+        "x": "A few days later, the boy did the same thing again. Again the people ran up the hill, and again there was no wolf."
+      },
+      {
+        "t": "p",
+        "x": "Then one evening, a real wolf came out of the forest. The boy was afraid. \"Wolf! Wolf! Please help me!\" he cried. But this time, nobody came. \"He's telling a lie again,\" they said. The wolf ate many of his sheep."
+      },
+      {
+        "t": "p",
+        "x": "The lesson is this: if you often lie, people won't believe you, even when you tell the truth."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did the boy shout “Wolf!” the first time?",
+        "options": [
+          "He saw a wolf near the forest.",
+          "He was bored and wanted to have some fun.",
+          "He wanted the people to give him food.",
+          "He lost some of his sheep."
+        ],
+        "answer": "B",
+        "explanation": "第一段說「Every day was the same, and he was bored.」第二段他笑著說「It was only a joke!」可知他是因為無聊、想開玩笑才喊，所以選 B。第一次其實沒有狼，A 錯。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the fourth paragraph, who are “they” in “they said”?",
+        "options": [
+          "The sheep",
+          "The wolves in the forest",
+          "The people in the village",
+          "The boy and his family"
+        ],
+        "answer": "C",
+        "explanation": "前一句「nobody came」，接著「He's telling a lie again,」they said. 說這句話的是之前兩次被騙、這次不肯上山的村民，所以選 C。"
+      },
+      {
+        "type": "推論",
+        "question": "Why didn't the people come the last time?",
+        "options": [
+          "They thought the boy was lying again.",
+          "They were afraid of the real wolf.",
+          "They couldn't hear the boy.",
+          "They were busy with their work."
+        ],
+        "answer": "A",
+        "explanation": "第四段村民說「He's telling a lie again.」因為男孩之前騙了他們兩次，這次他們不相信他，所以選 A。文中沒有說他們怕狼、聽不到或太忙。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the lesson of the story?",
+        "options": [
+          "Wolves are dangerous to sheep.",
+          "Children shouldn't take care of sheep.",
+          "We should always help people in need.",
+          "People won't believe someone who often lies."
+        ],
+        "answer": "D",
+        "explanation": "最後一段：「if you often lie, people won't believe you, even when you tell the truth.」所以選 D。A 雖然在故事裡發生，但不是要教的道理。"
+      }
+    ]
+  },
+  {
+    "id": "fox-and-grapes",
+    "level": "A",
+    "genre": "記敘文",
+    "title": "The Fox and the Grapes",
+    "zh": "狐狸與葡萄",
+    "topic": "食物與飲料",
+    "grade": 7,
+    "grammar": "過去簡單式、引號對話",
+    "names": [],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "It was a hot summer day. A hungry fox was walking through a garden when he saw some big purple grapes. They were hanging high above his head, and they looked sweet and delicious."
+      },
+      {
+        "t": "p",
+        "x": "\"Those grapes are just what I need,\" said the fox. He stepped back, ran, and jumped as high as he could. But he couldn't reach them."
+      },
+      {
+        "t": "p",
+        "x": "He tried again and again. He jumped from the left and from the right. Each time he fell down on the ground. After a long time, he was hot and tired, and his legs hurt."
+      },
+      {
+        "t": "p",
+        "x": "At last, the fox gave up. He turned around and walked away with his nose in the air. \"Who wants those grapes?\" he said. \"I'm sure they're sour. I don't like them at all.\""
+      },
+      {
+        "t": "p",
+        "x": "The lesson is: when people can't get something, they sometimes say they don't want it."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why couldn't the fox get the grapes?",
+        "options": [
+          "Another animal ate them first.",
+          "He didn't like the color.",
+          "They were too high for him.",
+          "The garden was closed."
+        ],
+        "answer": "C",
+        "explanation": "第一段說葡萄「hanging high above his head」，第二段「he couldn't reach them.」葡萄掛得太高，牠搆不到，所以選 C。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “gave up” mean in “At last, the fox gave up”?",
+        "options": [
+          "Stopped trying",
+          "Gave the grapes to a friend",
+          "Jumped higher",
+          "Got up from the ground"
+        ],
+        "answer": "A",
+        "explanation": "狐狸跳了一次又一次都失敗，又熱又累，接著「He turned around and walked away」轉身離開，可知 gave up 是「放棄、不再嘗試」，所以選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the fox say the grapes were sour?",
+        "options": [
+          "He tasted one and it was sour.",
+          "He didn't want to say that he failed.",
+          "He wanted to eat something sweet.",
+          "Someone told him the grapes were bad."
+        ],
+        "answer": "B",
+        "explanation": "第一段說葡萄「looked sweet and delicious」，狐狸本來很想吃，是拿不到才說「I'm sure they're sour.」最後一段也說「when people can't get something, they sometimes say they don't want it.」牠其實沒吃到，只是不想承認失敗，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "ant-and-grasshopper",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The Ant and the Grasshopper",
+    "zh": "螞蟻與蚱蜢",
+    "topic": "動物與昆蟲",
+    "grade": 8,
+    "grammar": "過去進行式、關係子句、比較級、when/if 子句",
+    "names": [],
+    "keywords": [
+      "grasshopper"
+    ],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "It was a hot summer day. A grasshopper was sitting on a leaf, singing and having fun in the sun. Then he saw an ant who was carrying a big piece of corn to her home. She was walking slowly because the corn was much heavier than she was."
+      },
+      {
+        "t": "p",
+        "x": "\"Why are you working so hard?\" asked the grasshopper. \"Come and sing with me! It's such a beautiful day.\""
+      },
+      {
+        "t": "p",
+        "x": "\"I'm saving food for the winter,\" said the ant. \"When the cold days come, there won't be any food outside. You should do the same.\""
+      },
+      {
+        "t": "p",
+        "x": "The grasshopper laughed. \"Winter is still far away. There's lots of food now.\" So he kept singing, and the ant kept working all summer long."
+      },
+      {
+        "t": "p",
+        "x": "Soon the days became shorter and colder. Snow covered the ground, and the grasshopper couldn't find anything to eat. Hungry and weak, he knocked on the ant's door. \"Please give me something to eat,\" he said."
+      },
+      {
+        "t": "p",
+        "x": "\"What were you doing all summer?\" asked the ant. \"I was singing,\" answered the grasshopper. \"Well,\" said the ant, \"if you sang all summer, maybe you can dance all winter!\" In the end, she gave him a little food, but the grasshopper never forgot that long, hungry winter."
+      },
+      {
+        "t": "p",
+        "x": "This story is not only about insects. Students who study a little every day feel ready when the big exam comes, but students who wait until the last week often feel like the grasshopper. Work first, and you'll have more time to play later."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the lesson of the story?",
+        "options": [
+          "Singing is more fun than working.",
+          "We should get ready for the future before we play.",
+          "Ants are stronger than grasshoppers.",
+          "We should never share food with others."
+        ],
+        "answer": "B",
+        "explanation": "螞蟻夏天努力存糧，蚱蜢只顧唱歌，冬天就挨餓。最後一段也說：「Work first, and you'll have more time to play later.」所以選 B。螞蟻最後還是分了一點食物給蚱蜢，D 不對。"
+      },
+      {
+        "type": "細節",
+        "question": "Why was the ant carrying corn in the summer?",
+        "options": [
+          "She wanted to give it to the grasshopper.",
+          "She was going to sell it at the market.",
+          "She was too hungry to wait.",
+          "She was saving food for the cold days."
+        ],
+        "answer": "D",
+        "explanation": "螞蟻說：「I'm saving food for the winter. When the cold days come, there won't be any food outside.」牠是在為冬天存糧，所以選 D。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does “the same” mean in “You should do the same”?",
+        "options": [
+          "Save food for the winter",
+          "Sing in the sun",
+          "Sit on a leaf",
+          "Knock on the ant's door"
+        ],
+        "answer": "A",
+        "explanation": "螞蟻前一句說自己「saving food for the winter」，接著勸蚱蜢「You should do the same.」也就是也要為冬天存糧，所以選 A。唱歌、坐在葉子上是蚱蜢正在做的事，不是螞蟻勸牠做的事。"
+      },
+      {
+        "type": "推論",
+        "question": "What did the ant mean when she said, “maybe you can dance all winter”?",
+        "options": [
+          "She wanted the grasshopper to teach her how to dance.",
+          "She thought dancing would keep the grasshopper warm.",
+          "She thought the grasshopper should not have played all summer.",
+          "She was happy to see the grasshopper again."
+        ],
+        "answer": "C",
+        "explanation": "螞蟻先問「What were you doing all summer?」，蚱蜢回答「I was singing」，螞蟻才說「if you sang all summer, maybe you can dance all winter!」這是在諷刺蚱蜢整個夏天只顧玩、沒有準備，所以選 C。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer talk about a big exam in the last paragraph?",
+        "options": [
+          "To show that the lesson is also true for students.",
+          "To show that the grasshopper was a good student.",
+          "To explain how ants study for tests.",
+          "To say that students should never play."
+        ],
+        "answer": "A",
+        "explanation": "最後一段開頭說：「This story is not only about insects.」接著用考試來說明每天讀一點的學生才會準備好，表示寓意也適用在學生身上，所以選 A。文中說「you'll have more time to play later」，並不是叫學生完全不玩，D 不對。"
+      }
+    ]
+  },
+  {
+    "id": "north-wind-and-sun",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The North Wind and the Sun",
+    "zh": "北風與太陽",
+    "topic": "天氣與自然",
+    "grade": 8,
+    "grammar": "過去進行式、比較級（the harder…, the tighter…）、關係子句、although/when 子句",
+    "names": [],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "One cold morning, the North Wind and the Sun were arguing about who was stronger."
+      },
+      {
+        "t": "p",
+        "x": "\"I'm much stronger than you,\" said the Wind. \"When I blow, trees fall down and big ships lose their way.\""
+      },
+      {
+        "t": "p",
+        "x": "The Sun smiled. \"Let's not argue. Do you see that man who is walking down the road? The one who can make him take off his coat is the stronger one.\""
+      },
+      {
+        "t": "p",
+        "x": "\"That's easy!\" said the Wind, and he went first. He blew a cold, strong wind at the man. But the harder he blew, the tighter the man held his coat. The man was shaking with cold, and he pulled his coat closer around his body. The Wind blew and blew until he was too tired to blow any more. Then he gave up."
+      },
+      {
+        "t": "p",
+        "x": "Now it was the Sun's turn. The Sun came out from behind a cloud and shone gently on the man. The air became warm, so the man opened his coat. Then the Sun shone a little brighter. Soon the man felt so hot that he took off his coat and sat down under a tree to rest."
+      },
+      {
+        "t": "p",
+        "x": "\"How did you do that?\" asked the Wind. \"You didn't even push him.\""
+      },
+      {
+        "t": "p",
+        "x": "\"I didn't need to,\" said the Sun. \"I just made him want to do it.\""
+      },
+      {
+        "t": "p",
+        "x": "Although the Wind was loud and strong, the gentle Sun won the game. When we want other people to change, being kind often works better than shouting or pushing."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the lesson of the story?",
+        "options": [
+          "Strong winds can make trees fall down.",
+          "The loudest one always wins.",
+          "Being kind often works better than shouting or pushing.",
+          "We should always wear a coat on cold days."
+        ],
+        "answer": "C",
+        "explanation": "最後一段：「Although the Wind was loud and strong, the gentle Sun won the game. When we want other people to change, being kind often works better than shouting or pushing.」溫和比強迫更有用，所以選 C。風雖然大聲又強壯，卻輸了，B 正好相反。"
+      },
+      {
+        "type": "細節",
+        "question": "What did the man do when the Wind blew hard?",
+        "options": [
+          "He took off his coat.",
+          "He held his coat more tightly.",
+          "He sat down under a tree.",
+          "He ran back home."
+        ],
+        "answer": "B",
+        "explanation": "第四段：「the harder he blew, the tighter the man held his coat.」風吹得越用力，男子把外套抓得越緊，所以選 B。脫外套、坐在樹下是太陽出來之後的事。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “gave up” mean in “Then he gave up”?",
+        "options": [
+          "Went higher into the sky",
+          "Got very angry",
+          "Gave something to someone",
+          "Stopped trying"
+        ],
+        "answer": "D",
+        "explanation": "前一句說風「blew and blew until he was too tired to blow any more」，吹到累得吹不動了，接著「gave up」，表示「放棄、不再嘗試」，所以選 D。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “I just made him want to do it,” what does “it” mean?",
+        "options": [
+          "Take off his coat",
+          "Walk down the road",
+          "Blow a strong wind",
+          "Hold his coat tightly"
+        ],
+        "answer": "A",
+        "explanation": "比賽的規則是看誰能「make him take off his coat」。太陽讓男子熱到自己脫下外套，所以 it 指的是「脫掉外套」，選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "How did the Wind most likely feel at the end of the game?",
+        "options": [
+          "Happy, because the game was easy for him",
+          "Angry at the man on the road",
+          "Sleepy, because the Sun was too warm",
+          "Surprised, because the Sun did not even push the man"
+        ],
+        "answer": "D",
+        "explanation": "風問太陽：「How did you do that? You didn't even push him.」可見風很驚訝太陽沒有用力就贏了，所以選 D。風一開始說「That's easy!」，結果卻輸了，A 不對。"
+      }
+    ]
+  },
+  {
+    "id": "crow-and-pitcher",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The Crow and the Pitcher",
+    "zh": "烏鴉與水瓶",
+    "topic": "動物與昆蟲",
+    "grade": 9,
+    "grammar": "過去完成式、關係子句、比較級、if 子句、too…to…",
+    "names": [],
+    "keywords": [
+      "crow",
+      "pitcher"
+    ],
+    "tags": [
+      "寓言"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "It hadn't rained for many weeks, and the land was as dry as a desert. A crow, who had been flying for hours, was so thirsty that she could hardly move her wings. At last she saw a tall pitcher next to a farmer's house. She flew down to it, full of hope."
+      },
+      {
+        "t": "p",
+        "x": "But when she looked inside, her heart sank. There was only a little water at the bottom, and the pitcher was too tall for her to reach it. She pushed her head in as far as she could, but her beak still couldn't touch the water. Then she tried to push the pitcher over, but it was much heavier than she was."
+      },
+      {
+        "t": "p",
+        "x": "\"If I can't go down to the water,\" she thought, \"maybe I can make the water come up to me.\""
+      },
+      {
+        "t": "p",
+        "x": "She looked around and saw many small stones on the ground. She picked up one stone and dropped it into the pitcher. Then she dropped another, and another. Each stone made the water rise just a little. It was slow, hard work, but she didn't stop. After about a hundred stones, the water was finally high enough. The bird drank until she was no longer thirsty."
+      },
+      {
+        "t": "p",
+        "x": "Many people give up when a problem looks too big. The crow wasn't big or strong, and she had no special tools, but she used her head and kept trying. Little by little, small steps can solve big problems."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the lesson of the story?",
+        "options": [
+          "Birds are smarter than people.",
+          "We should always look for water near a farmer's house.",
+          "Strong animals can solve problems more quickly.",
+          "Think carefully and keep trying, little by little."
+        ],
+        "answer": "D",
+        "explanation": "最後一段：「she used her head and kept trying. Little by little, small steps can solve big problems.」動腦筋、一點一點堅持下去，所以選 D。文中說鳥「didn't have strong arms」，靠的不是力氣，C 不對。"
+      },
+      {
+        "type": "細節",
+        "question": "Why couldn't the bird drink the water at first?",
+        "options": [
+          "The water was too dirty to drink.",
+          "A farmer was standing next to the pitcher.",
+          "The water was too low in the tall pitcher.",
+          "The pitcher was broken."
+        ],
+        "answer": "C",
+        "explanation": "第二段：「There was only a little water at the bottom, and the pitcher was too tall for her to reach it.」水只剩瓶底一點點，瓶子又太高搆不到，所以選 C。文中只說瓶子在農夫家旁邊，沒有說農夫站在那裡。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “her heart sank” most likely mean?",
+        "options": [
+          "She felt very excited.",
+          "She felt sad and lost hope.",
+          "She felt sick.",
+          "She fell into the pitcher."
+        ],
+        "answer": "B",
+        "explanation": "鳥原本「full of hope」飛過去，往瓶裡一看卻發現只剩一點水、喝不到，所以「her heart sank」是「心一沉、很失望」的意思，選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the bird need so many stones?",
+        "options": [
+          "Each stone made the water go up only a little.",
+          "She wanted to build a home with them.",
+          "She wanted to make the pitcher heavier so it would not fall.",
+          "She was playing a game to forget about the water."
+        ],
+        "answer": "A",
+        "explanation": "第四段：「Each stone made the water rise just a little.」每顆石頭只讓水位上升一點點，所以要丟大約一百顆才夠高，選 A。"
+      }
+    ]
+  },
+  {
+    "id": "kao-bakery-coupon",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Mia's Bakery: Prices and Special Cards",
+    "zh": "Mia 麵包店的價目表與優惠卡",
+    "topic": "食物與飲料",
+    "grade": 8,
+    "grammar": "數字與價格、條件說明、祈使句",
+    "names": [
+      "Mia",
+      "Mia's"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Mia's Bakery",
+        "sub": "Open every day, 07:00–21:00",
+        "rows": [
+          [
+            "Bread and Cakes",
+            "Price"
+          ],
+          [
+            "Milk bread",
+            "$35"
+          ],
+          [
+            "Red bean bun",
+            "$30"
+          ],
+          [
+            "Egg sandwich",
+            "$45"
+          ],
+          [
+            "Apple pie",
+            "$50"
+          ],
+          [
+            "Strawberry cake",
+            "$65"
+          ],
+          [
+            "Milk tea",
+            "$25"
+          ]
+        ],
+        "items": [
+          "Card 1: Get $15 off when you spend $150 or more. (Monday to Friday only)",
+          "Card 2: Buy three red bean buns and get one more free. (Every day)",
+          "Card 3: Buy any cake and get a free milk tea. (Saturday and Sunday only)",
+          "You can use only one card each time. You cannot use two cards together."
+        ],
+        "foot": "Fresh bread comes out at 07:00 and 15:00 every day!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "計算",
+        "question": "Ken goes to Mia's Bakery on Tuesday. He buys two egg sandwiches and two apple pies. He uses one card. How much does he pay?",
+        "options": [
+          "$175",
+          "$190",
+          "$160",
+          "$185"
+        ],
+        "answer": "A",
+        "explanation": "兩個蛋三明治 $45×2＝$90，兩個蘋果派 $50×2＝$100，共 $190。星期二可以用「Card 1: Get $15 off when you spend $150 or more. (Monday to Friday only)」，所以 190 − 15 ＝ $175，選 A。他沒買紅豆麵包和蛋糕，Card 2、Card 3 都用不到。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "Amy goes on Saturday. She wants four red bean buns and one strawberry cake. She does not drink tea. Which is the best for her?",
+        "options": [
+          "Card 1",
+          "Card 3",
+          "Card 2",
+          "Card 1 and Card 2 together"
+        ],
+        "answer": "C",
+        "explanation": "四個紅豆麵包 $120 加草莓蛋糕 $65，共 $185。Card 1 只能在「Monday to Friday」使用，星期六不行；Card 3 送奶茶，但她不喝茶；Card 2「Buy three red bean buns and get one more free」可以少付一個 $30，最划算。另外「You cannot use two cards together」，D 不行，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is NOT true about Mia's Bakery?",
+        "options": [
+          "Fresh bread comes out two times a day.",
+          "The bakery opens at 07:00 every day.",
+          "A red bean bun is cheaper than milk bread.",
+          "Card 3 can be used on any day of the week."
+        ],
+        "answer": "D",
+        "explanation": "公告寫 Card 3 是「Saturday and Sunday only」，只有週末能用，所以 D 不正確，選 D。A：「Fresh bread comes out at 07:00 and 15:00」一天兩次；B：「Open every day, 07:00–21:00」；C：紅豆麵包 $30 比牛奶麵包 $35 便宜，都是正確的。"
+      },
+      {
+        "type": "推論",
+        "question": "Who can get a free milk tea?",
+        "options": [
+          "Tom. He buys a strawberry cake on Friday.",
+          "Lily. She buys a strawberry cake on Sunday.",
+          "Jack. He spends $160 on Monday.",
+          "Rose. She buys four red bean buns on Saturday."
+        ],
+        "answer": "B",
+        "explanation": "公告寫「Card 3: Buy any cake and get a free milk tea. (Saturday and Sunday only)」，要週末買蛋糕才送奶茶。Lily 星期日買蛋糕，所以選 B。Tom 是星期五買；Jack 星期一只能用 Card 1 折 $15；Rose 沒買蛋糕。"
+      }
+    ]
+  },
+  {
+    "id": "kao-club-signup",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "Join a School Club!",
+    "zh": "社團報名公告",
+    "topic": "學校",
+    "grade": 8,
+    "grammar": "時間與日期、祈使句、can/cannot",
+    "names": [
+      "September",
+      "October"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Join a School Club!",
+        "sub": "For students in Grade 7 and Grade 8",
+        "rows": [
+          [
+            "Club",
+            "Day",
+            "Time",
+            "Place",
+            "Students",
+            "Fee"
+          ],
+          [
+            "Basketball",
+            "Monday",
+            "16:10–17:30",
+            "Gym",
+            "30",
+            "$0"
+          ],
+          [
+            "Cooking",
+            "Tuesday",
+            "16:10–17:40",
+            "Room 105",
+            "20",
+            "$300"
+          ],
+          [
+            "Art",
+            "Wednesday",
+            "13:30–15:00",
+            "Art Room",
+            "25",
+            "$150"
+          ],
+          [
+            "Guitar",
+            "Thursday",
+            "16:10–17:30",
+            "Music Room",
+            "15",
+            "$500"
+          ],
+          [
+            "Science",
+            "Friday",
+            "16:10–17:00",
+            "Room 302",
+            "20",
+            "$250"
+          ]
+        ],
+        "items": [
+          "Each student can choose only one club.",
+          "Sign up at the school office (Room 101) by Friday, September 20.",
+          "Bring the fee when you sign up.",
+          "First come, first served. When a club is full, you cannot join it.",
+          "All clubs start on October 1."
+        ],
+        "foot": "Have fun and make new friends!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Joe has piano lessons at 17:00 on Mondays and Thursdays. He does not want to pay more than $200. Which club can he join?",
+        "options": [
+          "Basketball",
+          "Art",
+          "Cooking",
+          "Guitar"
+        ],
+        "answer": "B",
+        "explanation": "籃球社星期一「16:10–17:30」、吉他社星期四「16:10–17:30」，都和 17:00 的鋼琴課撞期；烹飪社要「$300」、自然科學社要「$250」，都超過 $200。美術社星期三上課、費用「$150」，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "When is the last day for students to sign up?",
+        "options": [
+          "October 1",
+          "Any Wednesday",
+          "September 1",
+          "September 20"
+        ],
+        "answer": "D",
+        "explanation": "公告寫「Sign up at the school office (Room 101) by Friday, September 20.」所以選 D。October 1 是社團開始上課的日子。"
+      },
+      {
+        "type": "推論",
+        "question": "Fifteen students signed up for the Guitar Club before Tim did. What will most likely happen?",
+        "options": [
+          "Tim cannot join the Guitar Club.",
+          "Tim can join the Guitar Club on October 1.",
+          "Tim can join the Guitar Club and the Art Club.",
+          "Tim does not have to pay $500."
+        ],
+        "answer": "A",
+        "explanation": "表上吉他社人數上限是「15」，公告又寫「First come, first served. When a club is full, you cannot join it.」已經有 15 人報名，Tim 進不去，所以選 A。C 錯，因為「Each student can choose only one club.」"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is TRUE?",
+        "options": [
+          "Students in Grade 9 can join the Science Club.",
+          "The Cooking Club meets in Room 101.",
+          "The Basketball Club does not cost any money.",
+          "The Science Club takes more students than the Art Club."
+        ],
+        "answer": "C",
+        "explanation": "表上籃球社的費用是「$0」，不用花錢，所以選 C。A：公告寫「For students in Grade 7 and Grade 8」；B：Room 101 是報名的辦公室，烹飪社在 Room 105；D：自然科學社 20 人，美術社 25 人。"
+      }
+    ]
+  },
+  {
+    "id": "kao-diary-entry",
+    "level": "A",
+    "genre": "書信",
+    "title": "A Day in My Diary",
+    "zh": "我的一篇日記",
+    "topic": "人物",
+    "grade": 8,
+    "grammar": "過去簡單式、because/so/but",
+    "names": [
+      "Ruby",
+      "Ms. Lin"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Friday, May 15, rainy"
+      },
+      {
+        "t": "p",
+        "x": "Today started like a bad dream. My clock stopped last night, so I got up forty minutes late. I had no time for breakfast, and I ran to the bus stop without my umbrella. Of course, it started to rain. When I got to school, I was wet, hungry, and late for the first class."
+      },
+      {
+        "t": "p",
+        "x": "Then things got worse. In English class, I couldn't find my homework. I looked in my bag three times, but it wasn't there. I wanted to cry."
+      },
+      {
+        "t": "p",
+        "x": "At lunch, Ruby saw my face and gave me half of her sandwich. She didn't ask any questions. She just sat with me and told funny stories. After school, Ms. Lin called me to her office. My heart beat fast. But she smiled and said, \"Your story won first prize in the school writing event!\""
+      },
+      {
+        "t": "p",
+        "x": "When I got home, I found my homework on my desk. I laughed. Today began like a bad dream, but it ended like a sweet one. Tomorrow I will buy a new clock and a cake for Ruby."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did the writer get up late?",
+        "options": [
+          "It was raining hard.",
+          "The writer could not find the homework.",
+          "The clock did not work.",
+          "The writer missed the bus."
+        ],
+        "answer": "C",
+        "explanation": "日記寫「My clock stopped last night, so I got up forty minutes late.」時鐘停了才晚起，所以選 C。下雨和找不到作業都是後來發生的事，文中也沒說她錯過公車。"
+      },
+      {
+        "type": "推論",
+        "question": "How did the writer feel when Ms. Lin called the writer to the office?",
+        "options": [
+          "Worried",
+          "Happy",
+          "Angry",
+          "Hungry"
+        ],
+        "answer": "A",
+        "explanation": "日記寫「Ms. Lin called me to her office. My heart beat fast.」她心跳很快，表示很緊張、擔心，所以選 A。聽到得獎之後她才開心；Hungry 是早上沒吃早餐時的感覺。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does “one” in “it ended like a sweet one” mean?",
+        "options": [
+          "A cake",
+          "A story",
+          "A sandwich",
+          "A dream"
+        ],
+        "answer": "D",
+        "explanation": "原句是「Today began like a bad dream, but it ended like a sweet one.」one 指前面的 dream，意思是今天像一場美夢一樣結束，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why will the writer buy a cake for Ruby?",
+        "options": [
+          "Because Ruby won first prize.",
+          "Because Ruby was kind at lunch.",
+          "Because Ruby found the homework.",
+          "Because it is Ruby's birthday."
+        ],
+        "answer": "B",
+        "explanation": "日記寫 Ruby「gave me half of her sandwich」，還陪她、講好笑的故事，所以作者想買蛋糕謝謝她，選 B。得獎的是作者自己；作業是作者回家後在書桌上找到的；文中沒有提到 Ruby 的生日。"
+      }
+    ]
+  },
+  {
+    "id": "kao-message-mixup",
+    "level": "A",
+    "genre": "對話",
+    "title": "Which Library?",
+    "zh": "哪一間圖書館？",
+    "topic": "家庭",
+    "grade": 8,
+    "grammar": "未來式 will、過去式、時間的說法",
+    "names": [
+      "Park Road"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Mom",
+            "x": "Don't forget Grandma's birthday dinner tonight. Dad will pick you up at the library at 17:30."
+          },
+          {
+            "who": "Me",
+            "x": "OK, Mom!",
+            "me": true
+          },
+          {
+            "who": "Me",
+            "x": "Dad, it's 17:40 now. I'm at the library door. Where are you?",
+            "me": true
+          },
+          {
+            "who": "Dad",
+            "x": "I'm at the library, too! I'm next to the big tree, but I don't see you."
+          },
+          {
+            "who": "Me",
+            "x": "There is no big tree here. I'm at the City Library on Park Road.",
+            "me": true
+          },
+          {
+            "who": "Dad",
+            "x": "Oh no! I'm at the school library. I thought you were here."
+          },
+          {
+            "who": "Mom",
+            "x": "Sorry, that's my mistake. I didn't say which library."
+          },
+          {
+            "who": "Dad",
+            "x": "Don't worry. I'll drive there now. I'll be there in 15 minutes."
+          },
+          {
+            "who": "Me",
+            "x": "It's raining, so I'll wait inside, next to the front desk.",
+            "me": true
+          },
+          {
+            "who": "Dad",
+            "x": "Good idea. Then we'll go to the restaurant together."
+          },
+          {
+            "who": "Me",
+            "x": "Should I call Grandma and tell her we will be late?",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "No need. Dinner starts at 18:30, so you will still be on time. I'm here with Grandma now."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What really happened?",
+        "options": [
+          "Dad forgot to pick up the writer.",
+          "The writer went to the school library by mistake.",
+          "Mom told Dad the wrong time.",
+          "Dad and the writer went to different libraries."
+        ],
+        "answer": "D",
+        "explanation": "作者說「I'm at the City Library on Park Road.」爸爸說「I'm at the school library.」兩人在不同的圖書館，所以選 D。爸爸沒有忘記，他準時到了學校圖書館；去錯地方的是爸爸，不是作者；時間 17:30 沒有說錯。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the mix-up happen?",
+        "options": [
+          "Dad did not read Mom's message.",
+          "Mom did not say which library.",
+          "The writer was late for the meeting.",
+          "It was raining too hard."
+        ],
+        "answer": "B",
+        "explanation": "媽媽說「Sorry, that's my mistake. I didn't say which library.」她只說 the library，沒說是哪一間，所以爸爸跑錯地方，選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "What will the writer do next?",
+        "options": [
+          "Call Grandma and say sorry.",
+          "Walk to the school library.",
+          "Wait for Dad inside the City Library.",
+          "Take a bus to the restaurant."
+        ],
+        "answer": "C",
+        "explanation": "作者說「It's raining, so I'll wait inside, next to the front desk.」爸爸也說「Good idea.」所以作者會在市立圖書館裡面等，選 C。媽媽說「No need.」所以不用打電話給奶奶。"
+      },
+      {
+        "type": "計算",
+        "question": "About what time will Dad get to the City Library?",
+        "options": [
+          "17:55",
+          "17:30",
+          "17:45",
+          "18:30"
+        ],
+        "answer": "A",
+        "explanation": "作者在訊息中說「it's 17:40 now」，爸爸說「I'll be there in 15 minutes.」17:40 加 15 分鐘是 17:55，所以選 A。17:30 是原本約的時間，18:30 是晚餐開始的時間。"
+      }
+    ]
+  },
+  {
+    "id": "kao-museum-guide",
+    "level": "A",
+    "genre": "圖表題",
+    "title": "City Science Museum Guide",
+    "zh": "市立科學博物館導覽",
+    "topic": "地點與場所",
+    "grade": 8,
+    "grammar": "數字與價格、時間、祈使句",
+    "names": [
+      "Chen"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "City Science Museum",
+        "sub": "Open Tuesday to Sunday. Closed on Mondays.",
+        "rows": [
+          [
+            "Floor",
+            "Area",
+            "Open"
+          ],
+          [
+            "B1",
+            "Kids' Science Room (for children under 12)",
+            "09:00–12:00"
+          ],
+          [
+            "1F",
+            "Animal World",
+            "09:00–17:00"
+          ],
+          [
+            "2F",
+            "Robot Room",
+            "09:00–17:00"
+          ],
+          [
+            "3F",
+            "Star Show (30 minutes)",
+            "10:00, 13:00, 15:00"
+          ]
+        ],
+        "items": [
+          "Tickets: adults $200, students $100 (show your student card), children under 6 free",
+          "Star Show: $50 more for each person",
+          "Groups of 10 or more: $20 off each ticket",
+          "The first Sunday of every month is a free day. Everyone can visit for free, but the Star Show is still $50."
+        ],
+        "foot": "No food or drinks in the museum, please."
+      }
+    ],
+    "questions": [
+      {
+        "type": "計算",
+        "question": "Mr. Chen and his two daughters visit the museum on a Saturday. Both girls are students, and they are 13 and 10. All three of them watch the Star Show. How much do they pay?",
+        "options": [
+          "$550",
+          "$400",
+          "$450",
+          "$600"
+        ],
+        "answer": "A",
+        "explanation": "陳先生是大人「adults $200」，兩個女兒是學生「students $100」，門票共 200 + 100 + 100 ＝ $400。星空秀「$50 more for each person」，三人共 $150。400 + 150 ＝ $550，所以選 A。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "Ann, a 9-year-old girl, gets to the museum at 13:30 on a Wednesday. What can she still do that day?",
+        "options": [
+          "Visit the Kids' Science Room.",
+          "Watch the Star Show at 13:00.",
+          "Watch the Star Show at 15:00.",
+          "Visit the museum for free."
+        ],
+        "answer": "C",
+        "explanation": "表上星空秀的時間是「10:00, 13:00, 15:00」，她 13:30 才到，還能看 15:00 那一場，所以選 C。兒童科學室只開到「12:00」；13:00 那場已經開始了；免費日是「The first Sunday of every month」，不是星期三。"
+      },
+      {
+        "type": "推論",
+        "question": "Leo is a student. When can he visit the museum without paying any money?",
+        "options": [
+          "On the first Monday of May",
+          "On the first Sunday of May, without the Star Show",
+          "On any Saturday with his student card",
+          "On the first Sunday of May, with the Star Show"
+        ],
+        "answer": "B",
+        "explanation": "公告寫「The first Sunday of every month is a free day... but the Star Show is still $50.」所以五月第一個星期日、不看星空秀才完全不用付錢，選 B。A：星期一休館；C：學生票還要 $100；D：看星空秀要付 $50。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of the following is NOT true?",
+        "options": [
+          "Children under 6 do not need to buy a ticket.",
+          "People cannot eat in the museum.",
+          "A group of 12 students pays $80 for each ticket.",
+          "The Robot Room is on the first floor."
+        ],
+        "answer": "D",
+        "explanation": "表上寫「2F, Robot Room」，機器人室在二樓，一樓是 Animal World，所以 D 不正確，選 D。A：「children under 6 free」；B：「No food or drinks in the museum」；C：12 人是團體，學生票 $100 − $20 ＝ $80，都正確。"
+      }
+    ]
+  },
+  {
+    "id": "kao-advice-column",
+    "level": "B",
+    "genre": "多文本",
+    "title": "Too Tired to Think",
+    "zh": "累到無法思考：讀者來信與回覆",
+    "topic": "健康",
+    "grade": 9,
+    "grammar": "現在式、if 子句、關係子句、動名詞、比較級",
+    "names": [
+      "Jason",
+      "Lily",
+      "Taichung",
+      "Lily's",
+      "Jason's"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Text A: Jason's Letter"
+      },
+      {
+        "t": "p",
+        "x": "Dear Aunt Lily, I'm in my last year of junior high, and the big test is only five months away. Every weekday I have school until 17:00, and then I go to extra classes until 21:30. When I get home, I still have homework to do. After that, I play computer games for an hour or two, because it is the only time in the day that belongs to me. I usually go to bed after 01:00, but even then I can't fall asleep quickly. Last week I fell asleep in math class, and my teacher was not happy at all. My parents say I should stop playing games, but if I stop, my life will be nothing but studying. What should I do? — Jason, Taichung"
+      },
+      {
+        "t": "h",
+        "x": "Text B: Aunt Lily's Answer"
+      },
+      {
+        "t": "p",
+        "x": "Dear Jason, many students feel the same way, so you are not alone. First, you don't have to give up games. Everyone needs some free time. However, playing right before bed keeps your brain busy, which makes it harder to fall asleep. Why not play after dinner on weekends instead of late at night?"
+      },
+      {
+        "t": "p",
+        "x": "Second, if you still can't sleep after 20 minutes in bed, don't just lie there. Get up, read a paper book, and go back to bed when you feel sleepy. Finally, talk with your parents and make a plan together. They may understand more than you think."
+      },
+      {
+        "t": "p",
+        "x": "Remember, while you sleep, your brain keeps what you learned during the day. Sleep is part of studying, not a waste of time. — Aunt Lily"
+      }
+    ],
+    "questions": [
+      {
+        "type": "作者目的",
+        "question": "Why did Jason write to Aunt Lily?",
+        "options": [
+          "To tell her which computer games are the most fun",
+          "To ask her to talk to his math teacher for him",
+          "To get help because he is busy and always tired",
+          "To show that his parents are wrong about games"
+        ],
+        "answer": "C",
+        "explanation": "Text A 描述自己每天上課、補習到很晚、凌晨才睡、上課睡著，最後問「What should I do?」，目的是請專欄作家給建議，所以選 C。他雖然不同意爸媽的看法，但寫信不是為了證明爸媽錯了，D 不對。"
+      },
+      {
+        "type": "整合",
+        "question": "Which of Jason's problems does Aunt Lily NOT talk about in her answer?",
+        "options": [
+          "He plays games late at night.",
+          "He cannot fall asleep quickly.",
+          "His parents want him to stop playing games.",
+          "His math teacher was not happy with him."
+        ],
+        "answer": "D",
+        "explanation": "Aunt Lily 談到打電動的時間（「play after dinner on weekends」）、睡不著怎麼辦（「if you still can't sleep after 20 minutes」）、和爸媽溝通（「talk with your parents」），但沒有提到數學老師不高興的事，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "What does Aunt Lily think about computer games?",
+        "options": [
+          "Jason should stop playing them until the big test.",
+          "They are OK if Jason plays them at a better time.",
+          "They can help students fall asleep more quickly.",
+          "They are a waste of time for students like Jason."
+        ],
+        "answer": "B",
+        "explanation": "Text B：「you don't have to give up games」，但「playing right before bed keeps your brain busy」，建議改成週末晚餐後玩。可見她認為遊戲可以玩，只是要換時間，所以選 B。C 正好相反。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does Aunt Lily mean by “Sleep is part of studying”?",
+        "options": [
+          "Good sleep helps us remember what we learn.",
+          "Students can learn new things in their dreams.",
+          "It is fine to sleep in class when we are tired.",
+          "Studying for a long time makes people sleepy."
+        ],
+        "answer": "A",
+        "explanation": "前一句：「while you sleep, your brain keeps what you learned during the day.」睡覺時大腦會把白天學的東西留住，所以睡眠也是學習的一部分，選 A。C 和 Jason 上課睡著有關，但不是作者的意思。"
+      },
+      {
+        "type": "推論",
+        "question": "Why does Aunt Lily say “They may understand more than you think”?",
+        "options": [
+          "She wants Jason to play games with his parents.",
+          "She thinks Jason's parents are too strict with him.",
+          "She has already talked to Jason's parents.",
+          "She hopes Jason will not be afraid to talk to them."
+        ],
+        "answer": "D",
+        "explanation": "這句接在「talk with your parents and make a plan together」後面。Jason 覺得爸媽只會叫他別玩遊戲，Aunt Lily 告訴他爸媽也許比他想的更能理解，是在鼓勵他勇敢和爸媽溝通，所以選 D。文中沒有說她和 Jason 的爸媽談過。"
+      }
+    ]
+  },
+  {
+    "id": "kao-news-report",
+    "level": "B",
+    "genre": "說明文",
+    "title": "A Goat on the School Roof",
+    "zh": "校園屋頂上的山羊",
+    "topic": "動物與昆蟲",
+    "grade": 9,
+    "grammar": "過去式、被動語態、現在完成式、間接引述",
+    "names": [
+      "Pingtung",
+      "Shin-Le",
+      "Snow",
+      "Chen",
+      "Lin",
+      "October",
+      "Da-wei",
+      "Mei-hua"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Goat Found on School Roof in Pingtung Town"
+      },
+      {
+        "t": "p",
+        "x": "Students at Shin-Le Junior High School in Pingtung got a big surprise on Tuesday morning, October 20. When they arrived at school at about 07:20, they found a white goat standing on the roof of a small building next to the school gate. The goat walked back and forth and did not seem afraid at all. Many students stopped to take pictures, and the school's workers called the police."
+      },
+      {
+        "t": "p",
+        "x": "The goat, which is called Snow, belongs to Chen Da-wei, a farmer who lives about two kilometers from the school. Strong winds on Monday night broke part of the fence on his farm, and Snow walked away in the dark. The police believe that she climbed onto a pile of wood boxes behind the building and then jumped up to the roof."
+      },
+      {
+        "t": "p",
+        "x": "Chen hurried to the school after he got a call from the police. At 08:40, Snow was carried down safely by Chen and two police officers. “Goats love high places,” Chen said with a laugh. “On my farm, Snow always stands on the tallest rock. Maybe the roof looked like a good place to watch the sun come up.”"
+      },
+      {
+        "t": "p",
+        "x": "Lin Mei-hua, who has sold breakfast across from the school for twenty years, said, “I have seen many strange things here, but never a goat on a roof!” Chen has already fixed his fence. He also said he will bring Snow back to visit the students next month."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the news report mainly about?",
+        "options": [
+          "How farmers in Pingtung keep their goats safe",
+          "A storm that broke many things in a small town",
+          "A goat that got onto a school roof and how it was brought down",
+          "A woman who has sold breakfast near a school for many years"
+        ],
+        "answer": "C",
+        "explanation": "標題「Goat Found on School Roof」，全文說明山羊被發現、為什麼跑出來、怎麼上去、怎麼被抱下來，所以選 C。B、D 只是文中的細節。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did Snow leave the farm?",
+        "options": [
+          "She wanted to watch the sun come up.",
+          "Part of the fence was broken by strong winds.",
+          "Chen took her to the school to visit the students.",
+          "She was following the students to school."
+        ],
+        "answer": "B",
+        "explanation": "第二段：「Strong winds on Monday night broke part of the fence on his farm, and Snow walked away in the dark.」A 是 Chen 開玩笑說的話，不是真正原因；C 是他下個月才要做的事。"
+      },
+      {
+        "type": "計算",
+        "question": "About how long was Snow on the roof after the students first saw her?",
+        "options": [
+          "40 minutes",
+          "1 hour and 20 minutes",
+          "1 hour and 40 minutes",
+          "2 hours"
+        ],
+        "answer": "B",
+        "explanation": "學生約 07:20 到校時看到山羊（「at about 07:20」），08:40 牠被抱下來（「At 08:40, Snow was carried down」）。07:20 到 08:40 是 1 小時 20 分鐘，所以選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "What does Lin Mei-hua mean when she talks to the reporter?",
+        "options": [
+          "The goat on the roof was very unusual to her.",
+          "She often sees goats near the school.",
+          "She wants to sell breakfast to the farmer.",
+          "She was afraid that the goat would fall."
+        ],
+        "answer": "A",
+        "explanation": "她說：「I have seen many strange things here, but never a goat on a roof!」在學校對面賣了二十年早餐，見過很多怪事，卻從沒看過屋頂上有山羊，表示這件事非常少見，所以選 A。B 和她的話相反。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is TRUE about the news report?",
+        "options": [
+          "Snow got onto the roof by climbing a tree.",
+          "The students carried Snow down from the roof.",
+          "Chen's farm is next to the school gate.",
+          "The police were called by the school's workers."
+        ],
+        "answer": "D",
+        "explanation": "第一段：「the school's workers called the police.」所以 D 正確。A 錯，警方認為牠是爬上木箱堆再跳上屋頂；B 錯，是 Chen 和兩位警察把牠抱下來；C 錯，農場離學校約兩公里，在校門旁的是那棟小建築。"
+      }
+    ]
+  },
+  {
+    "id": "kao-twist-story",
+    "level": "B",
+    "genre": "記敘文",
+    "title": "The Monday Notes",
+    "zh": "星期一的紙條",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "過去式、過去進行式、關係子句、間接問句、現在完成式",
+    "names": [
+      "Kai",
+      "Amy",
+      "Ho",
+      "Grandpa",
+      "Kai's"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Kai was the new student in Class 8-2. He was shy, and for the first few weeks he ate lunch alone. Every morning he got to school at 07:00, just when the gate opened. The only person who said hello to him then was Grandpa Ho, the old school guard. “Every day is a new start,” Grandpa Ho always said with a smile."
+      },
+      {
+        "t": "p",
+        "x": "One Monday, Kai found a small note in his desk: “Good luck on your math test!” The next Monday there was another one: “Don't worry about your cap. Look in the box for lost things.” Kai was surprised, because he had not told anyone that he lost his cap. He found it in the box in the guard's room that afternoon."
+      },
+      {
+        "t": "p",
+        "x": "Kai was sure that Amy, the class leader, was writing the notes. She was friendly to everyone, and she always noticed when someone looked unhappy. But when he thanked her, she looked confused. “What notes?” she asked."
+      },
+      {
+        "t": "p",
+        "x": "The notes kept coming, always before Kai arrived. The last one said, “Every day is a new start.” Kai read it twice, and suddenly he knew."
+      },
+      {
+        "t": "p",
+        "x": "The next Monday, he came to school at 06:30 and waited by the window. Soon an old man with a big ring of keys opened the classroom door and put a folded note in Kai's desk."
+      },
+      {
+        "t": "p",
+        "x": "“Grandpa Ho?” Kai said. The old man turned red. “Sixty years ago, I was a new student here too,” he said quietly. “Nobody talked to me for a whole year. I didn't want that to happen to you.”"
+      }
+    ],
+    "questions": [
+      {
+        "type": "推論",
+        "question": "Why did Kai first think that Amy wrote the notes?",
+        "options": [
+          "She sat next to him in class.",
+          "She was kind and often cared about others' feelings.",
+          "She always got to school before 07:00.",
+          "She had found his cap in the box for lost things."
+        ],
+        "answer": "B",
+        "explanation": "第三段：「She was friendly to everyone, and she always noticed when someone looked unhappy.」Kai 因為 Amy 親切又會注意別人的心情，才認為是她寫的，所以選 B。文中沒說她坐在 Kai 旁邊或很早到校。"
+      },
+      {
+        "type": "推論",
+        "question": "Which clue best helped Kai find out who wrote the notes?",
+        "options": [
+          "The notes were always put in his desk on Mondays.",
+          "One note talked about his math test.",
+          "The last note used words that Grandpa Ho often said.",
+          "Amy did not know anything about the notes."
+        ],
+        "answer": "C",
+        "explanation": "最後一張紙條寫「Every day is a new start.」，這正是第一段 Grandpa Ho 常說的話（「“Every day is a new start,” Grandpa Ho always said」）。Kai 看了兩遍後「suddenly he knew」，所以選 C。D 只能證明不是 Amy，不能看出是誰。"
+      },
+      {
+        "type": "推論",
+        "question": "How could the writer of the notes know where Kai's cap was?",
+        "options": [
+          "The writer worked in the room where the box for lost things was.",
+          "Kai had told the writer about his cap.",
+          "The writer had taken the cap from Kai's desk.",
+          "Amy gave the cap to the writer after school."
+        ],
+        "answer": "A",
+        "explanation": "第二段說帽子在「the box in the guard's room」，也就是警衛室裡放失物的箱子，而寫紙條的人是警衛 Grandpa Ho，所以他知道帽子在哪裡，選 A。B 錯，文中說「he had not told anyone that he lost his cap」。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “The old man turned red” show about Grandpa Ho?",
+        "options": [
+          "He was angry that Kai came to school so early.",
+          "He felt sick after walking up to the classroom.",
+          "He was tired because he got up at 06:00.",
+          "He felt a little shy because his secret was found out."
+        ],
+        "answer": "D",
+        "explanation": "Kai 發現寫紙條的人是他，Grandpa Ho「turned red」，接著「he said quietly」，可見他是因為秘密被發現而有點不好意思、臉紅，所以選 D。他沒有生氣，文中也沒提到他身體不舒服。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is NOT true about Grandpa Ho?",
+        "options": [
+          "He was a student at the same school long ago.",
+          "He had the keys to Kai's classroom.",
+          "He was Amy's grandfather.",
+          "He did not want Kai to feel lonely."
+        ],
+        "answer": "C",
+        "explanation": "文中稱他「Grandpa Ho, the old school guard」，Grandpa 是對老人家的稱呼，並沒有說他是 Amy 的爺爺，所以 C 不正確。A：「Sixty years ago, I was a new student here too」；B：「an old man with a big ring of keys opened the classroom door」；D：「I didn't want that to happen to you.」"
+      }
+    ]
+  },
+  {
+    "id": "kao-product-reviews",
+    "level": "B",
+    "genre": "多文本",
+    "title": "Choosing a School Backpack",
+    "zh": "挑選書包：比較表與買家評論",
+    "topic": "金錢",
+    "grade": 9,
+    "grammar": "比較級與最高級、現在完成式、數字與價格、although 子句",
+    "names": [
+      "City",
+      "Campus",
+      "Pro",
+      "Trail",
+      "Plus",
+      "Ruby",
+      "Hao",
+      "Ruby's",
+      "Hao's",
+      "Mia",
+      "B",
+      "C"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "h",
+        "x": "Text A: Three Backpacks"
+      },
+      {
+        "t": "notice",
+        "title": "Backpacks for Students",
+        "rows": [
+          [
+            "",
+            "City Light",
+            "Campus Pro",
+            "Trail Plus"
+          ],
+          [
+            "Price",
+            "$890",
+            "$1,290",
+            "$1,580"
+          ],
+          [
+            "Weight",
+            "0.6 kilograms",
+            "0.9 kilograms",
+            "1.2 kilograms"
+          ],
+          [
+            "Colors",
+            "black, gray",
+            "black, blue, red",
+            "green, black"
+          ],
+          [
+            "Rain cover",
+            "No",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Free repair",
+            "1 year",
+            "2 years",
+            "3 years"
+          ]
+        ],
+        "items": [
+          "This week only: Campus Pro is $200 off.",
+          "Buy any two backpacks together and get another $100 off the total."
+        ]
+      },
+      {
+        "t": "h",
+        "x": "Text B: Ruby's Review"
+      },
+      {
+        "t": "p",
+        "x": "I've used my backpack for a year. It is the heaviest of the three, and my shoulders hurt a little when I walk to school. Still, I'm glad I chose it. It is strong, and the rain cover kept my books dry during the typhoon last summer. I also like that it can be repaired for free for so long."
+      },
+      {
+        "t": "h",
+        "x": "Text C: Hao's Review"
+      },
+      {
+        "t": "p",
+        "x": "I bought the cheapest one for my daughter because she takes the MRT and doesn't want to carry anything heavy. She loves how light it is. However, one of the shoulder straps broke after eight months. The store fixed it without asking for money, but it took two weeks. Next time, I may pay more for a stronger bag."
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Which backpack has a rain cover and costs less than $1,500 before the sale?",
+        "options": [
+          "City Light",
+          "Trail Plus",
+          "None of them",
+          "Campus Pro"
+        ],
+        "answer": "D",
+        "explanation": "表中有 rain cover（Yes）的是 Campus Pro 和 Trail Plus；原價低於 $1,500 的只有 Campus Pro（$1,290），Trail Plus 是 $1,580。City Light 雖然便宜但沒有防雨罩。"
+      },
+      {
+        "type": "計算",
+        "question": "This week, Mia buys a Campus Pro for herself and a City Light for her brother together. How much does she pay?",
+        "options": [
+          "$1,880",
+          "$1,980",
+          "$2,080",
+          "$2,180"
+        ],
+        "answer": "A",
+        "explanation": "Campus Pro 本週折 $200：1,290－200＝$1,090；City Light $890。兩個一起買再折 $100：1,090＋890－100＝$1,880，所以選 A。$1,980 是忘了扣 $100；$2,080 是忘了扣 $200；$2,180 是兩個折扣都沒扣。"
+      },
+      {
+        "type": "整合",
+        "question": "Why didn't Hao have to pay for the broken strap?",
+        "options": [
+          "The bag broke within its one year of free repair.",
+          "The store gave every buyer $100 off that week.",
+          "His daughter fixed the strap by herself.",
+          "The bag had a two-year free repair time."
+        ],
+        "answer": "A",
+        "explanation": "Hao 買的是最便宜的「the cheapest one」，也就是 City Light（$890），表中它有「1 year」免費維修；背帶在「after eight months」壞掉，還在一年內，所以店家免費修。D 的兩年是 Campus Pro。"
+      },
+      {
+        "type": "推論",
+        "question": "Which backpack did Ruby most likely buy, and why?",
+        "options": [
+          "Campus Pro, because it comes in the most colors",
+          "Trail Plus, because it is strong and has the longest free repair",
+          "City Light, because it is the lightest one",
+          "Campus Pro, because it was on sale that week"
+        ],
+        "answer": "B",
+        "explanation": "Ruby 說「It is the heaviest of the three」，表中最重的是 Trail Plus（1.2 kilograms）；她也說喜歡「it can be repaired for free for so long」，Trail Plus 免費維修 3 年最長，所以選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "What would Ruby and Hao most likely agree on?",
+        "options": [
+          "A cheap backpack is always the best choice.",
+          "A light bag is more important than a strong one.",
+          "How strong a backpack is matters.",
+          "Every student should buy a bag with a rain cover."
+        ],
+        "answer": "C",
+        "explanation": "Ruby 說「It is strong」並因此慶幸選了它；Hao 的背帶壞掉後說「Next time, I may pay more for a stronger bag.」兩人都重視書包是否堅固，所以選 C。A、B 和 Hao 的最後一句相反。"
+      }
+    ]
+  },
+  {
+    "id": "kao-science-fog",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Walking in a Cloud",
+    "zh": "走進雲裡：霧是怎麼形成的",
+    "topic": "天氣與自然",
+    "grade": 9,
+    "grammar": "被動語態、when/if 子句、比較級、關係子句、不定詞",
+    "names": [
+      "Taiwan",
+      "Kinmen",
+      "Matsu"
+    ],
+    "keywords": [
+      "fog"
+    ],
+    "tags": [
+      "會考模擬"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Have you ever walked to school on a morning when you could not see the other side of the street? If so, you have walked through a cloud. Fog is really a cloud that forms very close to the ground."
+      },
+      {
+        "t": "h",
+        "x": "How Fog Forms"
+      },
+      {
+        "t": "p",
+        "x": "Air always carries some water that we cannot see. Warm air can hold more water than cold air. When air cools down, it cannot hold all of its water any longer, so some of the water turns into tiny drops. When millions of these drops float near the ground, we call it fog."
+      },
+      {
+        "t": "p",
+        "x": "This often happens on clear, quiet nights. Without clouds to keep it warm, the ground loses heat fast, and the air just above it gets colder. That is why fog is common early in the morning. As the sun warms the air, the drops slowly disappear, and the fog usually lifts before noon."
+      },
+      {
+        "t": "p",
+        "x": "Fog can also form when warm, wet air moves over cold water. In Taiwan, this happens on islands such as Kinmen and Matsu in spring, and planes sometimes have to wait until the fog is gone."
+      },
+      {
+        "t": "h",
+        "x": "Staying Safe"
+      },
+      {
+        "t": "p",
+        "x": "Fog makes it hard to see far, so drivers should slow down and leave more space between cars. They should use low lights, not their strongest ones, because strong light hits the water drops and shines back into their eyes. People who walk should wear bright clothes and be extra careful when they cross the road."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why planes cannot fly on Kinmen and Matsu",
+          "How fog forms and how to stay safe in it",
+          "Why clouds are found high up in the sky",
+          "How drivers should use the lights on their cars"
+        ],
+        "answer": "B",
+        "explanation": "文章兩個小標題是「How Fog Forms」和「Staying Safe」，分別說明霧怎麼形成、起霧時怎麼保護自己，所以選 B。A、D 只是文中的細節。"
+      },
+      {
+        "type": "細節",
+        "question": "According to the reading, when does fog most often form?",
+        "options": [
+          "On cloudy afternoons when it is raining",
+          "At noon when the sun is strongest",
+          "When cold air moves over warm water",
+          "After a clear, quiet night, early in the morning"
+        ],
+        "answer": "D",
+        "explanation": "第三段：「This often happens on clear, quiet nights.」又說「That is why fog is common early in the morning.」所以選 D。C 把冷熱對調了，原文是「warm, wet air moves over cold water」。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “lifts” mean in “the fog usually lifts before noon”?",
+        "options": [
+          "Goes away",
+          "Gets thicker",
+          "Picks something up",
+          "Moves closer to the ground"
+        ],
+        "answer": "A",
+        "explanation": "前一句說「As the sun warms the air, the drops slowly disappear」，太陽讓水滴慢慢消失，所以霧在中午前「散去」，選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "Why should drivers NOT use their strongest lights in fog?",
+        "options": [
+          "The lights make the air warmer and the fog thicker.",
+          "Walkers can see the car better with low lights.",
+          "The light hits the drops and comes back into their eyes.",
+          "Strong lights use too much power on long trips."
+        ],
+        "answer": "C",
+        "explanation": "最後一段：「strong light hits the water drops and shines back into their eyes.」強光打在水滴上會反射回駕駛的眼睛，所以選 C。其他選項文中都沒有提到。"
+      },
+      {
+        "type": "推論",
+        "question": "Which is TRUE according to the reading?",
+        "options": [
+          "Fog and clouds are made of different things.",
+          "Fog can make planes leave later than planned.",
+          "Fog forms when the ground gets warmer at night.",
+          "Cold air can hold more water than warm air."
+        ],
+        "answer": "B",
+        "explanation": "第四段：「planes sometimes have to wait until the fog is gone」，飛機有時要等霧散才能起飛，也就是會延後出發，所以 B 正確。A 錯，「Fog is really a cloud」；C 錯，原文是地面在夜裡「loses heat fast」變冷；D 錯，「Warm air can hold more water than cold air」。"
       }
     ]
   }

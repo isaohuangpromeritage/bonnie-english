@@ -2,7 +2,7 @@ const ICON_SPK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strok
 const ICON_STOP='<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>';
 
 /* 字典與文章從 data/*.json 載入（見 init） */
-let D={},F={},JY=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
+let D={},F={},JY=[],EXAMS=[];  // D：字典；F：詞形變化 → 原形（data/forms.json）
 const IRR={was:'be',were:'be',is:'be',are:'be',am:'be',been:'be',said:'say',ate:'eat',brought:'bring',took:'take',got:'get',went:'go',done:'do',did:'do',does:'do',has:'have',had:'have',heard:'hear',found:'find',made:'make',came:'come',ran:'run',caught:'catch',woke:'wake',spent:'spend'};
 const RULES=[[/ies$/,'y'],[/ied$/,'y'],[/iest$/,'y'],[/ier$/,'y'],[/s$/,''],[/es$/,''],[/d$/,''],[/ed$/,''],[/ing$/,''],[/ing$/,'e'],[/est$/,''],[/er$/,''],[/ly$/,'']];
 // 縮寫與所有格：can't → can、didn't → do、I'm → I、Tom's → tom、let's → let
@@ -78,14 +78,28 @@ function stopSpeak(){try{speechSynthesis.cancel();}catch(e){}state.reading=false
 /* 畫面 */
 function go(view,aid){stopSpeak();closeSheet();state.view=view;if(aid!==undefined)state.aid=aid;render();window.scrollTo(0,0);}
 function render(){
-  document.getElementById('tab-read').setAttribute('aria-pressed',state.view!=='vocab');
+  document.getElementById('tab-read').setAttribute('aria-pressed',!['vocab','exams'].includes(state.view));
+  document.getElementById('tab-exams').setAttribute('aria-pressed',state.view==='exams');
   document.getElementById('tab-vocab').setAttribute('aria-pressed',state.view==='vocab');
   const n=dueList().length,b=document.getElementById('dueBadge');b.textContent=n;b.hidden=!n;
-  ({list:renderList,read:renderRead,quiz:renderQuiz,vocab:renderVocab})[state.view]();
+  ({list:renderList,read:renderRead,quiz:renderQuiz,vocab:renderVocab,exams:renderExams})[state.view]();
 }
 function levelChip(a){return `<span class="chip lv${a.level}">${a.level==='A'?'A 基礎':'B 進階'}</span>`;}
 
 function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre)&&(!state.fTag||(a.tags||[]).includes(state.fTag)));}
+/* 歷屆試題：只連到心測中心官方檔案，不複製試題內容 */
+function renderExams(){
+  const sim=ARTICLES.filter(a=>(a.tags||[]).includes('會考模擬')).length;
+  const L=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${t} ↗</a>`:'';
+  app.innerHTML=`
+  <div class="sec-title"><h2>會考英語歷屆試題</h2></div>
+  <p class="intro">以下連到國立臺灣師範大學心理與教育測驗研究發展中心（心測中心）公布的官方檔案，試題著作權屬於心測中心。英語閱讀測驗作答時間 60 分鐘，建議印出題本、計時作答，再對照參考答案。</p>
+  ${sim?`<div class="due-banner"><span>想先暖身？本站有 <b>${sim}</b> 篇仿照會考題型的原創練習。</span><button class="btn primary" data-act="go-sim">做會考模擬題</button></div>`:''}
+  <div class="vlist exams">${EXAMS.map(e=>`
+    <div class="exam-row"><b>${e.year} 年</b>
+      <div class="exam-links">${L(e.reading,'閱讀題本')}${L(e.listening,'聽力題本')}${L(e.answers,'參考答案')}${L(e.analysis,'試題分析')}${L(e.page,'該年完整資料')}</div></div>`).join('')}</div>
+  <p class="intro" style="margin-top:12px;font-size:13px">資料來源：<a href="https://cap.rcpet.edu.tw/examination.html" target="_blank" rel="noopener">國中教育會考－歷屆試題</a>。少數年份的題本連結名稱不同，請從「該年完整資料」進入。</p>`;
+}
 function renderList(){
   const n=dueList().length;
   app.innerHTML=`
@@ -236,6 +250,7 @@ document.addEventListener('click',ev=>{
   const act=t.dataset.act;
   if(act==='home')go('list');
   else if(act==='go-vocab')go('vocab');
+  else if(act==='go-sim'){state.fTag='會考模擬';state.fLevel='';state.fGenre='';go('list');}
   else if(act==='read')go('read');
   else if(act==='quiz'){state.submitted=false;go('quiz');}
   else if(act==='submit'){const a=ARTICLES.find(x=>x.id===state.aid);if(Object.keys(state.answers).length<a.questions.length)return;state.submitted=true;
@@ -256,13 +271,14 @@ document.addEventListener('keydown',ev=>{
 document.addEventListener('change',ev=>{if(ev.target.id==='fGenre'){state.fGenre=ev.target.value;renderList();}if(ev.target.id==='fTag'){state.fTag=ev.target.value;renderList();}});
 document.getElementById('tab-read').onclick=()=>go(state.view==='vocab'?'list':state.view==='list'?'list':state.view);
 document.getElementById('tab-vocab').onclick=()=>{state.review=null;go('vocab');};
+document.getElementById('tab-exams').onclick=()=>go('exams');
 // 版本號：index.html 用 app.js?v=版本 載入；資料檔也帶同一個版本號，確保程式和資料一定是同一版
 const VERSION=(document.currentScript&&new URL(document.currentScript.src).searchParams.get('v'))||'dev';
 async function loadJSON(p){const r=await fetch(p+'?v='+VERSION,VERSION==='dev'?{cache:'no-cache'}:{});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
 async function init(){
   try{
-    const [dict,arts,forms,jy]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[])]);
-    F=forms;JY=jy;
+    const [dict,arts,forms,jy,exams]=await Promise.all([loadJSON('data/dict.json'),loadJSON('data/articles.json'),loadJSON('data/forms.json').catch(()=>({})),loadJSON('data/junyi.json').catch(()=>[]),loadJSON('data/exams.json').catch(()=>[])]);
+    F=forms;JY=jy;EXAMS=exams;
     D={};for(const [w,e] of Object.entries(dict))D[w.toLowerCase()]={p:e.pos,z:e.zh,lv:e.level,t:e.topic||'',jy:e.jy,wk:!!e.wk};
     ARTICLES=arts.map(a=>({...a,questions:a.questions.map(q=>({type:q.type,q:q.question,opts:q.options,a:'ABCD'.indexOf(q.answer),ex:q.explanation}))}));
     render();

@@ -24,7 +24,8 @@ bonnie-english/
 │   ├── articles.json       文章與題目 ← 新增文章改這裡
 │   ├── dict.json           字典（由 tools/build_dict.py 產生，不要手動改）
 │   ├── forms.json          詞形變化 → 原形（同上，自動產生）
-│   └── junyi.json          均一 2000 單分組（同上，自動產生）
+│   ├── junyi.json          均一 2000 單分組（同上，自動產生）
+│   └── exams.json          會考歷屆試題官方連結（手動維護，每年會考後新增一筆）
 ├── data-src/
 │   ├── curated.json        人工校對的單字 ← 要修正中文解釋改這裡
 │   ├── moe-2000.csv        教育部 2000 字表（官方）

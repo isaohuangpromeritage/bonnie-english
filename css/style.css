@@ -165,6 +165,13 @@ h1,h2,h3{text-wrap:balance;margin:0}
 .due{font-size:12px;color:var(--muted);white-space:nowrap}
 .due.now{color:var(--off);font-weight:500}
 .x{border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:4px 6px}
+.exam-row{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:start;padding:11px 14px;border-top:1px solid var(--line)}
+.exam-row:first-child{border-top:0}
+.exam-row b{font-variant-numeric:tabular-nums}
+.exam-links{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px}
+.exam-links a,.intro a{color:var(--accent);text-decoration:none}
+.exam-links a:hover,.intro a:hover{text-decoration:underline}
+.tabs button{white-space:nowrap}
 .empty{background:var(--surface);border:1px dashed var(--line);border-radius:14px;padding:28px 18px;text-align:center;color:var(--muted)}
 .flash{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:28px 20px;text-align:center;display:grid;gap:12px;justify-items:center;margin-bottom:12px}
 .flash .hw{font-size:38px}
