@@ -52,6 +52,7 @@ const QTYPES = ['主旨', '細節', '推論', '字義猜測', '指涉', '圖表�
 const SPEC = {           // 寫作規格：字數（圖表題、對話不檢查下限）、題數、非基本字、超綱字上限
   A: { min: 100, max: 200, q: [3, 4], adv: 6, off: 1 },
   B: { min: 160, max: 300, q: [4, 5], adv: 99, off: 3 },
+  C: { min: 450, max: 560, q: [5, 6], adv: 99, off: 5 },   // C 挑戰：約 500 字的長篇故事
 };
 const otherIds = FILE === 'data/articles.json' ? [] :
   JSON.parse(fs.readFileSync('data/articles.json', 'utf8')).map(a => a.id);
@@ -65,7 +66,11 @@ for (const a of articles) {
     if (a[k] === undefined || a[k] === '') errs.push(`缺少欄位 ${k}`);
   if (ids.has(a.id)) errs.push(`id 重複：${a.id}`); ids.add(a.id);
   if (!GENRES.includes(a.genre)) errs.push(`genre 要是 ${GENRES.join('／')}`);
-  const spec = SPEC[a.level]; if (!spec) errs.push('level 要是 A 或 B');
+  const spec = SPEC[a.level]; if (!spec) errs.push('level 要是 A、B 或 C');
+  if (a.series) {                      // 連載：{ "id": "…", "title": "系列名稱", "part": 1, "of": 3 }
+    const sr = a.series;
+    if (!sr.id || !sr.title || !(sr.part >= 1) || !(sr.of >= sr.part)) errs.push('series 要有 id、title、part、of');
+  }
   const names = new Set(a.names || []);
   const keys = new Set((a.keywords || []).map(k => k.toLowerCase()));   // 主題關鍵字：可以超綱（會自動加註），不計入超綱上限，最多 3 個
   if (keys.size > 3) errs.push('keywords 最多 3 個');

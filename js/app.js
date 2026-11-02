@@ -86,7 +86,10 @@ function render(){
   const n=dueList().length,b=document.getElementById('dueBadge');b.textContent=n;b.hidden=!n;
   ({list:renderList,read:renderRead,quiz:renderQuiz,vocab:renderVocab,exams:renderExams,singles:renderSingles})[state.view]();
 }
-function levelChip(a){return `<span class="chip lv${a.level}">${a.level==='A'?'A 基礎':'B 進階'}</span>`;}
+const LV={A:'A 基礎',B:'B 進階',C:'C 挑戰'};
+function levelChip(a){return `<span class="chip lv${a.level}">${LV[a.level]||a.level}</span>`+(a.series?`<span class="chip series">連載 ${a.series.part}/${a.series.of}</span>`:'');}
+function nextPart(a){return a.series&&ARTICLES.find(x=>x.series&&x.series.id===a.series.id&&x.series.part===a.series.part+1);}
+function seriesNav(a){const n=nextPart(a);return n?`<button class="btn wide" data-open="${n.id}">繼續讀：${esc(n.title)}（${n.series.part}/${n.series.of}）→</button>`:'';}
 
 function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre)&&(!state.fTag||(a.tags||[]).includes(state.fTag)));}
 /* 歷屆試題：只連到心測中心官方檔案，不複製試題內容 */
@@ -168,7 +171,7 @@ function renderList(){
   ${n?`<div class="due-banner"><span>今天有 <b>${n}</b> 個生字該複習了</span><button class="btn primary" data-act="go-vocab">去複習</button></div>`:''}
   <p class="intro">挑一篇讀讀看。讀的時候點任何單字就能看中文、聽發音，讀完再做題目。</p>
   <div class="filters">
-    <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
+    <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階'],['C','C 挑戰']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
     <select id="fGenre" aria-label="文體"><option value="">所有文體</option>${[...new Set(ARTICLES.map(a=>a.genre))].map(g=>`<option ${state.fGenre===g?'selected':''}>${g}</option>`).join('')}</select>
     ${(()=>{const tags=[...new Set(ARTICLES.flatMap(a=>a.tags||[]))];return tags.length?`<select id="fTag" aria-label="專題"><option value="">所有專題</option>${tags.map(t=>`<option ${state.fTag===t?'selected':''}>${esc(t)}</option>`).join('')}</select>`:'';})()}
     <span class="count">${shown().length} 篇</span>
@@ -209,7 +212,7 @@ function renderRead(){
   <article class="paper" id="paper">${renderBlocks(a)}</article>
   <div class="hint"><span>點單字查中文</span><i><span class="legend-saved">畫線</span>＝已在生字本</i><i><span class="legend-off">虛線</span>＝超出 2000 字</i></div>
   ${offs.length?`<section class="notes"><h3>超綱字註解</h3>${offs.map(w=>`<div><b>${w}</b><span>${D[w].p} ${D[w].z}</span></div>`).join('')}</section>`:''}
-  <button class="btn primary wide" data-act="quiz">讀完了，開始作答（${a.questions.length} 題）</button>`;
+  <div class="s-actions"><button class="btn primary wide" data-act="quiz">讀完了，開始作答（${a.questions.length} 題）</button>${seriesNav(a)}</div>`;
   document.getElementById('readAll').onclick=()=>{
     if(state.reading){stopSpeak();renderRead();return;}
     state.reading=true;renderRead();speak(plainText(a),()=>{state.reading=false;if(state.view==='read')renderRead();});
@@ -223,7 +226,7 @@ function renderQuiz(){
   <button class="back" data-act="read">← 回到文章</button>
   <div class="read-head"><div class="chips">${levelChip(a)}<span class="chip">${a.genre}</span></div><h2>${esc(a.title)}</h2></div>
   ${sub?`<div class="result"><div><div class="big">${correct} / ${qs.length}</div><div style="color:var(--muted);margin-top:4px">${correct===qs.length?'全對！這篇你完全讀懂了。':correct>=qs.length/2?'不錯，看一下錯的題目解析。':'回文章再讀一次，對照解析找答案的位置。'}</div></div>
-    <div class="chips"><button class="btn" data-act="retry">重做</button><button class="btn primary" data-act="home">換一篇</button></div></div>`:''}
+    <div class="chips"><button class="btn" data-act="retry">重做</button><button class="btn primary" data-act="home">換一篇</button></div></div>${seriesNav(a)?`<div style="margin:-4px 0 14px">${seriesNav(a)}</div>`:''}`:''}
   ${qs.map((q,i)=>{
     const pick=ans[i];
     return `<div class="qcard"><div class="qtop"><span class="qnum">${i+1}.</span><span class="chip">${q.type}</span></div>

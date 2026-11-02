@@ -7803,5 +7803,1479 @@
         "explanation": "價目表上小罐「1 liter」、大罐「4 liters」，大罐的量是小罐的四倍，選 A。最便宜的是白色；買兩大罐才折 $100；淺藍小罐是 $300，$350 是深藍小罐。"
       }
     ]
+  },
+  {
+    "id": "lighthouse-1",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Lighthouse Girl (1): The Old Log Book",
+    "zh": "燈塔女孩（一）：舊日誌",
+    "topic": "家庭",
+    "grade": 9,
+    "grammar": "過去式、過去完成式、過去進行式、so…that、not even、關係子句",
+    "names": [
+      "Mei",
+      "Grandpa",
+      "Yuping",
+      "Lins",
+      "LOG"
+    ],
+    "keywords": [
+      "log"
+    ],
+    "series": {
+      "id": "lighthouse",
+      "title": "The Lighthouse Girl",
+      "part": 1,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "The boat ride to Yuping Island took two hours, and Mei felt sick for most of it. When she finally stepped onto the small island, the first thing she did was take out her phone. No internet. Not even one bar."
+      },
+      {
+        "t": "p",
+        "x": "“You won't need that here,” said Grandpa. He was waiting for her at the end of the road, a thin old man with a brown face and white hair. Behind him, on top of a hill, stood a tall white tower with a big lamp at the top. Grandpa had taken care of that light for more than forty years."
+      },
+      {
+        "t": "p",
+        "x": "“Two months,” Mei said to herself. “Two whole months on a rock in the sea.” Her parents were working in another country for the summer, so she had no choice."
+      },
+      {
+        "t": "p",
+        "x": "Life with Grandpa was not easy. He got up at 05:00 every morning. At 06:00 he climbed the one hundred and twelve stairs to the top of the tower to clean the glass around the lamp. At noon he wrote down the weather in a notebook. At 18:30 he turned the light on, and at 22:00 he climbed the stairs again to check it. His routine never changed. He did the same things every day, and he was never late, not even by one minute."
+      },
+      {
+        "t": "p",
+        "x": "“Why do you check it so many times?” Mei asked on her third day. “It's a machine. It works by itself.”"
+      },
+      {
+        "t": "p",
+        "x": "“Machines stop,” Grandpa said. “And when they stop, people at sea get hurt.” He did not say anything else."
+      },
+      {
+        "t": "p",
+        "x": "Mei was bored. She had no friends to chat with and no videos to watch. She swam a little, read the two books she had brought, and counted the birds. By the end of the first week, she was so bored that she offered to help Grandpa clean the small room at the bottom of the tower."
+      },
+      {
+        "t": "p",
+        "x": "That was where she found it. Under a pile of old maps was a heavy book with a dark green cover. On the cover, someone had written in white paint: LOG 1962."
+      },
+      {
+        "t": "p",
+        "x": "Inside, every page was full of short notes. “June 3. Clear sky. Wind from the east. Two ships passed.” “June 4. Rain in the afternoon. Fixed a window.” Most of it was boring, but Mei kept reading, because the writing changed in July. The neat writing of an adult became the big, careless writing of a child."
+      },
+      {
+        "t": "p",
+        "x": "The last note was on August 12. It said: “Typhoon. Father went out in the boat to help the Lins. The light went dark at 23:40. I tried and tried, but I can't make it work. I am alone. I can hear the sea. If Father doesn't come back, it will be because I”"
+      },
+      {
+        "t": "p",
+        "x": "The sentence stopped there. The rest of the page, and every page after it, was empty."
+      },
+      {
+        "t": "p",
+        "x": "Mei looked up. Grandpa was standing at the door. His face had turned as white as the tower."
+      },
+      {
+        "t": "p",
+        "x": "“Put that back,” he said in a low voice. “Please.”"
+      }
+    ],
+    "questions": [
+      {
+        "type": "推論",
+        "question": "How did Mei feel about her summer on the island at first?",
+        "options": [
+          "She was excited to see the tower and the sea.",
+          "She was unhappy because there was little to do there.",
+          "She was afraid that Grandpa did not want her there.",
+          "She was worried about her parents in another country."
+        ],
+        "answer": "B",
+        "explanation": "Mei 一到島上就發現沒網路，心裡想「Two whole months on a rock in the sea.」，後來又「Mei was bored. She had no friends to chat with and no videos to watch.」，可見她一開始覺得無聊、不開心，選 B。文中沒說她怕爺爺不歡迎她，也沒說她擔心父母。"
+      },
+      {
+        "type": "細節",
+        "question": "What does Grandpa do at 18:30 every day?",
+        "options": [
+          "He cleans the glass around the lamp.",
+          "He writes down the weather in a notebook.",
+          "He turns on the light at the top of the tower.",
+          "He climbs the stairs to check the light."
+        ],
+        "answer": "C",
+        "explanation": "第四段：「At 18:30 he turned the light on」，所以選 C。A 是 06:00 做的事，B 是中午，D 是 22:00。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "In the fourth paragraph, what does “routine” mean?",
+        "options": [
+          "A long and difficult trip up a tower",
+          "A list of rules for visitors",
+          "A machine that helps a light work",
+          "The things someone does in the same way every day"
+        ],
+        "answer": "D",
+        "explanation": "routine 前面列出爺爺每天固定的作息（05:00 起床、06:00 擦玻璃、18:30 開燈…），後面接著說「He did the same things every day」，可推知 routine 是「每天固定做的事、例行公事」，選 D。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “That was where she found it,” what does “it” mean?",
+        "options": [
+          "An old book with notes about the light and the weather",
+          "A pile of old maps of the island",
+          "The small room at the bottom of the tower",
+          "Grandpa's notebook about the weather this summer"
+        ],
+        "answer": "A",
+        "explanation": "下一句說「Under a pile of old maps was a heavy book with a dark green cover.」，封面寫著 LOG 1962，裡面記著天氣和燈的事，所以 it 指這本舊日誌，選 A。地圖是壓在書上面的東西，小房間是找到書的地方，都不是 it。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Grandpa's face turn white when he saw Mei with the book?",
+        "options": [
+          "He was angry that Mei had not finished cleaning the room.",
+          "He was afraid that the old book would break.",
+          "The book made him think of a sad night from long ago.",
+          "He felt sick after climbing all the stairs."
+        ],
+        "answer": "C",
+        "explanation": "書的最後一頁寫著颱風夜、燈熄了、父親出海沒回來，而且字跡是小孩子寫的。爺爺看到後臉色發白，低聲說「Put that back... Please.」，可見這本書讓他想起很久以前一個難過的夜晚，選 C。他沒有生氣，也沒提到書會壞或身體不舒服。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is this part of the story mainly about?",
+        "options": [
+          "A bored girl finds an old book with a strange last page.",
+          "A girl learns how to clean a big lamp.",
+          "An old man teaches his granddaughter about the weather.",
+          "A family moves to a small island for the summer."
+        ],
+        "answer": "A",
+        "explanation": "這一篇寫 Mei 在島上沒網路很無聊，幫忙打掃時找到一本 1962 年的日誌，最後一頁的句子沒寫完、爺爺的反應也很奇怪，重點是她發現這本神秘的舊日誌，選 A。只有 Mei 一個人來島上，不是全家搬去，D 錯。"
+      }
+    ]
+  },
+  {
+    "id": "lighthouse-2",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Lighthouse Girl (2): The Night the Power Failed",
+    "zh": "燈塔女孩（二）：停電的颱風夜",
+    "topic": "天氣與自然",
+    "grade": 9,
+    "grammar": "過去式、過去進行式、so…that、祈使句、不定詞、關係子句",
+    "names": [
+      "Mei",
+      "Grandpa"
+    ],
+    "keywords": [
+      "log"
+    ],
+    "series": {
+      "id": "lighthouse",
+      "title": "The Lighthouse Girl",
+      "part": 2,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Ten days later, the radio said a strong typhoon was coming. Grandpa spent the whole morning getting ready. He tied the doors, filled big buckets with water, and carried oil up the stairs of the tower. Mei helped him without being asked. Since the day she found the old log book, Grandpa had not said a word about it, and she had not dared to ask."
+      },
+      {
+        "t": "p",
+        "x": "By evening, the wind was screaming around the tower. Rain hit the windows so hard that Mei thought the glass would break. At 18:30, Grandpa turned on the lamp as usual, and its long white arm began to move slowly across the dark sea."
+      },
+      {
+        "t": "p",
+        "x": "“Most of the fishing boats came home this afternoon,” Grandpa said, looking out at the waves. “But not all of them.”"
+      },
+      {
+        "t": "p",
+        "x": "At 21:15, everything went black. The lamp, the kitchen light, the radio. Everything. Mei's heart jumped."
+      },
+      {
+        "t": "p",
+        "x": "“The power is gone,” Grandpa said. His voice was calm, but his hands were shaking as he lit a candle. “Listen carefully, Mei. Without power, the lamp can still burn oil, but the machine that turns it stops. A light that doesn't turn looks like the light of a house. Sailors won't know it's us. Someone has to turn it by hand.”"
+      },
+      {
+        "t": "p",
+        "x": "“All night?”"
+      },
+      {
+        "t": "p",
+        "x": "“All night.”"
+      },
+      {
+        "t": "p",
+        "x": "They climbed the stairs together. At the top, Grandpa lit the oil lamp and showed her a metal handle on the side of the machine. He began to turn it, around and around, slowly and evenly. “Not too fast, not too slow,” he said. “Count with me. One, two, three, four.”"
+      },
+      {
+        "t": "p",
+        "x": "After an hour, Grandpa's arms began to shake. He was almost eighty years old. “Let me try,” Mei said. At first the handle was so heavy that she needed both hands. Her arms hurt, and her back hurt, but she kept counting. One, two, three, four. Grandpa sat on the floor next to her and watched the sea through the wet glass."
+      },
+      {
+        "t": "p",
+        "x": "Around midnight, he suddenly stood up. “There!” he said, pointing. Far out in the dark, a tiny red light was going up and down with the waves. Then it went up into the sky, bright and fast, and fell into the sea. “That's a fishing boat,” said Grandpa. “And it's calling for help. It's too close to the north rocks.”"
+      },
+      {
+        "t": "p",
+        "x": "Mei looked at the little red light. She thought about the last page of the old log book, about a child who sat alone in this same room on a stormy night long ago. She held the handle tighter."
+      },
+      {
+        "t": "p",
+        "x": "“What do we do?” she asked."
+      },
+      {
+        "t": "p",
+        "x": "Grandpa was already putting on his raincoat and picking up the big flashlight. “I'm going down to the beach to show them the safe way in,” he said. “You keep this light turning. No matter what happens, don't stop.”"
+      },
+      {
+        "t": "p",
+        "x": "Then he was gone. Mei was alone at the top of the tower, with the storm all around her."
+      }
+    ],
+    "questions": [
+      {
+        "type": "字義猜測",
+        "question": "In the second paragraph, what is the lamp's “long white arm”?",
+        "options": [
+          "A metal handle on the side of the machine",
+          "A long white rope that Grandpa tied to the door",
+          "The rain that was hitting the windows",
+          "The light that the lamp sent across the sea"
+        ],
+        "answer": "D",
+        "explanation": "「Grandpa turned on the lamp as usual, and its long white arm began to move slowly across the dark sea.」燈打開後，在黑暗海面上慢慢移動的「長長白色手臂」，指的是燈發出的光束，選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Why did someone have to turn the lamp by hand?",
+        "options": [
+          "Without power the lamp would not turn, and sailors might not know it was the tower's light.",
+          "The oil for the lamp was gone, so the light became too weak.",
+          "Grandpa wanted to teach Mei how the old machine worked.",
+          "The wind was so strong that it broke the glass around the lamp."
+        ],
+        "answer": "A",
+        "explanation": "爺爺說：「Without power, the lamp can still burn oil, but the machine that turns it stops. A light that doesn't turn looks like the light of a house. Sailors won't know it's us.」停電後燈不會轉，船員會分不清那是燈塔，所以要用手轉，選 A。油還在，玻璃也沒破。"
+      },
+      {
+        "type": "細節",
+        "question": "Which shows the right order of what happened?\na. All the lights went out.\nb. Mei turned the handle.\nc. They saw a red light on the sea.\nd. Grandpa tied the doors.",
+        "options": [
+          "a → d → b → c",
+          "d → a → b → c",
+          "d → a → c → b",
+          "a → b → d → c"
+        ],
+        "answer": "B",
+        "explanation": "早上爺爺先綁好門（d）；晚上 21:15「everything went black」（a）；一小時後爺爺手痠，Mei 接手轉把手（b）；到了半夜才看到海上的紅光（c）。順序是 d → a → b → c，選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Mei hold the handle tighter after she saw the red light?",
+        "options": [
+          "Her hands were cold and wet from the rain.",
+          "Grandpa told her to turn the handle faster.",
+          "She did not want the boat to be in danger like that night long ago.",
+          "She was afraid that the handle would fall off the machine."
+        ],
+        "answer": "C",
+        "explanation": "看到紅光後，「She thought about the last page of the old log book, about a child who sat alone in this same room on a stormy night long ago. She held the handle tighter.」她想起日誌裡那晚燈熄滅、有人出事的事，不希望再發生，所以更用力握住把手，選 C。爺爺說的是「Not too fast, not too slow」，不是要她轉快一點。"
+      },
+      {
+        "type": "推論",
+        "question": "How did Grandpa most likely feel when the power went out?",
+        "options": [
+          "Worried, but he tried not to show it",
+          "Excited to use the old oil lamp again",
+          "Angry because Mei did not help him",
+          "Sleepy because it was late at night"
+        ],
+        "answer": "A",
+        "explanation": "「His voice was calm, but his hands were shaking as he lit a candle.」聲音很冷靜，手卻在發抖，表示他其實很擔心，只是努力不表現出來，選 A。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer end this part with Mei alone at the top of the tower?",
+        "options": [
+          "To show that Grandpa did not care about Mei",
+          "To explain how a fishing boat works",
+          "To tell readers that the storm was over",
+          "To make readers want to know what will happen next"
+        ],
+        "answer": "D",
+        "explanation": "結尾「Then he was gone. Mei was alone at the top of the tower, with the storm all around her.」船還在危險中、爺爺下去海邊，Mei 一個人留在暴風雨中，作者故意停在這裡製造懸念，讓讀者想知道接下來會怎樣，選 D。風雨並沒有停，C 錯。"
+      }
+    ]
+  },
+  {
+    "id": "lighthouse-3",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Lighthouse Girl (3): The Last Page",
+    "zh": "燈塔女孩（三）：最後一頁",
+    "topic": "家庭",
+    "grade": 9,
+    "grammar": "過去式、過去完成式、間接問句、so…that、關係子句、現在分詞",
+    "names": [
+      "Mei",
+      "Grandpa",
+      "Lin",
+      "Lins",
+      "Ah-Tai",
+      "Ah-Tai's"
+    ],
+    "keywords": [
+      "log",
+      "keeper"
+    ],
+    "series": {
+      "id": "lighthouse",
+      "title": "The Lighthouse Girl",
+      "part": 3,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Mei turned the handle for what felt like hours. Through the wet glass she could see two lights below: the small red one on the sea, and Grandpa's yellow flashlight on the beach, moving left and right. Slowly, very slowly, the red light moved away from the north rocks and came toward the yellow one."
+      },
+      {
+        "t": "p",
+        "x": "At 02:10, the red light stopped moving. Mei's arms were burning, but she did not stop. “Not too fast, not too slow,” she whispered to herself."
+      },
+      {
+        "t": "p",
+        "x": "When the sky turned gray in the morning, the wind was finally quieter. Mei heard steps on the stairs. Grandpa came in, wet from head to toe, with a young man behind him."
+      },
+      {
+        "t": "p",
+        "x": "“This is Lin Ah-Tai,” Grandpa said. “He and his brother were on that boat. They're safe. Their boat hit the sand, not the rocks.”"
+      },
+      {
+        "t": "p",
+        "x": "The young man bowed to Mei. “When our engine died, we couldn't see anything,” he said. “Then we saw your light turning, and we knew where the rocks were. You saved our lives.”"
+      },
+      {
+        "t": "p",
+        "x": "After he left to take care of his brother, Grandpa sat down next to Mei. For a long time, he said nothing. Then he took the old log book out of his coat."
+      },
+      {
+        "t": "p",
+        "x": "“The child who wrote the last page was me,” he said. “I was fourteen, like you. My father was the keeper then, and that summer he let me write the log. In 1962, on a night just like last night, the Lins' boat was in trouble, and my father went out to help them. He told me to watch the light. Then the power failed, and I didn't know how to turn the lamp by hand. I just sat in the dark and cried.”"
+      },
+      {
+        "t": "p",
+        "x": "“What happened to your father?” Mei asked."
+      },
+      {
+        "t": "p",
+        "x": "“He came back in the morning. Old Mr. Lin, Ah-Tai's grandfather, pulled him out of the water. Everyone lived. But I never forgave myself. I never finished that page, because I didn't know how the story should end. So I learned everything about this light, and I promised that it would never go dark again while I was here.”"
+      },
+      {
+        "t": "p",
+        "x": "Now Mei understood the early mornings, the checks at 22:00, and the hands that shook when the power failed."
+      },
+      {
+        "t": "p",
+        "x": "Grandpa opened the book to the last page and handed her a pen. “Last night, a Lin needed help again, and a girl of fourteen kept the light on,” he said. “I think you should finish it.”"
+      },
+      {
+        "t": "p",
+        "x": "Mei thought for a moment. Then, under the words her grandfather wrote as a boy, she wrote: “The light did not go out. We were not alone.”"
+      },
+      {
+        "t": "p",
+        "x": "Grandpa read it twice. Then he smiled, and for the first time that summer, he looked young."
+      },
+      {
+        "t": "p",
+        "x": "At the end of August, when the boat came to take her home, Mei took out her phone. There was internet again, and two hundred messages were waiting. She put the phone back in her bag and looked up at the white tower for a long time. She had come to the island thinking it was the end of the world. Now she knew it was a place where people kept each other safe."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "How did the Lin brothers know where the rocks were?",
+        "options": [
+          "Their engine still worked, so they could go around the rocks.",
+          "They saw the turning light from the tower.",
+          "Grandpa called them on the radio.",
+          "They had a map of the north rocks on their boat."
+        ],
+        "answer": "B",
+        "explanation": "Ah-Tai 說：「Then we saw your light turning, and we knew where the rocks were.」他們是看到燈塔轉動的光才知道礁石在哪，選 B。A 錯，他們的引擎壞了（「our engine died」）。"
+      },
+      {
+        "type": "指涉",
+        "question": "When Grandpa says “I think you should finish it,” what does “it” mean?",
+        "options": [
+          "The work of turning the handle",
+          "The story of the Lin family",
+          "The book that Mei was reading this summer",
+          "The last page that Grandpa wrote as a boy"
+        ],
+        "answer": "D",
+        "explanation": "爺爺把日誌翻到最後一頁、把筆交給 Mei，說「I think you should finish it.」，前面他說過「I never finished that page」，所以 it 指他小時候沒寫完的最後一頁，選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Grandpa check the light so carefully every day for so many years?",
+        "options": [
+          "He felt bad about the night the light went dark when he was a boy.",
+          "His father made him promise to check it four times a day.",
+          "The Lin family paid him to keep the light working.",
+          "The machine in the tower was very old and often broke."
+        ],
+        "answer": "A",
+        "explanation": "爺爺說：「But I never forgave myself... So I learned everything about this light, and I promised that it would never go dark again while I was here.」因為小時候那晚沒能讓燈亮著，一直很自責，所以每天仔細檢查，選 A。承諾是他自己許下的，不是父親要求的，B 錯。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does Grandpa mean when he says, “I never forgave myself”?",
+        "options": [
+          "He never told anyone about that night.",
+          "He was angry with old Mr. Lin for a long time.",
+          "He kept thinking that what happened was his fault.",
+          "He forgot most of what happened that night."
+        ],
+        "answer": "C",
+        "explanation": "雖然「Everyone lived」，爺爺卻說「I never forgave myself」，而且之後拚命學會照顧燈、發誓不讓燈再熄滅，可見他一直覺得那晚是自己的錯，無法原諒自己，選 C。Mr. Lin 是救了他父親的人，他沒有生 Mr. Lin 的氣。"
+      },
+      {
+        "type": "主旨",
+        "question": "What did Mei learn at the end of the summer?",
+        "options": [
+          "Life is better without a phone.",
+          "The island is a place where people help and protect each other.",
+          "Keeping a light is too hard for a young person.",
+          "Everyone should learn to fix machines."
+        ],
+        "answer": "B",
+        "explanation": "最後一句：「Now she knew it was a place where people kept each other safe.」她明白這座島是大家互相守護的地方，選 B。她只是把手機收起來，並沒有說沒有手機比較好，A 太過頭。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is TRUE about the night in 1962?",
+        "options": [
+          "Grandpa kept the lamp turning all night.",
+          "Old Mr. Lin pulled Grandpa's father out of the water.",
+          "Grandpa's father did not come back.",
+          "Grandpa went out in the boat with his father."
+        ],
+        "answer": "B",
+        "explanation": "爺爺說：「Old Mr. Lin, Ah-Tai's grandfather, pulled him out of the water. Everyone lived.」選 B。A 錯，他「didn't know how to turn the lamp by hand」；C 錯，父親早上回來了；D 錯，他留在塔上看燈。"
+      }
+    ]
+  },
+  {
+    "id": "night-market-1",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Night Market Mystery (1): The Lucky Box",
+    "zh": "夜市謎案（一）：幸運錢盒",
+    "topic": "地點與場所",
+    "grade": 9,
+    "grammar": "過去式、過去進行式、過去完成式、關係子句、被動語態",
+    "names": [
+      "Leo",
+      "Ivy",
+      "Ling",
+      "Chen",
+      "Wu",
+      "Lin",
+      "Moonlight",
+      "Grandpa",
+      "Mrs",
+      "Mr"
+    ],
+    "series": {
+      "id": "night-market",
+      "title": "The Night Market Mystery",
+      "part": 1,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Every Saturday night, Leo and his classmate Ivy helped at his Aunt Ling's noodle stand at the Moonlight Night Market. From 17:00 to 22:00, the street was full of bright lights, loud music, and hungry people. Leo carried bowls of hot beef noodles to the tables, and Ivy took the money. \"You two are faster than any workers I had before,\" Aunt Ling often said with a laugh."
+      },
+      {
+        "t": "p",
+        "x": "On the table next to the big soup pot sat Aunt Ling's lucky money box. It was a small red box made of wood, with a gold fish painted on the top. The paint was old, and one corner of the box was broken. \"My mother gave me this box when I opened this stand twenty years ago,\" Aunt Ling told Ivy. \"I always want to fix it, but I never have time.\""
+      },
+      {
+        "t": "p",
+        "x": "Across the street, Grandpa Chen sold old toys: paper birds, little cars made of wood, and tops that spun for a long time. That night he was fixing a broken toy horse with a small bottle of glue. \"Ling, next Saturday is a big day for you!\" he called. \"Twenty years! I'll come and eat three bowls of noodles.\""
+      },
+      {
+        "t": "p",
+        "x": "Next to the toy stand was a new stand that sold strawberries covered with hot sugar. Its owner, Mr. Wu, had opened it only two weeks before. He was tall and quiet, and he always wore a black cap. When he came to buy noodles, his eyes stopped on the red box. \"That's a beautiful old box,\" he said. \"Some people pay a lot of money for things like that.\" Aunt Ling smiled, but Leo did not like the way Mr. Wu kept looking at it."
+      },
+      {
+        "t": "p",
+        "x": "At 21:00, Mrs. Lin arrived, just like every Saturday. She always ordered the same thing: one bowl of noodles with extra soup and no green onions. \"This is the best soup in the whole city,\" she said, and she stayed to talk with Aunt Ling for almost an hour."
+      },
+      {
+        "t": "p",
+        "x": "Just before 22:00, it began to rain hard. People ran in every direction. Aunt Ling put all the money from the night into the red box and closed it. \"Leo, Ivy, please carry the chairs to the car. I'll wash the pots in the back.\" The rain was so heavy that the kids could hardly see the stand from the car."
+      },
+      {
+        "t": "p",
+        "x": "Ten minutes later, they all came back to the stand at the same time. Aunt Ling stopped, and her face turned white. The table next to the soup pot was empty. \"My box!\" she cried. \"All of tonight's money was in it!\""
+      },
+      {
+        "t": "p",
+        "x": "Ivy looked around. The big red umbrella that always hung on the side of the stand was gone, too. On the table, where the box had been, there was a small wet spot. Ivy touched it, and her finger stuck to the wood."
+      },
+      {
+        "t": "p",
+        "x": "Leo looked across the street. The strawberry stand was already dark. \"I think I know who did this,\" he said quietly."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why was the red box special to Aunt Ling?",
+        "options": [
+          "Her mother gave it to her when she started her stand.",
+          "Grandpa Chen made it for her twenty years ago.",
+          "She bought it from a new stand at the night market.",
+          "It was the only thing she kept her money in at home."
+        ],
+        "answer": "A",
+        "explanation": "第二段阿姨說：「My mother gave me this box when I opened this stand twenty years ago.」也就是開店時媽媽送的，所以選 A。B 把送盒子的人換成了陳爺爺；C、D 文中沒有提到。"
+      },
+      {
+        "type": "推論",
+        "question": "What did Leo most likely think about Mr. Wu?",
+        "options": [
+          "Mr. Wu was too shy to talk to Aunt Ling.",
+          "Mr. Wu wanted to buy noodles for his friends.",
+          "Mr. Wu was more interested in the box than he should be.",
+          "Mr. Wu was a better cook than Aunt Ling."
+        ],
+        "answer": "C",
+        "explanation": "第四段吳先生盯著盒子說老盒子很值錢，而且「Leo did not like the way Mr. Wu kept looking at it.」可見 Leo 覺得吳先生對盒子太有興趣了，所以選 C。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "\"Ivy touched it, and her finger stuck to the wood.\" What does \"stuck\" mean here?",
+        "options": [
+          "Became very cold",
+          "Stayed on it and was hard to pull away",
+          "Got cut and started to hurt",
+          "Turned red because of the paint"
+        ],
+        "answer": "B",
+        "explanation": "第八段：「there was a small wet spot. Ivy touched it, and her finger stuck to the wood.」前文陳爺爺正在用 glue（膠水）修玩具，可以猜出那個濕濕的東西會黏住手指，stuck 是「黏住」的意思，所以選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "What did Aunt Ling do right before the kids carried the chairs to the car?",
+        "options": [
+          "She talked with Mrs. Lin for almost an hour.",
+          "She washed the pots in the back.",
+          "She looked for the red umbrella.",
+          "She put the night's money into the red box."
+        ],
+        "answer": "D",
+        "explanation": "第六段：「Aunt Ling put all the money from the night into the red box and closed it.」接著才請 Leo 和 Ivy 搬椅子，所以選 D。B 是她請孩子搬椅子之後才去做的事。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is this part of the story mainly about?",
+        "options": [
+          "How Aunt Ling makes the best beef noodle soup",
+          "Why Mr. Wu opened a new stand at the night market",
+          "How an important box goes missing on a busy, rainy night",
+          "What toys Grandpa Chen sells at his stand"
+        ],
+        "answer": "C",
+        "explanation": "這篇介紹夜市的人物後，重點在打烊時下大雨，阿姨的幸運錢盒不見了：「My box!... All of tonight's money was in it!」所以選 C。其他選項只是故事中的小細節。"
+      },
+      {
+        "type": "指涉",
+        "question": "What does \"it\" mean in \"Mr. Wu kept looking at it\"?",
+        "options": [
+          "The red money box",
+          "The strawberry stand",
+          "The bowl of noodles",
+          "Mr. Wu's black cap"
+        ],
+        "answer": "A",
+        "explanation": "第四段先說吳先生「his eyes stopped on the red box」，還說「That's a beautiful old box」，所以他一直盯著看的 it 是紅色錢盒，選 A。"
+      }
+    ]
+  },
+  {
+    "id": "night-market-2",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Night Market Mystery (2): Clues in the Rain",
+    "zh": "夜市謎案（二）：雨中的線索",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "過去式、過去完成式、被動語態、間接問句、不定詞",
+    "names": [
+      "Leo",
+      "Ivy",
+      "Ling",
+      "Chen",
+      "Wu",
+      "Lin",
+      "Grandpa",
+      "Mrs",
+      "Mr",
+      "Leo's"
+    ],
+    "keywords": [
+      "detective",
+      "clue"
+    ],
+    "series": {
+      "id": "night-market",
+      "title": "The Night Market Mystery",
+      "part": 2,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "The next morning, Leo and Ivy went back to the night market. Without the lights and people, the street looked empty and gray. \"Let's be real detectives,\" Ivy said. \"We write down every clue, and we don't decide anything until the end.\" Leo agreed, but in his mind he had already decided."
+      },
+      {
+        "t": "p",
+        "x": "Their first clue was the spot on the table. It was still there, small and hard now. \"Sugar,\" said Leo. \"Mr. Wu covers strawberries with hot sugar all night. His hands must be full of it.\" Ivy put her nose close to the table. \"Maybe,\" she said. \"But it doesn't smell sweet. It smells like something else. I'm not sure what.\" She wrote it down in her notebook."
+      },
+      {
+        "t": "p",
+        "x": "Their second clue was the missing umbrella. Aunt Ling's umbrella was very old and very red. Nobody would want to steal it. \"The person took it because of the rain,\" Ivy said. \"So the person didn't bring an umbrella. Maybe the person didn't plan to be out in the rain at all.\""
+      },
+      {
+        "t": "p",
+        "x": "Next, they visited the shoe shop behind the stand. The owner let them watch the video from his security camera. At 22:03, a person under a big red umbrella walked up to Aunt Ling's table. The umbrella hid the person's face. Then something strange happened. The person opened the box, took out all the money, and put it into Aunt Ling's bag under the table. Then the person closed the box and carried it away."
+      },
+      {
+        "t": "p",
+        "x": "\"A thief who doesn't want money?\" Leo said. \"That's crazy.\" They ran to Aunt Ling's apartment, and she looked in her bag. All the money was there. \"So the person only wanted the box,\" Ivy said slowly. Leo's eyes opened wide. \"Mr. Wu said people pay a lot for old boxes!\""
+      },
+      {
+        "t": "p",
+        "x": "That evening, they found Mr. Wu getting his stand ready. \"What time did you go home last night?\" Leo asked. Mr. Wu didn't look at him. \"Around 21:30. Before the rain.\" But when Mrs. Lin came for her noodles, she told a different story. \"Mr. Wu? I saw him at 22:00, standing in the rain across the street. He was talking with someone, but I couldn't see who.\""
+      },
+      {
+        "t": "p",
+        "x": "\"He lied about the time,\" Leo said to Ivy in a low voice. \"He was here when the box was taken.\" Ivy looked at her notes. Something still felt wrong. If Mr. Wu wanted money, why did he leave it? And why was the spot on the table not sweet?"
+      },
+      {
+        "t": "p",
+        "x": "Just then, Mr. Wu walked quickly across the street to the toy stand. He and Grandpa Chen put their heads close together and talked in low voices. Then Mr. Wu took something out from under his coat. It was wrapped in an old blanket, and it was the size and shape of a small box. He handed it to Grandpa Chen, and both men looked around to make sure no one was watching."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What did the video from the camera show?",
+        "options": [
+          "Mr. Wu taking off his black cap at the stand",
+          "Someone moving the money into Aunt Ling's bag and then taking the box",
+          "Someone taking the money and leaving the box on the table",
+          "Mrs. Lin talking with someone across the street"
+        ],
+        "answer": "B",
+        "explanation": "第四段影片中那個人「took out all the money, and put it into Aunt Ling's bag under the table. Then the person closed the box and carried it away.」先把錢放進阿姨的袋子，再拿走盒子，所以選 B。C 正好相反。"
+      },
+      {
+        "type": "推論",
+        "question": "What can we learn from Mrs. Lin's words?",
+        "options": [
+          "Mr. Wu went home before the rain started.",
+          "Mrs. Lin took the box to keep it dry.",
+          "Mrs. Lin knew who the person with the umbrella was.",
+          "Mr. Wu did not tell the truth about when he left."
+        ],
+        "answer": "D",
+        "explanation": "第六段吳先生說他「Around 21:30. Before the rain.」就回家了，但林太太說：「I saw him at 22:00, standing in the rain across the street.」兩人說的時間不同，可見吳先生沒說實話，所以選 D。林太太說「I couldn't see who」，所以 C 錯。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "\"It was wrapped in an old blanket.\" What does \"wrapped\" mean here?",
+        "options": [
+          "Covered all around",
+          "Cut into small pieces",
+          "Washed and dried",
+          "Hung up on a wall"
+        ],
+        "answer": "A",
+        "explanation": "最後一段吳先生從外套下拿出一個東西，用舊毯子包著，看得出「the size and shape of a small box」。東西被毯子整個蓋住、包起來，所以 wrapped 是「包住」，選 A。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer show Ivy's questions after Leo says Mr. Wu lied?",
+        "options": [
+          "To show that Ivy is angry at Leo",
+          "To tell us where the money box is",
+          "To show that some clues do not fit Leo's idea about Mr. Wu",
+          "To explain why Mrs. Lin came back for noodles"
+        ],
+        "answer": "C",
+        "explanation": "第七段 Leo 認定吳先生是小偷，但 Ivy 覺得「Something still felt wrong」，並問：「If Mr. Wu wanted money, why did he leave it? And why was the spot on the table not sweet?」作者是要讓讀者知道，有些線索和 Leo 的想法對不上，所以選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of these happened LAST in this part of the story?",
+        "options": [
+          "Ivy smelled the spot on the table.",
+          "Mr. Wu gave something to Grandpa Chen.",
+          "Leo and Ivy watched the video in the shoe shop.",
+          "Aunt Ling found the money in her bag."
+        ],
+        "answer": "B",
+        "explanation": "故事順序是：先聞桌上的痕跡（第二段）→ 看鞋店的影片（第四段）→ 阿姨在袋子裡找到錢（第五段）→ 晚上吳先生把東西交給陳爺爺（最後一段）。最後發生的是 B。"
+      }
+    ]
+  },
+  {
+    "id": "night-market-3",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Night Market Mystery (3): The Gold Fish",
+    "zh": "夜市謎案（三）：金色的魚",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "過去式、過去完成式、不定詞、if 子句、間接問句",
+    "names": [
+      "Leo",
+      "Ivy",
+      "Ling",
+      "Chen",
+      "Wu",
+      "Grandpa",
+      "Mr",
+      "Leo's"
+    ],
+    "series": {
+      "id": "night-market",
+      "title": "The Night Market Mystery",
+      "part": 3,
+      "of": 3
+    },
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Leo ran across the street. \"Stop!\" he shouted. \"That's my aunt's box!\" People at the night market turned to look. Mr. Wu's face turned red. Grandpa Chen looked at the blanket in his hands and shook his head slowly. \"Well,\" he said, \"I guess our secret is out almost a week early.\""
+      },
+      {
+        "t": "p",
+        "x": "He took the blanket off. Leo and Ivy could not believe their eyes. It was Aunt Ling's lucky box, but it looked almost new. The broken corner was fixed, and the gold fish on the top was bright and beautiful again."
+      },
+      {
+        "t": "p",
+        "x": "Aunt Ling came over, drying her hands. When she saw the box, she covered her mouth. \"What... how?\""
+      },
+      {
+        "t": "p",
+        "x": "Grandpa Chen smiled. \"You said you always wanted to fix it but never had time. Next Saturday, you will have this stand for twenty years, so I wanted to give you a surprise. Last night, when the rain started, I saw that your stand was empty. I took my glue and went over. I didn't want to carry money that wasn't mine, so I put it in your bag. Then I borrowed your umbrella to keep the box dry.\""
+      },
+      {
+        "t": "p",
+        "x": "\"So the spot on the table was glue, not sugar!\" Ivy said. \"That's what I smelled.\" Grandpa Chen laughed. \"I put the open bottle down on your table for a minute. Old men make a mess.\""
+      },
+      {
+        "t": "p",
+        "x": "\"But who painted the fish?\" Aunt Ling asked. Grandpa Chen pointed at Mr. Wu. \"Before he sold strawberries, Mr. Wu painted old furniture for fifteen years. My hands shake too much now, so I asked him for help. He worked on it all night and all day.\""
+      },
+      {
+        "t": "p",
+        "x": "Mr. Wu looked at Leo. \"I'm sorry I lied about the time. I was waiting for Grandpa Chen in the rain, and I promised to keep the secret. I'm not very good at lying.\""
+      },
+      {
+        "t": "p",
+        "x": "Leo's face felt hot. He thought about the last two days. He had decided Mr. Wu was a thief before he looked at a single clue. \"I'm the one who should say sorry,\" he said. \"I thought it was you just because you were new and you liked the box. I was wrong.\" Mr. Wu shook his head kindly. \"It's easy to think the new person is the bad one. I've seen it before.\""
+      },
+      {
+        "t": "p",
+        "x": "Grandpa Chen turned to Aunt Ling. \"I'm sorry, too. I should have told you. I made you worry for a whole night, and no surprise is more important than that.\" Aunt Ling hugged the box. Her eyes were wet, but she was smiling."
+      },
+      {
+        "t": "p",
+        "x": "The next Saturday, the lucky box sat by the soup pot again, shining under the lights. Grandpa Chen ate three bowls of noodles, and Mr. Wu ate two. Leo felt ashamed every time he remembered his mistake, but he also learned something. \"A good detective lets the clues speak first,\" Ivy told him. This time, Leo agreed with all his heart."
+      }
+    ],
+    "keywords": [
+      "detective",
+      "clue"
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did Grandpa Chen take the box?",
+        "options": [
+          "He wanted to sell it to Mr. Wu.",
+          "He was afraid the rain would break it.",
+          "He wanted to keep the money safe for Aunt Ling.",
+          "He wanted to fix it as a surprise for Aunt Ling's big day."
+        ],
+        "answer": "D",
+        "explanation": "第四段陳爺爺說：「Next Saturday, you will have this stand for twenty years, so I wanted to give you a surprise.」他是想修好盒子當作開店二十週年的驚喜，所以選 D。C 錯，他把錢放進阿姨的袋子，是因為「I didn't want to carry money that wasn't mine」。"
+      },
+      {
+        "type": "推論",
+        "question": "Why was there a spot on Aunt Ling's table?",
+        "options": [
+          "Grandpa Chen put his open bottle of glue on it.",
+          "Mr. Wu's hands were covered with hot sugar.",
+          "Rain fell on the table through the umbrella.",
+          "Aunt Ling dropped some soup while she was washing pots."
+        ],
+        "answer": "A",
+        "explanation": "第五段 Ivy 說「the spot on the table was glue, not sugar!」，陳爺爺也說「I put the open bottle down on your table for a minute.」所以選 A。B 是 Leo 之前的錯誤猜測。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "\"Leo felt ashamed every time he remembered his mistake.\" How did Leo feel?",
+        "options": [
+          "Excited, because he solved the case",
+          "Tired, because he worked all night",
+          "Bad, because he did something wrong to someone",
+          "Afraid, because the thief might come back"
+        ],
+        "answer": "C",
+        "explanation": "前文 Leo 承認：「I thought it was you just because you were new... I was wrong.」他冤枉了吳先生，所以想起這件事就覺得羞愧、不好意思。ashamed 是「感到羞愧」，選 C。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the main lesson of the story?",
+        "options": [
+          "Old things are better than new things.",
+          "Look at all the facts before deciding someone did something wrong.",
+          "Never borrow things from your neighbors.",
+          "Surprises always make people happy."
+        ],
+        "answer": "B",
+        "explanation": "Leo 發現自己「had decided Mr. Wu was a thief before he looked at a single clue」，最後 Ivy 說「A good detective lets the clues speak first」。故事要告訴我們先看清楚事實，不要太快下判斷，所以選 B。D 錯，陳爺爺也說「no surprise is more important than that」。"
+      },
+      {
+        "type": "指涉",
+        "question": "Mr. Wu said, \"It's easy to think the new person is the bad one.\" Who is \"the new person\" in this story?",
+        "options": [
+          "Leo",
+          "Grandpa Chen",
+          "Ivy",
+          "Mr. Wu himself"
+        ],
+        "answer": "D",
+        "explanation": "Leo 說他懷疑吳先生是「just because you were new」，而吳先生的攤位才開兩週。吳先生說的「the new person」就是指他自己，所以選 D。"
+      }
+    ]
+  },
+  {
+    "id": "gift-of-the-magi",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Gift of the Magi",
+    "zh": "麥琪的禮物",
+    "topic": "家庭",
+    "grade": 9,
+    "grammar": "過去式、過去完成式（had belonged、had wanted）、關係子句、被動語態（were made for）、so…that",
+    "names": [
+      "Della",
+      "Jim",
+      "Jim's",
+      "Magi",
+      "Henry"
+    ],
+    "keywords": [
+      "chain"
+    ],
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "One dollar and 87 cents. Della counted the money three times, but it was still the same. Tomorrow was a big holiday, a day when people give gifts to the ones they love. Della wanted to buy something special for her husband, Jim. But what could she buy with only $1.87?"
+      },
+      {
+        "t": "p",
+        "x": "Della and Jim lived in a small, cheap apartment. Jim worked hard, but he did not make much money, and the rent took most of it. They were poor, but they owned two things that they were very proud of. One was Jim's gold watch, which had belonged to his father and his grandfather. The other was Della's hair. It was long and brown, and it fell down her back like a river."
+      },
+      {
+        "t": "p",
+        "x": "Della stood in front of the mirror for a long time. A tear or two fell on the floor. Then she quickly put on her old coat and hurried out into the street."
+      },
+      {
+        "t": "p",
+        "x": "She stopped at a small shop with a sign that said, \"Hair of All Kinds.\" The woman inside lifted Della's hair with one hand. \"$20,\" she said. \"Give it to me quickly,\" said Della."
+      },
+      {
+        "t": "p",
+        "x": "For the next two hours, Della went from store to store. At last she found the perfect gift: a gold chain for Jim's watch. It was plain, with nothing fancy on it, but it was fine and strong, just like Jim himself. Jim's watch had only an old piece of string, so he was often too shy to take it out in front of people. With this chain, he could check the time proudly anywhere. It cost $21, and Della hurried home with 87 cents."
+      },
+      {
+        "t": "p",
+        "x": "At seven o'clock, Jim opened the door. When he saw Della, he stopped and did not move. There was a strange look on his face. It was not anger, and it was not surprise. Della did not understand it."
+      },
+      {
+        "t": "p",
+        "x": "\"Jim, please don't look at me like that,\" she cried. \"I sold my hair because I wanted to give you a gift. It will grow again. Let's be happy!\""
+      },
+      {
+        "t": "p",
+        "x": "Jim took a small box out of his coat and put it on the table. \"Open it,\" he said softly, \"and you will understand.\""
+      },
+      {
+        "t": "p",
+        "x": "Inside were two beautiful combs with pretty stones on the edges. Della had seen them in a shop window many times, but they were far too expensive. Now they were hers, but the long hair they were made for was gone. Della held them close to her heart. Then she smiled through her tears and held out her own gift. \"Isn't it wonderful? Give me your watch. I want to see how it looks with the chain.\""
+      },
+      {
+        "t": "p",
+        "x": "Jim sat down and smiled. \"Della,\" he said, \"let's put our gifts away for now. I sold my watch to buy your combs.\""
+      },
+      {
+        "t": "p",
+        "x": "Some people may say that Della and Jim were foolish. Each of them gave away the most valuable thing they owned. But gifts given with love are the wisest gifts of all, and in this way, these two young people were the wisest of all."
+      },
+      {
+        "t": "p",
+        "x": "This story comes from \"The Gift of the Magi\" by O. Henry (1905)."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "How did Della get enough money for Jim's gift?",
+        "options": [
+          "She borrowed it from the woman at the shop.",
+          "She sold her long hair.",
+          "She sold Jim's old watch.",
+          "She saved it from Jim's pay."
+        ],
+        "answer": "B",
+        "explanation": "第四段店裡的女人拿起 Della 的頭髮說：「Twenty dollars」，Della 回答：「Give it to me quickly」，可知她是賣掉長髮換錢，所以選 B。賣掉手錶的是 Jim，不是 Della，C 不對。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “the long hair they were made for was gone,” what does “they” mean?",
+        "options": [
+          "The combs",
+          "Della and Jim",
+          "The pretty stones",
+          "The tears"
+        ],
+        "answer": "A",
+        "explanation": "前一句說盒子裡是「two beautiful combs」，Della 想要很久，現在終於是她的了（Now they were hers）。梳子是為長髮做的，但長髮已經不在了，所以 they 指的是梳子，選 A。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “plain” mean in “It was plain, with nothing fancy on it”?",
+        "options": [
+          "Very expensive",
+          "Broken and old",
+          "Long and heavy",
+          "Simple, not special-looking"
+        ],
+        "answer": "D",
+        "explanation": "後面接著說「with nothing fancy on it」（上面沒有花俏的裝飾），可知 plain 是「樸素、簡單」的意思，所以選 D。文中說錶鍊「fine and strong」，不是壞掉的舊東西，B 不對。"
+      },
+      {
+        "type": "細節",
+        "question": "What did Della do right after she sold her hair?",
+        "options": [
+          "She cried in front of the mirror.",
+          "She counted her money three times.",
+          "She looked for a gift in many stores.",
+          "She waited for Jim at the door."
+        ],
+        "answer": "C",
+        "explanation": "賣完頭髮後，第五段：「For the next two hours, Della went from store to store.」她接著到一家又一家店找禮物，所以選 C。數錢和在鏡子前流淚都發生在賣頭髮之前。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Jim say, “Let's put our gifts away for now”?",
+        "options": [
+          "Neither of them could use their gift right now.",
+          "He did not like the chain that Della bought.",
+          "He wanted to return the combs to the shop.",
+          "He was too tired to open the gifts that night."
+        ],
+        "answer": "A",
+        "explanation": "Jim 說：「I sold my watch to buy your combs.」他賣了手錶，Della 送的錶鍊就沒有錶可以掛；Della 剪了頭髮，Jim 送的梳子也暫時用不上。兩人的禮物現在都用不了，所以選 A。文中沒有說他不喜歡錶鍊或想退貨。"
+      },
+      {
+        "type": "主旨",
+        "question": "What does the writer want to tell us in the last part of the story?",
+        "options": [
+          "Young people should not spend money on gifts.",
+          "A gift given with love is the most valuable.",
+          "It is always foolish to sell the things you love.",
+          "Long hair is more important than a gold watch."
+        ],
+        "answer": "B",
+        "explanation": "最後一段：「But gifts given with love are the wisest gifts of all」，作者想說用愛送出的禮物最珍貴，所以選 B。作者提到「Some people may say that Della and Jim were foolish」，但接著用 But 反駁，C 不是作者的想法。"
+      }
+    ]
+  },
+  {
+    "id": "happy-prince",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Happy Prince",
+    "zh": "快樂王子",
+    "topic": "人物",
+    "grade": 9,
+    "grammar": "過去式、過去完成式、被動語態（was covered with、were carried）、比較級（colder and colder）、祈使與請求句",
+    "names": [
+      "Egypt",
+      "Oscar",
+      "Wilde"
+    ],
+    "keywords": [
+      "statue"
+    ],
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "High above a city stood the statue of the Happy Prince. He was covered with thin pieces of gold. His eyes were two bright blue stones, and a large red stone shone on the handle of his sword. Everyone in the city loved him. \"He is as beautiful as a picture,\" they said."
+      },
+      {
+        "t": "p",
+        "x": "One cold autumn night, a little swallow flew over the city. His friends had flown to Egypt weeks before, where it was warm, but he had stayed behind. Now he was on his way to join them. He landed at the feet of the statue to sleep. Just as he closed his eyes, a big drop of water fell on him. Then another. The sky was clear, so where was the rain coming from?"
+      },
+      {
+        "t": "p",
+        "x": "He looked up. The Happy Prince was crying."
+      },
+      {
+        "t": "p",
+        "x": "\"Why are you crying?\" asked the swallow. \"Aren't you the Happy Prince?\""
+      },
+      {
+        "t": "p",
+        "x": "\"When I was alive, I lived behind high walls, and I never saw anyone who was sad,\" said the prince. \"So people called me happy. Now I stand up here, and I can see all the pain of my city. Far away, in a small room, a mother is sitting by her sick son. She has no money to buy him oranges. Little swallow, will you take the red stone from my belt and bring it to her? I cannot move from this place.\""
+      },
+      {
+        "t": "p",
+        "x": "The swallow wanted to leave for Egypt, but the prince looked so sad that he agreed. He carried the red stone through the night and left it on the woman's table. Then he flew softly around the sick boy's bed, cooling his hot face with his wings. \"I feel better,\" said the boy, and he fell asleep."
+      },
+      {
+        "t": "p",
+        "x": "The next night, the prince asked for help again. A young writer was too cold and hungry to finish his play. \"Take one of my eyes to him,\" said the prince. The swallow cried, but he did it. Then the prince gave his other eye to a little girl who sold matches in the street. Now the prince was blind."
+      },
+      {
+        "t": "p",
+        "x": "\"You cannot see now,\" said the swallow, \"so I will stay with you.\" Day after day, he flew over the city and told the prince about the hungry children he saw. Piece by piece, he took the gold off the statue and gave it to the poor. The children's faces became pink, and they laughed and played in the streets."
+      },
+      {
+        "t": "p",
+        "x": "Then the snow came. The little swallow grew colder and colder, but he would not leave his friend. At last he flew up to the prince's shoulder. \"Goodbye, dear Prince,\" he said, and he kissed him. Then he fell down at the prince's feet and did not wake up again. At that moment, a strange sound came from inside the statue. The prince's heart had broken in two."
+      },
+      {
+        "t": "p",
+        "x": "The next morning, the town leaders looked up at the statue. \"How poor and ugly he looks!\" they said. \"He is not beautiful now, so he is not useful.\" They took him down. But some people say that the prince's broken heart and the little bird were carried to a place where it is always summer, and there they are happy together."
+      },
+      {
+        "t": "p",
+        "x": "This story comes from \"The Happy Prince\" by Oscar Wilde (1888)."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why was the Happy Prince crying?",
+        "options": [
+          "The rain made him wet and cold.",
+          "The swallow wanted to leave him.",
+          "He could see how hard life was for poor people.",
+          "Someone took the red stone from his belt."
+        ],
+        "answer": "C",
+        "explanation": "王子說：「Now I stand up here, and I can see all the pain of my city.」他站在高處，看見城裡人們的痛苦，所以哭泣，選 C。紅寶石是他自己請燕子拿去送人的，D 不對；落在燕子身上的水其實是王子的眼淚，不是雨，A 不對。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “blind” mean in “Now the prince was blind”?",
+        "options": [
+          "Not able to move",
+          "Very cold",
+          "Very poor",
+          "Not able to see"
+        ],
+        "answer": "D",
+        "explanation": "王子把兩隻眼睛（兩顆藍寶石）都送給別人了，接著燕子說：「You cannot see now」，可知 blind 是「看不見、失明」的意思，所以選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the swallow stay in the city and not fly to Egypt?",
+        "options": [
+          "He wanted to keep the gold for himself.",
+          "He cared about the prince and did not want to leave him alone.",
+          "He did not know the way to Egypt.",
+          "The town leaders asked him to stay."
+        ],
+        "answer": "B",
+        "explanation": "王子瞎了以後，燕子說：「You cannot see now, so I will stay with you.」天氣越來越冷，他還是「would not leave his friend」，可見他關心王子、不願留下王子一個人，所以選 B。燕子把金子都送給窮人，A 不對。"
+      },
+      {
+        "type": "細節",
+        "question": "Which did the swallow take to the poor FIRST?",
+        "options": [
+          "One of the prince's eyes",
+          "Pieces of gold",
+          "The red stone",
+          "The prince's other eye"
+        ],
+        "answer": "C",
+        "explanation": "第一晚，王子請燕子「take the red stone from my belt」送給生病男孩的媽媽；第二晚才送出眼睛；王子瞎了之後，燕子才一片片把金子送給窮人。所以最先送出的是紅寶石，選 C。"
+      },
+      {
+        "type": "推論",
+        "question": "The town leaders said the prince was “not useful.” What does the story show about this?",
+        "options": [
+          "They were wrong, because he helped many people by giving everything away.",
+          "They were right, because a statue without gold cannot help anyone.",
+          "They were wrong, because the prince still had his blue eyes.",
+          "They were right, because the swallow made the statue dirty."
+        ],
+        "answer": "A",
+        "explanation": "王子把紅寶石、雙眼和金子全部送給窮人，「The children's faces became pink, and they laughed and played」。他看起來不漂亮了，其實卻幫助了許多人，市府官員只看外表，說他沒用是錯的，所以選 A。王子的眼睛早已送人，C 不對。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the main idea of the story?",
+        "options": [
+          "Statues should always be made of gold.",
+          "Birds should fly to warm places before winter.",
+          "People who live behind high walls are always happy.",
+          "Real beauty comes from a kind and giving heart."
+        ],
+        "answer": "D",
+        "explanation": "王子和燕子把自己的一切送給需要的人，外表變得「poor and ugly」，故事卻讓他們在溫暖的地方「happy together」。故事想說真正的美來自善良、願意付出的心，而不是金子和寶石，所以選 D。"
+      }
+    ]
+  },
+  {
+    "id": "rip-van-winkle",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "Rip Van Winkle",
+    "zh": "李伯大夢",
+    "topic": "時間",
+    "grade": 9,
+    "grammar": "過去式、過去進行式、現在完成式與過去完成式（had grown、had left）、關係子句、比較級",
+    "names": [
+      "Rip",
+      "Van",
+      "Winkle",
+      "Wolf",
+      "Washington",
+      "Irving"
+    ],
+    "keywords": [
+      "barrel"
+    ],
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Long ago, in a small village at the foot of some tall mountains, there lived a man named Rip Van Winkle. Rip was kind and friendly. Children loved him because he told them stories and taught them games, and the dogs of the village never barked at him. But Rip had one big problem: he hated work. He was happy to help his neighbors, but he never took care of his own farm."
+      },
+      {
+        "t": "p",
+        "x": "His wife was always angry with him. \"The fence is falling down, the cows are in the garden, and you are sitting around doing nothing!\" she shouted every day. So Rip often went off to the mountains with his gun and his dog, Wolf, just to get some peace."
+      },
+      {
+        "t": "p",
+        "x": "One autumn afternoon, Rip climbed high into the mountains. As the sun was going down, he heard someone call his name. \"Rip Van Winkle! Rip Van Winkle!\" He turned and saw a short old man with a long beard. The man was carrying a heavy barrel on his back."
+      },
+      {
+        "t": "p",
+        "x": "Rip helped him carry it up to an open place among the rocks. There, a group of strange little men in old clothes were playing a game with balls. Every time a ball rolled, it made a sound like thunder. Nobody spoke a word. They only drank from the barrel and played on."
+      },
+      {
+        "t": "p",
+        "x": "When no one was looking, Rip tasted the drink. It was very good, so he had a little more, and then more. Soon his eyes grew heavy, and he fell into a deep sleep."
+      },
+      {
+        "t": "p",
+        "x": "When Rip woke up, it was a bright morning. The little men were gone. \"Oh no, I slept here all night!\" he thought. \"What will my wife say?\" He picked up his gun, but it was old and broken. He called for Wolf, but the dog did not come. His back and legs hurt as he stood up."
+      },
+      {
+        "t": "p",
+        "x": "Rip walked slowly down to his village, but everything looked different. There were more houses, and he did not know any of the people. They all looked at him strangely and touched their chins. When Rip touched his own chin, he found that his beard was now white and very long!"
+      },
+      {
+        "t": "p",
+        "x": "Even the sign outside the old meeting house had changed. The picture of the king was gone. A different man's face was there, with words under it that Rip did not understand."
+      },
+      {
+        "t": "p",
+        "x": "\"Does anyone here know Rip Van Winkle?\" he asked. The people pointed at a lazy young man under a tree. He looked exactly like Rip when he was young. \"Then who am I?\" Rip cried."
+      },
+      {
+        "t": "p",
+        "x": "Just then, a young woman with a baby came forward. When Rip heard her name, he knew her at once. She was his daughter, all grown up! She told him that he had left home twenty years ago and never come back. The young man under the tree was his son. His wife had died."
+      },
+      {
+        "t": "p",
+        "x": "Rip went to live with his daughter. He told his story to anyone who would listen. Some people did not believe him, but the old people of the village said, \"When you hear thunder in the mountains, the little men are playing their game again.\" And Rip, who now had no wife to shout at him, was happier than ever."
+      },
+      {
+        "t": "p",
+        "x": "This story comes from \"Rip Van Winkle\" by Washington Irving (1819)."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why was Rip's wife always angry with him?",
+        "options": [
+          "He never did the work on his own farm.",
+          "He told the children too many stories.",
+          "He lost the family dog in the mountains.",
+          "He spent all their money on drinks."
+        ],
+        "answer": "A",
+        "explanation": "第一段：「he hated work… he never took care of his own farm.」太太也罵他籬笆倒了、牛跑進花園，他卻什麼都不做，所以選 A。他講故事給小孩聽是孩子喜歡他的原因，不是太太生氣的原因。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “barked” mean in “the dogs of the village never barked at him”?",
+        "options": [
+          "Ran away from someone quickly",
+          "Made a loud, angry sound",
+          "Played a game with balls",
+          "Looked for food"
+        ],
+        "answer": "B",
+        "explanation": "這句話用來說明 Rip 很友善、大家都喜歡他：村裡的狗從來不對他「吠叫」。bark 是狗發出的大聲、兇的叫聲，所以選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did the people in the village look at Rip strangely?",
+        "options": [
+          "They thought he was the man on the new sign.",
+          "He was carrying a heavy barrel.",
+          "He was shouting at his wife.",
+          "He was a stranger to them, with a long white beard."
+        ],
+        "answer": "D",
+        "explanation": "第七段說 Rip 一個人也不認識，大家奇怪地看著他、摸自己的下巴；Rip 一摸，才發現「his beard was now white and very long」。村民不認得他，又看到他長長的白鬍子，所以覺得奇怪，選 D。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “He looked exactly like Rip when he was young,” who is “He”?",
+        "options": [
+          "The short old man in the mountains",
+          "Rip's son",
+          "The man in the picture on the sign",
+          "Rip's daughter's baby"
+        ],
+        "answer": "B",
+        "explanation": "前一句說大家指著「a lazy young man under a tree」，He 指的就是這個年輕人。第十段說：「The young man under the tree was his son.」所以他是 Rip 的兒子，選 B。"
+      },
+      {
+        "type": "細節",
+        "question": "Which of these happened FIRST?",
+        "options": [
+          "Rip saw that the sign had changed.",
+          "Rip found that his gun was old and broken.",
+          "Rip tasted the drink from the barrel.",
+          "Rip met his grown-up daughter."
+        ],
+        "answer": "C",
+        "explanation": "事件順序是：在山上喝了酒桶裡的酒睡著（C）→ 醒來發現槍又舊又壞（B）→ 回到村裡看到招牌變了（A）→ 遇到長大的女兒（D）。最先發生的是 C。"
+      },
+      {
+        "type": "主旨",
+        "question": "What is the story mainly about?",
+        "options": [
+          "A man who sleeps for many years and comes home to a changed world",
+          "A man who learns to work hard on his farm",
+          "Some little men who teach a game to a village",
+          "A village that chooses a new king"
+        ],
+        "answer": "A",
+        "explanation": "整個故事寫 Rip 在山上一睡就是二十年（he had left home twenty years ago），回到村子後人、事、招牌都變了，所以選 A。Rip 最後並沒有變得勤勞，B 不對；招牌上的國王是被換掉，不是選了新國王，D 不對。"
+      }
+    ]
+  },
+  {
+    "id": "the-necklace",
+    "level": "C",
+    "genre": "記敘文",
+    "title": "The Necklace",
+    "zh": "項鍊",
+    "topic": "金錢",
+    "grade": 9,
+    "grammar": "過去式、過去完成式（had saved）、關係子句、It took…to…、感嘆句（How you have changed!）",
+    "names": [
+      "Mathilde",
+      "Mathilde's",
+      "Jeanne",
+      "Paris",
+      "Guy",
+      "de",
+      "Maupassant"
+    ],
+    "keywords": [
+      "necklace"
+    ],
+    "tags": [
+      "長篇故事"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Mathilde was a pretty young woman, but she was not happy. She lived in Paris with her husband, a clerk who did not earn much money. Every day she looked at their plain little home and dreamed of beautiful dresses, shining diamonds, and big parties. She felt that she was born for a richer life."
+      },
+      {
+        "t": "p",
+        "x": "One evening, her husband came home smiling. \"Look what I have for you!\" He handed her an invitation to a dance held by his boss. But Mathilde threw it on the table and began to cry. \"What can I wear? I don't have a nice dress.\""
+      },
+      {
+        "t": "p",
+        "x": "Her husband gave her all the money that he had saved for a new gun, and she bought a lovely dress. But a week before the dance, she was still unhappy. \"I don't have a single diamond,\" she said. \"I will look so poor next to the other women.\""
+      },
+      {
+        "t": "p",
+        "x": "\"Why not ask your friend Jeanne?\" said her husband. \"She is rich. She will lend you something.\" The next day, Mathilde visited Jeanne, who opened a large box for her. Inside, Mathilde found a necklace of diamonds. Her hands shook as she put it on. \"Can I borrow this one?\" she asked. \"Of course,\" said Jeanne."
+      },
+      {
+        "t": "p",
+        "x": "At the dance, Mathilde was the most beautiful woman in the room. Everyone wanted to meet her. She danced until four in the morning, feeling like a princess."
+      },
+      {
+        "t": "p",
+        "x": "But when she got home and took off her coat, she cried out. The necklace was gone! She and her husband looked everywhere, but they could not find it."
+      },
+      {
+        "t": "p",
+        "x": "At last, they found a necklace in a shop that looked exactly the same. It cost a great deal of money, much more than they had. They had to borrow from everyone they knew to buy it. Mathilde returned the new necklace to Jeanne, who did not even open the box."
+      },
+      {
+        "t": "p",
+        "x": "Then their hard life began. They moved to a tiny room under the roof. Mathilde washed dishes, cleaned floors, and carried heavy buckets of water up to their room. Her husband worked at night, too. It took them ten years to pay back every cent. Mathilde's hands became red and hard, and she looked much older than she really was."
+      },
+      {
+        "t": "p",
+        "x": "One Sunday, Mathilde saw Jeanne in the park, still young and lovely. She walked up to her. \"Good morning, Jeanne.\" Jeanne did not know her at first. \"Oh, my poor Mathilde! How you have changed!\""
+      },
+      {
+        "t": "p",
+        "x": "\"Yes, I have had a hard life, and it was because of you,\" said Mathilde. She told Jeanne everything: the lost necklace, the new one, and the ten long years of work. When she finished, she smiled proudly. \"But it is all paid now.\""
+      },
+      {
+        "t": "p",
+        "x": "Jeanne took both of her hands. \"Oh, my poor Mathilde! Mine was not made of real diamonds. It was only cheap glass!\""
+      },
+      {
+        "t": "p",
+        "x": "This story comes from \"The Necklace\" by Guy de Maupassant (1884)."
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Why did Mathilde cry when she got the invitation?",
+        "options": [
+          "She did not want to meet her husband's boss.",
+          "She was too tired to go to a dance.",
+          "She did not have nice clothes to wear.",
+          "She had lost Jeanne's necklace."
+        ],
+        "answer": "C",
+        "explanation": "第二段 Mathilde 一邊哭一邊說：「What can I wear? I don't have a nice dress.」她沒有漂亮的衣服可穿，所以選 C。項鍊是舞會之後才弄丟的，D 時間不對。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “earn” mean in “a clerk who did not earn much money”?",
+        "options": [
+          "Spend",
+          "Lose",
+          "Lend",
+          "Get by working"
+        ],
+        "answer": "D",
+        "explanation": "clerk 是「職員」，是一份工作；這句說明她家不富有、住在簡樸的小房子裡，所以丈夫工作「賺」的錢不多。earn 是「工作賺得」的意思，選 D。"
+      },
+      {
+        "type": "推論",
+        "question": "Why did Mathilde smile proudly after she told Jeanne her story?",
+        "options": [
+          "She felt good that she had paid for the necklace by her own hard work.",
+          "She was glad that Jeanne looked older than she did.",
+          "She hoped Jeanne would give her some money.",
+          "She liked her tiny room under the roof."
+        ],
+        "answer": "A",
+        "explanation": "她說完十年的辛苦後笑著說：「But it is all paid now.」她靠自己辛苦工作把錢還清，所以感到驕傲，選 A。文中說 Jeanne「still young and lovely」，變老的是 Mathilde，B 不對。"
+      },
+      {
+        "type": "推論",
+        "question": "Why is the ending of the story so sad?",
+        "options": [
+          "Jeanne never wanted to see Mathilde again.",
+          "Mathilde and her husband still could not pay back the money.",
+          "Ten years of hard work were spent on a necklace that was cheap.",
+          "Mathilde never got to go to the dance."
+        ],
+        "answer": "C",
+        "explanation": "最後 Jeanne 說：「Mine was not made of real diamonds. It was only cheap glass!」Mathilde 夫婦為了賠一條真鑽石項鍊辛苦了十年，原來的項鍊卻只是便宜的玻璃，所以選 C。Mathilde 說「it is all paid now」，B 不對；她有去舞會，D 不對。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is the right order of the story?",
+        "options": [
+          "Mathilde loses the necklace → she goes to the dance → she borrows a necklace → she works for ten years",
+          "Mathilde borrows a necklace → she goes to the dance → she loses the necklace → she works for ten years",
+          "Mathilde works for ten years → she borrows a necklace → she goes to the dance → she loses the necklace",
+          "Mathilde goes to the dance → she borrows a necklace → she works for ten years → she loses the necklace"
+        ],
+        "answer": "B",
+        "explanation": "故事順序是：先向 Jeanne 借項鍊（第四段）→ 參加舞會（第五段）→ 回家發現項鍊不見了（第六段）→ 花十年工作還債（第八段），所以選 B。"
+      },
+      {
+        "type": "主旨",
+        "question": "What lesson can we learn from the story?",
+        "options": [
+          "Rich friends always tell the truth.",
+          "Going to a dance is the best way to make friends.",
+          "Diamonds always cost a lot of money.",
+          "Wanting to look rich can bring you big trouble."
+        ],
+        "answer": "D",
+        "explanation": "Mathilde 一直夢想過有錢人的生活，怕自己在舞會上「look so poor」，所以借了項鍊，結果弄丟後辛苦了十年。故事告訴我們，為了面子想顯得富有，可能會付出很大的代價，所以選 D。項鍊其實是假鑽石，C 正好相反。"
+      }
+    ]
   }
 ]
