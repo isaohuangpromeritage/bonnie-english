@@ -6661,5 +6661,1147 @@
         "explanation": "第四段：「planes sometimes have to wait until the fog is gone」，飛機有時要等霧散才能起飛，也就是會延後出發，所以 B 正確。A 錯，「Fog is really a cloud」；C 錯，原文是地面在夜裡「loses heat fast」變冷；D 錯，「Warm air can hold more water than cold air」。"
       }
     ]
+  },
+  {
+    "id": "nurse-office-chat",
+    "level": "A",
+    "genre": "對話",
+    "title": "At the Nurse's Office",
+    "zh": "在健康中心",
+    "topic": "身體部位",
+    "grade": 7,
+    "grammar": "現在簡單式、未來式、祈使句、if 條件",
+    "names": [
+      "Chen"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Nurse Chen",
+            "x": "Hi. Come in and sit down. What happened?"
+          },
+          {
+            "who": "Me",
+            "x": "I fell down in PE class. We were playing basketball.",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "Where does it hurt?"
+          },
+          {
+            "who": "Me",
+            "x": "My right knee hurts a lot. My left hand hurts a little, too.",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "Let me see. Your knee is red, and there is some blood. Can you move your fingers?"
+          },
+          {
+            "who": "Me",
+            "x": "Yes, I can. My hand is OK now.",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "Good. First, I'll wash your knee with clean water and cover it. Then I'll put some ice on it for 15 minutes."
+          },
+          {
+            "who": "Me",
+            "x": "It's so cold!",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "I know. Just rest here. And don't play basketball this week."
+          },
+          {
+            "who": "Me",
+            "x": "Do I need to see a doctor?",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "Not now. But if your knee still hurts a lot tomorrow, ask your parents to take you to a doctor."
+          },
+          {
+            "who": "Me",
+            "x": "OK. Can I go back to class after that?",
+            "me": true
+          },
+          {
+            "who": "Nurse Chen",
+            "x": "Yes, but walk carefully. I'll call your mom first and tell her about your knee."
+          },
+          {
+            "who": "Me",
+            "x": "Thank you, Nurse Chen.",
+            "me": true
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "How is the student's knee?",
+        "options": [
+          "It is cold and white.",
+          "It cannot move at all.",
+          "It is red and has some blood on it.",
+          "It hurts only a little."
+        ],
+        "answer": "C",
+        "explanation": "護理師說「Your knee is red, and there is some blood.」膝蓋紅紅的、有一些血，所以選 C。「hurts a little」說的是左手，膝蓋是「hurts a lot」。"
+      },
+      {
+        "type": "推論",
+        "question": "What can we learn about the student's hand?",
+        "options": [
+          "It is not badly hurt.",
+          "It needs some ice for 15 minutes.",
+          "The student must see a doctor for it.",
+          "It is the right hand."
+        ],
+        "answer": "A",
+        "explanation": "學生說左手「hurts a little」，護理師問能不能動手指，學生回答「Yes, I can. My hand is OK now.」可見手傷得不重，所以選 A。冰敷的是膝蓋；受傷的是左手，不是右手。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “I'll put some ice on it for 15 minutes,” what does “it” mean?",
+        "options": [
+          "The student's hand",
+          "The clean water",
+          "The basketball",
+          "The student's knee"
+        ],
+        "answer": "D",
+        "explanation": "前一句是「First, I'll wash your knee with clean water and cover it.」接著說「Then I'll put some ice on it」，it 指的是學生的膝蓋，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "What will Nurse Chen do?",
+        "options": [
+          "Take the student to a doctor",
+          "Call the student's mother",
+          "Play basketball with the student",
+          "Walk the student back to class"
+        ],
+        "answer": "B",
+        "explanation": "護理師說「I'll call your mom first and tell her about your knee.」她會打電話給學生的媽媽，所以選 B。看醫生要明天膝蓋還很痛才由父母帶去；回教室是學生自己走。"
+      }
+    ]
+  },
+  {
+    "id": "chopsticks-forks",
+    "level": "A",
+    "genre": "說明文",
+    "title": "Chopsticks, Forks, or Hands?",
+    "zh": "筷子、叉子還是手？",
+    "topic": "餐具",
+    "grade": 8,
+    "grammar": "現在簡單式、祈使句、頻率副詞",
+    "names": [
+      "Taiwan",
+      "Japan",
+      "China",
+      "Thailand",
+      "India",
+      "Europe",
+      "Ken"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "People around the world eat in different ways. In Taiwan, Japan, and China, many people use chopsticks. They pick up rice, vegetables, and noodles with them. In many countries in Europe and America, people usually eat with a fork and a knife. They hold the fork in one hand and the knife in the other, and they cut their meat into small pieces."
+      },
+      {
+        "t": "p",
+        "x": "Spoons are useful everywhere. In Thailand, people often eat rice with a spoon and a fork. In some parts of India, many people eat with their right hand. It is not rude there. It is a part of their life."
+      },
+      {
+        "t": "p",
+        "x": "Every place also has its own table rules. In Taiwan, don't stand your chopsticks up in a bowl of rice. People only do this for the dead, so it can make others unhappy. Also, don't hit your bowl with your chopsticks, and don't point at people with them. At a family dinner, wait for the older people to start first."
+      },
+      {
+        "t": "p",
+        "x": "Before you visit another country, learn how people eat there. It is an easy way to be polite."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why chopsticks are better than forks",
+          "How to cook rice and noodles",
+          "How people in different places eat, and some table rules",
+          "What food people eat in Thailand and India"
+        ],
+        "answer": "C",
+        "explanation": "第一、二段介紹各地用筷子、刀叉、湯匙或手吃飯，第三段說明台灣的餐桌規矩，所以選 C。文章沒有說筷子比叉子好，也沒有教煮飯。"
+      },
+      {
+        "type": "細節",
+        "question": "What do people in Thailand often use to eat rice?",
+        "options": [
+          "A spoon and a fork",
+          "Chopsticks",
+          "A fork and a knife",
+          "Their right hand"
+        ],
+        "answer": "A",
+        "explanation": "第二段寫「In Thailand, people often eat rice with a spoon and a fork.」所以選 A。用右手吃飯的是印度部分地區；刀叉是歐美。"
+      },
+      {
+        "type": "推論",
+        "question": "Ken is having dinner with his family in Taiwan. What is a polite thing for him to do?",
+        "options": [
+          "Stand his chopsticks up in his rice",
+          "Hit his bowl to call his mom",
+          "Point at his sister with his chopsticks",
+          "Start eating after his grandpa begins"
+        ],
+        "answer": "D",
+        "explanation": "第三段寫「At a family dinner, wait for the older people to start first.」等長輩先開動才有禮貌，所以選 D。A、B、C 都是文中說「don't」不要做的事。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does the writer say “learn how people eat there” in the last part?",
+        "options": [
+          "To tell people to cook food from other countries",
+          "To help people be polite in other places",
+          "To ask people to stop using chopsticks",
+          "To show that forks are easy to use"
+        ],
+        "answer": "B",
+        "explanation": "最後一段說「Before you visit another country, learn how people eat there. It is an easy way to be polite.」作者希望讀者到別的地方時能有禮貌，所以選 B。"
+      }
+    ]
+  },
+  {
+    "id": "thank-you-sweater",
+    "level": "A",
+    "genre": "書信",
+    "title": "A Sweater from Grandma",
+    "zh": "奶奶織的毛衣",
+    "topic": "衣物與配件",
+    "grade": 7,
+    "grammar": "過去簡單式、未來式（will／be going to）",
+    "names": [
+      "Jenny",
+      "Chinese New Year"
+    ],
+    "blocks": [
+      {
+        "t": "email",
+        "from": "Jenny",
+        "to": "Grandma",
+        "subject": "Thank you for the sweater!",
+        "body": [
+          "Dear Grandma,",
+          "Thank you so much for the sweater! I got your package yesterday. I love the color. It's light blue, just like the sky in fall. Mom said you made it with your own hands, and it took you two months.",
+          "The sweater is a little big for me. The arms are long, and they cover my hands. But Mom says it's OK because I'm growing fast. I can wear it this year and next year, too.",
+          "It's cold in the morning now, so I'm going to wear it to school tomorrow. I'll wear it over my white school shirt. I think my classmates will love it!",
+          "Here is some news from school. I got 95 on my English test last week. I also joined the music club, and now I'm learning the guitar.",
+          "I miss you. We will visit you during the Chinese New Year holiday, and I'll wear the sweater then!",
+          "Love,\nJenny"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "What color is the sweater?",
+        "options": [
+          "White",
+          "Dark blue",
+          "Light blue",
+          "Gray"
+        ],
+        "answer": "C",
+        "explanation": "信中寫「It's light blue, just like the sky in fall.」毛衣是淺藍色，所以選 C。白色是 Jenny 的制服襯衫。"
+      },
+      {
+        "type": "推論",
+        "question": "Why does Mom think the big sweater is OK?",
+        "options": [
+          "Jenny can wear it for a long time.",
+          "Grandma can make a new one.",
+          "Jenny likes big clothes.",
+          "It is too cold to wear other clothes."
+        ],
+        "answer": "A",
+        "explanation": "信中寫「Mom says it's OK because I'm growing fast. I can wear it this year and next year, too.」Jenny 長得快，毛衣可以穿很久，所以選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "How will Jenny wear the sweater tomorrow?",
+        "options": [
+          "Under her school shirt",
+          "Over her school shirt",
+          "With a music club shirt",
+          "Only at home in the morning"
+        ],
+        "answer": "B",
+        "explanation": "信中寫「I'll wear it over my white school shirt.」是穿在制服襯衫外面，所以選 B，不是 A 的「under（裡面）」。"
+      },
+      {
+        "type": "作者目的",
+        "question": "Why does Jenny write to Grandma?",
+        "options": [
+          "To ask Grandma for a new sweater",
+          "To tell Grandma the sweater is too small",
+          "To ask Grandma to come to her school",
+          "To thank Grandma for a gift and share some news"
+        ],
+        "answer": "D",
+        "explanation": "信一開始說「Thank you so much for the sweater!」後面又說「Here is some news from school.」Jenny 是要謝謝奶奶的禮物並分享近況，所以選 D。毛衣是太大，不是太小。"
+      }
+    ]
+  },
+  {
+    "id": "new-apartment-email",
+    "level": "A",
+    "genre": "書信",
+    "title": "My New Home",
+    "zh": "我的新家",
+    "topic": "房屋與居家",
+    "grade": 7,
+    "grammar": "現在簡單式、There is／There are、祈使句",
+    "names": [
+      "Kevin",
+      "Eric",
+      "Riverside"
+    ],
+    "blocks": [
+      {
+        "t": "email",
+        "from": "Kevin",
+        "to": "Eric",
+        "subject": "Come and see my new home!",
+        "body": [
+          "Hi Eric,",
+          "Guess what? My family moved to a new apartment last Saturday! It's on the seventh floor, so I can see the whole city from my window.",
+          "The apartment has three bedrooms, a living room, a kitchen, and two bathrooms. My bedroom is small, but there is a big desk by the window. There is a sofa and a TV in the living room. My favorite place is the balcony. Mom keeps her flowers there, and I like to read there in the evening.",
+          "There is one thing I don't like. Our home is next to a busy road, so it is noisy at night. Sometimes I can't sleep well.",
+          "Do you want to visit me this Sunday? Take the MRT to Riverside Station and leave from Exit 2. Walk straight for three minutes, and you will see a small park. My home is across from the park. Come up to the seventh floor and find 7B.",
+          "Let me know!\nKevin"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "細節",
+        "question": "Where is Kevin's new apartment?",
+        "options": [
+          "Next to Riverside Station",
+          "On the seventh floor",
+          "In a small park",
+          "Behind a school"
+        ],
+        "answer": "B",
+        "explanation": "信中寫「It's on the seventh floor」，新家在七樓，所以選 B。從捷運站出來還要走三分鐘，家是在公園對面，不在公園裡。"
+      },
+      {
+        "type": "指涉",
+        "question": "In “I like to read there in the evening,” what does “there” mean?",
+        "options": [
+          "The balcony",
+          "Kevin's bedroom",
+          "The living room",
+          "The park"
+        ],
+        "answer": "A",
+        "explanation": "前面說「My favorite place is the balcony. Mom keeps her flowers there」，there 指的是陽台，Kevin 喜歡晚上在陽台看書，所以選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "Why can't Kevin sleep well sometimes?",
+        "options": [
+          "His bedroom is too small.",
+          "His mom's flowers are in his room.",
+          "He reads on the balcony late at night.",
+          "There are many cars outside at night."
+        ],
+        "answer": "D",
+        "explanation": "信中寫「Our home is next to a busy road, so it is noisy at night. Sometimes I can't sleep well.」家在繁忙的馬路旁，晚上車子多很吵，所以選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "Eric gets off the MRT at Riverside Station. What should he do next?",
+        "options": [
+          "Leave from Exit 7 and take a bus",
+          "Call Kevin and wait at the station",
+          "Walk for three minutes and look for the park",
+          "Walk across the busy road to the seventh floor"
+        ],
+        "answer": "C",
+        "explanation": "信中寫「leave from Exit 2. Walk straight for three minutes, and you will see a small park. My home is across from the park.」出站後直走三分鐘找公園，所以選 C。出口是 2 號，不是 7 號。"
+      }
+    ]
+  },
+  {
+    "id": "shoe-size-chat",
+    "level": "A",
+    "genre": "對話",
+    "title": "Which Size Should I Buy?",
+    "zh": "我該買幾號？",
+    "topic": "尺寸與度量",
+    "grade": 8,
+    "grammar": "數字與價格、should、if 條件",
+    "names": [],
+    "blocks": [
+      {
+        "t": "notice",
+        "title": "Shoe Size Chart",
+        "rows": [
+          [
+            "Size",
+            "Foot (centimeters)"
+          ],
+          [
+            "6.5",
+            "24.5"
+          ],
+          [
+            "7",
+            "25.0"
+          ],
+          [
+            "7.5",
+            "25.5"
+          ],
+          [
+            "8",
+            "26.0"
+          ],
+          [
+            "8.5",
+            "26.5"
+          ]
+        ],
+        "items": [
+          "If your foot is between two sizes, choose the bigger size.",
+          "You can change the size for free in 7 days.",
+          "Shipping is free if you spend $1,000 or more."
+        ]
+      },
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Me",
+            "x": "Hi! I want to buy the blue shoes, but I don't know my size.",
+            "me": true
+          },
+          {
+            "who": "Shop",
+            "x": "No problem. How long is your foot?"
+          },
+          {
+            "who": "Me",
+            "x": "My foot is 25.3 centimeters long.",
+            "me": true
+          },
+          {
+            "who": "Shop",
+            "x": "Then please check our size chart and the first note under it."
+          },
+          {
+            "who": "Me",
+            "x": "OK. What if the shoes don't fit?",
+            "me": true
+          },
+          {
+            "who": "Shop",
+            "x": "You can send them back and get another size. But please don't wear them outside."
+          },
+          {
+            "who": "Me",
+            "x": "Got it. I also want a T-shirt. Do you have a medium in white?",
+            "me": true
+          },
+          {
+            "who": "Shop",
+            "x": "Sorry, we don't have any white ones in medium now. We have black and gray."
+          },
+          {
+            "who": "Me",
+            "x": "Then I'll take a black one.",
+            "me": true
+          },
+          {
+            "who": "Shop",
+            "x": "Sure. The shoes are $1,250, and the T-shirt is $350."
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "圖表判讀",
+        "question": "Which size of shoes should the buyer choose?",
+        "options": [
+          "7",
+          "7.5",
+          "8",
+          "6.5"
+        ],
+        "answer": "B",
+        "explanation": "買家的腳長「25.3 centimeters」，在表格的 25.0（7 號）和 25.5（7.5 號）之間。表下第一條寫「If your foot is between two sizes, choose the bigger size.」所以要選大一號的 7.5，選 B。"
+      },
+      {
+        "type": "計算",
+        "question": "How much will the buyer pay in all?",
+        "options": [
+          "$1,250",
+          "$1,350",
+          "$1,600",
+          "$1,700"
+        ],
+        "answer": "C",
+        "explanation": "鞋子「$1,250」加上 T 恤「$350」，1,250 + 350 = 1,600。表上寫「Shipping is free if you spend $1,000 or more.」所以不用另付運費，一共 $1,600，選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "What is true about changing the size?",
+        "options": [
+          "The buyer must pay some money for it.",
+          "The buyer can do it after one month.",
+          "The buyer can wear the shoes outside first.",
+          "The buyer must do it in a week."
+        ],
+        "answer": "D",
+        "explanation": "表上寫「You can change the size for free in 7 days.」七天就是一週，所以選 D。換尺寸是免費的（A 錯）；店員說「please don't wear them outside」（C 錯）。"
+      },
+      {
+        "type": "推論",
+        "question": "Why does the buyer get a black T-shirt?",
+        "options": [
+          "There are no white T-shirts in the buyer's size.",
+          "Black T-shirts are cheaper.",
+          "Black goes well with blue shoes.",
+          "The shop only sells black T-shirts."
+        ],
+        "answer": "A",
+        "explanation": "店員說「we don't have any white ones in medium now. We have black and gray.」買家要的中號白色沒有了，所以改買黑色，選 A。店裡還有灰色，所以 D 錯。"
+      }
+    ]
+  },
+  {
+    "id": "moon-festival-letter",
+    "level": "B",
+    "genre": "書信",
+    "title": "My First Moon Festival",
+    "zh": "我的第一個中秋節",
+    "topic": "節日",
+    "grade": 9,
+    "grammar": "現在完成式、過去完成式、關係子句、比較級、while 對比",
+    "names": [
+      "Emma",
+      "Mom",
+      "Mid-Autumn",
+      "Taiwan",
+      "Taiwanese",
+      "Canada",
+      "Mei",
+      "Chang'e",
+      "Thanksgiving"
+    ],
+    "blocks": [
+      {
+        "t": "email",
+        "from": "Emma",
+        "to": "Mom",
+        "subject": "My first Moon Festival in Taiwan",
+        "body": [
+          "Hi Mom, I've been in Taiwan for almost two months now, and last Sunday I celebrated my first Mid-Autumn Festival with my host family. I want to tell you all about it before I forget anything!",
+          "In the evening, everyone in our building brought food down to the street, and we had a barbecue together. The neighbors, who I had only said hello to before, were all very friendly. An old man taught me how to cook meat over the fire, and his grandson, who is ten, kept asking me questions about Canada.",
+          "Of course, we ate moon cakes. They are small, round, and very sweet, so I could only finish one. We also ate a big green fruit that tastes a little like an orange. Aunt Mei showed the kids how to wear its thick skin as a hat. Everyone laughed when she put one on my head!",
+          "Later, we all looked up at the moon. It was rounder and brighter than I had ever seen. Aunt Mei told me the story of Chang'e, a woman who flew to the moon long ago and has lived there ever since.",
+          "This festival reminds me of Thanksgiving back home. Both are times for families to get together and enjoy a big meal. But at Thanksgiving, we eat turkey inside the house, while here people eat outside with their neighbors. I really liked that. When I come home, can we invite our neighbors for a barbecue, too?",
+          "Love, Emma"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is Emma's letter mainly about?",
+        "options": [
+          "How to make moon cakes at home",
+          "Why she wants to leave her host family",
+          "Her first time joining a Taiwanese festival",
+          "The story of a woman who lives on the moon"
+        ],
+        "answer": "C",
+        "explanation": "第一段：「last Sunday I celebrated my first Mid-Autumn Festival with my host family」，全文都在描述第一次過中秋節的烤肉、月餅、柚子和賞月，所以選 C。D 只是信中一小部分。"
+      },
+      {
+        "type": "細節",
+        "question": "Who did Emma have the barbecue with?",
+        "options": [
+          "People who live in the same building",
+          "Her classmates from school",
+          "Her family back in Canada",
+          "Friends she met on the Internet"
+        ],
+        "answer": "A",
+        "explanation": "第二段：「everyone in our building brought food down to the street, and we had a barbecue together.」一起烤肉的是同一棟大樓的鄰居，選 A。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the third paragraph, what does “its” in “its thick skin” mean?",
+        "options": [
+          "The moon cake's",
+          "Aunt Mei's",
+          "The orange's",
+          "The big green fruit's"
+        ],
+        "answer": "D",
+        "explanation": "「We also ate a big green fruit that tastes a little like an orange. Aunt Mei showed the kids how to wear its thick skin as a hat.」its 指前面的大顆綠色水果（柚子），用它的厚皮當帽子。橘子只是拿來比較味道，不是真的有吃，所以不是 C。"
+      },
+      {
+        "type": "細節",
+        "question": "How is the Mid-Autumn Festival different from Thanksgiving, says Emma?",
+        "options": [
+          "Families do not get together at the Mid-Autumn Festival.",
+          "People in Taiwan eat outside with the people living near them.",
+          "People eat turkey at the Mid-Autumn Festival.",
+          "Thanksgiving is a time for looking at the moon."
+        ],
+        "answer": "B",
+        "explanation": "第五段：「at Thanksgiving, we eat turkey inside the house, while here people eat outside with their neighbors.」不同處在於台灣人和鄰居在戶外吃，選 B。A 錯，信中說兩個節日都是家人團聚的時候；吃火雞的是感恩節。"
+      },
+      {
+        "type": "推論",
+        "question": "What can we learn about Emma from the last part of her letter?",
+        "options": [
+          "She thinks moon cakes are better than turkey.",
+          "She is going back to Canada next week.",
+          "She wants to bring a Taiwanese idea to her home.",
+          "She does not enjoy Thanksgiving now."
+        ],
+        "answer": "C",
+        "explanation": "第五段：「I really liked that. When I come home, can we invite our neighbors for a barbecue, too?」她喜歡和鄰居一起過節的做法，想回家後也試試，選 C。A 錯，她說月餅很甜，只吃得下一個；文中沒說她何時回國。"
+      }
+    ]
+  },
+  {
+    "id": "career-day-firefighter",
+    "level": "B",
+    "genre": "對話",
+    "title": "A Day with a Firefighter",
+    "zh": "職業日：專訪消防員",
+    "topic": "職業",
+    "grade": 9,
+    "grammar": "被動語態、關係子句、if/when 子句、現在完成式、不定詞",
+    "names": [
+      "Kevin",
+      "Chen",
+      "Ming"
+    ],
+    "keywords": [
+      "firefighter"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Kevin",
+            "x": "Thank you for coming to our career day. Can you tell us what a firefighter does every day?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "Sure. Most people think we only put out fires, but that's just part of the job. We also help people who are hurt in car accidents, and sometimes we even save cats that can't get down from trees!"
+          },
+          {
+            "who": "Kevin",
+            "x": "What do you do when nobody calls for help?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "We check our trucks and tools, clean the station, and practice. We also exercise for at least an hour every day, because the clothes and tools we carry are about 20 kilograms."
+          },
+          {
+            "who": "Kevin",
+            "x": "That's really heavy! How did you learn to do all this?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "I was trained for about a year before I started working. We learned how to climb tall buildings, carry people, and find our way in thick smoke."
+          },
+          {
+            "who": "Kevin",
+            "x": "What's the hardest part of your job?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "The hardest part is when we can't save everyone. That is very sad, and I never forget it. Getting up at three in the morning isn't fun either, but I'm used to it now."
+          },
+          {
+            "who": "Kevin",
+            "x": "What advice do you have for students who want to become firefighters?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "Keep your body strong, and learn to work with others. No one can fight a big fire alone."
+          },
+          {
+            "who": "Kevin",
+            "x": "Last question. How can we stay safe at home?",
+            "me": true
+          },
+          {
+            "who": "Chen Ming",
+            "x": "Test your smoke alarm once a month. If it doesn't make a sound when you push the button, change the battery right away. It's a small thing, but it has saved many lives."
+          },
+          {
+            "who": "Kevin",
+            "x": "Thank you so much for your time!",
+            "me": true
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the conversation mainly about?",
+        "options": [
+          "A firefighter's work and his advice",
+          "How to save cats from tall trees",
+          "Why Kevin wants to become a firefighter",
+          "What happened in a big fire last year"
+        ],
+        "answer": "A",
+        "explanation": "Kevin 依序問了消防員的日常工作、訓練、最難的部分、給學生的建議和居家安全，整段對話在介紹消防員的工作和建議，選 A。文中沒說 Kevin 想當消防員。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “put out” mean in “we only put out fires”?",
+        "options": [
+          "To start",
+          "To find",
+          "To watch",
+          "To stop"
+        ],
+        "answer": "D",
+        "explanation": "消防員的工作是處理火災，後面又說「No one can fight a big fire alone」。put out fires 就是「把火撲滅」，也就是讓火停下來，選 D。"
+      },
+      {
+        "type": "細節",
+        "question": "What do firefighters do when nobody calls for help?",
+        "options": [
+          "They go home and sleep.",
+          "They take care of their trucks and keep practicing.",
+          "They visit schools to talk about their job.",
+          "They wait outside the station all day."
+        ],
+        "answer": "B",
+        "explanation": "Chen Ming 說：「We check our trucks and tools, clean the station, and practice.」檢查車輛、工具並持續練習，選 B。"
+      },
+      {
+        "type": "推論",
+        "question": "Why do firefighters need to exercise every day?",
+        "options": [
+          "Their job is boring when there are no fires.",
+          "They want to win sports games.",
+          "They must carry heavy things at work.",
+          "They have to get up at three in the morning."
+        ],
+        "answer": "C",
+        "explanation": "「We also exercise for at least an hour every day, because the clothes and tools we carry are about 20 kilograms.」身上要背大約 20 公斤的裝備，所以要每天運動，選 C。D 是他提到的另一件辛苦事，不是運動的原因。"
+      },
+      {
+        "type": "細節",
+        "question": "What should you do if your smoke alarm makes no sound when you test it?",
+        "options": [
+          "Put a new battery in it.",
+          "Call the fire station.",
+          "Test it again next month.",
+          "Push the button harder."
+        ],
+        "answer": "A",
+        "explanation": "「If it doesn't make a sound when you push the button, change the battery right away.」要馬上換電池，選 A。C 錯，每月測試是平常的做法，沒聲音就要立刻處理。"
+      }
+    ]
+  },
+  {
+    "id": "heart-and-lungs",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Your Heart and Lungs at Work",
+    "zh": "運動時的心臟與肺",
+    "topic": "身體部位",
+    "grade": 9,
+    "grammar": "被動語態、when/if 子句、比較級、關係子句、現在完成式",
+    "names": [],
+    "keywords": [
+      "lung",
+      "oxygen",
+      "muscle"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Have you ever run to catch a bus? Your heart beats faster, you breathe harder, and soon you begin to sweat. Your face turns red, and small drops of water appear on your skin. These are all signs that your body is working hard."
+      },
+      {
+        "t": "p",
+        "x": "When you exercise, your muscles need more oxygen. Oxygen comes into your body through your lungs, and then it is carried by your blood to every part of your body. Your heart is like a pump that sends the blood around. So when your muscles need more oxygen, your lungs take in more air, and your heart beats faster to move more blood."
+      },
+      {
+        "t": "p",
+        "x": "Your heart is a muscle, too. Just like the muscles in your arms and legs, it gets stronger when it is used often. If you exercise regularly, your heart can send out more blood with each beat, so it doesn't have to work as hard when you are resting. Your lungs also get better at taking in air. That is why people who exercise often don't get tired as quickly when they climb stairs."
+      },
+      {
+        "t": "p",
+        "x": "If you haven't exercised for a long time, start slowly. Walk fast or ride a bike for 20 minutes a few times a week, and do a little more each week. Always warm up first and drink enough water. If you feel sick or dizzy, stop, rest, and tell an adult."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "Why catching a bus is good exercise",
+          "How exercise changes the heart and lungs",
+          "What doctors do when people feel dizzy",
+          "Which sports are the most fun to play"
+        ],
+        "answer": "B",
+        "explanation": "第二段說明運動時心臟和肺怎麼工作，第三段說規律運動讓它們變強，第四段教怎麼安全開始運動，選 B。A 只是開頭的例子。"
+      },
+      {
+        "type": "細節",
+        "question": "What takes oxygen to every part of the body?",
+        "options": [
+          "The lungs",
+          "The muscles",
+          "The blood",
+          "The air"
+        ],
+        "answer": "C",
+        "explanation": "第二段：「Oxygen comes into your body through your lungs, and then it is carried by your blood to every part of your body.」肺只是讓氧氣進入身體，把氧氣送到全身的是血液，選 C。"
+      },
+      {
+        "type": "字義猜測",
+        "question": "What does “sweat” mean in the first paragraph?",
+        "options": [
+          "To have water come out of your skin",
+          "To feel very cold",
+          "To stop moving and sit down",
+          "To breathe through your mouth"
+        ],
+        "answer": "A",
+        "explanation": "後一句：「small drops of water appear on your skin」，皮膚上冒出小水滴，可知 sweat 是「流汗」，選 A。"
+      },
+      {
+        "type": "推論",
+        "question": "Why don't people who exercise often get tired quickly when they climb stairs?",
+        "options": [
+          "They have stronger legs, so they don't need oxygen.",
+          "They walk up the stairs more slowly than others.",
+          "They drink more water before they climb.",
+          "Their hearts and lungs have become better at their work."
+        ],
+        "answer": "D",
+        "explanation": "第三段說規律運動後心臟每跳一下能送出更多血、肺也更會吸入空氣，接著說「That is why people who exercise often don't get tired as quickly when they climb stairs.」選 D。A 錯，肌肉運動時一定需要氧氣。"
+      },
+      {
+        "type": "細節",
+        "question": "Which is NOT advice in the reading?",
+        "options": [
+          "Warm up before you exercise.",
+          "Do a little more exercise each week.",
+          "Tell an adult if you feel dizzy.",
+          "Exercise as hard as you can on the first day."
+        ],
+        "answer": "D",
+        "explanation": "第四段說「start slowly」，要慢慢開始、每週多做一點，和 D「第一天就盡全力運動」相反。A、B、C 都是第四段的建議。"
+      }
+    ]
+  },
+  {
+    "id": "taiwan-by-numbers",
+    "level": "B",
+    "genre": "說明文",
+    "title": "Taiwan by the Numbers",
+    "zh": "用數字認識台灣",
+    "topic": "地理",
+    "grade": 9,
+    "grammar": "比較級與最高級、被動語態、關係子句、although/because 子句",
+    "names": [
+      "Taiwan",
+      "Taiwan's",
+      "Taipei",
+      "Kaohsiung",
+      "Yushan",
+      "Jade",
+      "Mount",
+      "Fuji",
+      "Japan"
+    ],
+    "blocks": [
+      {
+        "t": "p",
+        "x": "Taiwan is not a big island, but it is full of surprises. A few simple numbers can help us understand it better."
+      },
+      {
+        "t": "p",
+        "x": "The main island is about 400 kilometers long, and at its widest it is less than 150 kilometers across. On a fast train, you can travel from Taipei in the north to Kaohsiung in the south in less than three hours."
+      },
+      {
+        "t": "p",
+        "x": "Although the island is small, it has a lot of high mountains. More than half of the land is covered by mountains, and over 200 of them are higher than 3,000 meters. The highest one, Yushan, or Jade Mountain, is nearly 4,000 meters high. It is even higher than Mount Fuji in Japan, which is about 3,800 meters."
+      },
+      {
+        "t": "p",
+        "x": "Because the mountains run down the middle of the island, there is not much space between the mountains and the sea in the east. Most of Taiwan's more than 23 million people live on the plains in the west, where it is easier to build cities, roads, and farms."
+      },
+      {
+        "t": "p",
+        "x": "Life on the island also means living with nature. Taiwan has many earthquakes every year, although most of them are too small for people to feel. In summer and fall, typhoons often bring strong winds and heavy rain. Because of this, students in Taiwan learn at school what to do during an earthquake, and everyone pays close attention to the weather news when a typhoon is coming."
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the reading mainly about?",
+        "options": [
+          "How to climb the highest mountain in Taiwan",
+          "Why typhoons come to Taiwan every summer",
+          "How to travel around Taiwan by train",
+          "Taiwan's land and nature, explained with numbers"
+        ],
+        "answer": "D",
+        "explanation": "全文用島的長寬、山的高度、人口、地震颱風等數字和事實介紹台灣的地理與自然，選 D。A、B、C 都只是文中的小細節，或文中沒有談到。"
+      },
+      {
+        "type": "細節",
+        "question": "How high is Yushan?",
+        "options": [
+          "About 3,000 meters",
+          "Almost 4,000 meters",
+          "About 3,800 meters",
+          "More than 4,000 meters"
+        ],
+        "answer": "B",
+        "explanation": "第三段：「Yushan, or Jade Mountain, is nearly 4,000 meters high.」nearly 是「將近」，所以是快要 4,000 公尺，選 B。3,800 公尺是日本富士山的高度；3,000 公尺是超過 200 座高山的標準。"
+      },
+      {
+        "type": "推論",
+        "question": "From the numbers in the reading, which is TRUE about the main island of Taiwan?",
+        "options": [
+          "It is more than twice as long as it is wide.",
+          "It is as wide as it is long.",
+          "It is about 150 kilometers long.",
+          "A fast train from Taipei to Kaohsiung takes more than three hours."
+        ],
+        "answer": "A",
+        "explanation": "第二段：島「about 400 kilometers long」，最寬處「less than 150 kilometers across」。150 的兩倍是 300，而長度約 400，所以長度超過寬度的兩倍，選 A。D 錯，搭快速火車從台北到高雄不到三小時。"
+      },
+      {
+        "type": "指涉",
+        "question": "In the last paragraph, what does “them” in “most of them are too small” mean?",
+        "options": [
+          "Typhoons",
+          "People",
+          "Earthquakes",
+          "Mountains"
+        ],
+        "answer": "C",
+        "explanation": "「Taiwan has many earthquakes every year, although most of them are too small for people to feel.」them 指前面的 earthquakes，大部分的地震小到人感覺不到，選 C。"
+      },
+      {
+        "type": "細節",
+        "question": "Why do most people in Taiwan live in the west?",
+        "options": [
+          "The weather in the west is always better.",
+          "It is easier to build cities and roads there.",
+          "There are no typhoons in the west.",
+          "The highest mountains are in the west."
+        ],
+        "answer": "B",
+        "explanation": "第四段：「Most of Taiwan's more than 23 million people live on the plains in the west, where it is easier to build cities, roads, and farms.」選 B。文中沒說西部沒有颱風或天氣比較好；高山在島的中間。"
+      }
+    ]
+  },
+  {
+    "id": "painting-my-room",
+    "level": "B",
+    "genre": "對話",
+    "title": "What Color for My Room?",
+    "zh": "我的房間要漆什麼顏色？",
+    "topic": "顏色",
+    "grade": 8,
+    "grammar": "比較級、if/when 子句、Why don't we…? 提議、不定詞",
+    "names": [
+      "Ruby",
+      "Mom",
+      "Dad",
+      "Rainbow"
+    ],
+    "blocks": [
+      {
+        "t": "chat",
+        "lines": [
+          {
+            "who": "Ruby",
+            "x": "Mom, Dad, I've decided. I want to paint my room dark blue, like the night sky!",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "Dark blue? All four walls? Your room is small, and it only has one window. I'm afraid it will feel too dark."
+          },
+          {
+            "who": "Dad",
+            "x": "Mom is right. Dark colors make a room look smaller. It will also be harder to read at your desk."
+          },
+          {
+            "who": "Ruby",
+            "x": "But white is so boring. All my friends' rooms are white or yellow.",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "What about light blue? It's still blue, but much brighter."
+          },
+          {
+            "who": "Ruby",
+            "x": "It's not the same. Dark blue makes me feel calm, like I'm looking at the sky at night.",
+            "me": true
+          },
+          {
+            "who": "Dad",
+            "x": "Here's an idea. Why don't we paint only one wall dark blue, the one behind your bed, and paint the other three walls white? The room will stay bright, and you'll still have your favorite color."
+          },
+          {
+            "who": "Ruby",
+            "x": "OK, I like that! Can I paint small yellow stars on the dark wall?",
+            "me": true
+          },
+          {
+            "who": "Mom",
+            "x": "Sure! We still have some yellow paint at home from last year, so we don't need to buy any."
+          },
+          {
+            "who": "Dad",
+            "x": "Then let's buy one small can of dark blue and two big cans of white."
+          },
+          {
+            "who": "Ruby",
+            "x": "Great! Let's go to the paint store this weekend!",
+            "me": true
+          }
+        ]
+      },
+      {
+        "t": "notice",
+        "title": "Rainbow Paint Store: Price List",
+        "rows": [
+          [
+            "Color",
+            "Small Can (1 liter)",
+            "Big Can (4 liters)"
+          ],
+          [
+            "White",
+            "$250",
+            "$800"
+          ],
+          [
+            "Light Yellow",
+            "$280",
+            "$900"
+          ],
+          [
+            "Light Blue",
+            "$300",
+            "$1,000"
+          ],
+          [
+            "Dark Blue",
+            "$350",
+            "$1,100"
+          ]
+        ],
+        "foot": "Buy any two big cans and get $100 off!"
+      }
+    ],
+    "questions": [
+      {
+        "type": "主旨",
+        "question": "What is the family mainly talking about?",
+        "options": [
+          "How to paint Ruby's bedroom",
+          "Where to buy a new bed for Ruby",
+          "What Ruby's friends' rooms look like",
+          "How to paint stars on the night sky"
+        ],
+        "answer": "A",
+        "explanation": "Ruby 想把房間漆成深藍色，爸媽擔心太暗，最後一起決定一面深藍、三面白，整段對話在討論房間要怎麼漆，選 A。"
+      },
+      {
+        "type": "細節",
+        "question": "Why does Mom NOT want all four walls to be dark blue?",
+        "options": [
+          "Dark blue paint is too expensive.",
+          "She thinks dark blue is a boring color.",
+          "Ruby's friends don't like dark blue.",
+          "Ruby's small room has only one window."
+        ],
+        "answer": "D",
+        "explanation": "Mom 說：「Your room is small, and it only has one window. I'm afraid it will feel too dark.」房間小又只有一扇窗，怕會太暗，選 D。覺得黃色無聊的是 Ruby，不是 Mom。"
+      },
+      {
+        "type": "推論",
+        "question": "How does Ruby feel about Dad's idea?",
+        "options": [
+          "She is angry because she can't have any dark blue.",
+          "She is happy with it and wants to add something of her own.",
+          "She wants to think about it for a few more weeks.",
+          "She would rather have light blue walls."
+        ],
+        "answer": "B",
+        "explanation": "聽完爸爸的提議，Ruby 問「Can I paint small yellow stars on the dark wall?」最後說「Great! Let's go to the paint store this weekend!」可見她接受這個點子，還想加上自己的星星，選 B。A 錯，她還是有一面深藍色牆。"
+      },
+      {
+        "type": "計算",
+        "question": "How much will the family pay for the paint they plan to buy?",
+        "options": [
+          "$1,150",
+          "$1,950",
+          "$1,850",
+          "$2,130"
+        ],
+        "answer": "C",
+        "explanation": "爸爸說「one small can of dark blue and two big cans of white」：深藍小罐 $350 ＋ 白色大罐 $800 × 2 ＝ $1,950，買兩大罐再折 $100，所以是 $1,850，選 C。黃色油漆家裡還有，不用買；B 是忘了折扣，D 是多算了一罐黃色小罐（$280）並忘了折扣。"
+      },
+      {
+        "type": "圖表判讀",
+        "question": "Which is TRUE about the price list?",
+        "options": [
+          "A big can has four times as much paint as a small can.",
+          "Light yellow is the cheapest color.",
+          "You get $100 off when you buy two small cans.",
+          "A small can of light blue costs $350."
+        ],
+        "answer": "A",
+        "explanation": "價目表上小罐「1 liter」、大罐「4 liters」，大罐的量是小罐的四倍，選 A。最便宜的是白色；買兩大罐才折 $100；淺藍小罐是 $300，$350 是深藍小罐。"
+      }
+    ]
   }
 ]
