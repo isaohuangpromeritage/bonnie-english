@@ -92,6 +92,9 @@ function nextPart(a){return a.series&&ARTICLES.find(x=>x.series&&x.series.id===a
 function seriesNav(a){const n=nextPart(a);return n?`<button class="btn wide" data-open="${n.id}">繼續讀：${esc(n.title)}（${n.series.part}/${n.series.of}）→</button>`:'';}
 
 function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre)&&(!state.fTag||(a.tags||[]).includes(state.fTag)));}
+/* 參考文件：國文寫作測驗歷屆題目（放在 repo 的 ref-doc/，在 GitHub 上顯示） */
+const WRITING_DOC='https://github.com/isaohuangpromeritage/bonnie-english/blob/main/ref-doc/%E5%9C%8B%E4%B8%AD%E6%9C%83%E8%80%83%E5%AF%AB%E4%BD%9C%E6%B8%AC%E9%A9%97%E9%A1%8C%E7%9B%AE_103-115%E5%B9%B4.md';
+const writingLink=()=>`<a class="res-link" href="${WRITING_DOC}" target="_blank" rel="noopener"><b>國文寫作測驗歷屆題目</b><span>103～115 年題目、題型與出題趨勢 ↗</span></a>`;
 /* 歷屆試題：只連到心測中心官方檔案，不複製試題內容 */
 function renderExams(){
   const sim=ARTICLES.filter(a=>(a.tags||[]).includes('會考模擬')).length;
@@ -100,6 +103,7 @@ function renderExams(){
   <div class="sec-title"><h2>會考英語歷屆試題</h2></div>
   <p class="intro">以下連到國立臺灣師範大學心理與教育測驗研究發展中心（心測中心）公布的官方檔案，試題著作權屬於心測中心。英語閱讀測驗作答時間 60 分鐘，建議印出題本、計時作答，再對照參考答案。</p>
   ${sim?`<div class="due-banner"><span>想先暖身？本站有 <b>${sim}</b> 篇仿照會考題型的原創練習。</span><button class="btn primary" data-act="go-sim">做會考模擬題</button></div>`:''}
+  ${writingLink()}
   <div class="vlist exams">${EXAMS.map(e=>`
     <div class="exam-row"><b>${e.year} 年</b>
       <div class="exam-links">${L(e.reading,'閱讀題本')}${L(e.listening,'聽力題本')}${L(e.answers,'參考答案')}${L(e.analysis,'試題分析')}${L(e.page,'該年完整資料')}</div></div>`).join('')}</div>
@@ -170,6 +174,7 @@ function renderList(){
   app.innerHTML=`
   ${n?`<div class="due-banner"><span>今天有 <b>${n}</b> 個生字該複習了</span><button class="btn primary" data-act="go-vocab">去複習</button></div>`:''}
   <p class="intro">挑一篇讀讀看。讀的時候點任何單字就能看中文、聽發音，讀完再做題目。</p>
+  ${writingLink()}
   <div class="filters">
     <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階'],['C','C 挑戰']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
     <select id="fGenre" aria-label="文體"><option value="">所有文體</option>${[...new Set(ARTICLES.map(a=>a.genre))].map(g=>`<option ${state.fGenre===g?'selected':''}>${g}</option>`).join('')}</select>
