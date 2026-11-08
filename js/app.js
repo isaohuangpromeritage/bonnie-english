@@ -94,16 +94,31 @@ function seriesNav(a){const n=nextPart(a);return n?`<button class="btn wide" dat
 function shown(){return ARTICLES.filter(a=>(!state.fLevel||a.level===state.fLevel)&&(!state.fGenre||a.genre===state.fGenre)&&(!state.fTag||(a.tags||[]).includes(state.fTag)));}
 /* 參考文件：國文寫作測驗歷屆題目（放在 repo 的 ref-doc/，在 GitHub 上顯示） */
 const WRITING_DOC='https://github.com/isaohuangpromeritage/bonnie-english/blob/main/ref-doc/%E5%9C%8B%E4%B8%AD%E6%9C%83%E8%80%83%E5%AF%AB%E4%BD%9C%E6%B8%AC%E9%A9%97%E9%A1%8C%E7%9B%AE_103-115%E5%B9%B4.md';
-const writingLink=()=>`<a class="res-link" href="${WRITING_DOC}" target="_blank" rel="noopener"><b>國文寫作測驗歷屆題目</b><span>103～115 年題目、題型與出題趨勢 ↗</span></a>`;
+const writingLink=()=>`<a class="res-link" href="${WRITING_DOC}" target="_blank" rel="noopener"><b>國文寫作測驗歷屆題目（完整文件）</b><span>103～115 年題目、說明與出題趨勢 ↗</span></a>`;
+// 各年度題目（對應文件裡的「## 年度｜題目」標題，用來產生 GitHub 錨點連結）
+const WRITING=[['103','面對未來，我應該具備的能力','命題作文'],['104','捨不得','命題作文'],['105','從陌生到熟悉','命題作文'],['106','在這樣的傳統習俗裡，我看見……','圖表＋命題'],['107','我們這個世代','圖示＋命題'],['108','青銀共居（不必訂題）','情境資料'],['109','我想開設一家這樣的店','圖示＋命題'],['110','未成功的物品展覽會（不必訂題）','情境資料'],['111','多做多得（不必訂題）','對話情境'],['112','臺灣民眾最喜愛的影劇類型統計（不必訂題）','統計圖表'],['113','「標題」的設計與觀察（不必訂題）','文案資料'],['114','倉鼠籠圖＋六個詞彙（不必訂題）','看圖選詞'],['115','賦予事物新面貌（不必訂題）','情境資料']];
+const ghSlug=h=>h.toLowerCase().replace(/[^\p{L}\p{N}\s_-]/gu,'').trim().replace(/\s/g,'-');
 /* 歷屆試題：只連到心測中心官方檔案，不複製試題內容 */
 function renderExams(){
+  const tab=state.exTab||'en';
+  const seg=`<div class="seg ex-seg">${[['en','英語閱讀／聽力'],['zh','國文寫作測驗']].map(([v,t])=>`<button data-extab="${v}" aria-pressed="${tab===v}">${t}</button>`).join('')}</div>`;
+  if(tab==='zh'){
+    app.innerHTML=`
+    <div class="sec-title"><h2>會考歷屆試題</h2></div>${seg}
+    <p class="intro">國中教育會考寫作測驗每年 1 題，作答時間 50 分鐘。點年度可直接看該年的題目與說明；完整文件也整理了出題趨勢。</p>
+    ${writingLink()}
+    <div class="vlist exams">${WRITING.map(([y,t,k])=>`
+      <a class="exam-row wrow" href="${WRITING_DOC}#${ghSlug(y+' 年｜'+t)}" target="_blank" rel="noopener"><b>${y} 年</b>
+        <span class="wtitle">${esc(t.replace('（不必訂題）',''))}<small>${esc(k)}${t.includes('不必訂題')?'・不必訂題':''}</small></span></a>`).join('')}</div>
+    <p class="intro" style="margin-top:12px;font-size:13px">題本原檔：<a href="https://cap.rcpet.edu.tw/examination.html" target="_blank" rel="noopener">國中教育會考－歷屆試題</a>（選年度後點「寫作測驗」）。</p>`;
+    return;
+  }
   const sim=ARTICLES.filter(a=>(a.tags||[]).includes('會考模擬')).length;
   const L=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${t} ↗</a>`:'';
   app.innerHTML=`
-  <div class="sec-title"><h2>會考英語歷屆試題</h2></div>
+  <div class="sec-title"><h2>會考歷屆試題</h2></div>${seg}
   <p class="intro">以下連到國立臺灣師範大學心理與教育測驗研究發展中心（心測中心）公布的官方檔案，試題著作權屬於心測中心。英語閱讀測驗作答時間 60 分鐘，建議印出題本、計時作答，再對照參考答案。</p>
   ${sim?`<div class="due-banner"><span>想先暖身？本站有 <b>${sim}</b> 篇仿照會考題型的原創練習。</span><button class="btn primary" data-act="go-sim">做會考模擬題</button></div>`:''}
-  ${writingLink()}
   <div class="vlist exams">${EXAMS.map(e=>`
     <div class="exam-row"><b>${e.year} 年</b>
       <div class="exam-links">${L(e.reading,'閱讀題本')}${L(e.listening,'聽力題本')}${L(e.answers,'參考答案')}${L(e.analysis,'試題分析')}${L(e.page,'該年完整資料')}</div></div>`).join('')}</div>
@@ -174,7 +189,6 @@ function renderList(){
   app.innerHTML=`
   ${n?`<div class="due-banner"><span>今天有 <b>${n}</b> 個生字該複習了</span><button class="btn primary" data-act="go-vocab">去複習</button></div>`:''}
   <p class="intro">挑一篇讀讀看。讀的時候點任何單字就能看中文、聽發音，讀完再做題目。</p>
-  ${writingLink()}
   <div class="filters">
     <div class="seg">${[['','全部'],['A','A 基礎'],['B','B 進階'],['C','C 挑戰']].map(([v,t])=>`<button data-flevel="${v}" aria-pressed="${state.fLevel===v}">${t}</button>`).join('')}</div>
     <select id="fGenre" aria-label="文體"><option value="">所有文體</option>${[...new Set(ARTICLES.map(a=>a.genre))].map(g=>`<option ${state.fGenre===g?'selected':''}>${g}</option>`).join('')}</select>
@@ -303,9 +317,10 @@ function refreshMarks(){document.querySelectorAll('.w').forEach(x=>x.classList.t
 
 /* 事件 */
 document.addEventListener('click',ev=>{
-  const t=ev.target.closest('[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],[data-flevel],[data-scat],[data-slevel],[data-spick],.w');
+  const t=ev.target.closest('[data-extab],[data-act],[data-open],[data-q],[data-del],[data-say],[data-grade],[data-flevel],[data-scat],[data-slevel],[data-spick],.w');
   if(!t){if(!sheet.hidden&&!ev.target.closest('#sheet'))closeSheet();return;}
   if(t.classList.contains('w')){openSheet(t.dataset.l,t.dataset.r,t,!!t.dataset.name);return;}
+  if(t.dataset.extab){state.exTab=t.dataset.extab;renderExams();return;}
   if(t.dataset.flevel!==undefined){state.fLevel=t.dataset.flevel;renderList();return;}
   if(t.dataset.scat!==undefined){state.sCat=t.dataset.scat;state.sPoint='';renderSingles();return;}
   if(t.dataset.slevel!==undefined){state.sLevel=t.dataset.slevel;renderSingles();return;}

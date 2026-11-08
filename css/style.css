@@ -177,6 +177,11 @@ h1,h2,h3{text-wrap:balance;margin:0}
 .res-link{display:flex;justify-content:space-between;align-items:center;gap:6px 12px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:14px;text-decoration:none;color:var(--ink)}
 .res-link:hover{border-color:var(--accent)}
 .res-link span{color:var(--accent);font-size:13.5px}
+.ex-seg{margin-bottom:12px;width:max-content;max-width:100%}
+.wrow{text-decoration:none;color:var(--ink)}
+.wrow:hover{background:var(--accent-soft)}
+.wtitle{display:grid;gap:2px;min-width:0}
+.wtitle small{color:var(--muted);font-size:12.5px}
 .exam-row{display:grid;grid-template-columns:64px minmax(0,1fr);gap:10px;align-items:start;padding:11px 14px;border-top:1px solid var(--line)}
 .exam-row:first-child{border-top:0}
 .exam-row b{font-variant-numeric:tabular-nums}
